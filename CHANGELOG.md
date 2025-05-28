@@ -1,3 +1,11 @@
+# [1.3.0](https://github.com/wahyusaputropratjojo/gameplay/compare/v1.2.0...v1.3.0) (2025-05-28)
+
+
+### Features
+
+* add gameplay logo component ([fe4f146](https://github.com/wahyusaputropratjojo/gameplay/commit/fe4f1467619537a8a75ea7267a405df1d8e0af91))
+* **form:** implement field component into form hook ([c133e75](https://github.com/wahyusaputropratjojo/gameplay/commit/c133e752785354bd4cd5a35c75bfd454d90be5bc))
+
 # [1.2.0](https://github.com/wahyusaputropratjojo/gameplay/compare/v1.1.0...v1.2.0) (2025-05-28)
 
 
