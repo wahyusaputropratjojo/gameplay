@@ -34,6 +34,7 @@
 		]
 	},
 	"dependencies": {
+		"@tanstack/react-form": "^1.12.0",
 		"better-auth": "^1.2.8",
 		"drizzle-orm": "^0.43.1",
 		"geist": "^1.4.2",
