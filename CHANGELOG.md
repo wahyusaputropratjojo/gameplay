@@ -1,3 +1,14 @@
+# [1.2.0](https://github.com/wahyusaputropratjojo/gameplay/compare/v1.1.0...v1.2.0) (2025-05-28)
+
+
+### Features
+
+* **form:** add alert component ([7a55f21](https://github.com/wahyusaputropratjojo/gameplay/commit/7a55f21782ee54f1e2445999b89742f507262ee6))
+* **form:** add input field component ([f104bbd](https://github.com/wahyusaputropratjojo/gameplay/commit/f104bbd49153000593eec24549506a2193fc9766))
+* **form:** add input password field component ([0cbafd0](https://github.com/wahyusaputropratjojo/gameplay/commit/0cbafd0b0d8a19f54aab7a0a1af8bc37dee47916))
+* **form:** add submit button component ([1a3ac82](https://github.com/wahyusaputropratjojo/gameplay/commit/1a3ac8202c43db6cfb2b3751aacd6280e5f73384))
+* **form:** create form hook using TanStack Form ([b56239f](https://github.com/wahyusaputropratjojo/gameplay/commit/b56239f721641a0f4c3633fe50634cd24b779046))
+
 # [1.1.0](https://github.com/wahyusaputropratjojo/gameplay/compare/v1.0.0...v1.1.0) (2025-05-28)
 
 
