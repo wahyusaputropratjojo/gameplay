@@ -7,6 +7,7 @@ import { initialFormState } from "@tanstack/react-form/nextjs";
 import { useActionState, useEffect } from "react";
 import { signInFormAction } from "./action";
 import { signInFormOption } from "./option";
+import { emailSchema, passwordSchema } from "./schema";
 
 export function SignInForm() {
 	const [state, action] = useActionState(signInFormAction, initialFormState);
@@ -40,10 +41,20 @@ export function SignInForm() {
 			onSubmit={() => form.handleSubmit()}
 			className="space-y-4"
 		>
-			<form.AppField name="email">
+			<form.AppField
+				name="email"
+				validators={{
+					onBlur: emailSchema,
+				}}
+			>
 				{(field) => <field.InputField label="Email" />}
 			</form.AppField>
-			<form.AppField name="password">
+			<form.AppField
+				name="password"
+				validators={{
+					onBlur: passwordSchema,
+				}}
+			>
 				{(field) => <field.InputPasswordField label="Password" />}
 			</form.AppField>
 			<form.AppForm>
