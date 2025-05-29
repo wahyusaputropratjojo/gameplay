@@ -1,3 +1,11 @@
+# [1.5.0](https://github.com/wahyusaputropratjojo/gameplay/compare/v1.4.0...v1.5.0) (2025-05-29)
+
+
+### Features
+
+* **form:** change sign in form validation to field level ([2989fe2](https://github.com/wahyusaputropratjojo/gameplay/commit/2989fe2e68dbdeabe4b40b417ab3c8f214f377b9))
+* **form:** create field level schema validation for sign in form ([d955f88](https://github.com/wahyusaputropratjojo/gameplay/commit/d955f8807f37275051e6ff6f4e2856bd6aa80507))
+
 # [1.4.0](https://github.com/wahyusaputropratjojo/gameplay/compare/v1.3.0...v1.4.0) (2025-05-29)
 
 
