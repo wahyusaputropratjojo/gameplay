@@ -7,8 +7,6 @@ export type AlertProps = {
 };
 
 export function Alert({ meta }: AlertProps) {
-	if (!meta.isTouched) return null;
-
 	return (
 		<ul>
 			{meta.errors.slice(0, 1).map(({ message }: ZodError) => (
