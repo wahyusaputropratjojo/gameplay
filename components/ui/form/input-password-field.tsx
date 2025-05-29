@@ -36,17 +36,12 @@ export function InputPasswordField({
 					value={field.state.value}
 					onBlur={field.handleBlur}
 					onChange={(event) => field.handleChange(event.target.value)}
-					variant={
-						field.state.meta.isTouched &&
-						field.state.meta.errors[0]?.path[0] === field.name
-							? "error"
-							: "default"
-					}
+					variant={!field.state.meta.isValid ? "error" : "default"}
 					{...props}
 				/>
 				<Label
-					htmlFor={id}
-					className="-top-1.5 peer-placeholder-shown:-translate-y-1/2 peer-focus:-top-1.5 absolute left-0 ml-2 cursor-text bg-background-100 pr-2 pl-2 text-gray-1000 text-xs transition-all peer-placeholder-shown:top-1/2 peer-placeholder-shown:bg-transparent peer-placeholder-shown:text-gray-900 peer-placeholder-shown:text-sm peer-focus:translate-y-0 peer-focus:bg-background-100 peer-focus:text-gray-1000 peer-focus:text-xs"
+					htmlFor={`${id}-${field.name}`}
+					className="-top-1.5 peer-placeholder-shown:-translate-y-1/2 peer-focus:-top-1.5 absolute left-0 ml-2 cursor-text bg-background-100 pr-2 pl-2 text-gray-1000 text-xs transition-all peer-placeholder-shown:top-1/2 peer-placeholder-shown:select-none peer-placeholder-shown:bg-transparent peer-placeholder-shown:text-gray-900 peer-placeholder-shown:text-sm peer-focus:translate-y-0 peer-focus:bg-background-100 peer-focus:text-gray-1000 peer-focus:text-xs"
 				>
 					{label}
 					{required && <span className="ml-1 text-red-700">*</span>}
