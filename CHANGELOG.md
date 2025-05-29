@@ -1,3 +1,20 @@
+# [1.4.0](https://github.com/wahyusaputropratjojo/gameplay/compare/v1.3.0...v1.4.0) (2025-05-29)
+
+
+### Bug Fixes
+
+* **form:** adjust alert message behavior ([5a65db6](https://github.com/wahyusaputropratjojo/gameplay/commit/5a65db6627ece0be22bf5b2043aec2eff1f4fb0f))
+* **form:** adjust input field error behavior ([9009f25](https://github.com/wahyusaputropratjojo/gameplay/commit/9009f2512e9fba04a70c0c9d02c774d90a0a1a23))
+* **form:** adjust input password field error behavior ([c32e45d](https://github.com/wahyusaputropratjojo/gameplay/commit/c32e45dfbcbe8efcb9cf23e0ca10bc4f979715cf))
+
+
+### Features
+
+* **form:** add sign in form component ([257165a](https://github.com/wahyusaputropratjojo/gameplay/commit/257165a7f16c3bbd92c164393400f7ad5f5a225e))
+* **form:** add sign up form component ([96bef79](https://github.com/wahyusaputropratjojo/gameplay/commit/96bef7955fc076ab2552dcbdbd3cbb5adc144ab7))
+* **page:** add sign in page ([87d6298](https://github.com/wahyusaputropratjojo/gameplay/commit/87d6298e08a91b336ddac9e4193917241574cbbb))
+* **page:** add sign up page ([bf8e090](https://github.com/wahyusaputropratjojo/gameplay/commit/bf8e09084cc01bb17169c246a9a4101bdad20b69))
+
 # [1.3.0](https://github.com/wahyusaputropratjojo/gameplay/compare/v1.2.0...v1.3.0) (2025-05-28)
 
 
