@@ -1,6 +1,6 @@
 {
 	"name": "gameplay",
-	"version": "1.5.0",
+	"version": "1.6.0",
 	"private": true,
 	"author": "Wahyu Saputro Pratjojo",
 	"repository": {
@@ -16,7 +16,9 @@
 		"release": "semantic-release"
 	},
 	"release": {
-		"branches": ["main"],
+		"branches": [
+			"main"
+		],
 		"plugins": [
 			"@semantic-release/commit-analyzer",
 			"@semantic-release/release-notes-generator",

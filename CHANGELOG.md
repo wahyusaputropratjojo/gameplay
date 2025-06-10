@@ -1,3 +1,12 @@
+# [1.6.0](https://github.com/wahyusaputropratjojo/gameplay/compare/v1.5.0...v1.6.0) (2025-06-10)
+
+
+### Features
+
+* **db:** setup Drizzle ORM ([151a886](https://github.com/wahyusaputropratjojo/gameplay/commit/151a886f64b698dd1100771ae3605a1cb8a76502))
+* **docker:** implement PostgreSQL using Docker Compose ([85b9009](https://github.com/wahyusaputropratjojo/gameplay/commit/85b900949d3a017b7a4874f5cbfed4694ebc1522))
+* **lib:** make env accessible outside Next.js runtime ([b36b86b](https://github.com/wahyusaputropratjojo/gameplay/commit/b36b86bebf0382152b19635b00b10f5c9cf055c5))
+
 # [1.5.0](https://github.com/wahyusaputropratjojo/gameplay/compare/v1.4.0...v1.5.0) (2025-05-29)
 
 
