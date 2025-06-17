@@ -1,6 +1,6 @@
 "use client";
 
-import { useAppForm } from "@/components/ui/form/form";
+import { useAppForm } from "@/components/form/form";
 import { mergeForm, useTransform } from "@tanstack/react-form";
 import { initialFormState } from "@tanstack/react-form/nextjs";
 import { useActionState } from "react";
