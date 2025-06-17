@@ -1,7 +1,7 @@
 "use client";
 
-import { Input, type InputProps } from "@/components/ui/input/input";
-import { Label } from "@/components/ui/label/label";
+import { Input, type InputProps } from "@/components/ui/input";
+import { Label } from "@/components/ui/label";
 import { useId } from "react";
 import { Alert } from "./alert";
 import { useFieldContext } from "./form";

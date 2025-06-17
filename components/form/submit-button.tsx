@@ -1,4 +1,4 @@
-import { Button, type ButtonProps } from "@/components/ui/button/button";
+import { Button, type ButtonProps } from "@/components/ui/button";
 import { useFormContext } from "./form";
 
 export type SubmitButtonProps = ButtonProps & {
