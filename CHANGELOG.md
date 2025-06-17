@@ -1,3 +1,16 @@
+# [1.7.0](https://github.com/wahyusaputropratjojo/gameplay/compare/v1.6.0...v1.7.0) (2025-06-17)
+
+
+### Features
+
+* **css:** add container utility ([f473012](https://github.com/wahyusaputropratjojo/gameplay/commit/f47301284953319b4ae19ce0da4ba6d6a77d5327))
+* **layout:** create main layout ([c6e940d](https://github.com/wahyusaputropratjojo/gameplay/commit/c6e940d199dc87de30c69b8ac7bd275957cf658e))
+* **layout:** create minimal layout ([321de27](https://github.com/wahyusaputropratjojo/gameplay/commit/321de27a3c85060fd2d61cb6d7daed4ba8318da8))
+* **logo:** improve gameplay logo accessibility ([e66a25b](https://github.com/wahyusaputropratjojo/gameplay/commit/e66a25b3b671d49aa263c6419b2f7ce1cf18eed7))
+* **page:** move home page to implement main layout ([1ef5780](https://github.com/wahyusaputropratjojo/gameplay/commit/1ef57809498193a3e9d51aac59105adf73624620))
+* **page:** move sign in page to implement minimal layout ([0de9583](https://github.com/wahyusaputropratjojo/gameplay/commit/0de9583bbaaac9e1bd6b4ccab3ed8e18a3255075))
+* **page:** move sign up page to implement minimal layout ([fd91107](https://github.com/wahyusaputropratjojo/gameplay/commit/fd9110742c717e448ccf880890800b615a1c916f))
+
 # [1.6.0](https://github.com/wahyusaputropratjojo/gameplay/compare/v1.5.0...v1.6.0) (2025-06-10)
 
 
