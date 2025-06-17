@@ -13,7 +13,7 @@ export function GameplayLogo({ className, ...props }: SVGProps<SVGSVGElement>) {
 				id="uuid-ee8de19f-995b-4bb6-a5d4-58ff68715a23"
 				viewBox="0 0 1802.06 885.99"
 				className={cn(
-					"h-10 text-dark transition-all group-focus:text-dark/70 dark:text-light dark:group-focus:text-light/70",
+					"h-8 text-dark transition-all hover:text-dark/70 group-focus:text-dark/70 dark:text-light dark:group-focus:text-light/70 dark:hover:text-light/70",
 					className,
 				)}
 				{...props}
