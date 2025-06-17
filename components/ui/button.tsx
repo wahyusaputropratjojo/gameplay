@@ -10,7 +10,7 @@ export type ButtonProps = ComponentProps<"button"> &
 	};
 
 export const buttonVariants = cva(
-	"inline-flex w-max cursor-pointer items-center gap-2 rounded-lg font-medium underline-offset-4 transition-colors focus-visible:outline-none focus-visible:ring-3 focus-visible:ring-gray-500 disabled:border disabled:border-gray-300 disabled:bg-gray-400 disabled:text-gray-1000/50",
+	"inline-flex w-max cursor-pointer items-center gap-2 rounded-lg font-medium underline-offset-4 transition-colors focus-visible:outline-none focus-visible:ring-3 focus-visible:ring-gray-500 disabled:bg-gray-400 disabled:text-gray-1000/50",
 	{
 		variants: {
 			size: {
