@@ -1,7 +1,7 @@
 "use client";
 
-import { useAppForm } from "@/components/ui/form/form";
-import { toast } from "@/components/ui/toast/toast";
+import { useAppForm } from "@/components/form/form";
+import { toast } from "@/components/ui/toast";
 import { mergeForm, useStore, useTransform } from "@tanstack/react-form";
 import { initialFormState } from "@tanstack/react-form/nextjs";
 import { useActionState, useEffect } from "react";
