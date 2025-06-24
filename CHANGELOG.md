@@ -1,3 +1,21 @@
+# [1.8.0](https://github.com/wahyusaputropratjojo/gameplay/compare/v1.7.0...v1.8.0) (2025-06-24)
+
+
+### Features
+
+* **component:** create dot button component for Embla Carousel ([e534ef4](https://github.com/wahyusaputropratjojo/gameplay/commit/e534ef4df8a5403bb0bab0b6cdf512d6167304e9))
+* **component:** create grid card component ([9b7eb60](https://github.com/wahyusaputropratjojo/gameplay/commit/9b7eb60be723864a36323a2ffea2475b707932f9))
+* **component:** create header component ([3cdc397](https://github.com/wahyusaputropratjojo/gameplay/commit/3cdc397b2373ef6299e841eeb2eb75a3d70f83b0))
+* **component:** create next button component for Embla Carousel ([e1b62dc](https://github.com/wahyusaputropratjojo/gameplay/commit/e1b62dc9022e79d525c302857e8bfe57aa0448a4))
+* **component:** create prev button component for Embla Carousel ([58978cd](https://github.com/wahyusaputropratjojo/gameplay/commit/58978cd46a684c6feacecd2e25c25a0d766f6b17))
+* **component:** create shelf component ([8378518](https://github.com/wahyusaputropratjojo/gameplay/commit/8378518b7193bc73ba539ebcb94810513094e8d0))
+* **component:** create spotlight component ([eb9668a](https://github.com/wahyusaputropratjojo/gameplay/commit/eb9668adfeda6ea31b4eba245cb5a3783f273329))
+* **docker:** implement volume to PostgreSQL ([e5d455c](https://github.com/wahyusaputropratjojo/gameplay/commit/e5d455c82730febfc26a21c8e9d2b837e81db6cc))
+* **hook:** create useDotButton hook for Embla Carousel ([a49e185](https://github.com/wahyusaputropratjojo/gameplay/commit/a49e185a5ab053f144966df5c221957cbf958441))
+* **hook:** create useIsomorphicLayoutEffect hook ([10b3e99](https://github.com/wahyusaputropratjojo/gameplay/commit/10b3e99018bf437dc75fb0e72ce230f87917c06e))
+* **hook:** create useMediaQuery hook ([0f30687](https://github.com/wahyusaputropratjojo/gameplay/commit/0f30687aee0d4915daa5d812842095ece1ee88a6))
+* **hook:** create usePrevNextButton hook for Embla Carousel ([193da00](https://github.com/wahyusaputropratjojo/gameplay/commit/193da00e5106bdf6d94059101c299c5580ae1b01))
+
 # [1.7.0](https://github.com/wahyusaputropratjojo/gameplay/compare/v1.6.0...v1.7.0) (2025-06-17)
 
 
