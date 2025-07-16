@@ -1,19 +1,21 @@
 "use client";
 
-import { useAppForm } from "@/components/form/form";
-import { toast } from "@/components/ui/toast";
 import { mergeForm, useStore, useTransform } from "@tanstack/react-form";
 import { initialFormState } from "@tanstack/react-form/nextjs";
 import { useActionState, useEffect } from "react";
-import { signInFormAction } from "./action";
-import { signInFormOption } from "./option";
-import { emailSchema, passwordSchema } from "./schema";
+import { useAppForm } from "@/components/form/form";
+import { toast } from "@/components/ui/toast";
+import { signIn } from "@/lib/mutations/sign-in";
+import { emailSchema, passwordSchema } from "@/lib/schemas/sign-in-form-schema";
 
 export function SignInForm() {
-	const [state, action] = useActionState(signInFormAction, initialFormState);
+	const [state, action] = useActionState(signIn, initialFormState);
 
 	const form = useAppForm({
-		...signInFormOption,
+		defaultValues: {
+			email: "",
+			password: "",
+		},
 		transform: useTransform(
 			(baseForm) => mergeForm(baseForm, state ?? {}),
 			[state],
