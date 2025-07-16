@@ -1,23 +1,27 @@
 "use client";
 
-import { useAppForm } from "@/components/form/form";
 import { mergeForm, useTransform } from "@tanstack/react-form";
 import { initialFormState } from "@tanstack/react-form/nextjs";
 import { useActionState } from "react";
-import { signUpFormAction } from "./action";
-import { signUpFormOption } from "./option";
+import { useAppForm } from "@/components/form/form";
+import { signUp } from "@/lib/mutations/sign-up";
 import {
 	displayNameSchema,
 	emailSchema,
 	fullNameSchema,
 	passwordSchema,
-} from "./schema";
+} from "@/lib/schemas/sign-up-form-schema";
 
 function SignUpForm() {
-	const [state, action] = useActionState(signUpFormAction, initialFormState);
+	const [state, action] = useActionState(signUp, initialFormState);
 
 	const form = useAppForm({
-		...signUpFormOption,
+		defaultValues: {
+			fullName: "",
+			displayName: "",
+			email: "",
+			password: "",
+		},
 		transform: useTransform(
 			(baseForm) => mergeForm(baseForm, state ?? {}),
 			[state],

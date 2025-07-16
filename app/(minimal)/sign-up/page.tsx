@@ -1,6 +1,6 @@
-import { GameplayLogo } from "@/components/logo/gameplay-logo";
 import Link from "next/link";
-import { SignUpForm } from "./_form/sign-up-form";
+import { GameplayLogo } from "@/components/logo/gameplay-logo";
+import { SignUpForm } from "./sign-up-form";
 
 export default function SignInPage() {
 	return (
