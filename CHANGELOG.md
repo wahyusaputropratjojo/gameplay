@@ -1,3 +1,18 @@
+# [1.9.0](https://github.com/wahyusaputropratjojo/gameplay/compare/v1.8.0...v1.9.0) (2025-07-17)
+
+
+### Features
+
+* **biome:** add biome 'check' to validate format, lint and organize import ([518b591](https://github.com/wahyusaputropratjojo/gameplay/commit/518b5914c5e7d2df83fed29e2c5a6ae8f6403bc1))
+* **component:** create discovery component ([a5d9675](https://github.com/wahyusaputropratjojo/gameplay/commit/a5d9675912e5cc7d6885da0330b5c32dda8ee2a0))
+* **component:** create discovery skeleton component ([0a2c0a3](https://github.com/wahyusaputropratjojo/gameplay/commit/0a2c0a3b88ae343ca86e22d55448bb7380c100ee))
+* **component:** create highlight card component ([72def75](https://github.com/wahyusaputropratjojo/gameplay/commit/72def75c2645db922a3c9de050d7c2cfa2a36631))
+* **component:** create shelf skeleton component ([724201d](https://github.com/wahyusaputropratjojo/gameplay/commit/724201d7eba62edd373b41e1c19cce5b13d66089))
+* **component:** create spotlight skeleton component ([8ebdd8d](https://github.com/wahyusaputropratjojo/gameplay/commit/8ebdd8d94af42414fd4c15580119560973040669))
+* **component:** update grid card component ([66dd339](https://github.com/wahyusaputropratjojo/gameplay/commit/66dd33916b6b5e544ad3a82d4312b6a033ed87e5))
+* **component:** update spotlight component ([f65a45c](https://github.com/wahyusaputropratjojo/gameplay/commit/f65a45cd9b6de52647e50f26bbb39eafa80b5fb9))
+* **ui:** add skeleton component ([05a3dc4](https://github.com/wahyusaputropratjojo/gameplay/commit/05a3dc49b4b2ae6ccf14ce0bb0d374f897bcae86))
+
 # [1.8.0](https://github.com/wahyusaputropratjojo/gameplay/compare/v1.7.0...v1.8.0) (2025-06-24)
 
 
