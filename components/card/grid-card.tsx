@@ -1,20 +1,23 @@
-import { cn } from "@/lib/cn";
 import Image from "next/image";
+import { cn } from "@/lib/cn";
 
 type GridCardProps = {
 	src: string;
 	alt: string;
 	title: string;
-	className: string;
+	className?: string;
 };
 
 export function GridCard({ className, src, alt, title }: GridCardProps) {
 	return (
 		<div
-			className={cn("select-none space-y-2 hover:cursor-pointer", className)}
+			className={cn(
+				"group select-none space-y-2 hover:cursor-pointer",
+				className,
+			)}
 		>
-			<div className="group relative">
-				<div className="absolute z-20 size-full rounded-xl bg-light/15 opacity-0 transition-opacity group-hover:opacity-100" />
+			<div className="relative">
+				<div className="absolute z-20 size-full rounded-xl bg-light/10 opacity-0 transition-opacity group-hover:opacity-100" />
 				<Image
 					alt={alt}
 					src={src}
@@ -28,8 +31,10 @@ export function GridCard({ className, src, alt, title }: GridCardProps) {
 				/>
 			</div>
 			<div>
-				<p className="font-medium text-gray-700 text-sm">Base Game</p>
-				<p className="font-semibold">{title}</p>
+				<p className="line-clamp-1 font-medium text-gray-700 text-sm">
+					Base Game
+				</p>
+				<p className="line-clamp-1 font-semibold">{title}</p>
 			</div>
 		</div>
 	);
