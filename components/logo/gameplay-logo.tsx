@@ -1,6 +1,6 @@
-import { cn } from "@/lib/cn";
 import Link from "next/link";
 import type { SVGProps } from "react";
+import { cn } from "@/lib/cn";
 
 export function GameplayLogo({ className, ...props }: SVGProps<SVGSVGElement>) {
 	return (

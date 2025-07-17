@@ -1,9 +1,9 @@
 "use client";
 
-import { Input, type InputProps } from "@/components/ui/input";
-import { Label } from "@/components/ui/label";
 import { EyeIcon, EyeOffIcon } from "lucide-react";
 import { useId, useState } from "react";
+import { Input, type InputProps } from "@/components/ui/input";
+import { Label } from "@/components/ui/label";
 import { Alert } from "./alert";
 import { useFieldContext } from "./form";
 

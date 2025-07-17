@@ -1,10 +1,10 @@
 "use client";
 
-import { cn } from "@/lib/cn";
-import { cva } from "class-variance-authority";
 import type { VariantProps } from "class-variance-authority";
+import { cva } from "class-variance-authority";
 import { XIcon } from "lucide-react";
 import { toast as sonnerToast } from "sonner";
+import { cn } from "@/lib/cn";
 
 export type ToastProps = VariantProps<typeof toastVariant> & {
 	id: string | number;

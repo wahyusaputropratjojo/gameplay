@@ -1,8 +1,8 @@
-import { cn } from "@/lib/cn";
 import { Slot } from "@radix-ui/react-slot";
 import type { VariantProps } from "class-variance-authority";
 import { cva } from "class-variance-authority";
 import type { ComponentProps } from "react";
+import { cn } from "@/lib/cn";
 
 export type ButtonProps = ComponentProps<"button"> &
 	VariantProps<typeof buttonVariants> & {

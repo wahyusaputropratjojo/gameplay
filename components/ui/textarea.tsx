@@ -1,6 +1,6 @@
-import { cn } from "@/lib/cn";
-import { type VariantProps, cva } from "class-variance-authority";
+import { cva, type VariantProps } from "class-variance-authority";
 import type { ComponentProps } from "react";
+import { cn } from "@/lib/cn";
 
 export type TextareaProps = ComponentProps<"textarea"> &
 	VariantProps<typeof textareaVariants>;

@@ -1,10 +1,10 @@
 "use client";
 
+import useEmblaCarousel from "embla-carousel-react";
 import { GridCard } from "@/components/card/grid-card";
 import { NextButton } from "@/components/carousel/next-button";
 import { PrevButton } from "@/components/carousel/prev-button";
 import { usePrevNextButton } from "@/hooks/carousel/use-prev-next-button";
-import useEmblaCarousel from "embla-carousel-react";
 
 type ShelfProps = {
 	title: string;

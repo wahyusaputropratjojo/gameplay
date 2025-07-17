@@ -1,7 +1,7 @@
-import { cn } from "@/lib/cn";
-import { cva } from "class-variance-authority";
 import type { VariantProps } from "class-variance-authority";
+import { cva } from "class-variance-authority";
 import type { ComponentProps } from "react";
+import { cn } from "@/lib/cn";
 
 export type InputProps = ComponentProps<"input"> &
 	VariantProps<typeof inputVariants>;

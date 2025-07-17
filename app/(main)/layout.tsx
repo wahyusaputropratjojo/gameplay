@@ -1,13 +1,13 @@
-import { Header } from "@/components/header";
-import { NavigationBar } from "@/components/navigation-bar";
 import type { ReactNode } from "react";
 import { Fragment } from "react";
+import { Header } from "@/components/header";
+import { NavigationBar } from "@/components/navigation-bar";
 
-export default function MainLayout({
-	children,
-}: Readonly<{
+type MainLayoutProps = {
 	children: ReactNode;
-}>) {
+};
+
+export default function MainLayout({ children }: MainLayoutProps) {
 	return (
 		<Fragment>
 			<Header />

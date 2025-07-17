@@ -1,5 +1,5 @@
-import { Button, ButtonProps } from "@/components/ui/button";
 import { CornerUpRightIcon } from "lucide-react";
+import { Button, ButtonProps } from "@/components/ui/button";
 
 export function NextButton(props: ButtonProps) {
 	return (

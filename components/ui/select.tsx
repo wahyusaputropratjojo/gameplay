@@ -1,7 +1,7 @@
-import { cn } from "@/lib/cn";
 import { CheckIcon, ChevronDownIcon, ChevronUpIcon } from "lucide-react";
 import { Select as SelectPrimitives } from "radix-ui";
 import type { ComponentProps } from "react";
+import { cn } from "@/lib/cn";
 
 export type SelectContentProps = ComponentProps<
 	typeof SelectPrimitives.Content
@@ -37,9 +37,9 @@ export function SelectContent({
 			<SelectPrimitives.Content
 				ref={ref}
 				className={cn(
-					"data-[state=closed]:fade-out-0 data-[state=open]:fade-in-0 data-[state=closed]:zoom-out-95 data-[state=open]:zoom-in-95 data-[side=bottom]:slide-in-from-top-2 data-[side=left]:slide-in-from-right-2 data-[side=right]:slide-in-from-left-2 data-[side=top]:slide-in-from-bottom-2 relative z-50 max-h-[--radix-select-content-available-height] min-w-[8rem] origin-[--radix-select-content-transform-origin] overflow-y-auto overflow-x-hidden rounded-sm border border-neutral-500 bg-neutral-900 text-neutral-100 data-[state=closed]:animate-out data-[state=open]:animate-in",
+					"queries-[state=closed]:fade-out-0 queries-[state=open]:fade-in-0 queries-[state=closed]:zoom-out-95 queries-[state=open]:zoom-in-95 queries-[side=bottom]:slide-in-from-top-2 queries-[side=left]:slide-in-from-right-2 queries-[side=right]:slide-in-from-left-2 queries-[side=top]:slide-in-from-bottom-2 relative z-50 max-h-[--radix-select-content-available-height] min-w-[8rem] origin-[--radix-select-content-transform-origin] queries-[state=closed]:animate-out queries-[state=open]:animate-in overflow-y-auto overflow-x-hidden rounded-sm border border-neutral-500 bg-neutral-900 text-neutral-100",
 					position === "popper" &&
-						"data-[side=left]:-translate-x-1 data-[side=top]:-translate-y-1 data-[side=right]:translate-x-1 data-[side=bottom]:translate-y-1",
+						"queries-[side=left]:-translate-x-1 queries-[side=top]:-translate-y-1 queries-[side=right]:translate-x-1 queries-[side=bottom]:translate-y-1",
 					className,
 				)}
 				position={position}
@@ -72,7 +72,7 @@ export function SelectItem({
 		<SelectPrimitives.Item
 			ref={ref}
 			className={cn(
-				"relative flex w-full cursor-default select-none items-center rounded-sm py-1.5 pr-2 pl-8 text-sm outline-none focus:bg-neutral-800 focus:text-neutral-100 data-[disabled]:pointer-events-none data-[disabled]:opacity-50",
+				"queries-[disabled]:pointer-events-none relative flex w-full cursor-default select-none items-center rounded-sm py-1.5 pr-2 pl-8 text-sm queries-[disabled]:opacity-50 outline-none focus:bg-neutral-800 focus:text-neutral-100",
 				className,
 			)}
 			{...props}

@@ -1,9 +1,9 @@
 "use client";
 
-import { cn } from "@/lib/cn";
 import { CircleIcon } from "lucide-react";
 import { RadioGroup as RadioGroupPrimitives } from "radix-ui";
 import type { ComponentProps } from "react";
+import { cn } from "@/lib/cn";
 
 export type RadioGroupProps = ComponentProps<typeof RadioGroupPrimitives.Root>;
 export type RadioGroupItemProps = ComponentProps<
@@ -29,7 +29,7 @@ export function RadioGroupItem({
 	return (
 		<RadioGroupPrimitives.Item
 			className={cn(
-				"peer aspect-square size-4 rounded-full border border-neutral-600 text-neutral-900 focus:outline-none focus-visible:ring-2 focus-visible:ring-neutral-700 disabled:cursor-not-allowed data-[disabled]:data-[state=checked]:border-neutral-600 data-[disabled]:data-[state=checked]:bg-neutral-600 data-[state=checked]:border-neutral-100 data-[state=checked]:bg-neutral-100",
+				"peer aspect-square size-4 rounded-full border border-neutral-600 queries-[disabled]:queries-[state=checked]:border-neutral-600 queries-[state=checked]:border-neutral-100 queries-[disabled]:queries-[state=checked]:bg-neutral-600 queries-[state=checked]:bg-neutral-100 text-neutral-900 focus:outline-none focus-visible:ring-2 focus-visible:ring-neutral-700 disabled:cursor-not-allowed",
 				className,
 			)}
 			ref={ref}
