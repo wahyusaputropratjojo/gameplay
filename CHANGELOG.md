@@ -1,3 +1,15 @@
+# [1.10.0](https://github.com/wahyusaputropratjojo/gameplay/compare/v1.9.0...v1.10.0) (2025-07-26)
+
+
+### Features
+
+* **auth:** setup Better Auth as the authentication provider ([9d8f2ec](https://github.com/wahyusaputropratjojo/gameplay/commit/9d8f2ec83eff14532b8b96d91306ca44ff2afe09))
+* **db:** create database schema ([83903d8](https://github.com/wahyusaputropratjojo/gameplay/commit/83903d8d06d8c1c50a30597795afd7a30481a689))
+* **db:** create reusable timestamps helper for database schema ([130c2e9](https://github.com/wahyusaputropratjojo/gameplay/commit/130c2e92668a2cf1c9836c9487968a03be7c30e3))
+* **db:** create separate schema.ts file to export all database schemas ([544c61e](https://github.com/wahyusaputropratjojo/gameplay/commit/544c61efc9f1cf836cb3ee507a4e04974abff0b9))
+* **db:** update Drizzle ORM setup ([5e4ef1d](https://github.com/wahyusaputropratjojo/gameplay/commit/5e4ef1dbf6f4026035fe86fa31c8f78dbd664f9d))
+* update Next.js configuration to support external images from SteamGridDB ([eb6bc21](https://github.com/wahyusaputropratjojo/gameplay/commit/eb6bc2143a73a6b2669783fb487e092070b926ba))
+
 # [1.9.0](https://github.com/wahyusaputropratjojo/gameplay/compare/v1.8.0...v1.9.0) (2025-07-17)
 
 
