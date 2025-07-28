@@ -1,5 +1,11 @@
 import { relations } from "drizzle-orm";
-import { foreignKey, pgTable, primaryKey, uuid } from "drizzle-orm/pg-core";
+import {
+	foreignKey,
+	pgTable,
+	primaryKey,
+	text,
+	uuid,
+} from "drizzle-orm/pg-core";
 import { timestamps } from "@/db/helper/timestamps";
 import { game } from "@/db/schema/game";
 import { store } from "@/db/schema/store";
@@ -9,6 +15,7 @@ export const gameStore = pgTable(
 	{
 		gameId: uuid().notNull(),
 		storeId: uuid().notNull(),
+		url: text().notNull(),
 		...timestamps,
 	},
 	(table) => [
