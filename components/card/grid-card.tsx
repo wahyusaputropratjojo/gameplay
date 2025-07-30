@@ -4,11 +4,11 @@ import { cn } from "@/lib/cn";
 type GridCardProps = {
 	src: string;
 	alt: string;
-	title: string;
+	name: string;
 	className?: string;
 };
 
-export function GridCard({ className, src, alt, title }: GridCardProps) {
+export function GridCard({ className, src, alt, name }: GridCardProps) {
 	return (
 		<div
 			className={cn(
@@ -34,7 +34,7 @@ export function GridCard({ className, src, alt, title }: GridCardProps) {
 				<p className="line-clamp-1 font-medium text-gray-700 text-sm">
 					Base Game
 				</p>
-				<p className="line-clamp-1 font-semibold">{title}</p>
+				<p className="line-clamp-1 font-semibold">{name}</p>
 			</div>
 		</div>
 	);
