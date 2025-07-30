@@ -24,7 +24,8 @@ export { gamePlatform, gamePlatformRelations } from "@/db/schema/game-platform";
 export { gameStore, gameStoreRelations } from "@/db/schema/game-store";
 export { gameTheme, gameThemeRelations } from "@/db/schema/game-theme";
 export { genre, genreRelations } from "@/db/schema/genre";
-export { media, mediaType } from "@/db/schema/media";
+export { media, mediaRelations } from "@/db/schema/media";
+export { mediaType, mediaTypeRelations } from "@/db/schema/media-type";
 export {
 	platform,
 	platformRelations,
