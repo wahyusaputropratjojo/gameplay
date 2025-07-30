@@ -29,8 +29,8 @@ export { mediaType, mediaTypeRelations } from "@/db/schema/media-type";
 export {
 	platform,
 	platformRelations,
-	platformType,
 } from "@/db/schema/platform";
+export { platformType, platformTypeRelations } from "@/db/schema/platform-type";
 export { session, sessionRelations } from "@/db/schema/session";
 export { store, storeRelations } from "@/db/schema/store";
 export { theme, themeRelations } from "@/db/schema/theme";
