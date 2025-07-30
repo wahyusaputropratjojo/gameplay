@@ -1,6 +1,7 @@
 "use client";
 
 import useEmblaCarousel from "embla-carousel-react";
+import Link from "next/link";
 import { GridCard } from "@/components/card/grid-card";
 import { NextButton } from "@/components/carousel/next-button";
 import { PrevButton } from "@/components/carousel/prev-button";
@@ -10,7 +11,8 @@ type ShelfProps = {
 	title: string;
 	items: {
 		id: string;
-		title: string;
+		name: string;
+		slug: string;
 		gridURL: string;
 	}[];
 };
@@ -55,13 +57,17 @@ export function Shelf({ title, items }: ShelfProps) {
 			>
 				<div className="-ml-4 flex">
 					{items.map((item) => (
-						<GridCard
+						<Link
 							key={item.id}
-							src={item.gridURL}
-							alt={`${item.title} - Grid`}
-							title={item.title}
+							href={`/game/${item.slug}`}
 							className="shrink-0 grow-0 basis-6/10 pl-4 md:basis-1/4 lg:basis-1/5 xl:basis-1/6"
-						/>
+						>
+							<GridCard
+								src={item.gridURL}
+								alt={`${item.name} - Grid`}
+								name={item.name}
+							/>
+						</Link>
 					))}
 				</div>
 			</div>
