@@ -13,8 +13,11 @@ export {
 export {
 	gameCompany,
 	gameCompanyRelations,
-	gameCompanyRole,
 } from "@/db/schema/game-company";
+export {
+	gameCompanyRole,
+	gameCompanyRoleRelations,
+} from "@/db/schema/game-company-role";
 export { gameGenre, gameGenreRelations } from "@/db/schema/game-genre";
 export { gameMedia, gameMediaRelations } from "@/db/schema/game-media";
 export { gamePlatform, gamePlatformRelations } from "@/db/schema/game-platform";
