@@ -1,3 +1,18 @@
+# [1.11.0](https://github.com/wahyusaputropratjojo/gameplay/compare/v1.10.0...v1.11.0) (2025-07-30)
+
+
+### Features
+
+* **component:** add navigation link to shelf component and some minor props type change ([df31b92](https://github.com/wahyusaputropratjojo/gameplay/commit/df31b9254b2409b26929b70874362244575ebe42))
+* **component:** add navigation link to spotlight component and some minor props type change ([14f895d](https://github.com/wahyusaputropratjojo/gameplay/commit/14f895d7755f03febe79bdb44a9eeca15f065b06))
+* **component:** add new releases shelf component ([5d7defd](https://github.com/wahyusaputropratjojo/gameplay/commit/5d7defd46006bc78bfbf3cdb8b235a04d919b24a))
+* **component:** add upcoming spotlight component ([ed4110e](https://github.com/wahyusaputropratjojo/gameplay/commit/ed4110e0e3b304483d18e458795b0b6181a24fc1))
+* **component:** minor type change in grid card component ([5594140](https://github.com/wahyusaputropratjojo/gameplay/commit/5594140b4b8ac4e2825f3b81fcbe14748ef198cb))
+* **db:** add url column into game store table schema ([cd2bffe](https://github.com/wahyusaputropratjojo/gameplay/commit/cd2bffe8f91eedbb9704a12aa376a3a3516a9320))
+* **home:** add upcoming spotlight and new releases shelf components ([8854e41](https://github.com/wahyusaputropratjojo/gameplay/commit/8854e4111416e9ddae25b44a98123ee7ecb63b41))
+* **queries:** add query function for new releases shelf games ([533c29a](https://github.com/wahyusaputropratjojo/gameplay/commit/533c29a6968118b6f3469007c5e916e797f0cf19))
+* **queries:** add query function for upcoming spotlight games ([9159285](https://github.com/wahyusaputropratjojo/gameplay/commit/91592851f7f9081f94947627e34e32fcc44f7c0d))
+
 # [1.10.0](https://github.com/wahyusaputropratjojo/gameplay/compare/v1.9.0...v1.10.0) (2025-07-26)
 
 
