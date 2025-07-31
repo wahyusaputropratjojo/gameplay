@@ -4,7 +4,7 @@ import { cn } from "@/lib/cn";
 type HighlightCardProps = {
 	src: string;
 	alt: string;
-	title: string;
+	name: string;
 	description: string;
 	className?: string;
 };
@@ -13,7 +13,7 @@ export function HighlightCard({
 	className,
 	src,
 	alt,
-	title,
+	name,
 	description,
 }: HighlightCardProps) {
 	return (
@@ -36,7 +36,7 @@ export function HighlightCard({
 				/>
 			</div>
 			<div>
-				<p className="line-clamp-1 font-semibold text-lg">{title}</p>
+				<p className="line-clamp-1 font-semibold text-lg">{name}</p>
 				<p className="line-clamp-2 max-w-[35ch] text-gray-700 text-sm">
 					{description}
 				</p>
