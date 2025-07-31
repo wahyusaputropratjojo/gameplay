@@ -1,3 +1,18 @@
+# [1.12.0](https://github.com/wahyusaputropratjojo/gameplay/compare/v1.11.0...v1.12.0) (2025-07-31)
+
+
+### Features
+
+* **component:** add featured discovery component ([29f88ca](https://github.com/wahyusaputropratjojo/gameplay/commit/29f88ca6f052d57b9575bf82f7065d55750fcf2d))
+* **component:** add navigation link to discovery component and some minor props type change ([d2f30e7](https://github.com/wahyusaputropratjojo/gameplay/commit/d2f30e7d1b700301cc7785f38c318e6b5042d760))
+* **component:** create list card component ([6b44471](https://github.com/wahyusaputropratjojo/gameplay/commit/6b44471caaf0d2c5bef4cf48d3e52357e20b67df))
+* **component:** create list component ([91151b6](https://github.com/wahyusaputropratjojo/gameplay/commit/91151b634a9616032e152fb68f2d92f5bf104211))
+* **component:** create list skeleton component ([7cefa54](https://github.com/wahyusaputropratjojo/gameplay/commit/7cefa54b2ccea4d9cbbfcbdea3be3295ad535a9a))
+* **component:** create navigation bar component ([b55fd9d](https://github.com/wahyusaputropratjojo/gameplay/commit/b55fd9d9291bf32ac08e610679ae8b571aa1a39b))
+* **component:** minor props type change in highlight card component ([b56d4ca](https://github.com/wahyusaputropratjojo/gameplay/commit/b56d4ca8b1df717ec647a037882de25380fc8b28))
+* **home:** add featured discovery component ([e063e48](https://github.com/wahyusaputropratjojo/gameplay/commit/e063e48c15586c695e8fe096c8b508d8b710e8b7))
+* **queries:** add query function for featured discovery games ([8b6a8e0](https://github.com/wahyusaputropratjojo/gameplay/commit/8b6a8e0670c2d5dc86fa8dc7a912520b3d94b1d0))
+
 # [1.11.0](https://github.com/wahyusaputropratjojo/gameplay/compare/v1.10.0...v1.11.0) (2025-07-30)
 
 
