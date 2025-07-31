@@ -1,10 +1,12 @@
+import Link from "next/link";
 import { HighlightCard } from "@/components/card/highlight-card";
 
 type DiscoveryProps = {
 	title?: string;
 	items: {
 		id: string;
-		title: string;
+		name: string;
+		slug: string;
 		description: string;
 		heroURL: string;
 	}[];
@@ -16,14 +18,18 @@ export function Discovery({ title, items }: DiscoveryProps) {
 			{title && <h3>{title}</h3>}
 			<div className="grid grid-cols-1 gap-6 sm:grid-cols-2 md:gap-4 lg:grid-cols-3">
 				{items.map((item) => (
-					<HighlightCard
-						className="last:hidden lg:last:block"
+					<Link
 						key={item.id}
-						src={item.heroURL}
-						alt={`${item.title} - Hero`}
-						title={item.title}
-						description={item.description}
-					/>
+						className="last:hidden lg:last:block"
+						href={`/game/${item.slug}`}
+					>
+						<HighlightCard
+							src={item.heroURL}
+							alt={`${item.name} - Hero`}
+							name={item.name}
+							description={item.description}
+						/>
+					</Link>
 				))}
 			</div>
 		</div>
