@@ -1,57 +1,8 @@
 {
-	"$schema": "https://biomejs.dev/schemas/2.0.6/schema.json",
-	"vcs": {
-		"enabled": false,
-		"clientKind": "git",
-		"useIgnoreFile": false
-	},
-	"files": {
-		"ignoreUnknown": false,
-		"includes": ["**", "!**/.next", "!**/node_modules", "!**/*.css"]
-	},
-	"assist": { "actions": { "source": { "organizeImports": "on" } } },
-	"formatter": {
-		"enabled": true,
-		"formatWithErrors": false,
-		"indentStyle": "tab",
-		"indentWidth": 2,
-		"lineEnding": "lf",
-		"lineWidth": 80,
-		"attributePosition": "multiline"
-	},
-	"javascript": {
-		"formatter": {
-			"quoteStyle": "double",
-			"jsxQuoteStyle": "double",
-			"quoteProperties": "asNeeded",
-			"trailingCommas": "all",
-			"semicolons": "always",
-			"arrowParentheses": "always",
-			"attributePosition": "multiline",
-			"bracketSameLine": false,
-			"bracketSpacing": true
-		}
-	},
-	"linter": {
-		"enabled": true,
-		"rules": {
-			"recommended": true,
-			"nursery": {
-				"useSortedClasses": {
-					"fix": "safe",
-					"level": "info",
-					"options": {
-						"functions": ["clsx", "cva", "tw"]
-					}
-				}
-			},
-			"style": {
-				"noNonNullAssertion": "off",
-				"useImportType": "off"
-			},
-			"correctness": {
-				"noUnusedImports": "error"
-			}
-		}
-	}
+  "$schema": "https://biomejs.dev/schemas/2.1.2/schema.json",
+  "extends": ["ultracite"],
+  "files": {
+    "ignoreUnknown": true,
+    "includes": ["**", "!**/*.css"]
+  }
 }
