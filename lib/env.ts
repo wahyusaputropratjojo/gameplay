@@ -1,3 +1,3 @@
-import { loadEnvConfig } from "@next/env";
+import { loadEnvConfig } from '@next/env';
 
 loadEnvConfig(process.cwd());

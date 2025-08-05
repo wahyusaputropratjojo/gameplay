@@ -1,13 +1,8 @@
-import { Discovery } from "@/components/discovery";
-import { getFeaturedDiscoveryGames } from "@/lib/queries/get-featured-discovery-games";
+import { Discovery } from '@/components/discovery';
+import { getFeaturedDiscoveryGames } from '@/lib/queries/get-featured-discovery-games';
 
 export async function FeaturedDiscovery() {
-	const games = await getFeaturedDiscoveryGames();
+  const games = await getFeaturedDiscoveryGames();
 
-	return (
-		<Discovery
-			items={games}
-			title="Featured"
-		/>
-	);
+  return <Discovery items={games} title="Featured" />;
 }
