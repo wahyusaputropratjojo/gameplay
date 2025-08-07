@@ -3,6 +3,6 @@
   "extends": ["ultracite"],
   "files": {
     "ignoreUnknown": true,
-    "includes": ["**", "!**/*.css"]
+    "includes": ["**", "!**/*.css", "!app/(payload)/*", "!lib/types/payload.ts"]
   }
 }
