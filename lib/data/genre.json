@@ -1,0 +1,98 @@
+[
+  {
+    "id": "67c8c696-b35c-4973-a339-df9456e65528",
+    "name": "Adventure"
+  },
+  {
+    "id": "3adb02e7-d72e-462f-8c8e-b10e833e939f",
+    "name": "Action"
+  },
+  {
+    "id": "5e304980-2ea8-4816-a0e6-d591e47cdc18",
+    "name": "Sport"
+  },
+  {
+    "id": "ecd75ff7-5310-46e3-bd96-fc7d7af16b04",
+    "name": "Simulation"
+  },
+  {
+    "id": "8eb54c57-d45c-4430-bd53-425bdfe96365",
+    "name": "Platformer"
+  },
+  {
+    "id": "97a243df-a879-46f0-9184-c944dcb853a2",
+    "name": "RPG"
+  },
+  {
+    "id": "d5dd603d-ef03-4722-ae4f-d88fff86dd77",
+    "name": "FPS"
+  },
+  {
+    "id": "530d4e92-d433-472d-ad12-26ac7d35cdb4",
+    "name": "Fighting"
+  },
+  {
+    "id": "f637a7f4-6833-4a14-8956-bc7f241a46f0",
+    "name": "RTS"
+  },
+  {
+    "id": "0cf2a09b-87bc-4b1b-be13-dde115c80a54",
+    "name": "Racing"
+  },
+  {
+    "id": "c40d99c8-5631-4927-87a9-eb3d434266fa",
+    "name": "Shooter"
+  },
+  {
+    "id": "6b969abe-f9e4-4618-a48e-f078fad05955",
+    "name": "Puzzle"
+  },
+  {
+    "id": "3253aa22-5201-4028-914b-a0da9df65697",
+    "name": "Casual"
+  },
+  {
+    "id": "4d9727c2-22e6-4c98-8203-036a0a3de538",
+    "name": "Strategy"
+  },
+  {
+    "id": "4a722596-8af0-4b9f-9afa-71718e15bf42",
+    "name": "MMORPG"
+  },
+  {
+    "id": "5f0c82cb-9911-44f7-9933-19b22d6237c4",
+    "name": "Stealth"
+  },
+  {
+    "id": "3e854831-1185-46d9-8b48-d3b13179a39f",
+    "name": "Party"
+  },
+  {
+    "id": "cd91b7fd-2caf-40ca-87d9-c65de6bb01bf",
+    "name": "Tactical"
+  },
+  {
+    "id": "de136d24-eb43-409d-9325-d9112b95a6ce",
+    "name": "Survival"
+  },
+  {
+    "id": "095b1039-7d34-4b89-bd34-2b0626085786",
+    "name": "Battle Royale"
+  },
+  {
+    "id": "d6b7c7f7-578d-47fe-96a4-0651d6ade657",
+    "name": "Open World"
+  },
+  {
+    "id": "fad48df7-0572-4193-9348-d571056069ef",
+    "name": "MOBA"
+  },
+  {
+    "id": "e05185e7-91e2-4f6c-8fc3-11f2996229aa",
+    "name": "Turn Based Strategy"
+  },
+  {
+    "id": "d0fbe835-bea5-48a7-9358-c48776b3470a",
+    "name": "Visual Novel"
+  }
+]

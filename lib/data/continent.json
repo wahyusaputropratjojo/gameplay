@@ -1,0 +1,9 @@
+[
+  { "id": "4014247c-5a00-4099-b459-389caef09bbc", "name": "Africa" },
+  { "id": "b93debb5-1f91-49fc-b32d-b18ca458fdca", "name": "Asia" },
+  { "id": "2319d9f5-f5d0-42a9-9573-94191d1d1dcb", "name": "Europe" },
+  { "id": "987632eb-4ba3-42ce-a107-5ee49f05751c", "name": "North America" },
+  { "id": "13ec75e7-4484-4aa8-9814-0ac7444e5512", "name": "Oceania" },
+  { "id": "47fcd1e3-3096-46bb-b4a3-f5b2663d5a99", "name": "South America" },
+  { "id": "4b7235fe-9c99-43ab-8140-a8540c21e854", "name": "Antarctica" }
+]

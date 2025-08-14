@@ -1,0 +1,14 @@
+[
+  {
+    "id": "ff5390ed-d135-431d-8ba6-3e25f0f26715",
+    "name": "PC"
+  },
+  {
+    "id": "d05c35ef-473f-4e23-a650-7fffc16d7b54",
+    "name": "Console"
+  },
+  {
+    "id": "c7c8daee-ebf1-487e-a863-23854d461cf6",
+    "name": "Mobile"
+  }
+]

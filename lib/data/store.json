@@ -1,0 +1,62 @@
+[
+  {
+    "id": "5f755a02-70fc-454b-bed1-1d51384d3f2a",
+    "name": "Steam",
+    "mediaId": "046f892d-6a8f-418a-90c8-285e1934a4c8"
+  },
+  {
+    "id": "4a5f46d1-519e-4e27-8c5a-41df019a145a",
+    "name": "Epic Games Store",
+    "mediaId": "d76d522e-c1f1-48de-970c-81858746ee54"
+  },
+  {
+    "id": "fca05601-a7db-430a-8e28-0b78f74a07b5",
+    "name": "Ubisoft Store",
+    "mediaId": "8c134d01-b440-4db7-933a-9b0854c42a23"
+  },
+  {
+    "id": "1d52be8e-efe5-40cb-a73a-facd3bc1ce5b",
+    "name": "EA",
+    "mediaId": "28dc8055-146e-4bd3-9a02-b57499847a5d"
+  },
+  {
+    "id": "98474bcd-c4ae-4880-91bc-4113e01eb0e8",
+    "name": "GOG.com",
+    "mediaId": "48a26512-71d1-4e9a-9f23-eb6e802c97c9"
+  },
+  {
+    "id": "011b09a5-f444-4ada-9d41-a93ba9026219",
+    "name": "Battle.net",
+    "mediaId": "03b6cc2a-db9d-4acd-945a-0826d6ebdd96"
+  },
+  {
+    "id": "420eb4cb-84c1-4384-8e80-aec052e455cc",
+    "name": "XBOX",
+    "mediaId": "ed478faf-e1e7-49ff-8e8e-72ffd9d9c164"
+  },
+  {
+    "id": "60b9751a-067f-4203-b17c-24f2735dea98",
+    "name": "PlayStation Store",
+    "mediaId": "9c17011b-8c93-49f5-a6b1-44cb606dddf7"
+  },
+  {
+    "id": "0d2ffd34-444d-445a-9077-d4a3dbc39541",
+    "name": "Nintendo eShop",
+    "mediaId": "d147306d-55a3-4ed1-ad0e-6db0e4e99059"
+  },
+  {
+    "id": "d6588ebf-5fdc-4c66-9778-a14131df78d2",
+    "name": "Google Play Store",
+    "mediaId": "ff093483-5ca9-400a-b1cb-7a06cdca2e71"
+  },
+  {
+    "id": "66e3028e-c603-403a-8c18-3519cd8ddb3c",
+    "name": "App Store",
+    "mediaId": "9d78b407-8326-41ee-8995-2bd71d993811"
+  },
+  {
+    "id": "04705d91-94a7-4530-ada4-5f773e2b5a6c",
+    "name": "Rockstar Games",
+    "mediaId": "aca2aab4-6790-4032-ab60-b5696516735f"
+  }
+]

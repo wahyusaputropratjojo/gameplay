@@ -1,0 +1,62 @@
+[
+  {
+    "id": "335d389b-c364-4326-ba17-5028233b7d88",
+    "name": "Fantasy"
+  },
+  {
+    "id": "e4fbb96b-503e-4d67-9e76-eff01ef3ff70",
+    "name": "Science Fiction"
+  },
+  {
+    "id": "ba4d0320-4e78-4f6d-bd8f-bf2680978158",
+    "name": "Horror"
+  },
+  {
+    "id": "7300cc46-5501-431f-bf09-d917be5eab70",
+    "name": "Thriller"
+  },
+  {
+    "id": "0103f839-be05-406c-be2d-3d57323dbd11",
+    "name": "Historical"
+  },
+  {
+    "id": "51eea898-1b8e-4a1f-9f6a-5be637c5e15a",
+    "name": "Comedy"
+  },
+  {
+    "id": "181f2ecd-5bd6-4d62-a4bd-9f5291b43345",
+    "name": "Business"
+  },
+  {
+    "id": "3f1389a3-2f9c-4586-97b5-c3a4831b0fd5",
+    "name": "Drama"
+  },
+  {
+    "id": "f11b4772-5180-465f-a2a0-640197867989",
+    "name": "Educational"
+  },
+  {
+    "id": "e99e96b4-07ed-45c8-8ffe-78d5a31810c5",
+    "name": "Warfare"
+  },
+  {
+    "id": "3eecf413-c3a0-49e6-993d-f2d8ab8918a4",
+    "name": "Erotic"
+  },
+  {
+    "id": "5b373581-fae2-4239-b281-bbd4316a858e",
+    "name": "Mystery"
+  },
+  {
+    "id": "2ef0d5f3-bf23-4e47-83de-27f200622d90",
+    "name": "Romance"
+  },
+  {
+    "id": "78afbd25-562d-4f52-9147-e81e6100d346",
+    "name": "Action"
+  },
+  {
+    "id": "09b8f730-8d8a-422d-ada3-e519c0a53c10",
+    "name": "Non Fiction"
+  }
+]
