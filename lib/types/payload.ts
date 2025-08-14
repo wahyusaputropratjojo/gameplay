@@ -63,18 +63,56 @@ export type SupportedTimezones =
 
 export interface Config {
   auth: {
-    users: UserAuthOperations;
+    user: UserAuthOperations;
   };
   blocks: {};
   collections: {
-    users: User;
+    ageRating: AgeRating;
+    ageRatingAuthority: AgeRatingAuthority;
+    company: Company;
+    continent: Continent;
+    country: Country;
+    game: Game;
+    gamePlatform: GamePlatform;
+    gameStore: GameStore;
+    genre: Genre;
+    media: Media;
+    platform: Platform;
+    platformType: PlatformType;
+    store: Store;
+    theme: Theme;
+    user: User;
     'payload-locked-documents': PayloadLockedDocument;
     'payload-preferences': PayloadPreference;
     'payload-migrations': PayloadMigration;
   };
-  collectionsJoins: {};
+  collectionsJoins: {
+    ageRatingAuthority: {
+      ageRating: 'ageRating';
+    };
+    continent: {
+      country: 'country';
+    };
+    platformType: {
+      platform: 'platform';
+    };
+  };
   collectionsSelect: {
-    users: UsersSelect<false> | UsersSelect<true>;
+    ageRating: AgeRatingSelect<false> | AgeRatingSelect<true>;
+    ageRatingAuthority: AgeRatingAuthoritySelect<false> | AgeRatingAuthoritySelect<true>;
+    company: CompanySelect<false> | CompanySelect<true>;
+    continent: ContinentSelect<false> | ContinentSelect<true>;
+    country: CountrySelect<false> | CountrySelect<true>;
+    game: GameSelect<false> | GameSelect<true>;
+    gamePlatform: GamePlatformSelect<false> | GamePlatformSelect<true>;
+    gameStore: GameStoreSelect<false> | GameStoreSelect<true>;
+    genre: GenreSelect<false> | GenreSelect<true>;
+    media: MediaSelect<false> | MediaSelect<true>;
+    platform: PlatformSelect<false> | PlatformSelect<true>;
+    platformType: PlatformTypeSelect<false> | PlatformTypeSelect<true>;
+    store: StoreSelect<false> | StoreSelect<true>;
+    theme: ThemeSelect<false> | ThemeSelect<true>;
+    user: UserSelect<false> | UserSelect<true>;
     'payload-locked-documents': PayloadLockedDocumentsSelect<false> | PayloadLockedDocumentsSelect<true>;
     'payload-preferences': PayloadPreferencesSelect<false> | PayloadPreferencesSelect<true>;
     'payload-migrations': PayloadMigrationsSelect<false> | PayloadMigrationsSelect<true>;
@@ -86,7 +124,7 @@ export interface Config {
   globalsSelect: {};
   locale: null;
   user: User & {
-    collection: 'users';
+    collection: 'user';
   };
   jobs: {
     tasks: unknown;
@@ -113,7 +151,208 @@ export interface UserAuthOperations {
 }
 /**
  * This interface was referenced by `Config`'s JSON-Schema
- * via the `definition` "users".
+ * via the `definition` "ageRating".
+ */
+export interface AgeRating {
+  id: string;
+  name: string;
+  description: string;
+  logo?: (string | null) | Media;
+  authority: string | AgeRatingAuthority;
+  updatedAt: string;
+  createdAt: string;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "media".
+ */
+export interface Media {
+  id: string;
+  alt: string;
+  updatedAt: string;
+  createdAt: string;
+  url?: string | null;
+  thumbnailURL?: string | null;
+  filename?: string | null;
+  mimeType?: string | null;
+  filesize?: number | null;
+  width?: number | null;
+  height?: number | null;
+  focalX?: number | null;
+  focalY?: number | null;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "ageRatingAuthority".
+ */
+export interface AgeRatingAuthority {
+  id: string;
+  name: string;
+  ageRating?: {
+    docs?: (string | AgeRating)[];
+    hasNextPage?: boolean;
+    totalDocs?: number;
+  };
+  updatedAt: string;
+  createdAt: string;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "company".
+ */
+export interface Company {
+  id: string;
+  name: string;
+  country?: (string | null) | Country;
+  logo?: (string | null) | Media;
+  updatedAt: string;
+  createdAt: string;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "country".
+ */
+export interface Country {
+  id: string;
+  name: string;
+  continent: string | Continent;
+  updatedAt: string;
+  createdAt: string;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "continent".
+ */
+export interface Continent {
+  id: string;
+  name: string;
+  country?: {
+    docs?: (string | Country)[];
+    hasNextPage?: boolean;
+    totalDocs?: number;
+  };
+  updatedAt: string;
+  createdAt: string;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "game".
+ */
+export interface Game {
+  id: string;
+  name: string;
+  description: string;
+  'age-rating': (string | AgeRating)[];
+  genre: (string | Genre)[];
+  theme: (string | Theme)[];
+  developer: (string | Company)[];
+  publisher: (string | Company)[];
+  about?: {
+    root: {
+      type: string;
+      children: {
+        type: string;
+        version: number;
+        [k: string]: unknown;
+      }[];
+      direction: ('ltr' | 'rtl') | null;
+      format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
+      indent: number;
+      version: number;
+    };
+    [k: string]: unknown;
+  } | null;
+  logo: string | Media;
+  grid: string | Media;
+  hero: string | Media;
+  updatedAt: string;
+  createdAt: string;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "genre".
+ */
+export interface Genre {
+  id: string;
+  name: string;
+  updatedAt: string;
+  createdAt: string;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "theme".
+ */
+export interface Theme {
+  id: string;
+  name: string;
+  updatedAt: string;
+  createdAt: string;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "gamePlatform".
+ */
+export interface GamePlatform {
+  id: string;
+  game: string | Game;
+  platform: string | Platform;
+  releaseDate: string;
+  updatedAt: string;
+  createdAt: string;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "platform".
+ */
+export interface Platform {
+  id: string;
+  name: string;
+  logo?: (string | null) | Media;
+  type: string | PlatformType;
+  updatedAt: string;
+  createdAt: string;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "platformType".
+ */
+export interface PlatformType {
+  id: string;
+  name: string;
+  platform?: {
+    docs?: (string | Platform)[];
+    hasNextPage?: boolean;
+    totalDocs?: number;
+  };
+  updatedAt: string;
+  createdAt: string;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "gameStore".
+ */
+export interface GameStore {
+  id: string;
+  game: string | Game;
+  store: string | Store;
+  url: string;
+  updatedAt: string;
+  createdAt: string;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "store".
+ */
+export interface Store {
+  id: string;
+  name: string;
+  logo?: (string | null) | Media;
+  updatedAt: string;
+  createdAt: string;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "user".
  */
 export interface User {
   id: string;
@@ -141,13 +380,70 @@ export interface User {
  */
 export interface PayloadLockedDocument {
   id: string;
-  document?: {
-    relationTo: 'users';
-    value: string | User;
-  } | null;
+  document?:
+    | ({
+        relationTo: 'ageRating';
+        value: string | AgeRating;
+      } | null)
+    | ({
+        relationTo: 'ageRatingAuthority';
+        value: string | AgeRatingAuthority;
+      } | null)
+    | ({
+        relationTo: 'company';
+        value: string | Company;
+      } | null)
+    | ({
+        relationTo: 'continent';
+        value: string | Continent;
+      } | null)
+    | ({
+        relationTo: 'country';
+        value: string | Country;
+      } | null)
+    | ({
+        relationTo: 'game';
+        value: string | Game;
+      } | null)
+    | ({
+        relationTo: 'gamePlatform';
+        value: string | GamePlatform;
+      } | null)
+    | ({
+        relationTo: 'gameStore';
+        value: string | GameStore;
+      } | null)
+    | ({
+        relationTo: 'genre';
+        value: string | Genre;
+      } | null)
+    | ({
+        relationTo: 'media';
+        value: string | Media;
+      } | null)
+    | ({
+        relationTo: 'platform';
+        value: string | Platform;
+      } | null)
+    | ({
+        relationTo: 'platformType';
+        value: string | PlatformType;
+      } | null)
+    | ({
+        relationTo: 'store';
+        value: string | Store;
+      } | null)
+    | ({
+        relationTo: 'theme';
+        value: string | Theme;
+      } | null)
+    | ({
+        relationTo: 'user';
+        value: string | User;
+      } | null);
   globalSlug?: string | null;
   user: {
-    relationTo: 'users';
+    relationTo: 'user';
     value: string | User;
   };
   updatedAt: string;
@@ -160,7 +456,7 @@ export interface PayloadLockedDocument {
 export interface PayloadPreference {
   id: string;
   user: {
-    relationTo: 'users';
+    relationTo: 'user';
     value: string | User;
   };
   key?: string | null;
@@ -189,9 +485,170 @@ export interface PayloadMigration {
 }
 /**
  * This interface was referenced by `Config`'s JSON-Schema
- * via the `definition` "users_select".
+ * via the `definition` "ageRating_select".
  */
-export interface UsersSelect<T extends boolean = true> {
+export interface AgeRatingSelect<T extends boolean = true> {
+  name?: T;
+  description?: T;
+  logo?: T;
+  authority?: T;
+  updatedAt?: T;
+  createdAt?: T;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "ageRatingAuthority_select".
+ */
+export interface AgeRatingAuthoritySelect<T extends boolean = true> {
+  name?: T;
+  ageRating?: T;
+  updatedAt?: T;
+  createdAt?: T;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "company_select".
+ */
+export interface CompanySelect<T extends boolean = true> {
+  name?: T;
+  country?: T;
+  logo?: T;
+  updatedAt?: T;
+  createdAt?: T;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "continent_select".
+ */
+export interface ContinentSelect<T extends boolean = true> {
+  name?: T;
+  country?: T;
+  updatedAt?: T;
+  createdAt?: T;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "country_select".
+ */
+export interface CountrySelect<T extends boolean = true> {
+  name?: T;
+  continent?: T;
+  updatedAt?: T;
+  createdAt?: T;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "game_select".
+ */
+export interface GameSelect<T extends boolean = true> {
+  name?: T;
+  description?: T;
+  'age-rating'?: T;
+  genre?: T;
+  theme?: T;
+  developer?: T;
+  publisher?: T;
+  about?: T;
+  logo?: T;
+  grid?: T;
+  hero?: T;
+  updatedAt?: T;
+  createdAt?: T;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "gamePlatform_select".
+ */
+export interface GamePlatformSelect<T extends boolean = true> {
+  game?: T;
+  platform?: T;
+  releaseDate?: T;
+  updatedAt?: T;
+  createdAt?: T;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "gameStore_select".
+ */
+export interface GameStoreSelect<T extends boolean = true> {
+  game?: T;
+  store?: T;
+  url?: T;
+  updatedAt?: T;
+  createdAt?: T;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "genre_select".
+ */
+export interface GenreSelect<T extends boolean = true> {
+  name?: T;
+  updatedAt?: T;
+  createdAt?: T;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "media_select".
+ */
+export interface MediaSelect<T extends boolean = true> {
+  alt?: T;
+  updatedAt?: T;
+  createdAt?: T;
+  url?: T;
+  thumbnailURL?: T;
+  filename?: T;
+  mimeType?: T;
+  filesize?: T;
+  width?: T;
+  height?: T;
+  focalX?: T;
+  focalY?: T;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "platform_select".
+ */
+export interface PlatformSelect<T extends boolean = true> {
+  name?: T;
+  logo?: T;
+  type?: T;
+  updatedAt?: T;
+  createdAt?: T;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "platformType_select".
+ */
+export interface PlatformTypeSelect<T extends boolean = true> {
+  name?: T;
+  platform?: T;
+  updatedAt?: T;
+  createdAt?: T;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "store_select".
+ */
+export interface StoreSelect<T extends boolean = true> {
+  name?: T;
+  logo?: T;
+  updatedAt?: T;
+  createdAt?: T;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "theme_select".
+ */
+export interface ThemeSelect<T extends boolean = true> {
+  name?: T;
+  updatedAt?: T;
+  createdAt?: T;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "user_select".
+ */
+export interface UserSelect<T extends boolean = true> {
   updatedAt?: T;
   createdAt?: T;
   email?: T;
