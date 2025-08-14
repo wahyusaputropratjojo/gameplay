@@ -26,6 +26,13 @@ export default buildConfig({
       baseDir: path.resolve(dirname),
       importMapFile: path.resolve(dirname, 'app', '(payload)', 'import-map.ts'),
     },
+    routes: {
+      login: '/sign-in',
+      logout: '/sign-out',
+      inactivity: '/sign-out-inactivity',
+      forgot: '/forgot-password',
+      reset: '/reset-password',
+    },
     meta: {
       title: 'Administrator - Gameplay',
       description: 'Collection of video game information.',
