@@ -13,6 +13,15 @@ const dirname = path.dirname(filename);
 
 export default buildConfig({
   admin: {
+    autoLogin:
+      process.env.NODE_ENV === 'development'
+        ? {
+            email: process.env.FIRST_USER_EMAIL,
+            password: process.env.FIRST_USER_PASSWORD,
+            prefillOnly: true,
+          }
+        : false,
+    user: user.slug,
     importMap: {
       baseDir: path.resolve(dirname),
       importMapFile: path.resolve(dirname, 'app', '(payload)', 'import-map.ts'),
