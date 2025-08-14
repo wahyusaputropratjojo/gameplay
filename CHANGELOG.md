@@ -1,3 +1,40 @@
+# [1.13.0](https://github.com/wahyusaputropratjojo/gameplay/compare/v1.12.0...v1.13.0) (2025-08-14)
+
+
+### Features
+
+* add icon, apple icon and update favicon ([aedf0a4](https://github.com/wahyusaputropratjojo/gameplay/commit/aedf0a4f4a4aa69ed3ebea5d1c896dc98c8658d3))
+* **assets:** add age rating logo ([bdc45e2](https://github.com/wahyusaputropratjojo/gameplay/commit/bdc45e241286fcf4ee70fc5b1603aa35af83f7d7))
+* **assets:** add company logo ([4ebd415](https://github.com/wahyusaputropratjojo/gameplay/commit/4ebd41561a2c160a82a597b7e8307e276c73e66b))
+* **assets:** add store logo ([04a4824](https://github.com/wahyusaputropratjojo/gameplay/commit/04a4824cd9cc3618274621ab32ba0d7d944cf333))
+* **data:** create seed data ([a27bf7c](https://github.com/wahyusaputropratjojo/gameplay/commit/a27bf7cdca438baf0360379584fd66a3f7cd278d))
+* **payload:** add auto login to speed up testing ([200e067](https://github.com/wahyusaputropratjojo/gameplay/commit/200e067bbb33c56882c53da5c46c2370812495f2))
+* **payload:** add collections into config ([88881ef](https://github.com/wahyusaputropratjojo/gameplay/commit/88881efed2e94e6cff8f95051a260b5b9e4213d7))
+* **payload:** allow passing an id on data creation ([ebf4dfc](https://github.com/wahyusaputropratjojo/gameplay/commit/ebf4dfc7e38f2a6b686bfa7d3176191095cc47c0))
+* **payload:** change default routes ([a69e7cd](https://github.com/wahyusaputropratjojo/gameplay/commit/a69e7cda8f3f10d3071464b1e25751943cfeab65))
+* **payload:** change meta title ([d4566d8](https://github.com/wahyusaputropratjojo/gameplay/commit/d4566d83bc498d5b33c6332441b3d557e6e70f0b))
+* **payload:** create age rating authority collection ([f1a9774](https://github.com/wahyusaputropratjojo/gameplay/commit/f1a9774b3ab5e0155efab75f92678c3427964dca))
+* **payload:** create age rating collection ([65fb98b](https://github.com/wahyusaputropratjojo/gameplay/commit/65fb98bf8e0616a46c5972f9b96c8da9c543cb3f))
+* **payload:** create company collection ([ee7a8f0](https://github.com/wahyusaputropratjojo/gameplay/commit/ee7a8f0a68b47b4a0bbd7d7bbcdfb1c3c56240df))
+* **payload:** create continent collection ([a4b743d](https://github.com/wahyusaputropratjojo/gameplay/commit/a4b743d47d39426db119f9ebd95023cfd852f20c))
+* **payload:** create country collection ([d9381ee](https://github.com/wahyusaputropratjojo/gameplay/commit/d9381ee3efea29e84ca0ff27ddc0f4623d1b874e))
+* **payload:** create game collection ([31f94f4](https://github.com/wahyusaputropratjojo/gameplay/commit/31f94f4de26c7bff9b85ee7132e86a2f7f4e9f3a))
+* **payload:** create game platform collection ([ef6ec64](https://github.com/wahyusaputropratjojo/gameplay/commit/ef6ec645708148dccc2c470ecc9aff260c8bf494))
+* **payload:** create game store collection ([92eb35b](https://github.com/wahyusaputropratjojo/gameplay/commit/92eb35bdb5cfa31627746132b750305e06caadd1))
+* **payload:** create genre collection ([22baf66](https://github.com/wahyusaputropratjojo/gameplay/commit/22baf662406d081c8bbc16d95fd118bf8c58e0c8))
+* **payload:** create media collection ([c9d79ef](https://github.com/wahyusaputropratjojo/gameplay/commit/c9d79efb188c391481f0e003f6b6084fd8e93173))
+* **payload:** create platform collection ([98511b0](https://github.com/wahyusaputropratjojo/gameplay/commit/98511b04c6d299fbfaac1b4b5c09628093ab73b4))
+* **payload:** create platform type collection ([b8835af](https://github.com/wahyusaputropratjojo/gameplay/commit/b8835af65aec9b874e050b5d2f6d6620677fd45c))
+* **payload:** create seed function ([54e3e2e](https://github.com/wahyusaputropratjojo/gameplay/commit/54e3e2ec9d6889d5c5bff4c7116caad4c44b2e8b))
+* **payload:** create store collection ([6b15e99](https://github.com/wahyusaputropratjojo/gameplay/commit/6b15e99220cb469fb4f20bd3da48c263a509ba96))
+* **payload:** create theme collection ([9dbd6d2](https://github.com/wahyusaputropratjojo/gameplay/commit/9dbd6d24af59a9d15809e3545b584f4a967bb12d))
+* **payload:** create user collection ([a5d5bcf](https://github.com/wahyusaputropratjojo/gameplay/commit/a5d5bcfb69247a7156206fb8bb03413978a257ab))
+* **payload:** enable fixed toolbar for lexical editor ([34e5007](https://github.com/wahyusaputropratjojo/gameplay/commit/34e500702db7b8a1b05771a7520f63ef11fb1e17))
+* **payload:** initialize and export shared client ([1255559](https://github.com/wahyusaputropratjojo/gameplay/commit/12555598b40c87bd55ce4cc67e4b79fbc85b62d9))
+* **payload:** update import map ([73b9803](https://github.com/wahyusaputropratjojo/gameplay/commit/73b980354595ee2c7b9db0d508eeb480cf051799))
+* **payload:** update payload types ([6d92259](https://github.com/wahyusaputropratjojo/gameplay/commit/6d92259017881dc0d396c342d8dffec9dd332b26))
+* setup Payload CMS with initial configuration ([29eee09](https://github.com/wahyusaputropratjojo/gameplay/commit/29eee09f60fb94d3f47f81d90b582f6083b3e4b4))
+
 # [1.12.0](https://github.com/wahyusaputropratjojo/gameplay/compare/v1.11.0...v1.12.0) (2025-07-31)
 
 
