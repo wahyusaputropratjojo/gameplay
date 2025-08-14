@@ -7,6 +7,21 @@ import {
 } from '@payloadcms/richtext-lexical';
 import { buildConfig } from 'payload';
 import sharp from 'sharp';
+import { ageRating } from '@/lib/collections/age-rating';
+import { ageRatingAuthority } from '@/lib/collections/age-rating-authority';
+import { company } from '@/lib/collections/company';
+import { continent } from '@/lib/collections/continent';
+import { country } from '@/lib/collections/country';
+import { game } from '@/lib/collections/game';
+import { gamePlatform } from '@/lib/collections/game-platform';
+import { gameStore } from '@/lib/collections/game-store';
+import { genre } from '@/lib/collections/genre';
+import { media } from '@/lib/collections/media';
+import { platform } from '@/lib/collections/platform';
+import { platformType } from '@/lib/collections/platform-type';
+import { store } from '@/lib/collections/store';
+import { theme } from '@/lib/collections/theme';
+import { user } from '@/lib/collections/user';
 
 const filename = fileURLToPath(import.meta.url);
 const dirname = path.dirname(filename);
@@ -45,6 +60,23 @@ export default buildConfig({
       ],
     },
   },
+  collections: [
+    ageRating,
+    ageRatingAuthority,
+    company,
+    continent,
+    country,
+    game,
+    gamePlatform,
+    gameStore,
+    genre,
+    media,
+    platform,
+    platformType,
+    store,
+    theme,
+    user,
+  ],
   editor: lexicalEditor({
     features: ({ defaultFeatures }) => [
       ...defaultFeatures,
