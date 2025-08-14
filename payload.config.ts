@@ -34,7 +34,7 @@ export default buildConfig({
       reset: '/reset-password',
     },
     meta: {
-      title: 'Administrator - Gameplay',
+      title: 'Admin - Gameplay',
       description: 'Collection of video game information.',
       icons: [
         {
