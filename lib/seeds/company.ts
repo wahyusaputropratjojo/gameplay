@@ -7,6 +7,7 @@ export async function companySeed() {
       payload.create({
         collection: 'company',
         data: {
+          country: item.countryId,
           id: item.id,
           logo: item.mediaId,
           name: item.name,
