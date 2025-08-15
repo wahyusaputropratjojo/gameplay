@@ -7,11 +7,11 @@ export async function ageRatingSeed() {
       payload.create({
         collection: 'ageRating',
         data: {
-          id: item.id,
           authority: item.authorityId,
-          name: item.name,
           description: item.name,
+          id: item.id,
           logo: item.mediaId,
+          name: item.name,
         },
       })
     )

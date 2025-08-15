@@ -1,72 +1,72 @@
 [
   {
+    "authorityId": "670f2357-142b-4675-8c3c-05b72198e5f5",
+    "description": "Content is generally suitable for all ages. May contain minimal cartoon, fantasy or mild violence and/or infrequent use of mild language.",
     "id": "2190e504-8622-4d5e-bcd8-9d0245c31b62",
-    "authorityId": "670f2357-142b-4675-8c3c-05b72198e5f5",
     "mediaId": "e1e19785-e4e4-48fe-85e8-cb0dc65ca201",
-    "name": "Everyone",
-    "description": "Content is generally suitable for all ages. May contain minimal cartoon, fantasy or mild violence and/or infrequent use of mild language."
+    "name": "Everyone"
   },
   {
+    "authorityId": "670f2357-142b-4675-8c3c-05b72198e5f5",
+    "description": "Content is generally suitable for ages 10 and up. May contain more cartoon, fantasy or mild violence, mild language and/or minimal suggestive themes.",
     "id": "84cff1f8-1a93-486e-9e5c-07b912b83500",
-    "authorityId": "670f2357-142b-4675-8c3c-05b72198e5f5",
     "mediaId": "538e5fed-e855-4272-b69b-bdde9274c923",
-    "name": "Everyone 10+",
-    "description": "Content is generally suitable for ages 10 and up. May contain more cartoon, fantasy or mild violence, mild language and/or minimal suggestive themes."
+    "name": "Everyone 10+"
   },
   {
+    "authorityId": "670f2357-142b-4675-8c3c-05b72198e5f5",
+    "description": "Content is generally suitable for ages 13 and up. May contain violence, suggestive themes, crude humor, minimal blood, simulated gambling and/or infrequent use of strong language.",
     "id": "773d380d-24f2-4280-beb0-963d21b9895e",
-    "authorityId": "670f2357-142b-4675-8c3c-05b72198e5f5",
     "mediaId": "d250048d-9586-4237-bed7-5535c010ccb8",
-    "name": "Teen",
-    "description": "Content is generally suitable for ages 13 and up. May contain violence, suggestive themes, crude humor, minimal blood, simulated gambling and/or infrequent use of strong language."
+    "name": "Teen"
   },
   {
+    "authorityId": "670f2357-142b-4675-8c3c-05b72198e5f5",
+    "description": "Content is generally suitable for ages 17 and up. May contain intense violence, blood and gore, sexual content and/or strong language.",
     "id": "72e56306-2cce-46e2-9303-4a1ff8f00fc7",
-    "authorityId": "670f2357-142b-4675-8c3c-05b72198e5f5",
     "mediaId": "5ccbeb0e-04e7-4b36-85fb-c7748a73d0d1",
-    "name": "Mature 17+",
-    "description": "Content is generally suitable for ages 17 and up. May contain intense violence, blood and gore, sexual content and/or strong language."
+    "name": "Mature 17+"
   },
   {
-    "id": "c2ac36b7-bfa6-4870-9725-b98f14fdd7b0",
     "authorityId": "670f2357-142b-4675-8c3c-05b72198e5f5",
+    "description": "Content suitable only for adults ages 18 and up. May include prolonged scenes of intense violence, graphic sexual content and/or gambling with real currency.",
+    "id": "c2ac36b7-bfa6-4870-9725-b98f14fdd7b0",
     "mediaId": "56f31480-cd47-4255-ac09-9eec55759857",
-    "name": "Adult Only 18+",
-    "description": "Content suitable only for adults ages 18 and up. May include prolonged scenes of intense violence, graphic sexual content and/or gambling with real currency."
+    "name": "Adult Only 18+"
   },
   {
+    "authorityId": "4da3ec51-762d-4989-9829-bac108597dfa",
+    "description": "The content of games with a PEGI 3 rating is considered suitable for all age groups. The game should not contain any sounds or pictures that are likely to frighten young children. A very mild form of violence (in a comical context or a childlike setting) is acceptable. No bad language should be heard.",
     "id": "19ba4f12-fc6a-4c3d-be56-aeb45937f8a0",
-    "authorityId": "4da3ec51-762d-4989-9829-bac108597dfa",
     "mediaId": "e1a55397-c4cd-46ec-8440-7b3d4ec4e187",
-    "name": "PEGI 3",
-    "description": "The content of games with a PEGI 3 rating is considered suitable for all age groups. The game should not contain any sounds or pictures that are likely to frighten young children. A very mild form of violence (in a comical context or a childlike setting) is acceptable. No bad language should be heard."
+    "name": "PEGI 3"
   },
   {
+    "authorityId": "4da3ec51-762d-4989-9829-bac108597dfa",
+    "description": "Game content with scenes or sounds that can possibly be frightening to younger children should fall in this category. Very mild forms of violence (implied, non-detailed, or non-realistic violence) are acceptable for a game with a PEGI 7 rating.",
     "id": "5b17f65a-3611-4154-8da7-c8ec6ad8a54b",
-    "authorityId": "4da3ec51-762d-4989-9829-bac108597dfa",
     "mediaId": "fb13fad6-9347-4fd4-90ec-c97486c430ff",
-    "name": "PEGI 7",
-    "description": "Game content with scenes or sounds that can possibly be frightening to younger children should fall in this category. Very mild forms of violence (implied, non-detailed, or non-realistic violence) are acceptable for a game with a PEGI 7 rating."
+    "name": "PEGI 7"
   },
   {
+    "authorityId": "4da3ec51-762d-4989-9829-bac108597dfa",
+    "description": "Video games that show violence of a slightly more graphic nature towards fantasy characters or non-realistic violence towards human-like characters would fall in this age category. Sexual innuendo or sexual posturing can be present, while any bad language in this category must be mild.",
     "id": "f79ac1aa-ee67-474e-8035-3d8829b78498",
-    "authorityId": "4da3ec51-762d-4989-9829-bac108597dfa",
     "mediaId": "24974c4c-92c1-450d-9de3-79cd54847a3e",
-    "name": "PEGI 12",
-    "description": "Video games that show violence of a slightly more graphic nature towards fantasy characters or non-realistic violence towards human-like characters would fall in this age category. Sexual innuendo or sexual posturing can be present, while any bad language in this category must be mild."
+    "name": "PEGI 12"
   },
   {
+    "authorityId": "4da3ec51-762d-4989-9829-bac108597dfa",
+    "description": "This rating is applied once the depiction of violence (or sexual activity) reaches a stage that looks the same as would be expected in real life. The use of bad language in games with a PEGI 16 rating can be more extreme, while the use of tobacco, alcohol or illegal drugs can also be present.",
     "id": "2a3f5f22-9fc6-44f4-b8da-08ec117fb356",
-    "authorityId": "4da3ec51-762d-4989-9829-bac108597dfa",
     "mediaId": "a570b653-35f6-4f25-8927-05c5d7df9bae",
-    "name": "PEGI 16",
-    "description": "This rating is applied once the depiction of violence (or sexual activity) reaches a stage that looks the same as would be expected in real life. The use of bad language in games with a PEGI 16 rating can be more extreme, while the use of tobacco, alcohol or illegal drugs can also be present."
+    "name": "PEGI 16"
   },
   {
-    "id": "33f76018-7495-4ade-8c05-328f75427493",
     "authorityId": "4da3ec51-762d-4989-9829-bac108597dfa",
+    "description": "The adult classification is applied when the level of violence reaches a stage where it becomes a depiction of gross violence, apparently motiveless killing, or violence towards defenceless characters. The glamorisation of the use of illegal drugs and of the simulation of gambling, and explicit sexual activity should also fall into this age category. ",
+    "id": "33f76018-7495-4ade-8c05-328f75427493",
     "mediaId": "195a7903-04ce-4f5b-8ae2-196171ef9dd8",
-    "name": "PEGI 18",
-    "description": "The adult classification is applied when the level of violence reaches a stage where it becomes a depiction of gross violence, apparently motiveless killing, or violence towards defenceless characters. The glamorisation of the use of illegal drugs and of the simulation of gambling, and explicit sexual activity should also fall into this age category. "
+    "name": "PEGI 18"
   }
 ]

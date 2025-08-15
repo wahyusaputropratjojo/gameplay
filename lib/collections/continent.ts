@@ -1,19 +1,19 @@
 import type { CollectionConfig } from 'payload';
 
 export const continent: CollectionConfig = {
-  slug: 'continent',
   admin: { useAsTitle: 'name' },
   fields: [
     {
       name: 'name',
-      type: 'text',
       required: true,
+      type: 'text',
     },
     {
-      type: 'join',
-      name: 'country',
       collection: 'country',
+      name: 'country',
       on: 'continent',
+      type: 'join',
     },
   ],
+  slug: 'continent',
 };

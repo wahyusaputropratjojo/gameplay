@@ -5,8 +5,8 @@ import type { ReactNode } from 'react';
 import '../globals.css';
 
 export const metadata: Metadata = {
-  title: 'Gameplay',
   description: 'Collection of video game information.',
+  title: 'Gameplay',
 };
 
 export default function RootLayout({

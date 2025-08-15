@@ -7,8 +7,8 @@ export async function countrySeed() {
       payload.create({
         collection: 'country',
         data: {
-          name: item.name,
           continent: item.continentId,
+          name: item.name,
         },
       })
     )

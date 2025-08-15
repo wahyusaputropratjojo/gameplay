@@ -8,8 +8,8 @@ export async function mediaSeed() {
       payload.create({
         collection: 'media',
         data: {
-          id: item.id,
           alt: item.alt,
+          id: item.id,
         },
         filePath: path.resolve(item.filePath),
       })

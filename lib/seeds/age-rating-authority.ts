@@ -9,8 +9,8 @@ export async function ageRatingAuthoritySeed() {
       payload.create({
         collection: 'ageRatingAuthority',
         data: {
-          name: item.name,
           id: item.id,
+          name: item.name,
         },
       })
     )

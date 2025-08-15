@@ -17,9 +17,9 @@ function SignUpForm() {
 
   const form = useAppForm({
     defaultValues: {
-      fullName: '',
       displayName: '',
       email: '',
+      fullName: '',
       password: '',
     },
     transform: useTransform(

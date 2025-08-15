@@ -19,12 +19,12 @@ type ShelfProps = {
 
 export function Shelf({ title, items }: ShelfProps) {
   const [emblaRef, emblaAPI] = useEmblaCarousel({
-    slidesToScroll: 'auto',
     breakpoints: {
       '(min-width: 1280px)': {
         watchDrag: false,
       },
     },
+    slidesToScroll: 'auto',
   });
 
   const {

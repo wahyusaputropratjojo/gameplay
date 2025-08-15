@@ -27,8 +27,8 @@ export function SignInForm() {
   useEffect(() => {
     formErrors.map((error) => {
       return toast({
-        title: 'Server Error',
         description: `${error}`,
+        title: 'Server Error',
         variant: 'error',
       });
     });

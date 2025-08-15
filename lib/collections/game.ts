@@ -1,117 +1,117 @@
 import type { CollectionConfig } from 'payload';
 
 export const game: CollectionConfig = {
-  slug: 'game',
   admin: {
     useAsTitle: 'name',
   },
   fields: [
     {
-      type: 'tabs',
       tabs: [
         {
-          label: 'Overview',
           fields: [
             {
               name: 'name',
-              type: 'text',
               required: true,
+              type: 'text',
             },
             {
               name: 'description',
-              type: 'textarea',
               required: true,
+              type: 'textarea',
             },
             {
-              name: 'age-rating',
-              type: 'relationship',
-              relationTo: 'ageRating',
-              hasMany: true,
-              required: true,
               admin: {
                 allowCreate: false,
               },
+              hasMany: true,
+              name: 'age-rating',
+              relationTo: 'ageRating',
+              required: true,
+              type: 'relationship',
             },
             {
-              type: 'row',
               fields: [
                 {
+                  admin: {
+                    allowCreate: false,
+                  },
+                  hasMany: true,
                   name: 'genre',
-                  type: 'relationship',
                   relationTo: 'genre',
-                  hasMany: true,
                   required: true,
-                  admin: {
-                    allowCreate: false,
-                  },
+                  type: 'relationship',
                 },
                 {
-                  name: 'theme',
-                  type: 'relationship',
-                  relationTo: 'theme',
-                  hasMany: true,
-                  required: true,
                   admin: {
                     allowCreate: false,
                   },
+                  hasMany: true,
+                  name: 'theme',
+                  relationTo: 'theme',
+                  required: true,
+                  type: 'relationship',
                 },
               ],
+              type: 'row',
             },
             {
-              type: 'row',
               fields: [
                 {
-                  name: 'developer',
-                  type: 'relationship',
-                  relationTo: 'company',
-                  hasMany: true,
-                  required: true,
                   admin: {
                     allowCreate: false,
                   },
+                  hasMany: true,
+                  name: 'developer',
+                  relationTo: 'company',
+                  required: true,
+                  type: 'relationship',
                 },
                 {
-                  name: 'publisher',
-                  type: 'relationship',
-                  relationTo: 'company',
-                  hasMany: true,
-                  required: true,
                   admin: {
                     allowCreate: false,
                   },
+                  hasMany: true,
+                  name: 'publisher',
+                  relationTo: 'company',
+                  required: true,
+                  type: 'relationship',
                 },
               ],
+              type: 'row',
             },
             {
               name: 'about',
               type: 'richText',
             },
           ],
+          label: 'Overview',
         },
         {
-          label: 'Media',
           fields: [
             {
               name: 'logo',
-              type: 'upload',
               relationTo: 'media',
               required: true,
+              type: 'upload',
             },
             {
               name: 'grid',
-              type: 'upload',
               relationTo: 'media',
               required: true,
+              type: 'upload',
             },
             {
               name: 'hero',
-              type: 'upload',
               relationTo: 'media',
               required: true,
+              type: 'upload',
             },
           ],
+          label: 'Media',
         },
       ],
+      type: 'tabs',
     },
   ],
+  slug: 'game',
 };

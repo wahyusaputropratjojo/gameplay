@@ -36,9 +36,9 @@ export function usePrevNextButton(emblaAPI: EmblaCarouselType | undefined) {
   }, [emblaAPI, onSelect]);
 
   return {
-    prevButtonDisabled,
     nextButtonDisabled,
-    onPrevButtonClick,
     onNextButtonClick,
+    onPrevButtonClick,
+    prevButtonDisabled,
   };
 }

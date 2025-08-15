@@ -36,20 +36,11 @@ export default buildConfig({
             prefillOnly: true,
           }
         : false,
-    user: user.slug,
     importMap: {
       baseDir: path.resolve(dirname),
       importMapFile: path.resolve(dirname, 'app', '(payload)', 'import-map.ts'),
     },
-    routes: {
-      login: '/sign-in',
-      logout: '/sign-out',
-      inactivity: '/sign-out-inactivity',
-      forgot: '/forgot-password',
-      reset: '/reset-password',
-    },
     meta: {
-      title: 'Admin - Gameplay',
       description: 'Collection of video game information.',
       icons: [
         {
@@ -58,7 +49,16 @@ export default buildConfig({
           url: '/favicon.ico',
         },
       ],
+      title: 'Admin - Gameplay',
     },
+    routes: {
+      forgot: '/forgot-password',
+      inactivity: '/sign-out-inactivity',
+      login: '/sign-in',
+      logout: '/sign-out',
+      reset: '/reset-password',
+    },
+    user: user.slug,
   },
   collections: [
     ageRating,
@@ -77,6 +77,13 @@ export default buildConfig({
     theme,
     user,
   ],
+  db: postgresAdapter({
+    allowIDOnCreate: true,
+    idType: 'uuid',
+    pool: {
+      connectionString: process.env.DATABASE_URI || '',
+    },
+  }),
   editor: lexicalEditor({
     features: ({ defaultFeatures }) => [
       ...defaultFeatures,
@@ -84,16 +91,9 @@ export default buildConfig({
     ],
   }),
   secret: process.env.PAYLOAD_SECRET || '',
+  sharp,
+  telemetry: false,
   typescript: {
     outputFile: path.resolve(dirname, 'lib', 'types', 'payload.ts'),
   },
-  db: postgresAdapter({
-    pool: {
-      connectionString: process.env.DATABASE_URI || '',
-    },
-    idType: 'uuid',
-    allowIDOnCreate: true,
-  }),
-  sharp,
-  telemetry: false,
 });

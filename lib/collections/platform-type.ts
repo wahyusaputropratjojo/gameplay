@@ -1,19 +1,19 @@
 import type { CollectionConfig } from 'payload';
 
 export const platformType: CollectionConfig = {
-  slug: 'platformType',
   admin: { useAsTitle: 'name' },
   fields: [
     {
       name: 'name',
-      type: 'text',
       required: true,
+      type: 'text',
     },
     {
-      type: 'join',
-      name: 'platform',
       collection: 'platform',
+      name: 'platform',
       on: 'type',
+      type: 'join',
     },
   ],
+  slug: 'platformType',
 };

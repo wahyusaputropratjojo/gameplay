@@ -1,147 +1,147 @@
 [
   {
     "id": "2a7b6948-ef5f-4001-ba4f-c9f7d6f1ba8a",
-    "platformTypeId": "d05c35ef-473f-4e23-a650-7fffc16d7b54",
-    "name": "PlayStation Vita"
+    "name": "PlayStation Vita",
+    "platformTypeId": "d05c35ef-473f-4e23-a650-7fffc16d7b54"
   },
   {
     "id": "69d20be6-bd58-4fc0-908a-3dc145d8f324",
-    "platformTypeId": "d05c35ef-473f-4e23-a650-7fffc16d7b54",
-    "name": "PlayStation Portable"
+    "name": "PlayStation Portable",
+    "platformTypeId": "d05c35ef-473f-4e23-a650-7fffc16d7b54"
   },
   {
     "id": "783f8a0b-d89b-4998-bc2a-b4c843364d21",
-    "platformTypeId": "d05c35ef-473f-4e23-a650-7fffc16d7b54",
-    "name": "PlayStation 1"
+    "name": "PlayStation 1",
+    "platformTypeId": "d05c35ef-473f-4e23-a650-7fffc16d7b54"
   },
   {
     "id": "ccea7a33-6f6c-4c84-957d-f49c1a249869",
-    "platformTypeId": "d05c35ef-473f-4e23-a650-7fffc16d7b54",
-    "name": "PlayStation 2"
+    "name": "PlayStation 2",
+    "platformTypeId": "d05c35ef-473f-4e23-a650-7fffc16d7b54"
   },
   {
     "id": "a2e543a4-3f5f-43bc-8123-2fcb2e62fb62",
-    "platformTypeId": "d05c35ef-473f-4e23-a650-7fffc16d7b54",
-    "name": "PlayStation 3"
+    "name": "PlayStation 3",
+    "platformTypeId": "d05c35ef-473f-4e23-a650-7fffc16d7b54"
   },
   {
     "id": "346ade84-01e0-4495-b7f8-8734fd33575b",
-    "platformTypeId": "d05c35ef-473f-4e23-a650-7fffc16d7b54",
-    "name": "PlayStation 4"
+    "name": "PlayStation 4",
+    "platformTypeId": "d05c35ef-473f-4e23-a650-7fffc16d7b54"
   },
   {
     "id": "d1be1145-b110-45e2-997e-7ccbee9d7339",
-    "platformTypeId": "d05c35ef-473f-4e23-a650-7fffc16d7b54",
-    "name": "PlayStation 5"
+    "name": "PlayStation 5",
+    "platformTypeId": "d05c35ef-473f-4e23-a650-7fffc16d7b54"
   },
   {
     "id": "5fe006f5-684a-4e59-9c02-9560ac7cbec9",
-    "platformTypeId": "d05c35ef-473f-4e23-a650-7fffc16d7b54",
-    "name": "XBOX"
+    "name": "XBOX",
+    "platformTypeId": "d05c35ef-473f-4e23-a650-7fffc16d7b54"
   },
   {
     "id": "83e9c2c1-6b3f-46a5-a567-dea94cbc269b",
-    "platformTypeId": "d05c35ef-473f-4e23-a650-7fffc16d7b54",
-    "name": "XBOX 360"
+    "name": "XBOX 360",
+    "platformTypeId": "d05c35ef-473f-4e23-a650-7fffc16d7b54"
   },
   {
     "id": "b02cc0c1-b320-4fbe-a8a2-ad776c54b61e",
-    "platformTypeId": "d05c35ef-473f-4e23-a650-7fffc16d7b54",
-    "name": "XBOX One"
+    "name": "XBOX One",
+    "platformTypeId": "d05c35ef-473f-4e23-a650-7fffc16d7b54"
   },
   {
     "id": "81c8d24c-99ff-42cc-be9b-4cd898835e0a",
-    "platformTypeId": "d05c35ef-473f-4e23-a650-7fffc16d7b54",
-    "name": "XBOX Series S"
+    "name": "XBOX Series S",
+    "platformTypeId": "d05c35ef-473f-4e23-a650-7fffc16d7b54"
   },
   {
     "id": "d858dfb2-4fe6-4144-ae63-68e71c233dbe",
-    "platformTypeId": "d05c35ef-473f-4e23-a650-7fffc16d7b54",
-    "name": "XBOX Series X"
+    "name": "XBOX Series X",
+    "platformTypeId": "d05c35ef-473f-4e23-a650-7fffc16d7b54"
   },
   {
     "id": "92c57dc1-3325-45f9-b678-75a019ee9ef3",
-    "platformTypeId": "d05c35ef-473f-4e23-a650-7fffc16d7b54",
-    "name": "Nintendo Entertainment System"
+    "name": "Nintendo Entertainment System",
+    "platformTypeId": "d05c35ef-473f-4e23-a650-7fffc16d7b54"
   },
   {
     "id": "3b1787b1-a161-4d58-908c-0eb5b274f4fe",
-    "platformTypeId": "d05c35ef-473f-4e23-a650-7fffc16d7b54",
-    "name": "Super Nintendo Entertainment System"
+    "name": "Super Nintendo Entertainment System",
+    "platformTypeId": "d05c35ef-473f-4e23-a650-7fffc16d7b54"
   },
   {
     "id": "91ff7dd9-7d09-47ec-b553-c29241f41f1c",
-    "platformTypeId": "d05c35ef-473f-4e23-a650-7fffc16d7b54",
-    "name": "Nintendo 64"
+    "name": "Nintendo 64",
+    "platformTypeId": "d05c35ef-473f-4e23-a650-7fffc16d7b54"
   },
   {
     "id": "e31d7a93-d3c2-4e0d-a2d7-680be24058c5",
-    "platformTypeId": "d05c35ef-473f-4e23-a650-7fffc16d7b54",
-    "name": "Nintendo Game Cube"
+    "name": "Nintendo Game Cube",
+    "platformTypeId": "d05c35ef-473f-4e23-a650-7fffc16d7b54"
   },
   {
     "id": "c63f7ae1-e4b3-48d8-a7a7-9bfd5e7bc42a",
-    "platformTypeId": "d05c35ef-473f-4e23-a650-7fffc16d7b54",
-    "name": "Nintendo Wii"
+    "name": "Nintendo Wii",
+    "platformTypeId": "d05c35ef-473f-4e23-a650-7fffc16d7b54"
   },
   {
     "id": "55e52ae9-745e-42ba-9484-f7e3d4f7f208",
-    "platformTypeId": "d05c35ef-473f-4e23-a650-7fffc16d7b54",
-    "name": "Nintendo Wii U"
+    "name": "Nintendo Wii U",
+    "platformTypeId": "d05c35ef-473f-4e23-a650-7fffc16d7b54"
   },
   {
     "id": "0edc8f10-f222-48ff-8d16-87c051560072",
-    "platformTypeId": "d05c35ef-473f-4e23-a650-7fffc16d7b54",
-    "name": "Nintendo Game Boy"
+    "name": "Nintendo Game Boy",
+    "platformTypeId": "d05c35ef-473f-4e23-a650-7fffc16d7b54"
   },
   {
     "id": "337543af-f3a4-4ffb-88f6-45b05e61ca6c",
-    "platformTypeId": "d05c35ef-473f-4e23-a650-7fffc16d7b54",
-    "name": "Nintendo Game Boy Color"
+    "name": "Nintendo Game Boy Color",
+    "platformTypeId": "d05c35ef-473f-4e23-a650-7fffc16d7b54"
   },
   {
     "id": "4447e494-2832-43d9-b06b-ec8c55e950a5",
-    "platformTypeId": "d05c35ef-473f-4e23-a650-7fffc16d7b54",
-    "name": "Nintendo Game Boy Advance"
+    "name": "Nintendo Game Boy Advance",
+    "platformTypeId": "d05c35ef-473f-4e23-a650-7fffc16d7b54"
   },
   {
     "id": "c9bd2f7e-513f-4a53-8971-e184803736c5",
-    "platformTypeId": "d05c35ef-473f-4e23-a650-7fffc16d7b54",
-    "name": "Nintendo DS"
+    "name": "Nintendo DS",
+    "platformTypeId": "d05c35ef-473f-4e23-a650-7fffc16d7b54"
   },
   {
     "id": "2a29d395-baba-4284-a888-d3704713a09a",
-    "platformTypeId": "d05c35ef-473f-4e23-a650-7fffc16d7b54",
-    "name": "Nintendo 3DS"
+    "name": "Nintendo 3DS",
+    "platformTypeId": "d05c35ef-473f-4e23-a650-7fffc16d7b54"
   },
   {
     "id": "fc4b0ef8-637e-401c-80b3-fa63d4e0cb3d",
-    "platformTypeId": "d05c35ef-473f-4e23-a650-7fffc16d7b54",
-    "name": "Nintendo Switch"
+    "name": "Nintendo Switch",
+    "platformTypeId": "d05c35ef-473f-4e23-a650-7fffc16d7b54"
   },
   {
     "id": "4b38d0d0-4ab6-4ffa-92a6-5d527262d603",
-    "platformTypeId": "d05c35ef-473f-4e23-a650-7fffc16d7b54",
-    "name": "Nintendo Switch 2"
+    "name": "Nintendo Switch 2",
+    "platformTypeId": "d05c35ef-473f-4e23-a650-7fffc16d7b54"
   },
   {
     "id": "ec4e8646-7342-4792-b3d9-4b0f0aff58bd",
-    "platformTypeId": "c7c8daee-ebf1-487e-a863-23854d461cf6",
-    "name": "Android"
+    "name": "Android",
+    "platformTypeId": "c7c8daee-ebf1-487e-a863-23854d461cf6"
   },
   {
     "id": "256acf67-399e-4e8d-af30-5c06dcca2da6",
-    "platformTypeId": "c7c8daee-ebf1-487e-a863-23854d461cf6",
-    "name": "iOS"
+    "name": "iOS",
+    "platformTypeId": "c7c8daee-ebf1-487e-a863-23854d461cf6"
   },
   {
     "id": "7469a7a6-3fd3-4097-81db-ae2ded30c1eb",
-    "platformTypeId": "ff5390ed-d135-431d-8ba6-3e25f0f26715",
-    "name": "Windows"
+    "name": "Windows",
+    "platformTypeId": "ff5390ed-d135-431d-8ba6-3e25f0f26715"
   },
   {
     "id": "710d4f50-754d-458e-bb13-4e6745486c97",
-    "platformTypeId": "ff5390ed-d135-431d-8ba6-3e25f0f26715",
-    "name": "macOS"
+    "name": "macOS",
+    "platformTypeId": "ff5390ed-d135-431d-8ba6-3e25f0f26715"
   }
 ]

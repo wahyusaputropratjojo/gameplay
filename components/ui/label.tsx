@@ -11,11 +11,11 @@ export const labelVariants = cva(
   'font-medium text-neutral-100 text-sm leading-none peer-disabled:cursor-not-allowed',
   {
     variants: {
-      variant: {
-        error: 'text-error-500',
-      },
       position: {
         inset: 'absolute top-3 left-4 z-50 text-xs transition-all',
+      },
+      variant: {
+        error: 'text-error-500',
       },
     },
   }
@@ -30,7 +30,13 @@ export function Label({
 }: LabelProps) {
   return (
     <LabelPrimitives.Root
-      className={cn(labelVariants({ variant, position, className }))}
+      className={cn(
+        labelVariants({
+          className,
+          position,
+          variant,
+        })
+      )}
       ref={ref}
       {...props}
     />

@@ -1,19 +1,19 @@
 import type { CollectionConfig } from 'payload';
 
 export const ageRatingAuthority: CollectionConfig = {
-  slug: 'ageRatingAuthority',
   admin: { useAsTitle: 'name' },
   fields: [
     {
       name: 'name',
-      type: 'text',
       required: true,
+      type: 'text',
     },
     {
-      type: 'join',
-      name: 'ageRating',
       collection: 'ageRating',
+      name: 'ageRating',
       on: 'authority',
+      type: 'join',
     },
   ],
+  slug: 'ageRatingAuthority',
 };

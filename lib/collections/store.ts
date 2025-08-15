@@ -1,18 +1,18 @@
 import type { CollectionConfig } from 'payload';
 
 export const store: CollectionConfig = {
-  slug: 'store',
   admin: { useAsTitle: 'name' },
   fields: [
     {
       name: 'name',
-      type: 'text',
       required: true,
+      type: 'text',
     },
     {
       name: 'logo',
-      type: 'upload',
       relationTo: 'media',
+      type: 'upload',
     },
   ],
+  slug: 'store',
 };

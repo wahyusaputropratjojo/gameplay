@@ -8,8 +8,8 @@ export async function companySeed() {
         collection: 'company',
         data: {
           id: item.id,
-          name: item.name,
           logo: item.mediaId,
+          name: item.name,
         },
       })
     )

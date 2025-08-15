@@ -34,8 +34,8 @@ export function useDotButton(emblaAPI: EmblaCarouselType | undefined) {
   }, [emblaAPI, onInit, onSelect]);
 
   return {
-    selectedIndex,
-    scrollSnaps,
     onDotButtonClick,
+    scrollSnaps,
+    selectedIndex,
   };
 }

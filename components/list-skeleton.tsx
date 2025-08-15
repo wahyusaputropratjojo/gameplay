@@ -18,7 +18,9 @@ export function ListSkeleton({ title = false }: ListSkeletonProps) {
             </Skeleton>
           )}
           <div className="flex basis-full flex-col gap-2 sm:basis-1/2 lg:basis-1/3 xl:gap-3">
-            {Array.from({ length: 5 }).map((__, j) => (
+            {Array.from({
+              length: 5,
+            }).map((__, j) => (
               <div
                 className="flex items-center gap-4 rounded-(--card-radius) bg-gray-100 p-(--card-padding) [--card-padding:--spacing(1.5)] [--card-radius:var(--radius-xl)]"
                 key={`list-skeleton-b-${j + 1}`}

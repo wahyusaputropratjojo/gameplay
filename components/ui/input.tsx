@@ -9,6 +9,9 @@ export type InputProps = ComponentProps<'input'> &
 export const inputVariants = cva(
   'w-full rounded-lg border-1 px-4 py-3 text-sm transition-all placeholder:text-neutral-600 focus:outline-none focus-visible:ring-3 disabled:cursor-not-allowed disabled:text-gray-600',
   {
+    defaultVariants: {
+      variant: 'default',
+    },
     variants: {
       variant: {
         default:
@@ -16,16 +19,18 @@ export const inputVariants = cva(
         error: 'border-red-900 ring-3 ring-red-700/50 hover:ring-red-700/70',
       },
     },
-    defaultVariants: {
-      variant: 'default',
-    },
   }
 );
 
 export function Input({ className, variant, type, ref, ...props }: InputProps) {
   return (
     <input
-      className={cn(inputVariants({ variant, className }))}
+      className={cn(
+        inputVariants({
+          className,
+          variant,
+        })
+      )}
       ref={ref}
       type={type}
       {...props}

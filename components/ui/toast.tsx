@@ -16,16 +16,16 @@ export type ToastProps = VariantProps<typeof toastVariant> & {
 export const toastVariant = cva(
   'flex w-full cursor-pointer items-center justify-between rounded-xl border border-gray-400 px-4 py-3 shadow-md focus-visible:ring-2 focus-visible:ring-neutral-700 md:w-96',
   {
+    defaultVariants: {
+      variant: 'default',
+    },
     variants: {
       variant: {
         default: 'bg-gray-100 text-gray-1000',
+        error: 'bg-red-800 text-light',
         success: 'bg-blue-800 text-light',
         warning: 'bg-amber-800 text-dark',
-        error: 'bg-red-800 text-light',
       },
-    },
-    defaultVariants: {
-      variant: 'default',
     },
   }
 );

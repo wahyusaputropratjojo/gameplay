@@ -10,8 +10,8 @@
     "name": "Bluepoint Games"
   },
   {
-    "id": "f6b8964f-ee9a-4592-9108-39c9f98ae288",
     "countryId": "2319d9f5-f5d0-42a9-9573-94191d1d1dcb",
+    "id": "f6b8964f-ee9a-4592-9108-39c9f98ae288",
     "mediaId": "ad911cde-53a0-42ca-b42e-8c9b8f8ff697",
     "name": "Guerrilla Games"
   },
@@ -21,8 +21,8 @@
     "name": "Haven Studios"
   },
   {
-    "id": "3a68c22c-9c4b-4b11-b201-4e543688a9ff",
     "countryId": "2319d9f5-f5d0-42a9-9573-94191d1d1dcb",
+    "id": "3a68c22c-9c4b-4b11-b201-4e543688a9ff",
     "mediaId": "6041e288-4e64-4fda-b27f-512adc3a00cb",
     "name": "Housemarque"
   },
@@ -32,8 +32,8 @@
     "name": "Insomniac Games"
   },
   {
-    "id": "7e551918-9b67-4ac2-9818-13bd73eaf238",
     "countryId": "b93debb5-1f91-49fc-b32d-b18ca458fdca",
+    "id": "7e551918-9b67-4ac2-9818-13bd73eaf238",
     "mediaId": "b5bbdff2-875c-4c8f-9cee-2fb5495bc187",
     "name": "Kojima Productions"
   },
@@ -43,8 +43,8 @@
     "name": "Naughty Dog"
   },
   {
-    "id": "52192958-b879-4fa0-b9be-7ffeb091bc11",
     "countryId": "b93debb5-1f91-49fc-b32d-b18ca458fdca",
+    "id": "52192958-b879-4fa0-b9be-7ffeb091bc11",
     "mediaId": "14eced78-9b98-4fc2-b8f3-628b3adf996b",
     "name": "Polyphony Digital"
   },
@@ -54,14 +54,14 @@
     "name": "Santa Monica Studio"
   },
   {
-    "id": "0c064f43-aa50-418d-b14c-564a5a9b14ef",
     "countryId": "b93debb5-1f91-49fc-b32d-b18ca458fdca",
+    "id": "0c064f43-aa50-418d-b14c-564a5a9b14ef",
     "mediaId": "f5cc7409-e23f-4fcc-927a-eb16211e5d73",
     "name": "Sony Computer Entertainment"
   },
   {
-    "id": "14d7897f-99b8-4a94-bec8-35478dc2e54c",
     "countryId": "b93debb5-1f91-49fc-b32d-b18ca458fdca",
+    "id": "14d7897f-99b8-4a94-bec8-35478dc2e54c",
     "mediaId": "d0cf1e5c-4ebc-49c5-aede-e2bda68cba56",
     "name": "Sony Interactive Entertainment"
   },
@@ -71,8 +71,8 @@
     "name": "Sucker Punch Productions"
   },
   {
-    "id": "3ebf937e-0bc9-4ce5-aefe-6234bc38edc5",
     "countryId": "b93debb5-1f91-49fc-b32d-b18ca458fdca",
+    "id": "3ebf937e-0bc9-4ce5-aefe-6234bc38edc5",
     "mediaId": "8781328f-5c89-4381-96ae-3e3ebf0edfbe",
     "name": "Team ASOBI"
   }

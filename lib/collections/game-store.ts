@@ -1,30 +1,30 @@
 import type { CollectionConfig } from 'payload';
 
 export const gameStore: CollectionConfig = {
-  slug: 'gameStore',
   fields: [
     {
-      type: 'row',
       fields: [
         {
           name: 'game',
-          type: 'relationship',
           relationTo: 'game',
           required: true,
+          type: 'relationship',
         },
         {
           name: 'store',
-          type: 'relationship',
           relationTo: 'store',
           required: true,
+          type: 'relationship',
         },
       ],
+      type: 'row',
     },
     {
-      name: 'url',
       label: 'URL',
-      type: 'text',
+      name: 'url',
       required: true,
+      type: 'text',
     },
   ],
+  slug: 'gameStore',
 };
