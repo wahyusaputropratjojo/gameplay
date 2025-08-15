@@ -215,6 +215,7 @@ export interface Company {
 export interface Country {
   id: string;
   name: string;
+  flag?: (string | null) | Media;
   continent: string | Continent;
   updatedAt: string;
   createdAt: string;
@@ -532,6 +533,7 @@ export interface ContinentSelect<T extends boolean = true> {
  */
 export interface CountrySelect<T extends boolean = true> {
   name?: T;
+  flag?: T;
   continent?: T;
   updatedAt?: T;
   createdAt?: T;
