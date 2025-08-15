@@ -9,6 +9,11 @@ export const country: CollectionConfig = {
       type: 'text',
     },
     {
+      name: 'flag',
+      relationTo: 'media',
+      type: 'upload',
+    },
+    {
       name: 'continent',
       relationTo: 'continent',
       required: true,
