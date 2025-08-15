@@ -8,6 +8,8 @@ export async function countrySeed() {
         collection: 'country',
         data: {
           continent: item.continentId,
+          flag: item.mediaId,
+          id: item.id,
           name: item.name,
         },
       })
