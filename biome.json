@@ -1,8 +1,23 @@
 {
   "$schema": "https://biomejs.dev/schemas/2.1.2/schema.json",
+  "assist": {
+    "actions": {
+      "source": {
+        "organizeImports": "on",
+        "useSortedAttributes": "on",
+        "useSortedKeys": "on",
+        "useSortedProperties": "on"
+      }
+    }
+  },
   "extends": ["ultracite"],
   "files": {
     "ignoreUnknown": true,
     "includes": ["**", "!**/*.css", "!app/(payload)/*", "!lib/types/payload.ts"]
+  },
+  "json": {
+    "assist": {
+      "enabled": true
+    }
   }
 }
