@@ -1,1018 +1,1526 @@
 [
   {
     "continentId": "b93debb5-1f91-49fc-b32d-b18ca458fdca",
+    "id": "4b946f66-57ef-4b56-95b0-de5de6bfd95b",
+    "mediaId": "36ebc3a5-18ba-40e8-8ecd-a4ba7b115d56",
     "name": "Afghanistan"
   },
   {
     "continentId": "2319d9f5-f5d0-42a9-9573-94191d1d1dcb",
+    "id": "020e8828-a5d8-4f57-bee4-70f7c3f7e553",
+    "mediaId": "b6e31e65-1f80-4d6c-a7a5-976e61e3f4ea",
     "name": "Aland Islands"
   },
   {
     "continentId": "2319d9f5-f5d0-42a9-9573-94191d1d1dcb",
+    "id": "11bb1112-13c6-40a0-8352-47e82da1b207",
+    "mediaId": "d11fb7da-5fa2-4bb0-a75f-f30a91c9cf6b",
     "name": "Albania"
   },
   {
     "continentId": "4014247c-5a00-4099-b459-389caef09bbc",
+    "id": "658f3742-8c7c-4590-95ed-12371a5cdaf0",
+    "mediaId": "b15860e8-7420-4d98-a071-56ea091a5f0e",
     "name": "Algeria"
   },
   {
     "continentId": "13ec75e7-4484-4aa8-9814-0ac7444e5512",
+    "id": "31b45600-5a87-421a-a837-99fa53550c68",
+    "mediaId": "6ecfa53a-a25a-4274-b192-80cb202cfe68",
     "name": "American Samoa"
   },
   {
     "continentId": "2319d9f5-f5d0-42a9-9573-94191d1d1dcb",
+    "id": "f1f02aee-d825-43cf-beac-0d02722346d4",
+    "mediaId": "ee719d6e-6d76-47c4-bc0a-93721ec5e743",
     "name": "Andorra"
   },
   {
     "continentId": "4014247c-5a00-4099-b459-389caef09bbc",
+    "id": "f7948753-735e-42b7-a4db-d3a842db4949",
+    "mediaId": "d71ff390-6b2b-4fb6-b946-6f4f540e230c",
     "name": "Angola"
   },
   {
     "continentId": "987632eb-4ba3-42ce-a107-5ee49f05751c",
+    "id": "8d14eb08-b297-484d-919a-292b11d3b680",
+    "mediaId": "3b23ef68-ed5d-417b-a8b1-d6427a9122b7",
     "name": "Anguilla"
   },
   {
     "continentId": "987632eb-4ba3-42ce-a107-5ee49f05751c",
+    "id": "bd93a4c6-3073-4dfd-93ca-c1584eefe58a",
+    "mediaId": "5d50bebb-58f7-43a4-9816-c6fb2a048ae5",
     "name": "Antigua and Barbuda"
   },
   {
     "continentId": "47fcd1e3-3096-46bb-b4a3-f5b2663d5a99",
+    "id": "c7c76551-1137-4a11-a2db-2e9ebb8fe5d7",
+    "mediaId": "a18bd691-7909-4251-a619-72a51a84fdc6",
     "name": "Argentina"
   },
   {
     "continentId": "b93debb5-1f91-49fc-b32d-b18ca458fdca",
+    "id": "54eb73d5-cc1c-4b03-9338-6b030b3b7924",
+    "mediaId": "007b1207-91c6-43af-b39a-a968baac75e5",
     "name": "Armenia"
   },
   {
     "continentId": "47fcd1e3-3096-46bb-b4a3-f5b2663d5a99",
+    "id": "c1af0c51-4f39-4688-a6a5-514dd463aaf4",
+    "mediaId": "b1542f0b-91c3-431a-9609-21d6b9097527",
     "name": "Aruba"
   },
   {
     "continentId": "4014247c-5a00-4099-b459-389caef09bbc",
+    "id": "53be8aca-6641-4907-8aa0-9e2a912aa5a5",
+    "mediaId": "68d6b240-d215-4c55-b676-ee6e0e4e6e2a",
     "name": "Ascension Island"
   },
   {
     "continentId": "13ec75e7-4484-4aa8-9814-0ac7444e5512",
+    "id": "fd5031c2-f6c1-40b5-a096-edd30d37bbc5",
+    "mediaId": "f38ef801-b81a-40eb-a5fb-759d75e45700",
     "name": "Australia"
   },
   {
     "continentId": "2319d9f5-f5d0-42a9-9573-94191d1d1dcb",
+    "id": "0029fcc0-5280-4183-8cbe-948af3692f44",
+    "mediaId": "84249e69-0f50-4d2f-8bff-6e2c0e159767",
     "name": "Austria"
   },
   {
     "continentId": "b93debb5-1f91-49fc-b32d-b18ca458fdca",
+    "id": "b1d22da3-102c-418f-b100-1f820d45df3b",
+    "mediaId": "35f8a83b-c7f3-4957-a56c-b00329b2e755",
     "name": "Azerbaijan"
   },
   {
     "continentId": "987632eb-4ba3-42ce-a107-5ee49f05751c",
+    "id": "a78b0ebd-a186-4d04-b787-4211a1498196",
+    "mediaId": "25a8994b-1808-4093-813d-02f5c3b12425",
     "name": "Bahamas"
   },
   {
     "continentId": "b93debb5-1f91-49fc-b32d-b18ca458fdca",
+    "id": "ca0ad036-caac-4c87-9e4d-fe6dec19a679",
+    "mediaId": "a9adb44e-003e-4c35-9d3f-9925ed9f4705",
     "name": "Bahrain"
   },
   {
     "continentId": "b93debb5-1f91-49fc-b32d-b18ca458fdca",
+    "id": "92c894ca-2d7b-48f6-adcf-8bd0bb961264",
+    "mediaId": "36186290-31de-4168-b408-7b3eadc085d6",
     "name": "Bangladesh"
   },
   {
     "continentId": "987632eb-4ba3-42ce-a107-5ee49f05751c",
+    "id": "b68dd406-bb73-41ed-8f95-9b8d80622864",
+    "mediaId": "586595b9-a183-41ad-a2f0-50da9905faa1",
     "name": "Barbados"
   },
   {
     "continentId": "2319d9f5-f5d0-42a9-9573-94191d1d1dcb",
+    "id": "f3819c52-bfc4-4f11-9497-d632b0b5d302",
+    "mediaId": "2c853798-87fa-4ede-99a9-ae4bebc854ba",
     "name": "Belarus"
   },
   {
     "continentId": "2319d9f5-f5d0-42a9-9573-94191d1d1dcb",
+    "id": "562818c6-a25d-404a-8fdb-a9be5b7e65c5",
+    "mediaId": "9624f955-9341-48b9-97c3-80b1cc56e359",
     "name": "Belgium"
   },
   {
     "continentId": "987632eb-4ba3-42ce-a107-5ee49f05751c",
+    "id": "067ae24c-9770-44f8-9e0a-c37ef2c9aa74",
+    "mediaId": "1c989ab3-f497-426c-905c-d6a9bde0dced",
     "name": "Belize"
   },
   {
     "continentId": "4014247c-5a00-4099-b459-389caef09bbc",
+    "id": "248578b4-b3be-4cdf-b1ae-c4af8723b7ee",
+    "mediaId": "048aacf6-6436-4688-9000-61210f751075",
     "name": "Benin"
   },
   {
     "continentId": "987632eb-4ba3-42ce-a107-5ee49f05751c",
+    "id": "3229e073-8827-4c0b-8452-d3073b3b2032",
+    "mediaId": "99e6c671-6670-4b69-8720-30de027ec0bb",
     "name": "Bermuda"
   },
   {
     "continentId": "b93debb5-1f91-49fc-b32d-b18ca458fdca",
+    "id": "dd0a6399-5255-446c-ba9b-060feeb4f547",
+    "mediaId": "0c7f2746-5734-4655-a606-2cdaa5ea9903",
     "name": "Bhutan"
   },
   {
     "continentId": "47fcd1e3-3096-46bb-b4a3-f5b2663d5a99",
+    "id": "83c087a2-2e1f-45c1-aeaa-0617b314a54a",
+    "mediaId": "11a2172c-7818-4551-8618-be33734146ee",
     "name": "Bolivia"
   },
   {
     "continentId": "47fcd1e3-3096-46bb-b4a3-f5b2663d5a99",
+    "id": "988612d5-ef00-4867-8ce7-6f6ba04a0ee4",
+    "mediaId": "e6f04353-4a4a-440e-ba06-9d1ffb3d9735",
     "name": "Bonaire, Sint Eustatius and Saba"
   },
   {
     "continentId": "2319d9f5-f5d0-42a9-9573-94191d1d1dcb",
+    "id": "c12c392a-5720-4182-92c6-07e2583c4460",
+    "mediaId": "89b8ce98-bdf9-4d1b-9c5e-17e1875620df",
     "name": "Bosnia and Herzegovina"
   },
   {
     "continentId": "4014247c-5a00-4099-b459-389caef09bbc",
+    "id": "643422f0-356f-46d9-9fe3-9f007c76dacf",
+    "mediaId": "554b274f-8c9c-438f-9891-b117b3439e0d",
     "name": "Botswana"
   },
   {
     "continentId": "47fcd1e3-3096-46bb-b4a3-f5b2663d5a99",
+    "id": "63015dc8-551e-41ec-8407-db3ff944d25a",
+    "mediaId": "79249dd2-3862-441d-a364-657e7ad0adda",
     "name": "Brazil"
   },
   {
     "continentId": "b93debb5-1f91-49fc-b32d-b18ca458fdca",
+    "id": "6437432b-19bb-40e0-8fc1-387ac80f6e1c",
+    "mediaId": "e865f4c5-6f5e-4f0c-9393-c59c620c8d09",
     "name": "British Indian Ocean Territory"
   },
   {
     "continentId": "b93debb5-1f91-49fc-b32d-b18ca458fdca",
+    "id": "9c8a0d82-bb2b-4f46-9669-7f076e96f018",
+    "mediaId": "8c2f2ab6-1230-4ef2-9920-4b82a2c18eb3",
     "name": "Brunei Darussalam"
   },
   {
     "continentId": "2319d9f5-f5d0-42a9-9573-94191d1d1dcb",
+    "id": "058e501b-d025-47e8-a4d3-9c14281e3e2d",
+    "mediaId": "24318966-7829-42a5-9417-4e63d53799d0",
     "name": "Bulgaria"
   },
   {
     "continentId": "4014247c-5a00-4099-b459-389caef09bbc",
+    "id": "527ff9ea-3878-455f-a560-4d4172065ad0",
+    "mediaId": "8286a6f2-0456-475d-a9f1-555e02074f93",
     "name": "Burkina Faso"
   },
   {
     "continentId": "4014247c-5a00-4099-b459-389caef09bbc",
+    "id": "1e753909-f20e-4e16-80c0-aae6399e6c81",
+    "mediaId": "bf368b59-2b2e-4148-aafb-d702b29ceb8b",
     "name": "Burundi"
   },
   {
     "continentId": "4014247c-5a00-4099-b459-389caef09bbc",
+    "id": "7394b43c-b696-4c51-a65c-0468855cc38e",
+    "mediaId": "e41874c8-d14d-4183-ae1b-be1313e1625b",
     "name": "Cabo Verde"
   },
   {
     "continentId": "b93debb5-1f91-49fc-b32d-b18ca458fdca",
+    "id": "11975365-8dbf-4112-8889-be441257a69e",
+    "mediaId": "b2f33cf3-6bb4-4680-b53b-ca83b128fc3f",
     "name": "Cambodia"
   },
   {
     "continentId": "4014247c-5a00-4099-b459-389caef09bbc",
+    "id": "9f9cf999-e28f-4ffb-812f-53528bca856a",
+    "mediaId": "0b85b19c-5a65-4f0b-a2c2-4d7259e28071",
     "name": "Cameroon"
   },
   {
     "continentId": "987632eb-4ba3-42ce-a107-5ee49f05751c",
+    "id": "a38c5526-ff34-49ed-8d93-4aed489a168f",
+    "mediaId": "b719caa5-50ed-4dca-b308-1be81637ef0b",
     "name": "Canada"
   },
   {
     "continentId": "987632eb-4ba3-42ce-a107-5ee49f05751c",
+    "id": "a73449db-a2fe-4cfe-976c-55b28483ec3d",
+    "mediaId": "5a0a5e60-1625-4eb4-8196-abac675687d7",
     "name": "Cayman Islands"
   },
   {
     "continentId": "4014247c-5a00-4099-b459-389caef09bbc",
+    "id": "f772af98-4316-4909-8122-892d0c2b9557",
+    "mediaId": "8e0b3dcb-fba9-4b4c-adca-57a786b977b0",
     "name": "Central African Republic"
   },
   {
     "continentId": "4014247c-5a00-4099-b459-389caef09bbc",
+    "id": "7b9346cb-aeb3-4054-8b78-b051dfc39d25",
+    "mediaId": "c5000ff6-1eb6-4963-bc6f-f4bcce0da5ce",
     "name": "Chad"
   },
   {
     "continentId": "47fcd1e3-3096-46bb-b4a3-f5b2663d5a99",
+    "id": "f9f9619b-5cc8-4112-ba15-c90aef791a61",
+    "mediaId": "edb29cef-582f-402e-8d53-18bcd2ac41ef",
     "name": "Chile"
   },
   {
     "continentId": "b93debb5-1f91-49fc-b32d-b18ca458fdca",
+    "id": "14684f60-87db-4bcb-81f3-26ad5cfe1948",
+    "mediaId": "f5a2dd0c-70a0-401f-8a78-a7ff21324916",
     "name": "China"
   },
   {
     "continentId": "b93debb5-1f91-49fc-b32d-b18ca458fdca",
+    "id": "e7f31fa5-a87b-4ddd-a3a3-32e4dcb9e673",
+    "mediaId": "32a6f143-f525-42f0-961f-b9f3dd600a04",
     "name": "Christmas Island"
   },
   {
     "continentId": "b93debb5-1f91-49fc-b32d-b18ca458fdca",
+    "id": "2e01068b-51da-489e-ab97-76d0417a8554",
+    "mediaId": "80e937c6-edc7-4a86-a37d-dc7209b28738",
     "name": "Cocos (Keeling) Islands"
   },
   {
     "continentId": "47fcd1e3-3096-46bb-b4a3-f5b2663d5a99",
+    "id": "c144ffed-62ba-4d11-a84c-8d9c1620663a",
+    "mediaId": "227585c8-790d-4d0e-84a3-cebd7f1effcf",
     "name": "Colombia"
   },
   {
     "continentId": "4014247c-5a00-4099-b459-389caef09bbc",
+    "id": "2ddb92b8-263d-4d99-827c-8d5639e28cde",
+    "mediaId": "75452d98-ddbc-4c59-9775-3b30d9b5bdcd",
     "name": "Comoros"
   },
   {
     "continentId": "13ec75e7-4484-4aa8-9814-0ac7444e5512",
+    "id": "37718bf2-be3d-4b63-9491-789c281b01e8",
+    "mediaId": "bffa7dab-873b-496a-b278-30c812f3ca44",
     "name": "Cook Islands"
   },
   {
     "continentId": "987632eb-4ba3-42ce-a107-5ee49f05751c",
+    "id": "39ea2cc4-b3b6-4a3d-8ebb-e1d83bd9e88c",
+    "mediaId": "a74dc513-fc5a-493e-9c84-80a960821888",
     "name": "Costa Rica"
   },
   {
     "continentId": "2319d9f5-f5d0-42a9-9573-94191d1d1dcb",
+    "id": "b1c05c19-5bca-4f69-8fd5-2c0424b72e6b",
+    "mediaId": "b5d74910-445d-42fc-b70c-05e064562590",
     "name": "Croatia"
   },
   {
     "continentId": "987632eb-4ba3-42ce-a107-5ee49f05751c",
+    "id": "11b82222-ebc0-41ac-95ea-f27d058e1731",
+    "mediaId": "96deef47-ab55-4b81-b072-676e18add049",
     "name": "Cuba"
   },
   {
     "continentId": "47fcd1e3-3096-46bb-b4a3-f5b2663d5a99",
+    "id": "052d6782-b375-44e6-a4dc-8afa19e266e6",
+    "mediaId": "200a1656-a01a-439e-9982-9a081171fe0a",
     "name": "Curaçao"
   },
   {
     "continentId": "2319d9f5-f5d0-42a9-9573-94191d1d1dcb",
+    "id": "1c30ad17-2a34-418e-8b1f-3f56c0d0838e",
+    "mediaId": "aee5d546-1f57-4095-9638-4ad40e87a6f2",
     "name": "Cyprus"
   },
   {
     "continentId": "2319d9f5-f5d0-42a9-9573-94191d1d1dcb",
+    "id": "862acded-6c64-4b6f-b18a-0e2101b19660",
+    "mediaId": "c103c9de-2b2e-494a-93ff-79ed2d05281c",
     "name": "Czech Republic"
   },
   {
     "continentId": "4014247c-5a00-4099-b459-389caef09bbc",
+    "id": "232f09f5-0c71-47ef-937e-fbbd0a417f7d",
+    "mediaId": "63733a71-db6c-4b86-bd9b-07f66f4baf30",
     "name": "Côte d'Ivoire"
   },
   {
     "continentId": "4014247c-5a00-4099-b459-389caef09bbc",
+    "id": "5bead25d-f545-4dd7-abbf-d8aba8154147",
+    "mediaId": "ec21ddcb-d86c-4b8b-a64e-305ab9e8d0dc",
     "name": "Democratic Republic of the Congo"
   },
   {
     "continentId": "2319d9f5-f5d0-42a9-9573-94191d1d1dcb",
+    "id": "a9ee13f6-277f-4a0f-910f-5abbd870616f",
+    "mediaId": "db3a35f3-375c-4efb-8bdd-26e8659f00eb",
     "name": "Denmark"
   },
   {
     "continentId": "4014247c-5a00-4099-b459-389caef09bbc",
+    "id": "df629624-3cf1-412a-96bb-aa6640fe72cd",
+    "mediaId": "4f39724c-4f20-4de1-965c-6a74bc3de102",
     "name": "Djibouti"
   },
   {
     "continentId": "987632eb-4ba3-42ce-a107-5ee49f05751c",
+    "id": "1f5942a8-d231-4259-9ae7-b9a33bae555a",
+    "mediaId": "ec675727-f2ec-4371-87ee-cdc4c5170e54",
     "name": "Dominica"
   },
   {
     "continentId": "987632eb-4ba3-42ce-a107-5ee49f05751c",
+    "id": "d4c3b0d7-ba14-4451-8f7e-ae67e68cf994",
+    "mediaId": "91c35183-7792-447c-a116-bd043af33c78",
     "name": "Dominican Republic"
   },
   {
     "continentId": "47fcd1e3-3096-46bb-b4a3-f5b2663d5a99",
+    "id": "4e46c847-beb0-4f19-8d35-6f2b328633bf",
+    "mediaId": "e1c24de8-0eeb-4d7c-b9a6-dd323794f3c9",
     "name": "Ecuador"
   },
   {
     "continentId": "4014247c-5a00-4099-b459-389caef09bbc",
+    "id": "6a92b509-fd11-44c5-a257-c189ade20f93",
+    "mediaId": "dad3b87f-82bd-4138-bfc7-487cad21bb5b",
     "name": "Egypt"
   },
   {
     "continentId": "987632eb-4ba3-42ce-a107-5ee49f05751c",
+    "id": "a01f6f22-2cb7-4b8f-83fe-4ed6fdbd14ee",
+    "mediaId": "77bddff0-5039-4cda-8f41-359d64a0cd65",
     "name": "El Salvador"
   },
   {
     "continentId": "2319d9f5-f5d0-42a9-9573-94191d1d1dcb",
+    "id": "a9b8812b-495f-4af8-938d-ae8c612a25f0",
+    "mediaId": "5fae6532-04c0-4322-ba06-02d6332d2736",
     "name": "England"
   },
   {
     "continentId": "4014247c-5a00-4099-b459-389caef09bbc",
+    "id": "7247c0cd-782f-432c-89bf-28bb72fcc5af",
+    "mediaId": "8e7c5eb0-f8bb-4e6e-b645-c7ae520b3869",
     "name": "Equatorial Guinea"
   },
   {
     "continentId": "4014247c-5a00-4099-b459-389caef09bbc",
+    "id": "1ae0d7c0-1b61-43a7-a51e-a3d54272547c",
+    "mediaId": "89779219-490a-4139-b074-87caf8cf8438",
     "name": "Eritrea"
   },
   {
     "continentId": "2319d9f5-f5d0-42a9-9573-94191d1d1dcb",
+    "id": "339f5f00-dbce-4840-8010-c05936ebe9cb",
+    "mediaId": "bbdf560f-4140-4f74-b935-0a876a24b479",
     "name": "Estonia"
   },
   {
     "continentId": "4014247c-5a00-4099-b459-389caef09bbc",
+    "id": "3091d254-a425-423b-b42f-a1067d20f11e",
+    "mediaId": "afc84f29-1c43-4007-8650-8b9f5a0dddd3",
     "name": "Eswatini"
   },
   {
     "continentId": "4014247c-5a00-4099-b459-389caef09bbc",
+    "id": "e883f968-c53e-4f0e-83c5-079d90dd780d",
+    "mediaId": "afbb260e-7a4d-4141-99c1-7175bdb7a63d",
     "name": "Ethiopia"
   },
   {
     "continentId": "47fcd1e3-3096-46bb-b4a3-f5b2663d5a99",
+    "id": "4d8584ea-1711-4bcd-aa15-4d17e07cf203",
+    "mediaId": "826704ea-5605-4bb4-98f4-5581cae3e22b",
     "name": "Falkland Islands"
   },
   {
     "continentId": "2319d9f5-f5d0-42a9-9573-94191d1d1dcb",
+    "id": "82ba5703-d6f1-4810-a205-5a649761619e",
+    "mediaId": "ef50fb64-6854-45b4-9e20-d6b6e9df35fd",
     "name": "Faroe Islands"
   },
   {
     "continentId": "13ec75e7-4484-4aa8-9814-0ac7444e5512",
+    "id": "8d13ad2c-0892-4839-ae2a-bfef48ab3e74",
+    "mediaId": "146e3d70-ea3e-4f2d-b154-434eb48afe5d",
     "name": "Federated States of Micronesia"
   },
   {
     "continentId": "13ec75e7-4484-4aa8-9814-0ac7444e5512",
+    "id": "1b8e5972-3b9e-40a0-ae61-eb03ee0b20fe",
+    "mediaId": "4dfb4706-c27e-4f24-9033-af0c5876510b",
     "name": "Fiji"
   },
   {
     "continentId": "2319d9f5-f5d0-42a9-9573-94191d1d1dcb",
+    "id": "438ccea7-2ab6-4e48-98f4-b2214923d2e6",
+    "mediaId": "5f4154a6-2a44-4d0b-a2c5-b61d019877f0",
     "name": "Finland"
   },
   {
     "continentId": "2319d9f5-f5d0-42a9-9573-94191d1d1dcb",
+    "id": "28e5e057-ca12-4d19-b108-bc2f6d33289b",
+    "mediaId": "ee9d373f-ec49-42e7-9969-75650bdcab8a",
     "name": "France"
   },
   {
     "continentId": "47fcd1e3-3096-46bb-b4a3-f5b2663d5a99",
+    "id": "117bb38c-9687-4afa-83d9-81bc75324c87",
+    "mediaId": "0399db93-5428-4860-8fd9-9276ca2f47a7",
     "name": "French Guiana"
   },
   {
     "continentId": "13ec75e7-4484-4aa8-9814-0ac7444e5512",
+    "id": "c20ffc05-6744-4dc9-9866-9a89acb628e5",
+    "mediaId": "cc98b23b-395d-4019-bd99-e80748c5a5d5",
     "name": "French Polynesia"
   },
   {
     "continentId": "4014247c-5a00-4099-b459-389caef09bbc",
+    "id": "a29cc36d-555e-4c52-a008-bbd63acadc1a",
+    "mediaId": "fa7e982d-23b7-41cc-b430-9169ca8a675e",
     "name": "French Southern Territories"
   },
   {
     "continentId": "4014247c-5a00-4099-b459-389caef09bbc",
+    "id": "03d59868-1d34-4411-b550-e3b2a902afbc",
+    "mediaId": "7fea7743-2473-4031-9851-f9102372199b",
     "name": "Gabon"
   },
   {
     "continentId": "4014247c-5a00-4099-b459-389caef09bbc",
+    "id": "7b8859a2-47ab-4454-aca9-ca39bf1d89a9",
+    "mediaId": "4450e231-bcfc-45f6-b9de-9f4d34ca0abb",
     "name": "Gambia"
   },
   {
     "continentId": "b93debb5-1f91-49fc-b32d-b18ca458fdca",
+    "id": "b465b9b3-60c2-4b01-993d-6f7dfa0a8055",
+    "mediaId": "5dc44a21-d273-4e07-9247-bb03f5174dbe",
     "name": "Georgia"
   },
   {
     "continentId": "2319d9f5-f5d0-42a9-9573-94191d1d1dcb",
+    "id": "9a873193-5e5c-41be-b070-76eec9484c11",
+    "mediaId": "c54cdbc2-ff88-4c90-8349-02230ddffb7f",
     "name": "Germany"
   },
   {
     "continentId": "4014247c-5a00-4099-b459-389caef09bbc",
+    "id": "0ac51a8e-11d3-4dd5-b588-4743f9807b67",
+    "mediaId": "6ad5dec7-37c5-4e43-b9ea-8c1694766521",
     "name": "Ghana"
   },
   {
     "continentId": "2319d9f5-f5d0-42a9-9573-94191d1d1dcb",
+    "id": "1b1b2942-7c00-44c7-a6da-4d575d497012",
+    "mediaId": "3efbb191-25b3-494b-8446-a9b2eeac5631",
     "name": "Gibraltar"
   },
   {
     "continentId": "2319d9f5-f5d0-42a9-9573-94191d1d1dcb",
+    "id": "c333a60b-8af4-4ab0-92f9-60008c1b2c6d",
+    "mediaId": "0103591b-4d3a-450c-a683-daec934a5bac",
     "name": "Greece"
   },
   {
     "continentId": "987632eb-4ba3-42ce-a107-5ee49f05751c",
+    "id": "740fb67e-3bd9-495c-a75c-5f31c5e17f03",
+    "mediaId": "27c0326d-46e4-4a0e-9ee0-2b84652f5168",
     "name": "Greenland"
   },
   {
     "continentId": "987632eb-4ba3-42ce-a107-5ee49f05751c",
+    "id": "f4fa36c9-f028-4847-a3f9-b2904eeda391",
+    "mediaId": "a1b789a2-e6ee-464e-b82e-358d8d18abf3",
     "name": "Grenada"
   },
   {
     "continentId": "987632eb-4ba3-42ce-a107-5ee49f05751c",
+    "id": "9e151919-aba9-413a-8735-85e3bf2377e0",
+    "mediaId": "a0d5c78c-ee71-4656-9ce0-9e0c288e7b4b",
     "name": "Guadeloupe"
   },
   {
     "continentId": "13ec75e7-4484-4aa8-9814-0ac7444e5512",
+    "id": "4887272d-680e-4cb6-a51e-a486030e31ab",
+    "mediaId": "bd39b9b9-c458-43d3-84db-22aea8bbf303",
     "name": "Guam"
   },
   {
     "continentId": "987632eb-4ba3-42ce-a107-5ee49f05751c",
+    "id": "6f0f74fa-3e08-4bfb-8800-ef06f8a5949f",
+    "mediaId": "465a1e4b-5570-4585-a77f-523d49cb6de2",
     "name": "Guatemala"
   },
   {
     "continentId": "2319d9f5-f5d0-42a9-9573-94191d1d1dcb",
+    "id": "d01fb511-f73c-4fc0-8d29-edeb697cedd9",
+    "mediaId": "dc8fca91-9464-4add-8604-dab4170d66e0",
     "name": "Guernsey"
   },
   {
     "continentId": "4014247c-5a00-4099-b459-389caef09bbc",
+    "id": "c6de4c29-f21e-4787-8e47-93a1296259f4",
+    "mediaId": "99a4a749-6dab-40a8-8770-8a9771e0c38f",
     "name": "Guinea"
   },
   {
     "continentId": "4014247c-5a00-4099-b459-389caef09bbc",
+    "id": "b4ae642d-834e-4e83-b311-23ddbbd26585",
+    "mediaId": "733b1815-9551-487e-9273-c513d38a9838",
     "name": "Guinea-Bissau"
   },
   {
     "continentId": "47fcd1e3-3096-46bb-b4a3-f5b2663d5a99",
+    "id": "bb261e7a-361a-466e-8d4c-517235fd3645",
+    "mediaId": "6a1f3038-3c35-4242-b256-969562fbd5ff",
     "name": "Guyana"
   },
   {
     "continentId": "987632eb-4ba3-42ce-a107-5ee49f05751c",
+    "id": "31743452-161c-4d52-8365-4ddce4a5294c",
+    "mediaId": "ce0cb9b9-b1e0-4453-942e-705611742341",
     "name": "Haiti"
   },
   {
     "continentId": "2319d9f5-f5d0-42a9-9573-94191d1d1dcb",
+    "id": "3c40db90-2dee-4ce8-82f6-2d53bb403cb3",
+    "mediaId": "fb4114bb-8477-466f-83b5-91059a4a17e5",
     "name": "Holy See"
   },
   {
     "continentId": "987632eb-4ba3-42ce-a107-5ee49f05751c",
+    "id": "49232c00-0dda-4a14-81ee-299b798d020e",
+    "mediaId": "faa70050-f55e-4295-9ff2-7658738a4f01",
     "name": "Honduras"
   },
   {
     "continentId": "b93debb5-1f91-49fc-b32d-b18ca458fdca",
+    "id": "382bbc32-1b60-4a7c-a138-46b5a53a34f4",
+    "mediaId": "f0da43d8-7b24-4350-8300-13bacbc3b39a",
     "name": "Hong Kong"
   },
   {
     "continentId": "2319d9f5-f5d0-42a9-9573-94191d1d1dcb",
+    "id": "72f4e8f1-3366-48d6-b9b2-63c2104321fb",
+    "mediaId": "f2e28796-b9bc-4692-bce1-a848361a3aeb",
     "name": "Hungary"
   },
   {
     "continentId": "2319d9f5-f5d0-42a9-9573-94191d1d1dcb",
+    "id": "180a91d3-fb42-4bae-bffc-a866e5412d7b",
+    "mediaId": "2b624126-7b31-41d5-a7e0-872b73e228b1",
     "name": "Iceland"
   },
   {
     "continentId": "b93debb5-1f91-49fc-b32d-b18ca458fdca",
+    "id": "58e60800-d1d9-4c03-9bf9-2dcc6b925502",
+    "mediaId": "d850ea01-d156-4881-8f5a-9c8fc735cb04",
     "name": "India"
   },
   {
     "continentId": "b93debb5-1f91-49fc-b32d-b18ca458fdca",
+    "id": "a3a61f53-8494-4f01-b7b9-5e8c8d1ae897",
+    "mediaId": "8eecbb2b-d0e5-4e7c-9810-6de0ca4713a3",
     "name": "Indonesia"
   },
   {
     "continentId": "b93debb5-1f91-49fc-b32d-b18ca458fdca",
+    "id": "187b6582-6cc5-469c-a874-79c16ede546d",
+    "mediaId": "5b11e8ee-03ae-411f-bb50-8462110d3a73",
     "name": "Iran"
   },
   {
     "continentId": "b93debb5-1f91-49fc-b32d-b18ca458fdca",
+    "id": "0dcbef96-ab82-45c1-886e-69f329ed402f",
+    "mediaId": "681511e4-0261-43b5-ae10-bee3bd1ec37a",
     "name": "Iraq"
   },
   {
     "continentId": "2319d9f5-f5d0-42a9-9573-94191d1d1dcb",
+    "id": "41c5a7c0-b2ce-4cc4-8f92-044616a9f724",
+    "mediaId": "45d88cc3-0935-406f-a761-5f1d772f8154",
     "name": "Ireland"
   },
   {
     "continentId": "2319d9f5-f5d0-42a9-9573-94191d1d1dcb",
+    "id": "52407d1f-b787-4468-9bd8-59051355c2c1",
+    "mediaId": "10013bb3-7919-4f52-8af0-e2c298497af7",
     "name": "Isle of Man"
   },
   {
     "continentId": "b93debb5-1f91-49fc-b32d-b18ca458fdca",
+    "id": "a488fdf6-dd1a-4736-be08-0ee4812a93c6",
+    "mediaId": "a11eb1cc-5842-49ad-9a46-6d94fd4ea403",
     "name": "Israel"
   },
   {
     "continentId": "2319d9f5-f5d0-42a9-9573-94191d1d1dcb",
+    "id": "04dd4d1d-e4d7-4741-a223-d438550e6504",
+    "mediaId": "0141d6eb-d8c2-4103-9f66-f7259cefb865",
     "name": "Italy"
   },
   {
     "continentId": "987632eb-4ba3-42ce-a107-5ee49f05751c",
+    "id": "50c73456-3e70-4003-91e3-b6886bf985a4",
+    "mediaId": "365ce92f-e624-404c-a8c4-a983afec2b1b",
     "name": "Jamaica"
   },
   {
     "continentId": "b93debb5-1f91-49fc-b32d-b18ca458fdca",
+    "id": "1e145714-ccd4-4bc5-b593-fc2feca4e0a2",
+    "mediaId": "ec020c6b-a849-444f-8c6c-7a1c75423e4e",
     "name": "Japan"
   },
   {
     "continentId": "2319d9f5-f5d0-42a9-9573-94191d1d1dcb",
+    "id": "f7ee61dd-823f-41fe-89f6-122bd2616f8b",
+    "mediaId": "0c42ce65-1cfa-489a-b69d-0ff101cfa39f",
     "name": "Jersey"
   },
   {
     "continentId": "b93debb5-1f91-49fc-b32d-b18ca458fdca",
+    "id": "16564470-6088-4d27-8386-8d5c5091941f",
+    "mediaId": "6113c758-fa64-46e3-9125-aa0ed275f61a",
     "name": "Jordan"
   },
   {
     "continentId": "b93debb5-1f91-49fc-b32d-b18ca458fdca",
+    "id": "175503f6-67c4-45b6-97ae-f50e2c66653b",
+    "mediaId": "6a7a25da-141f-453a-8266-13255b0ef095",
     "name": "Kazakhstan"
   },
   {
     "continentId": "4014247c-5a00-4099-b459-389caef09bbc",
+    "id": "73786764-8b15-441b-9653-2149f2fced66",
+    "mediaId": "2e6cbf70-b406-49e4-a3cb-e587ea4d6955",
     "name": "Kenya"
   },
   {
     "continentId": "13ec75e7-4484-4aa8-9814-0ac7444e5512",
+    "id": "aae36c73-be53-4b4c-a9a6-2cbccedbbae5",
+    "mediaId": "064b0212-8e07-48ff-87c0-231f7e5ae363",
     "name": "Kiribati"
   },
   {
     "continentId": "2319d9f5-f5d0-42a9-9573-94191d1d1dcb",
+    "id": "d5f6e6cf-c4c4-4c77-80d3-16c23faa80bd",
+    "mediaId": "1c74329c-41c9-4562-933d-3e5d98e11ea4",
     "name": "Kosovo"
   },
   {
     "continentId": "b93debb5-1f91-49fc-b32d-b18ca458fdca",
+    "id": "26f87238-8070-4cec-99d5-b959adb32954",
+    "mediaId": "7da4cd15-db39-4462-85be-306992abdc0b",
     "name": "Kuwait"
   },
   {
     "continentId": "b93debb5-1f91-49fc-b32d-b18ca458fdca",
+    "id": "2f67cebb-a814-4f6a-abff-9d9be23e9af1",
+    "mediaId": "57fbdc7f-c61d-4224-8eee-517b23a5fbdb",
     "name": "Kyrgyzstan"
   },
   {
     "continentId": "b93debb5-1f91-49fc-b32d-b18ca458fdca",
+    "id": "1fdbe767-5196-4cd0-b5af-baec1f7f1f43",
+    "mediaId": "0e717bd4-d8fc-4ec4-85ad-a3c567c003e2",
     "name": "Laos"
   },
   {
     "continentId": "2319d9f5-f5d0-42a9-9573-94191d1d1dcb",
+    "id": "feee5957-5b7a-4ea6-9745-d5d104d06b37",
+    "mediaId": "c3cd65e1-61f5-4717-b16a-fd7bdf3d3702",
     "name": "Latvia"
   },
   {
     "continentId": "b93debb5-1f91-49fc-b32d-b18ca458fdca",
+    "id": "ba3d3506-94ec-4fd0-baf6-7a1532257207",
+    "mediaId": "50dfa297-8d3a-4491-805f-f6f22806cfe3",
     "name": "Lebanon"
   },
   {
     "continentId": "4014247c-5a00-4099-b459-389caef09bbc",
+    "id": "1234866f-035d-4799-92f5-13c8388f37ad",
+    "mediaId": "6276953d-cee1-4cf6-8884-158ba4297145",
     "name": "Lesotho"
   },
   {
     "continentId": "4014247c-5a00-4099-b459-389caef09bbc",
+    "id": "ec86a7c7-0c67-499f-994e-446df1b4edf7",
+    "mediaId": "0c1a2a69-66e7-45c5-a3e8-87baa4e0c08e",
     "name": "Liberia"
   },
   {
     "continentId": "4014247c-5a00-4099-b459-389caef09bbc",
+    "id": "611728c5-57ac-4fdd-84e9-bdc822f100e8",
+    "mediaId": "07a7135c-8372-49e1-8698-e7d4aedfe9ba",
     "name": "Libya"
   },
   {
     "continentId": "2319d9f5-f5d0-42a9-9573-94191d1d1dcb",
+    "id": "eca1fb23-c35d-4d09-809a-aba742973722",
+    "mediaId": "cdf76d2a-2ad2-4974-b5a5-0e5810664951",
     "name": "Liechtenstein"
   },
   {
     "continentId": "2319d9f5-f5d0-42a9-9573-94191d1d1dcb",
+    "id": "fc4b1069-9773-48af-bd93-19d8b67ed26f",
+    "mediaId": "f79fe37f-b7a7-4fdd-827b-7f47cb062bb7",
     "name": "Lithuania"
   },
   {
     "continentId": "2319d9f5-f5d0-42a9-9573-94191d1d1dcb",
+    "id": "389c3a05-e8f4-4f88-8411-58d4c5c96ab5",
+    "mediaId": "ee40ca21-8f95-4ecf-be53-10b80f730acc",
     "name": "Luxembourg"
   },
   {
     "continentId": "b93debb5-1f91-49fc-b32d-b18ca458fdca",
+    "id": "c917ea77-cb2c-4e4b-88a8-cbf891af7a81",
+    "mediaId": "5053317a-a1e8-4d1f-931a-19bcabd3b946",
     "name": "Macau"
   },
   {
     "continentId": "4014247c-5a00-4099-b459-389caef09bbc",
+    "id": "e1a87f04-a5cb-4084-bc5c-41214d365004",
+    "mediaId": "f82f3545-56ca-4139-a588-fdcdee389a8e",
     "name": "Madagascar"
   },
   {
     "continentId": "4014247c-5a00-4099-b459-389caef09bbc",
+    "id": "a33e04dd-0daa-461e-b43c-e51c8b775635",
+    "mediaId": "74994205-db7a-471a-96d1-d65456de5ae0",
     "name": "Malawi"
   },
   {
     "continentId": "b93debb5-1f91-49fc-b32d-b18ca458fdca",
+    "id": "4ac6c6f1-14dc-400c-a639-0e846cad2b0f",
+    "mediaId": "01970449-9999-4117-809b-151d980a9853",
     "name": "Malaysia"
   },
   {
     "continentId": "b93debb5-1f91-49fc-b32d-b18ca458fdca",
+    "id": "87bea5d6-0c9b-4b86-b514-fa4d2ebf9eed",
+    "mediaId": "df1af125-44f5-4b74-bd1e-71f72e82eae7",
     "name": "Maldives"
   },
   {
     "continentId": "4014247c-5a00-4099-b459-389caef09bbc",
+    "id": "7e4afad3-adc4-4bcc-9499-ff0129a4cba9",
+    "mediaId": "ed63b1fa-983e-4e82-8a1f-b1110860341d",
     "name": "Mali"
   },
   {
     "continentId": "2319d9f5-f5d0-42a9-9573-94191d1d1dcb",
+    "id": "b2ae0d31-9a80-46a1-8fd2-78089ab1bc96",
+    "mediaId": "83f02e2b-11c0-44f7-a94f-2a42b11f7cfd",
     "name": "Malta"
   },
   {
     "continentId": "13ec75e7-4484-4aa8-9814-0ac7444e5512",
+    "id": "c12078ea-89ff-457e-a50c-e5107449d8d0",
+    "mediaId": "eb25d636-9da9-4780-b66d-7369934190f6",
     "name": "Marshall Islands"
   },
   {
     "continentId": "987632eb-4ba3-42ce-a107-5ee49f05751c",
+    "id": "a26cb184-07ad-4f5e-aa60-e5ea1386a166",
+    "mediaId": "e5e6f9d0-7b92-4d1a-ab6e-6271484af3fb",
     "name": "Martinique"
   },
   {
     "continentId": "4014247c-5a00-4099-b459-389caef09bbc",
+    "id": "90dab816-a6e3-4f43-94b0-fbfd82df379b",
+    "mediaId": "3d05ca7b-931f-4010-906a-700614d02b41",
     "name": "Mauritania"
   },
   {
     "continentId": "4014247c-5a00-4099-b459-389caef09bbc",
+    "id": "5b1be38b-e84f-47d5-a148-1f6db07c8b3a",
+    "mediaId": "02acf55a-3ea4-44b4-8bfc-14ef4cb45536",
     "name": "Mauritius"
   },
   {
     "continentId": "4014247c-5a00-4099-b459-389caef09bbc",
+    "id": "fb4632b3-0f06-478a-b604-5f8a0e4edfdb",
+    "mediaId": "e3b1e17a-fbdd-4a60-97d4-3cf48733cd31",
     "name": "Mayotte"
   },
   {
     "continentId": "987632eb-4ba3-42ce-a107-5ee49f05751c",
+    "id": "7c136375-054b-4088-8845-5b2379d4e896",
+    "mediaId": "17361ea1-9f89-47bf-8da4-790369ce879b",
     "name": "Mexico"
   },
   {
     "continentId": "2319d9f5-f5d0-42a9-9573-94191d1d1dcb",
+    "id": "3314e65b-8757-48d8-8c8a-fc18414f2c0d",
+    "mediaId": "df70e3da-ec51-49c6-a921-c0a71487e1f5",
     "name": "Moldova"
   },
   {
     "continentId": "2319d9f5-f5d0-42a9-9573-94191d1d1dcb",
+    "id": "7c0f69bc-6b9c-41ae-ac6a-1d894a22404c",
+    "mediaId": "a4531a68-14e0-4e01-a274-353f734c4bae",
     "name": "Monaco"
   },
   {
     "continentId": "b93debb5-1f91-49fc-b32d-b18ca458fdca",
+    "id": "3287b440-1f29-4369-b566-8ab3ded6d50f",
+    "mediaId": "0e487295-6c5c-46c5-b589-b7f2ff024f2c",
     "name": "Mongolia"
   },
   {
     "continentId": "2319d9f5-f5d0-42a9-9573-94191d1d1dcb",
+    "id": "9e6f6b09-f243-47c1-945f-ab8fdd45f9e4",
+    "mediaId": "68fd5b49-85df-48f0-be2e-d30df45e598b",
     "name": "Montenegro"
   },
   {
     "continentId": "987632eb-4ba3-42ce-a107-5ee49f05751c",
+    "id": "6280d9ee-2d04-4f07-a3cd-604a20600152",
+    "mediaId": "729338df-ae2e-4231-83f7-069ade329e17",
     "name": "Montserrat"
   },
   {
     "continentId": "4014247c-5a00-4099-b459-389caef09bbc",
+    "id": "a7e8320e-022c-4b8a-8bd0-fe1a6b21814f",
+    "mediaId": "9aaf4eb8-5db7-406f-81b0-78f172f194aa",
     "name": "Morocco"
   },
   {
     "continentId": "4014247c-5a00-4099-b459-389caef09bbc",
+    "id": "7658e6eb-b19f-4922-8626-93c31c3b217d",
+    "mediaId": "eaa9c216-a528-4d72-8525-7a9adaff1025",
     "name": "Mozambique"
   },
   {
     "continentId": "b93debb5-1f91-49fc-b32d-b18ca458fdca",
+    "id": "3f2c6e52-9d71-48bb-a5b1-6786e988ad4f",
+    "mediaId": "3c46702b-9d11-4d98-bb5b-6f361a397417",
     "name": "Myanmar"
   },
   {
     "continentId": "4014247c-5a00-4099-b459-389caef09bbc",
+    "id": "dab58f31-48a4-463b-b26a-80653f9292ef",
+    "mediaId": "416323eb-961b-4f9e-8ab6-ad3291af3cce",
     "name": "Namibia"
   },
   {
     "continentId": "13ec75e7-4484-4aa8-9814-0ac7444e5512",
+    "id": "8813358a-40fe-4748-a535-dfbaf7bf106f",
+    "mediaId": "fba94685-a1bf-4b74-8a5b-7e09da572ab2",
     "name": "Nauru"
   },
   {
     "continentId": "b93debb5-1f91-49fc-b32d-b18ca458fdca",
+    "id": "93426278-a10c-47e9-83ad-c6eeedcb28d6",
+    "mediaId": "43a78071-3a7d-4ea7-97bc-11e3854cd5d1",
     "name": "Nepal"
   },
   {
     "continentId": "2319d9f5-f5d0-42a9-9573-94191d1d1dcb",
+    "id": "1265b8af-9690-479f-81b3-06c3d2c59aa8",
+    "mediaId": "279cc8a0-18b0-4f80-8cd1-798aa11ea48a",
     "name": "Netherlands"
   },
   {
     "continentId": "13ec75e7-4484-4aa8-9814-0ac7444e5512",
+    "id": "f5f83109-79c5-417c-b438-caa2f900c8d2",
+    "mediaId": "022d51e2-a9e8-4192-8352-07d75178de52",
     "name": "New Caledonia"
   },
   {
     "continentId": "13ec75e7-4484-4aa8-9814-0ac7444e5512",
+    "id": "4f887486-843d-45a2-ab9a-f60c7634b1ce",
+    "mediaId": "15736e18-26ed-46e5-92ab-0560445e9fe5",
     "name": "New Zealand"
   },
   {
     "continentId": "987632eb-4ba3-42ce-a107-5ee49f05751c",
+    "id": "bba37e5a-2b60-4e18-a381-cfc7ad83c5f5",
+    "mediaId": "e694c9af-1b03-4a62-a8c1-1f98fb9afba8",
     "name": "Nicaragua"
   },
   {
     "continentId": "4014247c-5a00-4099-b459-389caef09bbc",
+    "id": "e7ccd3fa-f984-4711-92d5-fb4c975e40cb",
+    "mediaId": "c6b231b7-5d64-436e-b641-f81b64946b72",
     "name": "Niger"
   },
   {
     "continentId": "4014247c-5a00-4099-b459-389caef09bbc",
+    "id": "a316b123-18cb-48e9-9a47-9fb48b737455",
+    "mediaId": "69cc1cb9-0bf6-4ea3-b3f9-518c629fe993",
     "name": "Nigeria"
   },
   {
     "continentId": "13ec75e7-4484-4aa8-9814-0ac7444e5512",
+    "id": "dd0edf93-b4bf-4de0-92df-4eb01265382a",
+    "mediaId": "471f4875-0c9f-4c37-8b54-5e6807d3d3db",
     "name": "Niue"
   },
   {
     "continentId": "13ec75e7-4484-4aa8-9814-0ac7444e5512",
+    "id": "316e3354-d4ed-4d1a-8e54-1abf03736c30",
+    "mediaId": "6d10911c-f710-4ef0-9045-cb63aa56b058",
     "name": "Norfolk Island"
   },
   {
     "continentId": "b93debb5-1f91-49fc-b32d-b18ca458fdca",
+    "id": "e23bf15d-c68c-41ba-873b-551a51a8f18a",
+    "mediaId": "f86b8df3-5866-46c2-94de-8445df48d87b",
     "name": "North Korea"
   },
   {
     "continentId": "2319d9f5-f5d0-42a9-9573-94191d1d1dcb",
+    "id": "d9224ae4-b4e0-4d4f-8d3d-52b0d1f2da4a",
+    "mediaId": "e5593742-e251-4d56-bd6c-eac3ad19c55a",
     "name": "North Macedonia"
   },
   {
     "continentId": "2319d9f5-f5d0-42a9-9573-94191d1d1dcb",
+    "id": "de4d7b4a-e306-4755-aab8-c1afada847bd",
+    "mediaId": "f977a410-bee8-4fa2-a365-f360a83f4cc0",
     "name": "Northern Ireland"
   },
   {
     "continentId": "13ec75e7-4484-4aa8-9814-0ac7444e5512",
+    "id": "d8dc62ba-1141-446c-844b-82d746bcef86",
+    "mediaId": "980b47de-ddd2-4446-ae59-7ca70972f5be",
     "name": "Northern Mariana Islands"
   },
   {
     "continentId": "2319d9f5-f5d0-42a9-9573-94191d1d1dcb",
+    "id": "810a43c7-8cb2-4756-82fe-a48ea9bc534a",
+    "mediaId": "de724186-6241-4e3c-bb11-70dc6eb22183",
     "name": "Norway"
   },
   {
     "continentId": "b93debb5-1f91-49fc-b32d-b18ca458fdca",
+    "id": "779942bf-a76f-4ba6-b29a-0e60a060b58b",
+    "mediaId": "dfb9de7f-76ae-4a72-84bc-46036154c8ec",
     "name": "Oman"
   },
   {
     "continentId": "b93debb5-1f91-49fc-b32d-b18ca458fdca",
+    "id": "0a7c77e4-9660-4a0d-9b2d-db22b755d940",
+    "mediaId": "3cd8cd14-a720-4f05-a3fc-d0cef47ad317",
     "name": "Pakistan"
   },
   {
     "continentId": "13ec75e7-4484-4aa8-9814-0ac7444e5512",
+    "id": "7d154785-ab5f-4159-aa33-5079e865b568",
+    "mediaId": "cf93c9c5-d01f-4e95-8cf7-6d00ecf87345",
     "name": "Palau"
   },
   {
     "continentId": "987632eb-4ba3-42ce-a107-5ee49f05751c",
+    "id": "70bd742f-dbf6-49a3-bb38-5257255e7bf2",
+    "mediaId": "dabb2b25-d017-4b91-a25d-a110750c457f",
     "name": "Panama"
   },
   {
     "continentId": "13ec75e7-4484-4aa8-9814-0ac7444e5512",
-    "name": "Papua new Guinea"
+    "id": "72170120-d609-4e3a-a41c-70ad70463108",
+    "mediaId": "3c108ea8-3d51-43c2-a8dc-d00e76ff74f8",
+    "name": "Papua New Guinea"
   },
   {
     "continentId": "47fcd1e3-3096-46bb-b4a3-f5b2663d5a99",
+    "id": "1de6e82f-24ac-4529-aa02-f07d0f04f07d",
+    "mediaId": "38d77d36-795b-4bbc-b6c3-cc9333b0da82",
     "name": "Paraguay"
   },
   {
     "continentId": "47fcd1e3-3096-46bb-b4a3-f5b2663d5a99",
+    "id": "8c5636e8-2980-44df-a535-3ee138bfb68f",
+    "mediaId": "4bf2900c-ed4b-4b6f-b366-d220412690ff",
     "name": "Peru"
   },
   {
     "continentId": "b93debb5-1f91-49fc-b32d-b18ca458fdca",
+    "id": "e7e322d8-ffb2-4954-8b4e-45cfc845e22d",
+    "mediaId": "228454cd-1821-447b-9818-cbc8971a423c",
     "name": "Philippines"
   },
   {
     "continentId": "13ec75e7-4484-4aa8-9814-0ac7444e5512",
+    "id": "658d6a92-7968-4f1c-b125-b7bd33952baf",
+    "mediaId": "ab542c7e-d897-46f2-82c1-c740a84cb843",
     "name": "Pitcairn"
   },
   {
     "continentId": "2319d9f5-f5d0-42a9-9573-94191d1d1dcb",
+    "id": "bc5bcfb5-c030-48d2-b7d3-f17467196f76",
+    "mediaId": "762e2ecb-e136-4638-907f-bbae58d0c212",
     "name": "Poland"
   },
   {
     "continentId": "2319d9f5-f5d0-42a9-9573-94191d1d1dcb",
+    "id": "523b53b7-556f-4a6f-81a1-9b1c085baffc",
+    "mediaId": "842a407b-1269-4414-bc4a-8cded1d15793",
     "name": "Portugal"
   },
   {
     "continentId": "987632eb-4ba3-42ce-a107-5ee49f05751c",
+    "id": "a8ec2f62-3fce-4c04-a25d-04c82e7d7baa",
+    "mediaId": "fd6a153b-d6d4-40bb-be48-04a1ae587c84",
     "name": "Puerto Rico"
   },
   {
     "continentId": "b93debb5-1f91-49fc-b32d-b18ca458fdca",
+    "id": "7892894b-faba-4930-adbb-3f70e30ad484",
+    "mediaId": "55f471b4-704a-4b50-b8e9-3ec68ba8dc56",
     "name": "Qatar"
   },
   {
     "continentId": "4014247c-5a00-4099-b459-389caef09bbc",
+    "id": "d447a66a-71bd-4f87-8cc1-98245924f75b",
+    "mediaId": "8eeeccb3-2e74-405f-93c1-cf384e0cb84a",
     "name": "Republic of the Congo"
   },
   {
     "continentId": "2319d9f5-f5d0-42a9-9573-94191d1d1dcb",
+    "id": "b39b2c07-044c-4a4b-9f4c-92d9c94dc569",
+    "mediaId": "8d66f472-7c8a-402f-ace0-6df5c210e9f0",
     "name": "Romania"
   },
   {
     "continentId": "2319d9f5-f5d0-42a9-9573-94191d1d1dcb",
+    "id": "eda3881e-5665-41e1-862d-de4e690f21cc",
+    "mediaId": "c1e97e78-264d-4d31-a27e-9dcb45fa3e80",
     "name": "Russia"
   },
   {
     "continentId": "4014247c-5a00-4099-b459-389caef09bbc",
+    "id": "c400e157-0726-4230-9f21-4d57620c1ca4",
+    "mediaId": "521f31a8-3193-41cb-ac40-0bfbf32ceab4",
     "name": "Rwanda"
   },
   {
     "continentId": "4014247c-5a00-4099-b459-389caef09bbc",
+    "id": "232bbce0-62b3-4ae5-866a-a2b32c94809d",
+    "mediaId": "ba873304-9ccd-475c-a7a5-f4efed75d2cd",
     "name": "Réunion"
   },
   {
     "continentId": "987632eb-4ba3-42ce-a107-5ee49f05751c",
+    "id": "41bc916a-503a-4289-bd11-4bfc456a1f4b",
+    "mediaId": "50b92e01-1b04-4c9d-a28a-75dff9216399",
     "name": "Saint Barthélemy"
   },
   {
     "continentId": "4014247c-5a00-4099-b459-389caef09bbc",
+    "id": "1fdcdcde-3f04-4847-8b8d-6ac000181df1",
+    "mediaId": "27f94ca7-fc66-4cbe-a483-58cd93a4ccdb",
     "name": "Saint Helena"
   },
   {
     "continentId": "4014247c-5a00-4099-b459-389caef09bbc",
+    "id": "bdfa1107-294c-466f-89b8-82384c207d7f",
+    "mediaId": "e3a4cd10-8c11-46ee-b773-3031db4cbe1d",
     "name": "Saint Helena, Ascension and Tristan da Cunha"
   },
   {
     "continentId": "987632eb-4ba3-42ce-a107-5ee49f05751c",
+    "id": "05cabc8d-e9e7-4ff7-b9a0-6b5af9d1f699",
+    "mediaId": "d49d66c4-ef69-4bd6-b92a-588fdfb8f2dc",
     "name": "Saint Kitts and Nevis"
   },
   {
     "continentId": "987632eb-4ba3-42ce-a107-5ee49f05751c",
+    "id": "02321e5b-5e25-4e9e-bd53-ec34d7c6f508",
+    "mediaId": "7fef48a1-a899-4f66-851f-52688534dae5",
     "name": "Saint Lucia"
   },
   {
     "continentId": "987632eb-4ba3-42ce-a107-5ee49f05751c",
+    "id": "fe2fb3cf-4a75-4139-996b-df8ac9320a29",
+    "mediaId": "f8d8a1c5-3d6c-448b-9c4c-1245540e7388",
     "name": "Saint Martin"
   },
   {
     "continentId": "987632eb-4ba3-42ce-a107-5ee49f05751c",
+    "id": "77435cdc-2413-4a1e-811a-28586c14764b",
+    "mediaId": "cc01a083-0622-4905-b172-5f7bab232e43",
     "name": "Saint Pierre and Miquelon"
   },
   {
     "continentId": "987632eb-4ba3-42ce-a107-5ee49f05751c",
+    "id": "9fc761a2-9427-4d55-8347-e626170d962c",
+    "mediaId": "baef7968-b031-4246-a404-7dccceb2ed4a",
     "name": "Saint Vincent and the Grenadines"
   },
   {
     "continentId": "13ec75e7-4484-4aa8-9814-0ac7444e5512",
+    "id": "c0b3d602-83ae-412b-bf8b-b104230a0953",
+    "mediaId": "802fffeb-ca5a-40ed-b137-d2fd125bb477",
     "name": "Samoa"
   },
   {
     "continentId": "2319d9f5-f5d0-42a9-9573-94191d1d1dcb",
+    "id": "bef80a9b-2ff8-403d-b8e5-f271bbf68039",
+    "mediaId": "0dc01c4b-ce6b-484f-8bd0-cfb664fabe43",
     "name": "San Marino"
   },
   {
     "continentId": "4014247c-5a00-4099-b459-389caef09bbc",
+    "id": "70fff303-72e6-44a4-9d33-390885e560e2",
+    "mediaId": "989ac521-8e9c-465c-8039-21d93eb17cdd",
     "name": "Sao Tome and Principe"
   },
   {
     "continentId": "b93debb5-1f91-49fc-b32d-b18ca458fdca",
+    "id": "56aeed61-f03e-4b09-825a-f58c228be5a0",
+    "mediaId": "045acbf0-efd0-4ef3-8d37-6b3e2c32a9d8",
     "name": "Saudi Arabia"
   },
   {
     "continentId": "2319d9f5-f5d0-42a9-9573-94191d1d1dcb",
+    "id": "a25d14a6-1930-4962-b7ff-70ea096b1f55",
+    "mediaId": "749bf945-94fc-4793-a5ff-d52862e67191",
     "name": "Scotland"
   },
   {
     "continentId": "4014247c-5a00-4099-b459-389caef09bbc",
+    "id": "079219c8-a16e-4dc2-bd19-51b853e2b6af",
+    "mediaId": "bd7f3644-88e6-4c11-b4e7-a4c6cdb3d755",
     "name": "Senegal"
   },
   {
     "continentId": "2319d9f5-f5d0-42a9-9573-94191d1d1dcb",
+    "id": "fb674634-b117-4bd5-bb93-9fb79be98272",
+    "mediaId": "2cc428b0-f2ac-4c52-9514-d8700ffb97fe",
     "name": "Serbia"
   },
   {
     "continentId": "4014247c-5a00-4099-b459-389caef09bbc",
+    "id": "ba2a3629-d98d-4a3b-9662-410885548556",
+    "mediaId": "e6eec7d7-00bc-4a39-ad2a-0262f9474f41",
     "name": "Seychelles"
   },
   {
     "continentId": "4014247c-5a00-4099-b459-389caef09bbc",
+    "id": "5729e81b-3228-49b7-81c9-0f943c49b050",
+    "mediaId": "f3980078-8afc-4743-a845-86cba3e6d4a4",
     "name": "Sierra Leone"
   },
   {
     "continentId": "b93debb5-1f91-49fc-b32d-b18ca458fdca",
+    "id": "25eb746e-5928-4707-b3c7-3778ed82bca1",
+    "mediaId": "2e0066d7-a87e-4e05-8a7e-9f41591260cc",
     "name": "Singapore"
   },
   {
     "continentId": "987632eb-4ba3-42ce-a107-5ee49f05751c",
+    "id": "e2084a09-f9b1-46f3-8c81-3b40df519936",
+    "mediaId": "1c2d7aa7-f41c-4689-924f-5acdd3bc0a70",
     "name": "Sint Maarten"
   },
   {
     "continentId": "2319d9f5-f5d0-42a9-9573-94191d1d1dcb",
+    "id": "d59b15c0-6ea1-440e-99f4-22cd60e8f10f",
+    "mediaId": "a380b4d0-a172-4b3a-b574-183eecbd034a",
     "name": "Slovakia"
   },
   {
     "continentId": "2319d9f5-f5d0-42a9-9573-94191d1d1dcb",
+    "id": "809a1d07-69cd-4fdf-a288-a4ec82c8997d",
+    "mediaId": "a3215064-4a47-4d53-a85e-e785013e3429",
     "name": "Slovenia"
   },
   {
     "continentId": "13ec75e7-4484-4aa8-9814-0ac7444e5512",
+    "id": "81e19fa9-4f4c-49d5-b70c-949dd18e092a",
+    "mediaId": "5011383e-9aa9-41e0-9cb5-111e7f0b636c",
     "name": "Solomon Islands"
   },
   {
     "continentId": "4014247c-5a00-4099-b459-389caef09bbc",
+    "id": "16abcf5e-2a4a-4000-9f3d-15aec7e34db9",
+    "mediaId": "a57d85e7-4f28-4eee-b0b9-3b4ea36a5538",
     "name": "Somalia"
   },
   {
     "continentId": "4014247c-5a00-4099-b459-389caef09bbc",
+    "id": "84e07a35-7a0a-49f1-a804-7f5396ba706f",
+    "mediaId": "0edf515d-a88c-40ce-9ae4-e3d8b4753faf",
     "name": "South Africa"
   },
   {
     "continentId": "4b7235fe-9c99-43ab-8140-a8540c21e854",
+    "id": "f4fc9cad-90be-4520-9df0-521cfb92b61a",
+    "mediaId": "e211ed79-9c0a-4c04-8914-1b145105152e",
     "name": "South Georgia and the South Sandwich Islands"
   },
   {
     "continentId": "b93debb5-1f91-49fc-b32d-b18ca458fdca",
+    "id": "f00a38d3-3c20-49bb-8bb9-184c1c034622",
+    "mediaId": "6b9a4ab3-a1b8-4e1d-b828-891a7600bd33",
     "name": "South Korea"
   },
   {
     "continentId": "4014247c-5a00-4099-b459-389caef09bbc",
+    "id": "a16b1ea9-21ba-46ab-90b7-94ec952367ae",
+    "mediaId": "a5c1bc0f-2f11-48ae-96d6-6e2ff57abb08",
     "name": "South Sudan"
   },
   {
     "continentId": "2319d9f5-f5d0-42a9-9573-94191d1d1dcb",
+    "id": "b0fc3321-c65a-4e0d-9736-960a1adef8d8",
+    "mediaId": "d74539c7-f5c5-4e9d-9dac-5060c0017420",
     "name": "Spain"
   },
   {
     "continentId": "b93debb5-1f91-49fc-b32d-b18ca458fdca",
+    "id": "2b77f531-0892-4754-943f-251eb23e261a",
+    "mediaId": "270474db-6b7d-4933-b158-43b2f33d05e1",
     "name": "Sri Lanka"
   },
   {
     "continentId": "b93debb5-1f91-49fc-b32d-b18ca458fdca",
+    "id": "38a150f3-4ec4-4ba7-b1b4-4cd46bdbf1c8",
+    "mediaId": "700c5462-57b9-47a6-99cc-b36ca810a2bd",
     "name": "State of Palestine"
   },
   {
     "continentId": "4014247c-5a00-4099-b459-389caef09bbc",
+    "id": "87f2f356-8712-4c1c-9888-b1339a015f55",
+    "mediaId": "07d0668e-d78b-43b2-9940-76811be68e99",
     "name": "Sudan"
   },
   {
     "continentId": "47fcd1e3-3096-46bb-b4a3-f5b2663d5a99",
+    "id": "b127e91a-42e6-48b5-bf29-5171905ce57b",
+    "mediaId": "6946188f-4e59-402a-9804-682a0cafdff4",
     "name": "Suriname"
   },
   {
     "continentId": "2319d9f5-f5d0-42a9-9573-94191d1d1dcb",
+    "id": "fbe075bf-dc0b-4298-86e1-e9ec5978ec10",
+    "mediaId": "17f89d9e-3d51-4d63-a501-b549b35dd0ee",
     "name": "Svalbard and Jan Mayen"
   },
   {
     "continentId": "2319d9f5-f5d0-42a9-9573-94191d1d1dcb",
+    "id": "33a15d95-f9a4-4d05-8742-2872715f8f6a",
+    "mediaId": "a1f78674-0315-47c3-8407-c6ccea95e085",
     "name": "Sweden"
   },
   {
     "continentId": "2319d9f5-f5d0-42a9-9573-94191d1d1dcb",
+    "id": "ad1d64a6-f2fc-4b0e-a13a-91e37606472b",
+    "mediaId": "f4d8bdd6-8b41-4d09-b45f-bb2ae7533008",
     "name": "Switzerland"
   },
   {
     "continentId": "b93debb5-1f91-49fc-b32d-b18ca458fdca",
+    "id": "1df86989-327c-444d-9c26-055a65734e36",
+    "mediaId": "90ad4e7f-ebb9-4a27-9a0b-a9bbcbd6c599",
     "name": "Syria"
   },
   {
     "continentId": "b93debb5-1f91-49fc-b32d-b18ca458fdca",
+    "id": "0e12d0db-5927-4c8d-9c42-6abfa8f0232f",
+    "mediaId": "b20aba62-6143-4e41-991d-57b87c324592",
     "name": "Taiwan"
   },
   {
     "continentId": "b93debb5-1f91-49fc-b32d-b18ca458fdca",
+    "id": "46947121-15af-4e1e-8fb1-690364da2849",
+    "mediaId": "098034f3-276f-4d04-bede-5739fbf38689",
     "name": "Tajikistan"
   },
   {
     "continentId": "4014247c-5a00-4099-b459-389caef09bbc",
+    "id": "71669627-40d5-4e1b-90e8-cac2da9e345d",
+    "mediaId": "e83819c2-85cc-401f-a89a-b58719e93a47",
     "name": "Tanzania"
   },
   {
     "continentId": "b93debb5-1f91-49fc-b32d-b18ca458fdca",
+    "id": "efc95763-9f33-47e5-b318-9ac60d40426e",
+    "mediaId": "767c7c76-74a4-4617-8b8b-2cfc6f661618",
     "name": "Thailand"
   },
   {
     "continentId": "b93debb5-1f91-49fc-b32d-b18ca458fdca",
+    "id": "bf14e36c-0afe-4d62-ad11-211b6981dc96",
+    "mediaId": "a6d73b84-7120-419d-8bd1-bbb23723600a",
     "name": "Timor-Leste"
   },
   {
     "continentId": "4014247c-5a00-4099-b459-389caef09bbc",
+    "id": "dd8e57e5-d46a-4a4c-86bd-30bb981fcb04",
+    "mediaId": "63406eea-e450-408c-85fc-af8006bad878",
     "name": "Togo"
   },
   {
     "continentId": "13ec75e7-4484-4aa8-9814-0ac7444e5512",
+    "id": "aef8bc75-0b35-4e07-ae8f-601271c44894",
+    "mediaId": "4dd02e1e-a982-4f84-882b-e32f1033e738",
     "name": "Tokelau"
   },
   {
     "continentId": "13ec75e7-4484-4aa8-9814-0ac7444e5512",
+    "id": "57d959d9-6069-4014-bdd5-6e26a8954f48",
+    "mediaId": "f12bda83-615d-4faf-a73f-e2bca35ae2ee",
     "name": "Tonga"
   },
   {
     "continentId": "47fcd1e3-3096-46bb-b4a3-f5b2663d5a99",
+    "id": "1deed978-7bae-4e99-b01a-2f11214f215b",
+    "mediaId": "bb0e579f-fd54-482b-872c-8e0da593a26d",
     "name": "Trinidad and Tobago"
   },
   {
     "continentId": "4014247c-5a00-4099-b459-389caef09bbc",
+    "id": "86b610d8-5a5f-4c7c-bbf0-114c87d8c17a",
+    "mediaId": "844fbba8-790c-4a4e-9b94-4db3e0336810",
     "name": "Tristan da Cunha"
   },
   {
     "continentId": "4014247c-5a00-4099-b459-389caef09bbc",
+    "id": "9922c39e-d4e9-4525-92c3-b47cdb3286ad",
+    "mediaId": "0ac297fc-7b1a-4008-a390-b3bc874cd295",
     "name": "Tunisia"
   },
   {
     "continentId": "b93debb5-1f91-49fc-b32d-b18ca458fdca",
+    "id": "282a4931-d66b-4346-84eb-1b476faafeb6",
+    "mediaId": "9b34f106-41e6-4320-86b1-38a21846568d",
     "name": "Turkmenistan"
   },
   {
     "continentId": "987632eb-4ba3-42ce-a107-5ee49f05751c",
+    "id": "92d30817-b8ec-4ca9-a9bb-c10c63f496de",
+    "mediaId": "20c71974-5d2d-4c7e-84c6-439d31c4c71e",
     "name": "Turks and Caicos Islands"
   },
   {
     "continentId": "13ec75e7-4484-4aa8-9814-0ac7444e5512",
+    "id": "f5977117-015c-4d2e-b468-ce4b435d9ec0",
+    "mediaId": "45dc75da-74b3-4d63-9ff8-5cdd12580640",
     "name": "Tuvalu"
   },
   {
     "continentId": "b93debb5-1f91-49fc-b32d-b18ca458fdca",
+    "id": "da928ee6-cad8-4a26-95be-77c7eb0eca75",
+    "mediaId": "80c9c696-8ae7-471d-9bb7-0c1145eaf705",
     "name": "Türkiye"
   },
   {
     "continentId": "4014247c-5a00-4099-b459-389caef09bbc",
+    "id": "fcd91384-1c0b-4465-b3a0-69957867a82a",
+    "mediaId": "76455ff3-3aea-49b6-8dd4-7e9a899ed51a",
     "name": "Uganda"
   },
   {
     "continentId": "2319d9f5-f5d0-42a9-9573-94191d1d1dcb",
+    "id": "751e352d-a14e-4a2b-950d-169a826bf8a7",
+    "mediaId": "7ba57990-adbc-4953-bd08-c8eefeea559a",
     "name": "Ukraine"
   },
   {
     "continentId": "b93debb5-1f91-49fc-b32d-b18ca458fdca",
+    "id": "cf917a5a-b983-420f-ad71-6376c6322eab",
+    "mediaId": "bdb6052c-2bb6-47a3-94ab-70d51e474b5b",
     "name": "United Arab Emirates"
   },
   {
     "continentId": "2319d9f5-f5d0-42a9-9573-94191d1d1dcb",
+    "id": "abb27c38-3cdf-49f7-b825-9e657a15cdd5",
+    "mediaId": "c6f9fdd6-af03-4e13-a664-770bd0cf875c",
     "name": "United Kingdom"
   },
   {
     "continentId": "987632eb-4ba3-42ce-a107-5ee49f05751c",
+    "id": "ceebab82-abb3-44df-b073-2ce84d9af14d",
+    "mediaId": "328590c9-bc63-4119-97e8-42128aca223a",
     "name": "United States Minor Outlying Islands"
   },
   {
     "continentId": "987632eb-4ba3-42ce-a107-5ee49f05751c",
+    "id": "1bd17588-1de5-4e77-91c3-e80973070198",
+    "mediaId": "37ed019b-2f31-41e5-896e-d01c1e51cc6b",
     "name": "United States of America"
   },
   {
     "continentId": "47fcd1e3-3096-46bb-b4a3-f5b2663d5a99",
+    "id": "a6d29ea7-ff20-4677-80f0-b260d206966d",
+    "mediaId": "c488d04a-d20d-4687-9bc0-81589453d076",
     "name": "Uruguay"
   },
   {
     "continentId": "b93debb5-1f91-49fc-b32d-b18ca458fdca",
+    "id": "6e292e18-336c-43fa-9393-73a6b9f53f91",
+    "mediaId": "bb021c73-38b2-470a-b214-bf4cac47f0c2",
     "name": "Uzbekistan"
   },
   {
     "continentId": "13ec75e7-4484-4aa8-9814-0ac7444e5512",
+    "id": "ecbb5ef4-c87c-457a-95d9-d109f6154551",
+    "mediaId": "549816d3-370b-482d-9f4e-9e77cbf27080",
     "name": "Vanuatu"
   },
   {
     "continentId": "47fcd1e3-3096-46bb-b4a3-f5b2663d5a99",
+    "id": "67e96257-d220-40df-8163-6bbc71b733a2",
+    "mediaId": "9ba61845-1e63-4749-8c0d-eb020b5a888b",
     "name": "Venezuela"
   },
   {
     "continentId": "b93debb5-1f91-49fc-b32d-b18ca458fdca",
+    "id": "60c38f01-9aad-4a96-8560-f243f69c0a4f",
+    "mediaId": "2a53be98-8a35-4b3b-87d4-dac86a573e9c",
     "name": "Vietnam"
   },
   {
     "continentId": "987632eb-4ba3-42ce-a107-5ee49f05751c",
+    "id": "2b947a82-5bb2-4d3d-9e44-288a2a22eec7",
+    "mediaId": "a28ad17c-2833-4c2d-b62b-364a18addb85",
     "name": "Virgin Islands (British)"
   },
   {
     "continentId": "987632eb-4ba3-42ce-a107-5ee49f05751c",
+    "id": "b162170f-f517-4d7f-b237-fa1443e3f275",
+    "mediaId": "ba1e2766-143b-4a36-be7b-d39f8d3b9874",
     "name": "Virgin Islands (U.S.)"
   },
   {
     "continentId": "2319d9f5-f5d0-42a9-9573-94191d1d1dcb",
+    "id": "6382fae2-7cc9-4217-a429-5f9b42683c1f",
+    "mediaId": "3a8b6645-d5a6-471c-8f61-b95e407346c0",
     "name": "Wales"
   },
   {
     "continentId": "13ec75e7-4484-4aa8-9814-0ac7444e5512",
+    "id": "617701e1-bad7-4299-83ff-a24902f262e1",
+    "mediaId": "58a50720-d948-4bcd-9185-748f11494497",
     "name": "Wallis and Futuna"
   },
   {
     "continentId": "4014247c-5a00-4099-b459-389caef09bbc",
+    "id": "9d61b1b8-5ea3-43b8-b1f6-c5b4d70b56ef",
+    "mediaId": "acee4643-c8fa-45e7-b28f-6cc3345dfaea",
     "name": "Western Sahara"
   },
   {
     "continentId": "b93debb5-1f91-49fc-b32d-b18ca458fdca",
+    "id": "a8127fa1-7952-4ccf-ace4-071e9cd54abc",
+    "mediaId": "24c6e1c8-e76b-49cb-8e98-424e133f74b1",
     "name": "Yemen"
   },
   {
     "continentId": "4014247c-5a00-4099-b459-389caef09bbc",
+    "id": "ca356685-eaa1-404e-9144-9f72684b22ff",
+    "mediaId": "8500971a-e7f2-4422-909c-708f2051a6d2",
     "name": "Zambia"
   },
   {
     "continentId": "4014247c-5a00-4099-b459-389caef09bbc",
+    "id": "c8bd33df-d287-496f-bc11-3634c2e64954",
+    "mediaId": "296c2423-02bb-4d33-ab37-453fc8418b4e",
     "name": "Zimbabwe"
   }
 ]
