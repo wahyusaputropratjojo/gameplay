@@ -1,3 +1,22 @@
+# [1.14.0](https://github.com/wahyusaputropratjojo/gameplay/compare/v1.13.0...v1.14.0) (2025-08-15)
+
+
+### Bug Fixes
+
+* **seed:** correct deletion order to avoid foreign key errors ([7673edf](https://github.com/wahyusaputropratjojo/gameplay/commit/7673edfc25d2d5462ed711e94c0c224d9d405271))
+
+
+### Features
+
+* **assets:** add country flag ([5f70e2b](https://github.com/wahyusaputropratjojo/gameplay/commit/5f70e2ba1b2a267e12cba3c54abc4f630efbf06f))
+* **data:** associate a country with each company ([5582b2f](https://github.com/wahyusaputropratjojo/gameplay/commit/5582b2f28df4882cb3fad9fdfab4667536b928c9))
+* **data:** link each country entry to its corresponding flag image ([746178f](https://github.com/wahyusaputropratjojo/gameplay/commit/746178f8c9e002f48fad8488fde4901d8efb4a16))
+* **data:** update media data to include country flag ([91f8441](https://github.com/wahyusaputropratjojo/gameplay/commit/91f844114117afbd24e4914e1c655b608c9068eb))
+* **payload:** add flag field to the country collection ([49eecbb](https://github.com/wahyusaputropratjojo/gameplay/commit/49eecbb15f58f96d3508c26920882b9905e78173))
+* **payload:** update payload types ([173816b](https://github.com/wahyusaputropratjojo/gameplay/commit/173816bc0689e1ee8813f07a02e124566dbae68b))
+* **seed:** add country data to company seed ([25917d1](https://github.com/wahyusaputropratjojo/gameplay/commit/25917d1fe884dbd08c195ecc7140664ba8c8032c))
+* **seed:** add id and flag to country seed ([f3ce3b3](https://github.com/wahyusaputropratjojo/gameplay/commit/f3ce3b3259fa7289dc2db88f3d47f8d1deac5d6b))
+
 # [1.13.0](https://github.com/wahyusaputropratjojo/gameplay/compare/v1.12.0...v1.13.0) (2025-08-14)
 
 
