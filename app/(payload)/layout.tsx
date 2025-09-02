@@ -6,6 +6,9 @@ import { handleServerFunctions, RootLayout } from '@payloadcms/next/layouts';
 import type { ServerFunctionClient } from 'payload';
 import type React from 'react';
 import { importMap } from './import-map';
+import { GeistMono } from 'geist/font/mono';
+import { GeistSans } from 'geist/font/sans';
+import './style.css';
 
 type Args = {
   children: React.ReactNode;
@@ -25,6 +28,7 @@ const Layout = ({ children }: Args) => (
     config={config}
     importMap={importMap}
     serverFunction={serverFunction}
+    htmlProps={{ className: `${GeistSans.variable} ${GeistMono.variable}` }}
   >
     {children}
   </RootLayout>

@@ -1,0 +1,13 @@
+@import '../../styles/variables/aspect-ratio.css';
+@import '../../styles/variables/color.css';
+
+:root {
+  --font-body: var(--font-geist-sans);
+  --font-serif: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+
+  --theme-bg: var(--background-100);
+  --theme-input-bg: var(--gray-100);
+  --theme-text: var(--gray-1000);
+  --theme-border-color: var(--gray-400);
+}
