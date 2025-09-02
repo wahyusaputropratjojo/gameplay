@@ -1,0 +1,17 @@
+:root {
+  --square: 1 / 1;
+
+  --standard-horizontal: 4 / 3;
+  --wide-horizontal: 16 / 9;
+  --classic-horizontal: 3 / 2;
+  --medium-horizontal: 5 / 4;
+  --panoramic-horizontal: 2 / 1;
+  --anamorphic-horizontal: 21 / 9;
+
+  --standard-vertical: 3 / 4;
+  --wide-vertical: 9 / 16;
+  --classic-vertical: 2 / 3;
+  --medium-vertical: 4 / 5;
+  --panoramic-vertical: 1 / 2;
+  --anamorphic-vertical: 9 / 21;
+}
