@@ -3,10 +3,13 @@ import type { NextConfig } from 'next';
 
 const nextConfig: NextConfig = {
   images: {
+    contentDispositionType: 'attachment',
+    contentSecurityPolicy: 'default-src \'self\'; script-src \'none\'; sandbox;',
+    dangerouslyAllowSVG: true,
     remotePatterns: [
       {
-        hostname: 'cdn2.steamgriddb.com',
-        protocol: 'https',
+        hostname: process.env.HOSTNAME as string,
+        protocol: process.env.PROTOCOL as 'http' | 'https',
       },
     ],
   },
