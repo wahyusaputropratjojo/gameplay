@@ -1,7 +1,6 @@
-import { GeistMono } from 'geist/font/mono';
-import { GeistSans } from 'geist/font/sans';
 import type { Metadata } from 'next';
 import type { ReactNode } from 'react';
+import { geistMono, geistSans } from '@/styles/fonts/geist';
 import './style.css';
 
 export const metadata: Metadata = {
@@ -16,7 +15,7 @@ export default function RootLayout ({
 }>) {
   return (
     <html
-      className={`${GeistSans.variable} ${GeistMono.variable}`}
+      className={`${geistSans.variable} ${geistMono.variable}`}
       data-theme="dark"
       lang="en"
     >

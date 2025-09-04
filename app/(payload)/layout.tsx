@@ -6,8 +6,7 @@ import { handleServerFunctions, RootLayout } from '@payloadcms/next/layouts';
 import type { ServerFunctionClient } from 'payload';
 import type React from 'react';
 import { importMap } from './import-map';
-import { GeistMono } from 'geist/font/mono';
-import { GeistSans } from 'geist/font/sans';
+import { geistMono, geistSans } from '@/styles/fonts/geist';
 import './style.css';
 
 type Args = {
@@ -28,7 +27,7 @@ const Layout = ({ children }: Args) => (
     config={config}
     importMap={importMap}
     serverFunction={serverFunction}
-    htmlProps={{ className: `${GeistSans.variable} ${GeistMono.variable}` }}
+    htmlProps={{ className: `${geistSans.variable} ${geistMono.variable}` }}
   >
     {children}
   </RootLayout>
