@@ -32,9 +32,6 @@ importers:
       embla-carousel-react:
         specifier: ^8.6.0
         version: 8.6.0(react@19.1.1)
-      geist:
-        specifier: ^1.4.2
-        version: 1.4.2(next@15.4.1(react-dom@19.1.1(react@19.1.1))(react@19.1.1)(sass@1.77.4))
       lucide-react:
         specifier: 0.511.0
         version: 0.511.0(react@19.1.1)
@@ -2934,11 +2931,6 @@ packages:
   function-timeout@1.0.2:
     resolution: {integrity: sha512-939eZS4gJ3htTHAldmyyuzlrD58P03fHG49v2JfFXbV6OhvZKRC9j2yAtdHw/zrp2zXHuv05zMIy40F0ge7spA==}
     engines: {node: '>=18'}
-
-  geist@1.4.2:
-    resolution: {integrity: sha512-OQUga/KUc8ueijck6EbtT07L4tZ5+TZgjw8PyWfxo16sL5FWk7gNViPNU8hgCFjy6bJi9yuTP+CRpywzaGN8zw==}
-    peerDependencies:
-      next: '>=13.2.0'
 
   get-caller-file@2.0.5:
     resolution: {integrity: sha512-DyFP3BM/3YHTQOCUL/w0OZHR0lpKeGrxotcHWcqNEdnltqFwXVfhEBQ94eIo34AfQpo0rGki4cyIiftY06h2Fg==}
@@ -7635,10 +7627,6 @@ snapshots:
   function-bind@1.1.2: {}
 
   function-timeout@1.0.2: {}
-
-  geist@1.4.2(next@15.4.1(react-dom@19.1.1(react@19.1.1))(react@19.1.1)(sass@1.77.4)):
-    dependencies:
-      next: 15.4.1(react-dom@19.1.1(react@19.1.1))(react@19.1.1)(sass@1.77.4)
 
   get-caller-file@2.0.5: {}
 
