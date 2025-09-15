@@ -8,7 +8,10 @@ type DiscoveryProps = {
     name: string;
     slug: string;
     description: string;
-    heroURL: string;
+    hero: {
+      alt: string;
+      url: string;
+    };
   }[];
 };
 
@@ -24,10 +27,10 @@ export function Discovery({ title, items }: DiscoveryProps) {
             key={item.id}
           >
             <HighlightCard
-              alt={`${item.name} - Hero`}
+              alt={item.hero.alt}
               description={item.description}
               name={item.name}
-              src={item.heroURL}
+              src={item.hero.url}
             />
           </Link>
         ))}
