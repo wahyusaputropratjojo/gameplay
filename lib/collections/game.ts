@@ -1,4 +1,5 @@
 import type { CollectionConfig } from 'payload';
+import { slug } from '@/lib/fields/slug';
 
 export const game: CollectionConfig = {
   admin: {
@@ -24,60 +25,50 @@ export const game: CollectionConfig = {
                 allowCreate: false,
               },
               hasMany: true,
-              name: 'age-rating',
+              name: 'ageRating',
               relationTo: 'ageRating',
               required: true,
               type: 'relationship',
             },
             {
-              fields: [
-                {
-                  admin: {
-                    allowCreate: false,
-                  },
-                  hasMany: true,
-                  name: 'genre',
-                  relationTo: 'genre',
-                  required: true,
-                  type: 'relationship',
-                },
-                {
-                  admin: {
-                    allowCreate: false,
-                  },
-                  hasMany: true,
-                  name: 'theme',
-                  relationTo: 'theme',
-                  required: true,
-                  type: 'relationship',
-                },
-              ],
-              type: 'row',
+              admin: {
+                allowCreate: false,
+              },
+              hasMany: true,
+              name: 'genre',
+              relationTo: 'genre',
+              required: true,
+              type: 'relationship',
             },
             {
-              fields: [
-                {
-                  admin: {
-                    allowCreate: false,
-                  },
-                  hasMany: true,
-                  name: 'developer',
-                  relationTo: 'company',
-                  required: true,
-                  type: 'relationship',
-                },
-                {
-                  admin: {
-                    allowCreate: false,
-                  },
-                  hasMany: true,
-                  name: 'publisher',
-                  relationTo: 'company',
-                  required: true,
-                  type: 'relationship',
-                },
-              ],
-              type: 'row',
+              admin: {
+                allowCreate: false,
+              },
+              hasMany: true,
+              name: 'theme',
+              relationTo: 'theme',
+              required: true,
+              type: 'relationship',
+            },
+            {
+              admin: {
+                allowCreate: false,
+              },
+              hasMany: true,
+              name: 'developer',
+              relationTo: 'company',
+              required: true,
+              type: 'relationship',
+            },
+            {
+              admin: {
+                allowCreate: false,
+              },
+              hasMany: true,
+              name: 'publisher',
+              relationTo: 'company',
+              required: true,
+              type: 'relationship',
             },
             {
               name: 'about',
@@ -90,19 +81,19 @@ export const game: CollectionConfig = {
           fields: [
             {
               name: 'logo',
-              relationTo: 'media',
+              relationTo: 'gameLogo',
               required: true,
               type: 'upload',
             },
             {
               name: 'grid',
-              relationTo: 'media',
+              relationTo: 'gameGrid',
               required: true,
               type: 'upload',
             },
             {
               name: 'hero',
-              relationTo: 'media',
+              relationTo: 'gameHero',
               required: true,
               type: 'upload',
             },
@@ -112,6 +103,7 @@ export const game: CollectionConfig = {
       ],
       type: 'tabs',
     },
+    slug,
   ],
   slug: 'game',
 };
