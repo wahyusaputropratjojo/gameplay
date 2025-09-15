@@ -17,7 +17,7 @@ export const ageRating: CollectionConfig = {
     },
     {
       name: 'logo',
-      relationTo: 'media',
+      relationTo: 'ageRatingLogo',
       type: 'upload',
     },
     {
