@@ -1,0 +1,62 @@
+[
+  {
+    "alt": "App Store Logo",
+    "filePath": "assets/logos/store/appstore-logo.svg",
+    "id": "9d78b407-8326-41ee-8995-2bd71d993811"
+  },
+  {
+    "alt": "Battle.net Logo",
+    "filePath": "assets/logos/store/battlenet-logo.svg",
+    "id": "03b6cc2a-db9d-4acd-945a-0826d6ebdd96"
+  },
+  {
+    "alt": "EA Logo",
+    "filePath": "assets/logos/store/ea-logo.svg",
+    "id": "28dc8055-146e-4bd3-9a02-b57499847a5d"
+  },
+  {
+    "alt": "Epic Games Store Logo",
+    "filePath": "assets/logos/store/epic-games-store-logo.svg",
+    "id": "d76d522e-c1f1-48de-970c-81858746ee54"
+  },
+  {
+    "alt": "GOG.com Logo",
+    "filePath": "assets/logos/store/gogcom-logo.svg",
+    "id": "48a26512-71d1-4e9a-9f23-eb6e802c97c9"
+  },
+  {
+    "alt": "Google Play Store Logo",
+    "filePath": "assets/logos/store/google-play-store-logo.svg",
+    "id": "ff093483-5ca9-400a-b1cb-7a06cdca2e71"
+  },
+  {
+    "alt": "Rockstar Games Logo",
+    "filePath": "assets/logos/store/rockstar-games-logo.svg",
+    "id": "aca2aab4-6790-4032-ab60-b5696516735f"
+  },
+  {
+    "alt": "Steam Logo",
+    "filePath": "assets/logos/store/steam-logo.svg",
+    "id": "046f892d-6a8f-418a-90c8-285e1934a4c8"
+  },
+  {
+    "alt": "Ubisoft Store Logo",
+    "filePath": "assets/logos/store/ubisoft-store-logo.svg",
+    "id": "8c134d01-b440-4db7-933a-9b0854c42a23"
+  },
+  {
+    "alt": "XBOX Logo",
+    "filePath": "assets/logos/store/xbox-logo.svg",
+    "id": "ed478faf-e1e7-49ff-8e8e-72ffd9d9c164"
+  },
+  {
+    "alt": "PlayStation Store Logo",
+    "filePath": "assets/logos/store/playstation-store-logo.svg",
+    "id": "9c17011b-8c93-49f5-a6b1-44cb606dddf7"
+  },
+  {
+    "alt": "Nintendo eShop Logo",
+    "filePath": "assets/logos/store/nintendo-eshop-logo.svg",
+    "id": "d147306d-55a3-4ed1-ad0e-6db0e4e99059"
+  }
+]

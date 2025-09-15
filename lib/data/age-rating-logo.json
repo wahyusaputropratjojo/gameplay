@@ -1,0 +1,52 @@
+[
+  {
+    "alt": "ESRB Everyone Logo",
+    "filePath": "assets/logos/age-rating/esrb-everyone-logo.svg",
+    "id": "e1e19785-e4e4-48fe-85e8-cb0dc65ca201"
+  },
+  {
+    "alt": "ESRB Everyone 10+ Logo",
+    "filePath": "assets/logos/age-rating/esrb-everyone-10-plus-logo.svg",
+    "id": "538e5fed-e855-4272-b69b-bdde9274c923"
+  },
+  {
+    "alt": "ESRB Teen Logo",
+    "filePath": "assets/logos/age-rating/esrb-teen-logo.svg",
+    "id": "d250048d-9586-4237-bed7-5535c010ccb8"
+  },
+  {
+    "alt": "ESRB Mature 17+ Logo",
+    "filePath": "assets/logos/age-rating/esrb-mature-17-plus-logo.svg",
+    "id": "5ccbeb0e-04e7-4b36-85fb-c7748a73d0d1"
+  },
+  {
+    "alt": "ESRB Adult Only 18+ Logo",
+    "filePath": "assets/logos/age-rating/esrb-adult-only-18-plus-logo.svg",
+    "id": "56f31480-cd47-4255-ac09-9eec55759857"
+  },
+  {
+    "alt": "PEGI 3 Logo",
+    "filePath": "assets/logos/age-rating/pegi-3-logo.svg",
+    "id": "e1a55397-c4cd-46ec-8440-7b3d4ec4e187"
+  },
+  {
+    "alt": "PEGI 7 Logo",
+    "filePath": "assets/logos/age-rating/pegi-7-logo.svg",
+    "id": "fb13fad6-9347-4fd4-90ec-c97486c430ff"
+  },
+  {
+    "alt": "PEGI 12 Logo",
+    "filePath": "assets/logos/age-rating/pegi-12-logo.svg",
+    "id": "24974c4c-92c1-450d-9de3-79cd54847a3e"
+  },
+  {
+    "alt": "PEGI 16 Logo",
+    "filePath": "assets/logos/age-rating/pegi-16-logo.svg",
+    "id": "a570b653-35f6-4f25-8927-05c5d7df9bae"
+  },
+  {
+    "alt": "PEGI 18 Logo",
+    "filePath": "assets/logos/age-rating/pegi-18-logo.svg",
+    "id": "195a7903-04ce-4f5b-8ae2-196171ef9dd8"
+  }
+]

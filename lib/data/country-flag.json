@@ -1,1452 +1,1271 @@
 [
   {
-    "alt": "ESRB - Everyone - Logo",
-    "filePath": "assets/logos/age-rating/esrb-everyone-logo.svg",
-    "id": "e1e19785-e4e4-48fe-85e8-cb0dc65ca201"
-  },
-  {
-    "alt": "ESRB - Everyone 10+ - Logo",
-    "filePath": "assets/logos/age-rating/esrb-everyone-10-plus-logo.svg",
-    "id": "538e5fed-e855-4272-b69b-bdde9274c923"
-  },
-  {
-    "alt": "ESRB - Teen - Logo",
-    "filePath": "assets/logos/age-rating/esrb-teen-logo.svg",
-    "id": "d250048d-9586-4237-bed7-5535c010ccb8"
-  },
-  {
-    "alt": "ESRB - Mature 17+ - Logo",
-    "filePath": "assets/logos/age-rating/esrb-mature-17-plus-logo.svg",
-    "id": "5ccbeb0e-04e7-4b36-85fb-c7748a73d0d1"
-  },
-  {
-    "alt": "ESRB - Adult Only 18+ - Logo",
-    "filePath": "assets/logos/age-rating/esrb-adult-only-18-plus-logo.svg",
-    "id": "56f31480-cd47-4255-ac09-9eec55759857"
-  },
-  {
-    "alt": "PEGI - 3 - Logo",
-    "filePath": "assets/logos/age-rating/pegi-3-logo.svg",
-    "id": "e1a55397-c4cd-46ec-8440-7b3d4ec4e187"
-  },
-  {
-    "alt": "PEGI - 7 - Logo",
-    "filePath": "assets/logos/age-rating/pegi-7-logo.svg",
-    "id": "fb13fad6-9347-4fd4-90ec-c97486c430ff"
-  },
-  {
-    "alt": "PEGI - 12 - Logo",
-    "filePath": "assets/logos/age-rating/pegi-12-logo.svg",
-    "id": "24974c4c-92c1-450d-9de3-79cd54847a3e"
-  },
-  {
-    "alt": "PEGI - 16 - Logo",
-    "filePath": "assets/logos/age-rating/pegi-16-logo.svg",
-    "id": "a570b653-35f6-4f25-8927-05c5d7df9bae"
-  },
-  {
-    "alt": "PEGI - 18 - Logo",
-    "filePath": "assets/logos/age-rating/pegi-18-logo.svg",
-    "id": "195a7903-04ce-4f5b-8ae2-196171ef9dd8"
-  },
-  {
-    "alt": "App Store - Logo",
-    "filePath": "assets/logos/store/appstore-logo.svg",
-    "id": "9d78b407-8326-41ee-8995-2bd71d993811"
-  },
-  {
-    "alt": "Battle.net - Logo",
-    "filePath": "assets/logos/store/battlenet-logo.svg",
-    "id": "03b6cc2a-db9d-4acd-945a-0826d6ebdd96"
-  },
-  {
-    "alt": "EA - Logo",
-    "filePath": "assets/logos/store/ea-logo.svg",
-    "id": "28dc8055-146e-4bd3-9a02-b57499847a5d"
-  },
-  {
-    "alt": "Epic Games Store - Logo",
-    "filePath": "assets/logos/store/epic-games-store-logo.svg",
-    "id": "d76d522e-c1f1-48de-970c-81858746ee54"
-  },
-  {
-    "alt": "GOG.com - Logo",
-    "filePath": "assets/logos/store/gogcom-logo.svg",
-    "id": "48a26512-71d1-4e9a-9f23-eb6e802c97c9"
-  },
-  {
-    "alt": "Google Play Store - Logo",
-    "filePath": "assets/logos/store/google-play-store-logo.svg",
-    "id": "ff093483-5ca9-400a-b1cb-7a06cdca2e71"
-  },
-  {
-    "alt": "Rockstar Games - Logo",
-    "filePath": "assets/logos/store/rockstar-games-logo.svg",
-    "id": "aca2aab4-6790-4032-ab60-b5696516735f"
-  },
-  {
-    "alt": "Steam - Logo",
-    "filePath": "assets/logos/store/steam-logo.svg",
-    "id": "046f892d-6a8f-418a-90c8-285e1934a4c8"
-  },
-  {
-    "alt": "Ubisoft Store - Logo",
-    "filePath": "assets/logos/store/ubisoft-store-logo.svg",
-    "id": "8c134d01-b440-4db7-933a-9b0854c42a23"
-  },
-  {
-    "alt": "XBOX - Logo",
-    "filePath": "assets/logos/store/xbox-logo.svg",
-    "id": "ed478faf-e1e7-49ff-8e8e-72ffd9d9c164"
-  },
-  {
-    "alt": "PlayStation Store - Logo",
-    "filePath": "assets/logos/store/playstation-store-logo.svg",
-    "id": "9c17011b-8c93-49f5-a6b1-44cb606dddf7"
-  },
-  {
-    "alt": "Nintendo eShop - Logo",
-    "filePath": "assets/logos/store/nintendo-eshop-logo.svg",
-    "id": "d147306d-55a3-4ed1-ad0e-6db0e4e99059"
-  },
-
-  {
-    "alt": "Bend Studio - Logo",
-    "filePath": "assets/logos/company/bend-studio-logo.svg",
-    "id": "937ae76a-ab95-4b6c-a383-8883ee7bdec7"
-  },
-  {
-    "alt": "Bluepoint Games - Logo",
-    "filePath": "assets/logos/company/bluepoint-games-logo.svg",
-    "id": "462f8575-87b3-4037-a9fd-f741bbd53c5f"
-  },
-  {
-    "alt": "Guerrilla Games - Logo",
-    "filePath": "assets/logos/company/guerrilla-games-logo.svg",
-    "id": "ad911cde-53a0-42ca-b42e-8c9b8f8ff697"
-  },
-  {
-    "alt": "Haven Studios - Logo",
-    "filePath": "assets/logos/company/haven-studios-logo.svg",
-    "id": "99e5d35f-76bc-4aae-b328-7a2ab03fd998"
-  },
-  {
-    "alt": "Housemarque - Logo",
-    "filePath": "assets/logos/company/housemarque-logo.svg",
-    "id": "6041e288-4e64-4fda-b27f-512adc3a00cb"
-  },
-  {
-    "alt": "Insomniac Games - Logo",
-    "filePath": "assets/logos/company/insomniac-games-logo.svg",
-    "id": "ab8d3093-f90f-4a0b-a07e-39e6c7b18632"
-  },
-  {
-    "alt": "Kojima Productions - Logo",
-    "filePath": "assets/logos/company/kojima-productions-logo.svg",
-    "id": "b5bbdff2-875c-4c8f-9cee-2fb5495bc187"
-  },
-  {
-    "alt": "Naughty Dog - Logo",
-    "filePath": "assets/logos/company/naughty-dog-logo.svg",
-    "id": "456d8564-f09c-41f9-95d9-ea3c9f194d8a"
-  },
-  {
-    "alt": "Polyphony Digital - Logo",
-    "filePath": "assets/logos/company/polyphony-digital-logo.svg",
-    "id": "14eced78-9b98-4fc2-b8f3-628b3adf996b"
-  },
-  {
-    "alt": "Santa Monica Studio - Logo",
-    "filePath": "assets/logos/company/santa-monica-studio-logo.svg",
-    "id": "1981e19c-2109-41fe-b6ee-57e3456ae723"
-  },
-  {
-    "alt": "Sony Computer Entertainment - Logo",
-    "filePath": "assets/logos/company/sony-computer-entertainment-logo.svg",
-    "id": "f5cc7409-e23f-4fcc-927a-eb16211e5d73"
-  },
-  {
-    "alt": "Sony Interactive Entertainment - Logo",
-    "filePath": "assets/logos/company/sony-interactive-entertainment-logo.svg",
-    "id": "d0cf1e5c-4ebc-49c5-aede-e2bda68cba56"
-  },
-  {
-    "alt": "Sucker Punch Productions - Logo",
-    "filePath": "assets/logos/company/sucker-punch-productions-logo.svg",
-    "id": "ebf3da7e-b097-4863-9d67-4d8ddf51734a"
-  },
-  {
-    "alt": "Team ASOBI - Logo",
-    "filePath": "assets/logos/company/team-asobi-logo.svg",
-    "id": "8781328f-5c89-4381-96ae-3e3ebf0edfbe"
-  },
-  {
-    "alt": "Afghanistan - Flag",
+    "alt": "Afghanistan Flag",
     "filePath": "assets/logos/country-flag/afghanistan-flag.svg",
     "id": "36ebc3a5-18ba-40e8-8ecd-a4ba7b115d56"
   },
   {
-    "alt": "Aland Islands - Flag",
+    "alt": "Aland Islands Flag",
     "filePath": "assets/logos/country-flag/aland-islands-flag.svg",
     "id": "b6e31e65-1f80-4d6c-a7a5-976e61e3f4ea"
   },
   {
-    "alt": "Albania - Flag",
+    "alt": "Albania Flag",
     "filePath": "assets/logos/country-flag/albania-flag.svg",
     "id": "d11fb7da-5fa2-4bb0-a75f-f30a91c9cf6b"
   },
   {
-    "alt": "Algeria - Flag",
+    "alt": "Algeria Flag",
     "filePath": "assets/logos/country-flag/algeria-flag.svg",
     "id": "b15860e8-7420-4d98-a071-56ea091a5f0e"
   },
   {
-    "alt": "American Samoa - Flag",
+    "alt": "American Samoa Flag",
     "filePath": "assets/logos/country-flag/american-samoa-flag.svg",
     "id": "6ecfa53a-a25a-4274-b192-80cb202cfe68"
   },
   {
-    "alt": "Andorra - Flag",
+    "alt": "Andorra Flag",
     "filePath": "assets/logos/country-flag/andorra-flag.svg",
     "id": "ee719d6e-6d76-47c4-bc0a-93721ec5e743"
   },
   {
-    "alt": "Angola - Flag",
+    "alt": "Angola Flag",
     "filePath": "assets/logos/country-flag/angola-flag.svg",
     "id": "d71ff390-6b2b-4fb6-b946-6f4f540e230c"
   },
   {
-    "alt": "Anguilla - Flag",
+    "alt": "Anguilla Flag",
     "filePath": "assets/logos/country-flag/anguilla-flag.svg",
     "id": "3b23ef68-ed5d-417b-a8b1-d6427a9122b7"
   },
   {
-    "alt": "Antigua and Barbuda - Flag",
+    "alt": "Antigua and Barbuda Flag",
     "filePath": "assets/logos/country-flag/antigua-and-barbuda-flag.svg",
     "id": "5d50bebb-58f7-43a4-9816-c6fb2a048ae5"
   },
   {
-    "alt": "Argentina - Flag",
+    "alt": "Argentina Flag",
     "filePath": "assets/logos/country-flag/argentina-flag.svg",
     "id": "a18bd691-7909-4251-a619-72a51a84fdc6"
   },
   {
-    "alt": "Armenia - Flag",
+    "alt": "Armenia Flag",
     "filePath": "assets/logos/country-flag/armenia-flag.svg",
     "id": "007b1207-91c6-43af-b39a-a968baac75e5"
   },
   {
-    "alt": "Aruba - Flag",
+    "alt": "Aruba Flag",
     "filePath": "assets/logos/country-flag/aruba-flag.svg",
     "id": "b1542f0b-91c3-431a-9609-21d6b9097527"
   },
   {
-    "alt": "Ascension Island - Flag",
+    "alt": "Ascension Island Flag",
     "filePath": "assets/logos/country-flag/ascension-island-flag.svg",
     "id": "68d6b240-d215-4c55-b676-ee6e0e4e6e2a"
   },
   {
-    "alt": "Australia - Flag",
+    "alt": "Australia Flag",
     "filePath": "assets/logos/country-flag/australia-flag.svg",
     "id": "f38ef801-b81a-40eb-a5fb-759d75e45700"
   },
   {
-    "alt": "Austria - Flag",
+    "alt": "Austria Flag",
     "filePath": "assets/logos/country-flag/austria-flag.svg",
     "id": "84249e69-0f50-4d2f-8bff-6e2c0e159767"
   },
   {
-    "alt": "Azerbaijan - Flag",
+    "alt": "Azerbaijan Flag",
     "filePath": "assets/logos/country-flag/azerbaijan-flag.svg",
     "id": "35f8a83b-c7f3-4957-a56c-b00329b2e755"
   },
   {
-    "alt": "Bahamas - Flag",
+    "alt": "Bahamas Flag",
     "filePath": "assets/logos/country-flag/bahamas-flag.svg",
     "id": "25a8994b-1808-4093-813d-02f5c3b12425"
   },
   {
-    "alt": "Bahrain - Flag",
+    "alt": "Bahrain Flag",
     "filePath": "assets/logos/country-flag/bahrain-flag.svg",
     "id": "a9adb44e-003e-4c35-9d3f-9925ed9f4705"
   },
   {
-    "alt": "Bangladesh - Flag",
+    "alt": "Bangladesh Flag",
     "filePath": "assets/logos/country-flag/bangladesh-flag.svg",
     "id": "36186290-31de-4168-b408-7b3eadc085d6"
   },
   {
-    "alt": "Barbados - Flag",
+    "alt": "Barbados Flag",
     "filePath": "assets/logos/country-flag/barbados-flag.svg",
     "id": "586595b9-a183-41ad-a2f0-50da9905faa1"
   },
   {
-    "alt": "Belarus - Flag",
+    "alt": "Belarus Flag",
     "filePath": "assets/logos/country-flag/belarus-flag.svg",
     "id": "2c853798-87fa-4ede-99a9-ae4bebc854ba"
   },
   {
-    "alt": "Belgium - Flag",
+    "alt": "Belgium Flag",
     "filePath": "assets/logos/country-flag/belgium-flag.svg",
     "id": "9624f955-9341-48b9-97c3-80b1cc56e359"
   },
   {
-    "alt": "Belize - Flag",
+    "alt": "Belize Flag",
     "filePath": "assets/logos/country-flag/belize-flag.svg",
     "id": "1c989ab3-f497-426c-905c-d6a9bde0dced"
   },
   {
-    "alt": "Benin - Flag",
+    "alt": "Benin Flag",
     "filePath": "assets/logos/country-flag/benin-flag.svg",
     "id": "048aacf6-6436-4688-9000-61210f751075"
   },
   {
-    "alt": "Bermuda - Flag",
+    "alt": "Bermuda Flag",
     "filePath": "assets/logos/country-flag/bermuda-flag.svg",
     "id": "99e6c671-6670-4b69-8720-30de027ec0bb"
   },
   {
-    "alt": "Bhutan - Flag",
+    "alt": "Bhutan Flag",
     "filePath": "assets/logos/country-flag/bhutan-flag.svg",
     "id": "0c7f2746-5734-4655-a606-2cdaa5ea9903"
   },
   {
-    "alt": "Bolivia - Flag",
+    "alt": "Bolivia Flag",
     "filePath": "assets/logos/country-flag/bolivia-flag.svg",
     "id": "11a2172c-7818-4551-8618-be33734146ee"
   },
   {
-    "alt": "Bonaire, Sint Eustatius and Saba - Flag",
+    "alt": "Bonaire, Sint Eustatius and Saba Flag",
     "filePath": "assets/logos/country-flag/bonaire-sint-eustatius-and-saba-flag.svg",
     "id": "e6f04353-4a4a-440e-ba06-9d1ffb3d9735"
   },
   {
-    "alt": "Bosnia and Herzegovina - Flag",
+    "alt": "Bosnia and Herzegovina Flag",
     "filePath": "assets/logos/country-flag/bosnia-and-herzegovina-flag.svg",
     "id": "89b8ce98-bdf9-4d1b-9c5e-17e1875620df"
   },
   {
-    "alt": "Botswana - Flag",
+    "alt": "Botswana Flag",
     "filePath": "assets/logos/country-flag/botswana-flag.svg",
     "id": "554b274f-8c9c-438f-9891-b117b3439e0d"
   },
   {
-    "alt": "Brazil - Flag",
+    "alt": "Brazil Flag",
     "filePath": "assets/logos/country-flag/brazil-flag.svg",
     "id": "79249dd2-3862-441d-a364-657e7ad0adda"
   },
   {
-    "alt": "British Indian Ocean Territory - Flag",
+    "alt": "British Indian Ocean Territory Flag",
     "filePath": "assets/logos/country-flag/british-indian-ocean-territory-flag.svg",
     "id": "e865f4c5-6f5e-4f0c-9393-c59c620c8d09"
   },
   {
-    "alt": "Brunei Darussalam - Flag",
+    "alt": "Brunei Darussalam Flag",
     "filePath": "assets/logos/country-flag/brunei-darussalam-flag.svg",
     "id": "8c2f2ab6-1230-4ef2-9920-4b82a2c18eb3"
   },
   {
-    "alt": "Bulgaria - Flag",
+    "alt": "Bulgaria Flag",
     "filePath": "assets/logos/country-flag/bulgaria-flag.svg",
     "id": "24318966-7829-42a5-9417-4e63d53799d0"
   },
   {
-    "alt": "Burkina Faso - Flag",
+    "alt": "Burkina Faso Flag",
     "filePath": "assets/logos/country-flag/burkina-faso-flag.svg",
     "id": "8286a6f2-0456-475d-a9f1-555e02074f93"
   },
   {
-    "alt": "Burundi - Flag",
+    "alt": "Burundi Flag",
     "filePath": "assets/logos/country-flag/burundi-flag.svg",
     "id": "bf368b59-2b2e-4148-aafb-d702b29ceb8b"
   },
   {
-    "alt": "Cabo Verde - Flag",
+    "alt": "Cabo Verde Flag",
     "filePath": "assets/logos/country-flag/cabo-verde-flag.svg",
     "id": "e41874c8-d14d-4183-ae1b-be1313e1625b"
   },
   {
-    "alt": "Cambodia - Flag",
+    "alt": "Cambodia Flag",
     "filePath": "assets/logos/country-flag/cambodia-flag.svg",
     "id": "b2f33cf3-6bb4-4680-b53b-ca83b128fc3f"
   },
   {
-    "alt": "Cameroon - Flag",
+    "alt": "Cameroon Flag",
     "filePath": "assets/logos/country-flag/cameroon-flag.svg",
     "id": "0b85b19c-5a65-4f0b-a2c2-4d7259e28071"
   },
   {
-    "alt": "Canada - Flag",
+    "alt": "Canada Flag",
     "filePath": "assets/logos/country-flag/canada-flag.svg",
     "id": "b719caa5-50ed-4dca-b308-1be81637ef0b"
   },
   {
-    "alt": "Cayman Islands - Flag",
+    "alt": "Cayman Islands Flag",
     "filePath": "assets/logos/country-flag/cayman-islands-flag.svg",
     "id": "5a0a5e60-1625-4eb4-8196-abac675687d7"
   },
   {
-    "alt": "Central African Republic - Flag",
+    "alt": "Central African Republic Flag",
     "filePath": "assets/logos/country-flag/central-african-republic-flag.svg",
     "id": "8e0b3dcb-fba9-4b4c-adca-57a786b977b0"
   },
   {
-    "alt": "Chad - Flag",
+    "alt": "Chad Flag",
     "filePath": "assets/logos/country-flag/chad-flag.svg",
     "id": "c5000ff6-1eb6-4963-bc6f-f4bcce0da5ce"
   },
   {
-    "alt": "Chile - Flag",
+    "alt": "Chile Flag",
     "filePath": "assets/logos/country-flag/chile-flag.svg",
     "id": "edb29cef-582f-402e-8d53-18bcd2ac41ef"
   },
   {
-    "alt": "China - Flag",
+    "alt": "China Flag",
     "filePath": "assets/logos/country-flag/china-flag.svg",
     "id": "f5a2dd0c-70a0-401f-8a78-a7ff21324916"
   },
   {
-    "alt": "Christmas Island - Flag",
+    "alt": "Christmas Island Flag",
     "filePath": "assets/logos/country-flag/christmas-island-flag.svg",
     "id": "32a6f143-f525-42f0-961f-b9f3dd600a04"
   },
   {
-    "alt": "Cocos (Keeling) Islands - Flag",
+    "alt": "Cocos (Keeling) Islands Flag",
     "filePath": "assets/logos/country-flag/cocos-keeling-islands-flag.svg",
     "id": "80e937c6-edc7-4a86-a37d-dc7209b28738"
   },
   {
-    "alt": "Colombia - Flag",
+    "alt": "Colombia Flag",
     "filePath": "assets/logos/country-flag/colombia-flag.svg",
     "id": "227585c8-790d-4d0e-84a3-cebd7f1effcf"
   },
   {
-    "alt": "Comoros - Flag",
+    "alt": "Comoros Flag",
     "filePath": "assets/logos/country-flag/comoros-flag.svg",
     "id": "75452d98-ddbc-4c59-9775-3b30d9b5bdcd"
   },
   {
-    "alt": "Cook Islands - Flag",
+    "alt": "Cook Islands Flag",
     "filePath": "assets/logos/country-flag/cook-islands-flag.svg",
     "id": "bffa7dab-873b-496a-b278-30c812f3ca44"
   },
   {
-    "alt": "Costa Rica - Flag",
+    "alt": "Costa Rica Flag",
     "filePath": "assets/logos/country-flag/costa-rica-flag.svg",
     "id": "a74dc513-fc5a-493e-9c84-80a960821888"
   },
   {
-    "alt": "Croatia - Flag",
+    "alt": "Croatia Flag",
     "filePath": "assets/logos/country-flag/croatia-flag.svg",
     "id": "b5d74910-445d-42fc-b70c-05e064562590"
   },
   {
-    "alt": "Cuba - Flag",
+    "alt": "Cuba Flag",
     "filePath": "assets/logos/country-flag/cuba-flag.svg",
     "id": "96deef47-ab55-4b81-b072-676e18add049"
   },
   {
-    "alt": "Curaçao - Flag",
+    "alt": "Curaçao Flag",
     "filePath": "assets/logos/country-flag/curacao-flag.svg",
     "id": "200a1656-a01a-439e-9982-9a081171fe0a"
   },
   {
-    "alt": "Cyprus - Flag",
+    "alt": "Cyprus Flag",
     "filePath": "assets/logos/country-flag/cyprus-flag.svg",
     "id": "aee5d546-1f57-4095-9638-4ad40e87a6f2"
   },
   {
-    "alt": "Czech Republic - Flag",
+    "alt": "Czech Republic Flag",
     "filePath": "assets/logos/country-flag/czech-republic-flag.svg",
     "id": "c103c9de-2b2e-494a-93ff-79ed2d05281c"
   },
   {
-    "alt": "Côte d'Ivoire - Flag",
+    "alt": "Côte d'Ivoire Flag",
     "filePath": "assets/logos/country-flag/cote-divoire-flag.svg",
     "id": "63733a71-db6c-4b86-bd9b-07f66f4baf30"
   },
   {
-    "alt": "Democratic Republic of the Congo - Flag",
+    "alt": "Democratic Republic of the Congo Flag",
     "filePath": "assets/logos/country-flag/democratic-republic-of-the-congo-flag.svg",
     "id": "ec21ddcb-d86c-4b8b-a64e-305ab9e8d0dc"
   },
   {
-    "alt": "Denmark - Flag",
+    "alt": "Denmark Flag",
     "filePath": "assets/logos/country-flag/denmark-flag.svg",
     "id": "db3a35f3-375c-4efb-8bdd-26e8659f00eb"
   },
   {
-    "alt": "Djibouti - Flag",
+    "alt": "Djibouti Flag",
     "filePath": "assets/logos/country-flag/djibouti-flag.svg",
     "id": "4f39724c-4f20-4de1-965c-6a74bc3de102"
   },
   {
-    "alt": "Dominica - Flag",
+    "alt": "Dominica Flag",
     "filePath": "assets/logos/country-flag/dominica-flag.svg",
     "id": "ec675727-f2ec-4371-87ee-cdc4c5170e54"
   },
   {
-    "alt": "Dominican Republic - Flag",
+    "alt": "Dominican Republic Flag",
     "filePath": "assets/logos/country-flag/dominican-republic-flag.svg",
     "id": "91c35183-7792-447c-a116-bd043af33c78"
   },
   {
-    "alt": "Ecuador - Flag",
+    "alt": "Ecuador Flag",
     "filePath": "assets/logos/country-flag/ecuador-flag.svg",
     "id": "e1c24de8-0eeb-4d7c-b9a6-dd323794f3c9"
   },
   {
-    "alt": "Egypt - Flag",
+    "alt": "Egypt Flag",
     "filePath": "assets/logos/country-flag/egypt-flag.svg",
     "id": "dad3b87f-82bd-4138-bfc7-487cad21bb5b"
   },
   {
-    "alt": "El Salvador - Flag",
+    "alt": "El Salvador Flag",
     "filePath": "assets/logos/country-flag/el-salvador-flag.svg",
     "id": "77bddff0-5039-4cda-8f41-359d64a0cd65"
   },
   {
-    "alt": "England - Flag",
+    "alt": "England Flag",
     "filePath": "assets/logos/country-flag/england-flag.svg",
     "id": "5fae6532-04c0-4322-ba06-02d6332d2736"
   },
   {
-    "alt": "Equatorial Guinea - Flag",
+    "alt": "Equatorial Guinea Flag",
     "filePath": "assets/logos/country-flag/equatorial-guinea-flag.svg",
     "id": "8e7c5eb0-f8bb-4e6e-b645-c7ae520b3869"
   },
   {
-    "alt": "Eritrea - Flag",
+    "alt": "Eritrea Flag",
     "filePath": "assets/logos/country-flag/eritrea-flag.svg",
     "id": "89779219-490a-4139-b074-87caf8cf8438"
   },
   {
-    "alt": "Estonia - Flag",
+    "alt": "Estonia Flag",
     "filePath": "assets/logos/country-flag/estonia-flag.svg",
     "id": "bbdf560f-4140-4f74-b935-0a876a24b479"
   },
   {
-    "alt": "Eswatini - Flag",
+    "alt": "Eswatini Flag",
     "filePath": "assets/logos/country-flag/eswatini-flag.svg",
     "id": "afc84f29-1c43-4007-8650-8b9f5a0dddd3"
   },
   {
-    "alt": "Ethiopia - Flag",
+    "alt": "Ethiopia Flag",
     "filePath": "assets/logos/country-flag/ethiopia-flag.svg",
     "id": "afbb260e-7a4d-4141-99c1-7175bdb7a63d"
   },
   {
-    "alt": "Falkland Islands - Flag",
+    "alt": "Falkland Islands Flag",
     "filePath": "assets/logos/country-flag/falkland-islands-flag.svg",
     "id": "826704ea-5605-4bb4-98f4-5581cae3e22b"
   },
   {
-    "alt": "Faroe Islands - Flag",
+    "alt": "Faroe Islands Flag",
     "filePath": "assets/logos/country-flag/faroe-islands-flag.svg",
     "id": "ef50fb64-6854-45b4-9e20-d6b6e9df35fd"
   },
   {
-    "alt": "Federated States of Micronesia - Flag",
+    "alt": "Federated States of Micronesia Flag",
     "filePath": "assets/logos/country-flag/federated-states-of-micronesia-flag.svg",
     "id": "146e3d70-ea3e-4f2d-b154-434eb48afe5d"
   },
   {
-    "alt": "Fiji - Flag",
+    "alt": "Fiji Flag",
     "filePath": "assets/logos/country-flag/fiji-flag.svg",
     "id": "4dfb4706-c27e-4f24-9033-af0c5876510b"
   },
   {
-    "alt": "Finland - Flag",
+    "alt": "Finland Flag",
     "filePath": "assets/logos/country-flag/finland-flag.svg",
     "id": "5f4154a6-2a44-4d0b-a2c5-b61d019877f0"
   },
   {
-    "alt": "France - Flag",
+    "alt": "France Flag",
     "filePath": "assets/logos/country-flag/france-flag.svg",
     "id": "ee9d373f-ec49-42e7-9969-75650bdcab8a"
   },
   {
-    "alt": "French Guiana - Flag",
+    "alt": "French Guiana Flag",
     "filePath": "assets/logos/country-flag/french-guiana-flag.svg",
     "id": "0399db93-5428-4860-8fd9-9276ca2f47a7"
   },
   {
-    "alt": "French Polynesia - Flag",
+    "alt": "French Polynesia Flag",
     "filePath": "assets/logos/country-flag/french-polynesia-flag.svg",
     "id": "cc98b23b-395d-4019-bd99-e80748c5a5d5"
   },
   {
-    "alt": "French Southern Territories - Flag",
+    "alt": "French Southern Territories Flag",
     "filePath": "assets/logos/country-flag/french-southern-territories-flag.svg",
     "id": "fa7e982d-23b7-41cc-b430-9169ca8a675e"
   },
   {
-    "alt": "Gabon - Flag",
+    "alt": "Gabon Flag",
     "filePath": "assets/logos/country-flag/gabon-flag.svg",
     "id": "7fea7743-2473-4031-9851-f9102372199b"
   },
   {
-    "alt": "Gambia - Flag",
+    "alt": "Gambia Flag",
     "filePath": "assets/logos/country-flag/gambia-flag.svg",
     "id": "4450e231-bcfc-45f6-b9de-9f4d34ca0abb"
   },
   {
-    "alt": "Georgia - Flag",
+    "alt": "Georgia Flag",
     "filePath": "assets/logos/country-flag/georgia-flag.svg",
     "id": "5dc44a21-d273-4e07-9247-bb03f5174dbe"
   },
   {
-    "alt": "Germany - Flag",
+    "alt": "Germany Flag",
     "filePath": "assets/logos/country-flag/germany-flag.svg",
     "id": "c54cdbc2-ff88-4c90-8349-02230ddffb7f"
   },
   {
-    "alt": "Ghana - Flag",
+    "alt": "Ghana Flag",
     "filePath": "assets/logos/country-flag/ghana-flag.svg",
     "id": "6ad5dec7-37c5-4e43-b9ea-8c1694766521"
   },
   {
-    "alt": "Gibraltar - Flag",
+    "alt": "Gibraltar Flag",
     "filePath": "assets/logos/country-flag/gibraltar-flag.svg",
     "id": "3efbb191-25b3-494b-8446-a9b2eeac5631"
   },
   {
-    "alt": "Greece - Flag",
+    "alt": "Greece Flag",
     "filePath": "assets/logos/country-flag/greece-flag.svg",
     "id": "0103591b-4d3a-450c-a683-daec934a5bac"
   },
   {
-    "alt": "Greenland - Flag",
+    "alt": "Greenland Flag",
     "filePath": "assets/logos/country-flag/greenland-flag.svg",
     "id": "27c0326d-46e4-4a0e-9ee0-2b84652f5168"
   },
   {
-    "alt": "Grenada - Flag",
+    "alt": "Grenada Flag",
     "filePath": "assets/logos/country-flag/grenada-flag.svg",
     "id": "a1b789a2-e6ee-464e-b82e-358d8d18abf3"
   },
   {
-    "alt": "Guadeloupe - Flag",
+    "alt": "Guadeloupe Flag",
     "filePath": "assets/logos/country-flag/guadeloupe-flag.svg",
     "id": "a0d5c78c-ee71-4656-9ce0-9e0c288e7b4b"
   },
   {
-    "alt": "Guam - Flag",
+    "alt": "Guam Flag",
     "filePath": "assets/logos/country-flag/guam-flag.svg",
     "id": "bd39b9b9-c458-43d3-84db-22aea8bbf303"
   },
   {
-    "alt": "Guatemala - Flag",
+    "alt": "Guatemala Flag",
     "filePath": "assets/logos/country-flag/guatemala-flag.svg",
     "id": "465a1e4b-5570-4585-a77f-523d49cb6de2"
   },
   {
-    "alt": "Guernsey - Flag",
+    "alt": "Guernsey Flag",
     "filePath": "assets/logos/country-flag/guernsey-flag.svg",
     "id": "dc8fca91-9464-4add-8604-dab4170d66e0"
   },
   {
-    "alt": "Guinea - Flag",
+    "alt": "Guinea Flag",
     "filePath": "assets/logos/country-flag/guinea-flag.svg",
     "id": "99a4a749-6dab-40a8-8770-8a9771e0c38f"
   },
   {
-    "alt": "Guinea-Bissau - Flag",
+    "alt": "Guinea-Bissau Flag",
     "filePath": "assets/logos/country-flag/guinea-bissau-flag.svg",
     "id": "733b1815-9551-487e-9273-c513d38a9838"
   },
   {
-    "alt": "Guyana - Flag",
+    "alt": "Guyana Flag",
     "filePath": "assets/logos/country-flag/guyana-flag.svg",
     "id": "6a1f3038-3c35-4242-b256-969562fbd5ff"
   },
   {
-    "alt": "Haiti - Flag",
+    "alt": "Haiti Flag",
     "filePath": "assets/logos/country-flag/haiti-flag.svg",
     "id": "ce0cb9b9-b1e0-4453-942e-705611742341"
   },
   {
-    "alt": "Holy See - Flag",
+    "alt": "Holy See Flag",
     "filePath": "assets/logos/country-flag/holy-see-flag.svg",
     "id": "fb4114bb-8477-466f-83b5-91059a4a17e5"
   },
   {
-    "alt": "Honduras - Flag",
+    "alt": "Honduras Flag",
     "filePath": "assets/logos/country-flag/honduras-flag.svg",
     "id": "faa70050-f55e-4295-9ff2-7658738a4f01"
   },
   {
-    "alt": "Hong Kong - Flag",
+    "alt": "Hong Kong Flag",
     "filePath": "assets/logos/country-flag/hong-kong-flag.svg",
     "id": "f0da43d8-7b24-4350-8300-13bacbc3b39a"
   },
   {
-    "alt": "Hungary - Flag",
+    "alt": "Hungary Flag",
     "filePath": "assets/logos/country-flag/hungary-flag.svg",
     "id": "f2e28796-b9bc-4692-bce1-a848361a3aeb"
   },
   {
-    "alt": "Iceland - Flag",
+    "alt": "Iceland Flag",
     "filePath": "assets/logos/country-flag/iceland-flag.svg",
     "id": "2b624126-7b31-41d5-a7e0-872b73e228b1"
   },
   {
-    "alt": "India - Flag",
+    "alt": "India Flag",
     "filePath": "assets/logos/country-flag/india-flag.svg",
     "id": "d850ea01-d156-4881-8f5a-9c8fc735cb04"
   },
   {
-    "alt": "Indonesia - Flag",
+    "alt": "Indonesia Flag",
     "filePath": "assets/logos/country-flag/indonesia-flag.svg",
     "id": "8eecbb2b-d0e5-4e7c-9810-6de0ca4713a3"
   },
   {
-    "alt": "Iran - Flag",
+    "alt": "Iran Flag",
     "filePath": "assets/logos/country-flag/iran-flag.svg",
     "id": "5b11e8ee-03ae-411f-bb50-8462110d3a73"
   },
   {
-    "alt": "Iraq - Flag",
+    "alt": "Iraq Flag",
     "filePath": "assets/logos/country-flag/iraq-flag.svg",
     "id": "681511e4-0261-43b5-ae10-bee3bd1ec37a"
   },
   {
-    "alt": "Ireland - Flag",
+    "alt": "Ireland Flag",
     "filePath": "assets/logos/country-flag/ireland-flag.svg",
     "id": "45d88cc3-0935-406f-a761-5f1d772f8154"
   },
   {
-    "alt": "Isle of Man - Flag",
+    "alt": "Isle of Man Flag",
     "filePath": "assets/logos/country-flag/isle-of-man-flag.svg",
     "id": "10013bb3-7919-4f52-8af0-e2c298497af7"
   },
   {
-    "alt": "Israel - Flag",
+    "alt": "Israel Flag",
     "filePath": "assets/logos/country-flag/israel-flag.svg",
     "id": "a11eb1cc-5842-49ad-9a46-6d94fd4ea403"
   },
   {
-    "alt": "Italy - Flag",
+    "alt": "Italy Flag",
     "filePath": "assets/logos/country-flag/italy-flag.svg",
     "id": "0141d6eb-d8c2-4103-9f66-f7259cefb865"
   },
   {
-    "alt": "Jamaica - Flag",
+    "alt": "Jamaica Flag",
     "filePath": "assets/logos/country-flag/jamaica-flag.svg",
     "id": "365ce92f-e624-404c-a8c4-a983afec2b1b"
   },
   {
-    "alt": "Japan - Flag",
+    "alt": "Japan Flag",
     "filePath": "assets/logos/country-flag/japan-flag.svg",
     "id": "ec020c6b-a849-444f-8c6c-7a1c75423e4e"
   },
   {
-    "alt": "Jersey - Flag",
+    "alt": "Jersey Flag",
     "filePath": "assets/logos/country-flag/jersey-flag.svg",
     "id": "0c42ce65-1cfa-489a-b69d-0ff101cfa39f"
   },
   {
-    "alt": "Jordan - Flag",
+    "alt": "Jordan Flag",
     "filePath": "assets/logos/country-flag/jordan-flag.svg",
     "id": "6113c758-fa64-46e3-9125-aa0ed275f61a"
   },
   {
-    "alt": "Kazakhstan - Flag",
+    "alt": "Kazakhstan Flag",
     "filePath": "assets/logos/country-flag/kazakhstan-flag.svg",
     "id": "6a7a25da-141f-453a-8266-13255b0ef095"
   },
   {
-    "alt": "Kenya - Flag",
+    "alt": "Kenya Flag",
     "filePath": "assets/logos/country-flag/kenya-flag.svg",
     "id": "2e6cbf70-b406-49e4-a3cb-e587ea4d6955"
   },
   {
-    "alt": "Kiribati - Flag",
+    "alt": "Kiribati Flag",
     "filePath": "assets/logos/country-flag/kiribati-flag.svg",
     "id": "064b0212-8e07-48ff-87c0-231f7e5ae363"
   },
   {
-    "alt": "Kosovo - Flag",
+    "alt": "Kosovo Flag",
     "filePath": "assets/logos/country-flag/kosovo-flag.svg",
     "id": "1c74329c-41c9-4562-933d-3e5d98e11ea4"
   },
   {
-    "alt": "Kuwait - Flag",
+    "alt": "Kuwait Flag",
     "filePath": "assets/logos/country-flag/kuwait-flag.svg",
     "id": "7da4cd15-db39-4462-85be-306992abdc0b"
   },
   {
-    "alt": "Kyrgyzstan - Flag",
+    "alt": "Kyrgyzstan Flag",
     "filePath": "assets/logos/country-flag/kyrgyzstan-flag.svg",
     "id": "57fbdc7f-c61d-4224-8eee-517b23a5fbdb"
   },
   {
-    "alt": "Laos - Flag",
+    "alt": "Laos Flag",
     "filePath": "assets/logos/country-flag/laos-flag.svg",
     "id": "0e717bd4-d8fc-4ec4-85ad-a3c567c003e2"
   },
   {
-    "alt": "Latvia - Flag",
+    "alt": "Latvia Flag",
     "filePath": "assets/logos/country-flag/latvia-flag.svg",
     "id": "c3cd65e1-61f5-4717-b16a-fd7bdf3d3702"
   },
   {
-    "alt": "Lebanon - Flag",
+    "alt": "Lebanon Flag",
     "filePath": "assets/logos/country-flag/lebanon-flag.svg",
     "id": "50dfa297-8d3a-4491-805f-f6f22806cfe3"
   },
   {
-    "alt": "Lesotho - Flag",
+    "alt": "Lesotho Flag",
     "filePath": "assets/logos/country-flag/lesotho-flag.svg",
     "id": "6276953d-cee1-4cf6-8884-158ba4297145"
   },
   {
-    "alt": "Liberia - Flag",
+    "alt": "Liberia Flag",
     "filePath": "assets/logos/country-flag/liberia-flag.svg",
     "id": "0c1a2a69-66e7-45c5-a3e8-87baa4e0c08e"
   },
   {
-    "alt": "Libya - Flag",
+    "alt": "Libya Flag",
     "filePath": "assets/logos/country-flag/libya-flag.svg",
     "id": "07a7135c-8372-49e1-8698-e7d4aedfe9ba"
   },
   {
-    "alt": "Liechtenstein - Flag",
+    "alt": "Liechtenstein Flag",
     "filePath": "assets/logos/country-flag/liechtenstein-flag.svg",
     "id": "cdf76d2a-2ad2-4974-b5a5-0e5810664951"
   },
   {
-    "alt": "Lithuania - Flag",
+    "alt": "Lithuania Flag",
     "filePath": "assets/logos/country-flag/lithuania-flag.svg",
     "id": "f79fe37f-b7a7-4fdd-827b-7f47cb062bb7"
   },
   {
-    "alt": "Luxembourg - Flag",
+    "alt": "Luxembourg Flag",
     "filePath": "assets/logos/country-flag/luxembourg-flag.svg",
     "id": "ee40ca21-8f95-4ecf-be53-10b80f730acc"
   },
   {
-    "alt": "Macau - Flag",
+    "alt": "Macau Flag",
     "filePath": "assets/logos/country-flag/macau-flag.svg",
     "id": "5053317a-a1e8-4d1f-931a-19bcabd3b946"
   },
   {
-    "alt": "Madagascar - Flag",
+    "alt": "Madagascar Flag",
     "filePath": "assets/logos/country-flag/madagascar-flag.svg",
     "id": "f82f3545-56ca-4139-a588-fdcdee389a8e"
   },
   {
-    "alt": "Malawi - Flag",
+    "alt": "Malawi Flag",
     "filePath": "assets/logos/country-flag/malawi-flag.svg",
     "id": "74994205-db7a-471a-96d1-d65456de5ae0"
   },
   {
-    "alt": "Malaysia - Flag",
+    "alt": "Malaysia Flag",
     "filePath": "assets/logos/country-flag/malaysia-flag.svg",
     "id": "01970449-9999-4117-809b-151d980a9853"
   },
   {
-    "alt": "Maldives - Flag",
+    "alt": "Maldives Flag",
     "filePath": "assets/logos/country-flag/maldives-flag.svg",
     "id": "df1af125-44f5-4b74-bd1e-71f72e82eae7"
   },
   {
-    "alt": "Mali - Flag",
+    "alt": "Mali Flag",
     "filePath": "assets/logos/country-flag/mali-flag.svg",
     "id": "ed63b1fa-983e-4e82-8a1f-b1110860341d"
   },
   {
-    "alt": "Malta - Flag",
+    "alt": "Malta Flag",
     "filePath": "assets/logos/country-flag/malta-flag.svg",
     "id": "83f02e2b-11c0-44f7-a94f-2a42b11f7cfd"
   },
   {
-    "alt": "Marshall Islands - Flag",
+    "alt": "Marshall Islands Flag",
     "filePath": "assets/logos/country-flag/marshall-islands-flag.svg",
     "id": "eb25d636-9da9-4780-b66d-7369934190f6"
   },
   {
-    "alt": "Martinique - Flag",
+    "alt": "Martinique Flag",
     "filePath": "assets/logos/country-flag/martinique-flag.svg",
     "id": "e5e6f9d0-7b92-4d1a-ab6e-6271484af3fb"
   },
   {
-    "alt": "Mauritania - Flag",
+    "alt": "Mauritania Flag",
     "filePath": "assets/logos/country-flag/mauritania-flag.svg",
     "id": "3d05ca7b-931f-4010-906a-700614d02b41"
   },
   {
-    "alt": "Mauritius - Flag",
+    "alt": "Mauritius Flag",
     "filePath": "assets/logos/country-flag/mauritius-flag.svg",
     "id": "02acf55a-3ea4-44b4-8bfc-14ef4cb45536"
   },
   {
-    "alt": "Mayotte - Flag",
+    "alt": "Mayotte Flag",
     "filePath": "assets/logos/country-flag/mayotte-flag.svg",
     "id": "e3b1e17a-fbdd-4a60-97d4-3cf48733cd31"
   },
   {
-    "alt": "Mexico - Flag",
+    "alt": "Mexico Flag",
     "filePath": "assets/logos/country-flag/mexico-flag.svg",
     "id": "17361ea1-9f89-47bf-8da4-790369ce879b"
   },
   {
-    "alt": "Moldova - Flag",
+    "alt": "Moldova Flag",
     "filePath": "assets/logos/country-flag/moldova-flag.svg",
     "id": "df70e3da-ec51-49c6-a921-c0a71487e1f5"
   },
   {
-    "alt": "Monaco - Flag",
+    "alt": "Monaco Flag",
     "filePath": "assets/logos/country-flag/monaco-flag.svg",
     "id": "a4531a68-14e0-4e01-a274-353f734c4bae"
   },
   {
-    "alt": "Mongolia - Flag",
+    "alt": "Mongolia Flag",
     "filePath": "assets/logos/country-flag/mongolia-flag.svg",
     "id": "0e487295-6c5c-46c5-b589-b7f2ff024f2c"
   },
   {
-    "alt": "Montenegro - Flag",
+    "alt": "Montenegro Flag",
     "filePath": "assets/logos/country-flag/montenegro-flag.svg",
     "id": "68fd5b49-85df-48f0-be2e-d30df45e598b"
   },
   {
-    "alt": "Montserrat - Flag",
+    "alt": "Montserrat Flag",
     "filePath": "assets/logos/country-flag/montserrat-flag.svg",
     "id": "729338df-ae2e-4231-83f7-069ade329e17"
   },
   {
-    "alt": "Morocco - Flag",
+    "alt": "Morocco Flag",
     "filePath": "assets/logos/country-flag/morocco-flag.svg",
     "id": "9aaf4eb8-5db7-406f-81b0-78f172f194aa"
   },
   {
-    "alt": "Mozambique - Flag",
+    "alt": "Mozambique Flag",
     "filePath": "assets/logos/country-flag/mozambique-flag.svg",
     "id": "eaa9c216-a528-4d72-8525-7a9adaff1025"
   },
   {
-    "alt": "Myanmar - Flag",
+    "alt": "Myanmar Flag",
     "filePath": "assets/logos/country-flag/myanmar-flag.svg",
     "id": "3c46702b-9d11-4d98-bb5b-6f361a397417"
   },
   {
-    "alt": "Namibia - Flag",
+    "alt": "Namibia Flag",
     "filePath": "assets/logos/country-flag/namibia-flag.svg",
     "id": "416323eb-961b-4f9e-8ab6-ad3291af3cce"
   },
   {
-    "alt": "Nauru - Flag",
+    "alt": "Nauru Flag",
     "filePath": "assets/logos/country-flag/nauru-flag.svg",
     "id": "fba94685-a1bf-4b74-8a5b-7e09da572ab2"
   },
   {
-    "alt": "Nepal - Flag",
+    "alt": "Nepal Flag",
     "filePath": "assets/logos/country-flag/nepal-flag.svg",
     "id": "43a78071-3a7d-4ea7-97bc-11e3854cd5d1"
   },
   {
-    "alt": "Netherlands - Flag",
+    "alt": "Netherlands Flag",
     "filePath": "assets/logos/country-flag/netherlands-flag.svg",
     "id": "279cc8a0-18b0-4f80-8cd1-798aa11ea48a"
   },
   {
-    "alt": "New Caledonia - Flag",
+    "alt": "New Caledonia Flag",
     "filePath": "assets/logos/country-flag/new-caledonia-flag.svg",
     "id": "022d51e2-a9e8-4192-8352-07d75178de52"
   },
   {
-    "alt": "New Zealand - Flag",
+    "alt": "New Zealand Flag",
     "filePath": "assets/logos/country-flag/new-zealand-flag.svg",
     "id": "15736e18-26ed-46e5-92ab-0560445e9fe5"
   },
   {
-    "alt": "Nicaragua - Flag",
+    "alt": "Nicaragua Flag",
     "filePath": "assets/logos/country-flag/nicaragua-flag.svg",
     "id": "e694c9af-1b03-4a62-a8c1-1f98fb9afba8"
   },
   {
-    "alt": "Niger - Flag",
+    "alt": "Niger Flag",
     "filePath": "assets/logos/country-flag/niger-flag.svg",
     "id": "c6b231b7-5d64-436e-b641-f81b64946b72"
   },
   {
-    "alt": "Nigeria - Flag",
+    "alt": "Nigeria Flag",
     "filePath": "assets/logos/country-flag/nigeria-flag.svg",
     "id": "69cc1cb9-0bf6-4ea3-b3f9-518c629fe993"
   },
   {
-    "alt": "Niue - Flag",
+    "alt": "Niue Flag",
     "filePath": "assets/logos/country-flag/niue-flag.svg",
     "id": "471f4875-0c9f-4c37-8b54-5e6807d3d3db"
   },
   {
-    "alt": "Norfolk Island - Flag",
+    "alt": "Norfolk Island Flag",
     "filePath": "assets/logos/country-flag/norfolk-island-flag.svg",
     "id": "6d10911c-f710-4ef0-9045-cb63aa56b058"
   },
   {
-    "alt": "North Korea - Flag",
+    "alt": "North Korea Flag",
     "filePath": "assets/logos/country-flag/north-korea-flag.svg",
     "id": "f86b8df3-5866-46c2-94de-8445df48d87b"
   },
   {
-    "alt": "North Macedonia - Flag",
+    "alt": "North Macedonia Flag",
     "filePath": "assets/logos/country-flag/north-macedonia-flag.svg",
     "id": "e5593742-e251-4d56-bd6c-eac3ad19c55a"
   },
   {
-    "alt": "Northern Ireland - Flag",
+    "alt": "Northern Ireland Flag",
     "filePath": "assets/logos/country-flag/northern-ireland-flag.svg",
     "id": "f977a410-bee8-4fa2-a365-f360a83f4cc0"
   },
   {
-    "alt": "Northern Mariana Islands - Flag",
+    "alt": "Northern Mariana Islands Flag",
     "filePath": "assets/logos/country-flag/northern-mariana-islands-flag.svg",
     "id": "980b47de-ddd2-4446-ae59-7ca70972f5be"
   },
   {
-    "alt": "Norway - Flag",
+    "alt": "Norway Flag",
     "filePath": "assets/logos/country-flag/norway-flag.svg",
     "id": "de724186-6241-4e3c-bb11-70dc6eb22183"
   },
   {
-    "alt": "Oman - Flag",
+    "alt": "Oman Flag",
     "filePath": "assets/logos/country-flag/oman-flag.svg",
     "id": "dfb9de7f-76ae-4a72-84bc-46036154c8ec"
   },
   {
-    "alt": "Pakistan - Flag",
+    "alt": "Pakistan Flag",
     "filePath": "assets/logos/country-flag/pakistan-flag.svg",
     "id": "3cd8cd14-a720-4f05-a3fc-d0cef47ad317"
   },
   {
-    "alt": "Palau - Flag",
+    "alt": "Palau Flag",
     "filePath": "assets/logos/country-flag/palau-flag.svg",
     "id": "cf93c9c5-d01f-4e95-8cf7-6d00ecf87345"
   },
   {
-    "alt": "Panama - Flag",
+    "alt": "Panama Flag",
     "filePath": "assets/logos/country-flag/panama-flag.svg",
     "id": "dabb2b25-d017-4b91-a25d-a110750c457f"
   },
   {
-    "alt": "Papua New Guinea - Flag",
+    "alt": "Papua New Guinea Flag",
     "filePath": "assets/logos/country-flag/papua-new-guinea-flag.svg",
     "id": "3c108ea8-3d51-43c2-a8dc-d00e76ff74f8"
   },
   {
-    "alt": "Paraguay - Flag",
+    "alt": "Paraguay Flag",
     "filePath": "assets/logos/country-flag/paraguay-flag.svg",
     "id": "38d77d36-795b-4bbc-b6c3-cc9333b0da82"
   },
   {
-    "alt": "Peru - Flag",
+    "alt": "Peru Flag",
     "filePath": "assets/logos/country-flag/peru-flag.svg",
     "id": "4bf2900c-ed4b-4b6f-b366-d220412690ff"
   },
   {
-    "alt": "Philippines - Flag",
+    "alt": "Philippines Flag",
     "filePath": "assets/logos/country-flag/philippines-flag.svg",
     "id": "228454cd-1821-447b-9818-cbc8971a423c"
   },
   {
-    "alt": "Pitcairn - Flag",
+    "alt": "Pitcairn Flag",
     "filePath": "assets/logos/country-flag/pitcairn-flag.svg",
     "id": "ab542c7e-d897-46f2-82c1-c740a84cb843"
   },
   {
-    "alt": "Poland - Flag",
+    "alt": "Poland Flag",
     "filePath": "assets/logos/country-flag/poland-flag.svg",
     "id": "762e2ecb-e136-4638-907f-bbae58d0c212"
   },
   {
-    "alt": "Portugal - Flag",
+    "alt": "Portugal Flag",
     "filePath": "assets/logos/country-flag/portugal-flag.svg",
     "id": "842a407b-1269-4414-bc4a-8cded1d15793"
   },
   {
-    "alt": "Puerto Rico - Flag",
+    "alt": "Puerto Rico Flag",
     "filePath": "assets/logos/country-flag/puerto-rico-flag.svg",
     "id": "fd6a153b-d6d4-40bb-be48-04a1ae587c84"
   },
   {
-    "alt": "Qatar - Flag",
+    "alt": "Qatar Flag",
     "filePath": "assets/logos/country-flag/qatar-flag.svg",
     "id": "55f471b4-704a-4b50-b8e9-3ec68ba8dc56"
   },
   {
-    "alt": "Republic of the Congo - Flag",
+    "alt": "Republic of the Congo Flag",
     "filePath": "assets/logos/country-flag/republic-of-the-congo-flag.svg",
     "id": "8eeeccb3-2e74-405f-93c1-cf384e0cb84a"
   },
   {
-    "alt": "Romania - Flag",
+    "alt": "Romania Flag",
     "filePath": "assets/logos/country-flag/romania-flag.svg",
     "id": "8d66f472-7c8a-402f-ace0-6df5c210e9f0"
   },
   {
-    "alt": "Russia - Flag",
+    "alt": "Russia Flag",
     "filePath": "assets/logos/country-flag/russia-flag.svg",
     "id": "c1e97e78-264d-4d31-a27e-9dcb45fa3e80"
   },
   {
-    "alt": "Rwanda - Flag",
+    "alt": "Rwanda Flag",
     "filePath": "assets/logos/country-flag/rwanda-flag.svg",
     "id": "521f31a8-3193-41cb-ac40-0bfbf32ceab4"
   },
   {
-    "alt": "Réunion - Flag",
+    "alt": "Réunion Flag",
     "filePath": "assets/logos/country-flag/reunion-flag.svg",
     "id": "ba873304-9ccd-475c-a7a5-f4efed75d2cd"
   },
   {
-    "alt": "Saint Barthélemy - Flag",
+    "alt": "Saint Barthélemy Flag",
     "filePath": "assets/logos/country-flag/saint-barthelemy-flag.svg",
     "id": "50b92e01-1b04-4c9d-a28a-75dff9216399"
   },
   {
-    "alt": "Saint Helena - Flag",
+    "alt": "Saint Helena Flag",
     "filePath": "assets/logos/country-flag/saint-helena-flag.svg",
     "id": "27f94ca7-fc66-4cbe-a483-58cd93a4ccdb"
   },
   {
-    "alt": "Saint Helena, Ascension and Tristan da Cunha - Flag",
+    "alt": "Saint Helena, Ascension and Tristan da Cunha Flag",
     "filePath": "assets/logos/country-flag/saint-helena-ascension-and-tristan-da-cunha-flag.svg",
     "id": "e3a4cd10-8c11-46ee-b773-3031db4cbe1d"
   },
   {
-    "alt": "Saint Kitts and Nevis - Flag",
+    "alt": "Saint Kitts and Nevis Flag",
     "filePath": "assets/logos/country-flag/saint-kitts-and-nevis-flag.svg",
     "id": "d49d66c4-ef69-4bd6-b92a-588fdfb8f2dc"
   },
   {
-    "alt": "Saint Lucia - Flag",
+    "alt": "Saint Lucia Flag",
     "filePath": "assets/logos/country-flag/saint-lucia-flag.svg",
     "id": "7fef48a1-a899-4f66-851f-52688534dae5"
   },
   {
-    "alt": "Saint Martin - Flag",
+    "alt": "Saint Martin Flag",
     "filePath": "assets/logos/country-flag/saint-martin-flag.svg",
     "id": "f8d8a1c5-3d6c-448b-9c4c-1245540e7388"
   },
   {
-    "alt": "Saint Pierre and Miquelon - Flag",
+    "alt": "Saint Pierre and Miquelon Flag",
     "filePath": "assets/logos/country-flag/saint-pierre-and-miquelon-flag.svg",
     "id": "cc01a083-0622-4905-b172-5f7bab232e43"
   },
   {
-    "alt": "Saint Vincent and the Grenadines - Flag",
+    "alt": "Saint Vincent and the Grenadines Flag",
     "filePath": "assets/logos/country-flag/saint-vincent-and-the-grenadines-flag.svg",
     "id": "baef7968-b031-4246-a404-7dccceb2ed4a"
   },
   {
-    "alt": "Samoa - Flag",
+    "alt": "Samoa Flag",
     "filePath": "assets/logos/country-flag/samoa-flag.svg",
     "id": "802fffeb-ca5a-40ed-b137-d2fd125bb477"
   },
   {
-    "alt": "San Marino - Flag",
+    "alt": "San Marino Flag",
     "filePath": "assets/logos/country-flag/san-marino-flag.svg",
     "id": "0dc01c4b-ce6b-484f-8bd0-cfb664fabe43"
   },
   {
-    "alt": "Sao Tome and Principe - Flag",
+    "alt": "Sao Tome and Principe Flag",
     "filePath": "assets/logos/country-flag/sao-tome-and-principe-flag.svg",
     "id": "989ac521-8e9c-465c-8039-21d93eb17cdd"
   },
   {
-    "alt": "Saudi Arabia - Flag",
+    "alt": "Saudi Arabia Flag",
     "filePath": "assets/logos/country-flag/saudi-arabia-flag.svg",
     "id": "045acbf0-efd0-4ef3-8d37-6b3e2c32a9d8"
   },
   {
-    "alt": "Scotland - Flag",
+    "alt": "Scotland Flag",
     "filePath": "assets/logos/country-flag/scotland-flag.svg",
     "id": "749bf945-94fc-4793-a5ff-d52862e67191"
   },
   {
-    "alt": "Senegal - Flag",
+    "alt": "Senegal Flag",
     "filePath": "assets/logos/country-flag/senegal-flag.svg",
     "id": "bd7f3644-88e6-4c11-b4e7-a4c6cdb3d755"
   },
   {
-    "alt": "Serbia - Flag",
+    "alt": "Serbia Flag",
     "filePath": "assets/logos/country-flag/serbia-flag.svg",
     "id": "2cc428b0-f2ac-4c52-9514-d8700ffb97fe"
   },
   {
-    "alt": "Seychelles - Flag",
+    "alt": "Seychelles Flag",
     "filePath": "assets/logos/country-flag/seychelles-flag.svg",
     "id": "e6eec7d7-00bc-4a39-ad2a-0262f9474f41"
   },
   {
-    "alt": "Sierra Leone - Flag",
+    "alt": "Sierra Leone Flag",
     "filePath": "assets/logos/country-flag/sierra-leone-flag.svg",
     "id": "f3980078-8afc-4743-a845-86cba3e6d4a4"
   },
   {
-    "alt": "Singapore - Flag",
+    "alt": "Singapore Flag",
     "filePath": "assets/logos/country-flag/singapore-flag.svg",
     "id": "2e0066d7-a87e-4e05-8a7e-9f41591260cc"
   },
   {
-    "alt": "Sint Maarten - Flag",
+    "alt": "Sint Maarten Flag",
     "filePath": "assets/logos/country-flag/sint-maarten-flag.svg",
     "id": "1c2d7aa7-f41c-4689-924f-5acdd3bc0a70"
   },
   {
-    "alt": "Slovakia - Flag",
+    "alt": "Slovakia Flag",
     "filePath": "assets/logos/country-flag/slovakia-flag.svg",
     "id": "a380b4d0-a172-4b3a-b574-183eecbd034a"
   },
   {
-    "alt": "Slovenia - Flag",
+    "alt": "Slovenia Flag",
     "filePath": "assets/logos/country-flag/slovenia-flag.svg",
     "id": "a3215064-4a47-4d53-a85e-e785013e3429"
   },
   {
-    "alt": "Solomon Islands - Flag",
+    "alt": "Solomon Islands Flag",
     "filePath": "assets/logos/country-flag/solomon-islands-flag.svg",
     "id": "5011383e-9aa9-41e0-9cb5-111e7f0b636c"
   },
   {
-    "alt": "Somalia - Flag",
+    "alt": "Somalia Flag",
     "filePath": "assets/logos/country-flag/somalia-flag.svg",
     "id": "a57d85e7-4f28-4eee-b0b9-3b4ea36a5538"
   },
   {
-    "alt": "South Africa - Flag",
+    "alt": "South Africa Flag",
     "filePath": "assets/logos/country-flag/south-africa-flag.svg",
     "id": "0edf515d-a88c-40ce-9ae4-e3d8b4753faf"
   },
   {
-    "alt": "South Georgia and the South Sandwich Islands - Flag",
+    "alt": "South Georgia and the South Sandwich Islands Flag",
     "filePath": "assets/logos/country-flag/south-georgia-and-the-south-sandwich-islands-flag.svg",
     "id": "e211ed79-9c0a-4c04-8914-1b145105152e"
   },
   {
-    "alt": "South Korea - Flag",
+    "alt": "South Korea Flag",
     "filePath": "assets/logos/country-flag/south-korea-flag.svg",
     "id": "6b9a4ab3-a1b8-4e1d-b828-891a7600bd33"
   },
   {
-    "alt": "South Sudan - Flag",
+    "alt": "South Sudan Flag",
     "filePath": "assets/logos/country-flag/south-sudan-flag.svg",
     "id": "a5c1bc0f-2f11-48ae-96d6-6e2ff57abb08"
   },
   {
-    "alt": "Spain - Flag",
+    "alt": "Spain Flag",
     "filePath": "assets/logos/country-flag/spain-flag.svg",
     "id": "d74539c7-f5c5-4e9d-9dac-5060c0017420"
   },
   {
-    "alt": "Sri Lanka - Flag",
+    "alt": "Sri Lanka Flag",
     "filePath": "assets/logos/country-flag/sri-lanka-flag.svg",
     "id": "270474db-6b7d-4933-b158-43b2f33d05e1"
   },
   {
-    "alt": "State of Palestine - Flag",
+    "alt": "State of Palestine Flag",
     "filePath": "assets/logos/country-flag/state-of-palestine-flag.svg",
     "id": "700c5462-57b9-47a6-99cc-b36ca810a2bd"
   },
   {
-    "alt": "Sudan - Flag",
+    "alt": "Sudan Flag",
     "filePath": "assets/logos/country-flag/sudan-flag.svg",
     "id": "07d0668e-d78b-43b2-9940-76811be68e99"
   },
   {
-    "alt": "Suriname - Flag",
+    "alt": "Suriname Flag",
     "filePath": "assets/logos/country-flag/suriname-flag.svg",
     "id": "6946188f-4e59-402a-9804-682a0cafdff4"
   },
   {
-    "alt": "Svalbard and Jan Mayen - Flag",
+    "alt": "Svalbard and Jan Mayen Flag",
     "filePath": "assets/logos/country-flag/svalbard-and-jan-mayen-flag.svg",
     "id": "17f89d9e-3d51-4d63-a501-b549b35dd0ee"
   },
   {
-    "alt": "Sweden - Flag",
+    "alt": "Sweden Flag",
     "filePath": "assets/logos/country-flag/sweden-flag.svg",
     "id": "a1f78674-0315-47c3-8407-c6ccea95e085"
   },
   {
-    "alt": "Switzerland - Flag",
+    "alt": "Switzerland Flag",
     "filePath": "assets/logos/country-flag/switzerland-flag.svg",
     "id": "f4d8bdd6-8b41-4d09-b45f-bb2ae7533008"
   },
   {
-    "alt": "Syria - Flag",
+    "alt": "Syria Flag",
     "filePath": "assets/logos/country-flag/syria-flag.svg",
     "id": "90ad4e7f-ebb9-4a27-9a0b-a9bbcbd6c599"
   },
   {
-    "alt": "Taiwan - Flag",
+    "alt": "Taiwan Flag",
     "filePath": "assets/logos/country-flag/taiwan-flag.svg",
     "id": "b20aba62-6143-4e41-991d-57b87c324592"
   },
   {
-    "alt": "Tajikistan - Flag",
+    "alt": "Tajikistan Flag",
     "filePath": "assets/logos/country-flag/tajikistan-flag.svg",
     "id": "098034f3-276f-4d04-bede-5739fbf38689"
   },
   {
-    "alt": "Tanzania - Flag",
+    "alt": "Tanzania Flag",
     "filePath": "assets/logos/country-flag/tanzania-flag.svg",
     "id": "e83819c2-85cc-401f-a89a-b58719e93a47"
   },
   {
-    "alt": "Thailand - Flag",
+    "alt": "Thailand Flag",
     "filePath": "assets/logos/country-flag/thailand-flag.svg",
     "id": "767c7c76-74a4-4617-8b8b-2cfc6f661618"
   },
   {
-    "alt": "Timor-Leste - Flag",
+    "alt": "Timor-Leste Flag",
     "filePath": "assets/logos/country-flag/timor-leste-flag.svg",
     "id": "a6d73b84-7120-419d-8bd1-bbb23723600a"
   },
   {
-    "alt": "Togo - Flag",
+    "alt": "Togo Flag",
     "filePath": "assets/logos/country-flag/togo-flag.svg",
     "id": "63406eea-e450-408c-85fc-af8006bad878"
   },
   {
-    "alt": "Tokelau - Flag",
+    "alt": "Tokelau Flag",
     "filePath": "assets/logos/country-flag/tokelau-flag.svg",
     "id": "4dd02e1e-a982-4f84-882b-e32f1033e738"
   },
   {
-    "alt": "Tonga - Flag",
+    "alt": "Tonga Flag",
     "filePath": "assets/logos/country-flag/tonga-flag.svg",
     "id": "f12bda83-615d-4faf-a73f-e2bca35ae2ee"
   },
   {
-    "alt": "Trinidad and Tobago - Flag",
+    "alt": "Trinidad and Tobago Flag",
     "filePath": "assets/logos/country-flag/trinidad-and-tobago-flag.svg",
     "id": "bb0e579f-fd54-482b-872c-8e0da593a26d"
   },
   {
-    "alt": "Tristan da Cunha - Flag",
+    "alt": "Tristan da Cunha Flag",
     "filePath": "assets/logos/country-flag/tristan-da-cunha-flag.svg",
     "id": "844fbba8-790c-4a4e-9b94-4db3e0336810"
   },
   {
-    "alt": "Tunisia - Flag",
+    "alt": "Tunisia Flag",
     "filePath": "assets/logos/country-flag/tunisia-flag.svg",
     "id": "0ac297fc-7b1a-4008-a390-b3bc874cd295"
   },
   {
-    "alt": "Turkmenistan - Flag",
+    "alt": "Turkmenistan Flag",
     "filePath": "assets/logos/country-flag/turkmenistan-flag.svg",
     "id": "9b34f106-41e6-4320-86b1-38a21846568d"
   },
   {
-    "alt": "Turks and Caicos Islands - Flag",
+    "alt": "Turks and Caicos Islands Flag",
     "filePath": "assets/logos/country-flag/turks-and-caicos-islands-flag.svg",
     "id": "20c71974-5d2d-4c7e-84c6-439d31c4c71e"
   },
   {
-    "alt": "Tuvalu - Flag",
+    "alt": "Tuvalu Flag",
     "filePath": "assets/logos/country-flag/tuvalu-flag.svg",
     "id": "45dc75da-74b3-4d63-9ff8-5cdd12580640"
   },
   {
-    "alt": "Türkiye - Flag",
+    "alt": "Türkiye Flag",
     "filePath": "assets/logos/country-flag/turkiye-flag.svg",
     "id": "80c9c696-8ae7-471d-9bb7-0c1145eaf705"
   },
   {
-    "alt": "Uganda - Flag",
+    "alt": "Uganda Flag",
     "filePath": "assets/logos/country-flag/uganda-flag.svg",
     "id": "76455ff3-3aea-49b6-8dd4-7e9a899ed51a"
   },
   {
-    "alt": "Ukraine - Flag",
+    "alt": "Ukraine Flag",
     "filePath": "assets/logos/country-flag/ukraine-flag.svg",
     "id": "7ba57990-adbc-4953-bd08-c8eefeea559a"
   },
   {
-    "alt": "United Arab Emirates - Flag",
+    "alt": "United Arab Emirates Flag",
     "filePath": "assets/logos/country-flag/united-arab-emirates-flag.svg",
     "id": "bdb6052c-2bb6-47a3-94ab-70d51e474b5b"
   },
   {
-    "alt": "United Kingdom - Flag",
+    "alt": "United Kingdom Flag",
     "filePath": "assets/logos/country-flag/united-kingdom-flag.svg",
     "id": "c6f9fdd6-af03-4e13-a664-770bd0cf875c"
   },
   {
-    "alt": "United States Minor Outlying Islands - Flag",
+    "alt": "United States Minor Outlying Islands Flag",
     "filePath": "assets/logos/country-flag/united-states-minor-outlying-islands-flag.svg",
     "id": "328590c9-bc63-4119-97e8-42128aca223a"
   },
   {
-    "alt": "United States of America - Flag",
+    "alt": "United States of America Flag",
     "filePath": "assets/logos/country-flag/united-states-of-america-flag.svg",
     "id": "37ed019b-2f31-41e5-896e-d01c1e51cc6b"
   },
   {
-    "alt": "Uruguay - Flag",
+    "alt": "Uruguay Flag",
     "filePath": "assets/logos/country-flag/uruguay-flag.svg",
     "id": "c488d04a-d20d-4687-9bc0-81589453d076"
   },
   {
-    "alt": "Uzbekistan - Flag",
+    "alt": "Uzbekistan Flag",
     "filePath": "assets/logos/country-flag/uzbekistan-flag.svg",
     "id": "bb021c73-38b2-470a-b214-bf4cac47f0c2"
   },
   {
-    "alt": "Vanuatu - Flag",
+    "alt": "Vanuatu Flag",
     "filePath": "assets/logos/country-flag/vanuatu-flag.svg",
     "id": "549816d3-370b-482d-9f4e-9e77cbf27080"
   },
   {
-    "alt": "Venezuela - Flag",
+    "alt": "Venezuela Flag",
     "filePath": "assets/logos/country-flag/venezuela-flag.svg",
     "id": "9ba61845-1e63-4749-8c0d-eb020b5a888b"
   },
   {
-    "alt": "Vietnam - Flag",
+    "alt": "Vietnam Flag",
     "filePath": "assets/logos/country-flag/vietnam-flag.svg",
     "id": "2a53be98-8a35-4b3b-87d4-dac86a573e9c"
   },
   {
-    "alt": "Virgin Islands (British) - Flag",
+    "alt": "Virgin Islands (British) Flag",
     "filePath": "assets/logos/country-flag/virgin-islands-british-flag.svg",
     "id": "a28ad17c-2833-4c2d-b62b-364a18addb85"
   },
   {
-    "alt": "Virgin Islands (U.S.) - Flag",
+    "alt": "Virgin Islands (U.S.) Flag",
     "filePath": "assets/logos/country-flag/virgin-islands-us-flag.svg",
     "id": "ba1e2766-143b-4a36-be7b-d39f8d3b9874"
   },
   {
-    "alt": "Wales - Flag",
+    "alt": "Wales Flag",
     "filePath": "assets/logos/country-flag/wales-flag.svg",
     "id": "3a8b6645-d5a6-471c-8f61-b95e407346c0"
   },
   {
-    "alt": "Wallis and Futuna - Flag",
+    "alt": "Wallis and Futuna Flag",
     "filePath": "assets/logos/country-flag/wallis-and-futuna-flag.svg",
     "id": "58a50720-d948-4bcd-9185-748f11494497"
   },
   {
-    "alt": "Western Sahara - Flag",
+    "alt": "Western Sahara Flag",
     "filePath": "assets/logos/country-flag/western-sahara-flag.svg",
     "id": "acee4643-c8fa-45e7-b28f-6cc3345dfaea"
   },
   {
-    "alt": "Yemen - Flag",
+    "alt": "Yemen Flag",
     "filePath": "assets/logos/country-flag/yemen-flag.svg",
     "id": "24c6e1c8-e76b-49cb-8e98-424e133f74b1"
   },
   {
-    "alt": "Zambia - Flag",
+    "alt": "Zambia Flag",
     "filePath": "assets/logos/country-flag/zambia-flag.svg",
     "id": "8500971a-e7f2-4422-909c-708f2051a6d2"
   },
   {
-    "alt": "Zimbabwe - Flag",
+    "alt": "Zimbabwe Flag",
     "filePath": "assets/logos/country-flag/zimbabwe-flag.svg",
     "id": "296c2423-02bb-4d33-ab37-453fc8418b4e"
   }
