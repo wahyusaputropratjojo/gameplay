@@ -13,7 +13,10 @@ type ShelfProps = {
     id: string;
     name: string;
     slug: string;
-    gridURL: string;
+    grid: {
+      alt: string;
+      url: string;
+    };
   }[];
 };
 
@@ -60,9 +63,9 @@ export function Shelf({ title, items }: ShelfProps) {
               key={item.id}
             >
               <GridCard
-                alt={`${item.name} - Grid`}
+                alt={item.grid.alt}
                 name={item.name}
-                src={item.gridURL}
+                src={item.grid.url}
               />
             </Link>
           ))}
