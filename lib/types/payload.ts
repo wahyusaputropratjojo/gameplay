@@ -68,6 +68,7 @@ export interface Config {
   blocks: {};
   collections: {
     ageRating: AgeRating;
+    ageRatingLogo: AgeRatingLogo;
     ageRatingAuthority: AgeRatingAuthority;
     company: Company;
     continent: Continent;
@@ -76,12 +77,18 @@ export interface Config {
     gamePlatform: GamePlatform;
     gameStore: GameStore;
     genre: Genre;
-    media: Media;
     platform: Platform;
     platformType: PlatformType;
     store: Store;
     theme: Theme;
+    gameHero: GameHero;
     user: User;
+    gameGrid: GameGrid;
+    gameLogo: GameLogo;
+    companyLogo: CompanyLogo;
+    countryFlag: CountryFlag;
+    platformLogo: PlatformLogo;
+    storeLogo: StoreLogo;
     'payload-locked-documents': PayloadLockedDocument;
     'payload-preferences': PayloadPreference;
     'payload-migrations': PayloadMigration;
@@ -89,6 +96,10 @@ export interface Config {
   collectionsJoins: {
     ageRatingAuthority: {
       ageRating: 'ageRating';
+    };
+    company: {
+      developed: 'game';
+      published: 'game';
     };
     continent: {
       country: 'country';
@@ -99,6 +110,7 @@ export interface Config {
   };
   collectionsSelect: {
     ageRating: AgeRatingSelect<false> | AgeRatingSelect<true>;
+    ageRatingLogo: AgeRatingLogoSelect<false> | AgeRatingLogoSelect<true>;
     ageRatingAuthority: AgeRatingAuthoritySelect<false> | AgeRatingAuthoritySelect<true>;
     company: CompanySelect<false> | CompanySelect<true>;
     continent: ContinentSelect<false> | ContinentSelect<true>;
@@ -107,12 +119,18 @@ export interface Config {
     gamePlatform: GamePlatformSelect<false> | GamePlatformSelect<true>;
     gameStore: GameStoreSelect<false> | GameStoreSelect<true>;
     genre: GenreSelect<false> | GenreSelect<true>;
-    media: MediaSelect<false> | MediaSelect<true>;
     platform: PlatformSelect<false> | PlatformSelect<true>;
     platformType: PlatformTypeSelect<false> | PlatformTypeSelect<true>;
     store: StoreSelect<false> | StoreSelect<true>;
     theme: ThemeSelect<false> | ThemeSelect<true>;
+    gameHero: GameHeroSelect<false> | GameHeroSelect<true>;
     user: UserSelect<false> | UserSelect<true>;
+    gameGrid: GameGridSelect<false> | GameGridSelect<true>;
+    gameLogo: GameLogoSelect<false> | GameLogoSelect<true>;
+    companyLogo: CompanyLogoSelect<false> | CompanyLogoSelect<true>;
+    countryFlag: CountryFlagSelect<false> | CountryFlagSelect<true>;
+    platformLogo: PlatformLogoSelect<false> | PlatformLogoSelect<true>;
+    storeLogo: StoreLogoSelect<false> | StoreLogoSelect<true>;
     'payload-locked-documents': PayloadLockedDocumentsSelect<false> | PayloadLockedDocumentsSelect<true>;
     'payload-preferences': PayloadPreferencesSelect<false> | PayloadPreferencesSelect<true>;
     'payload-migrations': PayloadMigrationsSelect<false> | PayloadMigrationsSelect<true>;
@@ -157,16 +175,16 @@ export interface AgeRating {
   id: string;
   name: string;
   description: string;
-  logo?: (string | null) | Media;
+  logo?: (string | null) | AgeRatingLogo;
   authority: string | AgeRatingAuthority;
   updatedAt: string;
   createdAt: string;
 }
 /**
  * This interface was referenced by `Config`'s JSON-Schema
- * via the `definition` "media".
+ * via the `definition` "ageRatingLogo".
  */
-export interface Media {
+export interface AgeRatingLogo {
   id: string;
   alt: string;
   updatedAt: string;
@@ -203,8 +221,35 @@ export interface AgeRatingAuthority {
 export interface Company {
   id: string;
   name: string;
-  country?: (string | null) | Country;
-  logo?: (string | null) | Media;
+  founded: string;
+  about?: {
+    root: {
+      type: string;
+      children: {
+        type: string;
+        version: number;
+        [k: string]: unknown;
+      }[];
+      direction: ('ltr' | 'rtl') | null;
+      format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
+      indent: number;
+      version: number;
+    };
+    [k: string]: unknown;
+  } | null;
+  country: string | Country;
+  logo: string | CompanyLogo;
+  developed?: {
+    docs?: (string | Game)[];
+    hasNextPage?: boolean;
+    totalDocs?: number;
+  };
+  published?: {
+    docs?: (string | Game)[];
+    hasNextPage?: boolean;
+    totalDocs?: number;
+  };
+  slug: string;
   updatedAt: string;
   createdAt: string;
 }
@@ -215,10 +260,30 @@ export interface Company {
 export interface Country {
   id: string;
   name: string;
-  flag?: (string | null) | Media;
+  flag?: (string | null) | CountryFlag;
   continent: string | Continent;
+  slug: string;
   updatedAt: string;
   createdAt: string;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "countryFlag".
+ */
+export interface CountryFlag {
+  id: string;
+  alt: string;
+  updatedAt: string;
+  createdAt: string;
+  url?: string | null;
+  thumbnailURL?: string | null;
+  filename?: string | null;
+  mimeType?: string | null;
+  filesize?: number | null;
+  width?: number | null;
+  height?: number | null;
+  focalX?: number | null;
+  focalY?: number | null;
 }
 /**
  * This interface was referenced by `Config`'s JSON-Schema
@@ -237,13 +302,32 @@ export interface Continent {
 }
 /**
  * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "companyLogo".
+ */
+export interface CompanyLogo {
+  id: string;
+  alt: string;
+  updatedAt: string;
+  createdAt: string;
+  url?: string | null;
+  thumbnailURL?: string | null;
+  filename?: string | null;
+  mimeType?: string | null;
+  filesize?: number | null;
+  width?: number | null;
+  height?: number | null;
+  focalX?: number | null;
+  focalY?: number | null;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
  * via the `definition` "game".
  */
 export interface Game {
   id: string;
   name: string;
   description: string;
-  'age-rating': (string | AgeRating)[];
+  ageRating: (string | AgeRating)[];
   genre: (string | Genre)[];
   theme: (string | Theme)[];
   developer: (string | Company)[];
@@ -263,9 +347,10 @@ export interface Game {
     };
     [k: string]: unknown;
   } | null;
-  logo: string | Media;
-  grid: string | Media;
-  hero: string | Media;
+  logo: string | GameLogo;
+  grid: string | GameGrid;
+  hero: string | GameHero;
+  slug: string;
   updatedAt: string;
   createdAt: string;
 }
@@ -291,6 +376,100 @@ export interface Theme {
 }
 /**
  * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "gameLogo".
+ */
+export interface GameLogo {
+  id: string;
+  alt: string;
+  blurData: string;
+  updatedAt: string;
+  createdAt: string;
+  url?: string | null;
+  thumbnailURL?: string | null;
+  filename?: string | null;
+  mimeType?: string | null;
+  filesize?: number | null;
+  width?: number | null;
+  height?: number | null;
+  focalX?: number | null;
+  focalY?: number | null;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "gameGrid".
+ */
+export interface GameGrid {
+  id: string;
+  alt: string;
+  blurData?: string | null;
+  updatedAt: string;
+  createdAt: string;
+  url?: string | null;
+  thumbnailURL?: string | null;
+  filename?: string | null;
+  mimeType?: string | null;
+  filesize?: number | null;
+  width?: number | null;
+  height?: number | null;
+  focalX?: number | null;
+  focalY?: number | null;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "gameHero".
+ */
+export interface GameHero {
+  id: string;
+  alt: string;
+  blurData: string;
+  updatedAt: string;
+  createdAt: string;
+  url?: string | null;
+  thumbnailURL?: string | null;
+  filename?: string | null;
+  mimeType?: string | null;
+  filesize?: number | null;
+  width?: number | null;
+  height?: number | null;
+  focalX?: number | null;
+  focalY?: number | null;
+  sizes?: {
+    square?: {
+      url?: string | null;
+      width?: number | null;
+      height?: number | null;
+      mimeType?: string | null;
+      filesize?: number | null;
+      filename?: string | null;
+    };
+    medium?: {
+      url?: string | null;
+      width?: number | null;
+      height?: number | null;
+      mimeType?: string | null;
+      filesize?: number | null;
+      filename?: string | null;
+    };
+    classic?: {
+      url?: string | null;
+      width?: number | null;
+      height?: number | null;
+      mimeType?: string | null;
+      filesize?: number | null;
+      filename?: string | null;
+    };
+    anamorphic?: {
+      url?: string | null;
+      width?: number | null;
+      height?: number | null;
+      mimeType?: string | null;
+      filesize?: number | null;
+      filename?: string | null;
+    };
+  };
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
  * via the `definition` "gamePlatform".
  */
 export interface GamePlatform {
@@ -308,10 +487,30 @@ export interface GamePlatform {
 export interface Platform {
   id: string;
   name: string;
-  logo?: (string | null) | Media;
+  logo?: (string | null) | PlatformLogo;
   type: string | PlatformType;
+  slug: string;
   updatedAt: string;
   createdAt: string;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "platformLogo".
+ */
+export interface PlatformLogo {
+  id: string;
+  alt: string;
+  updatedAt: string;
+  createdAt: string;
+  url?: string | null;
+  thumbnailURL?: string | null;
+  filename?: string | null;
+  mimeType?: string | null;
+  filesize?: number | null;
+  width?: number | null;
+  height?: number | null;
+  focalX?: number | null;
+  focalY?: number | null;
 }
 /**
  * This interface was referenced by `Config`'s JSON-Schema
@@ -347,9 +546,28 @@ export interface GameStore {
 export interface Store {
   id: string;
   name: string;
-  logo?: (string | null) | Media;
+  logo?: (string | null) | StoreLogo;
   updatedAt: string;
   createdAt: string;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "storeLogo".
+ */
+export interface StoreLogo {
+  id: string;
+  alt: string;
+  updatedAt: string;
+  createdAt: string;
+  url?: string | null;
+  thumbnailURL?: string | null;
+  filename?: string | null;
+  mimeType?: string | null;
+  filesize?: number | null;
+  width?: number | null;
+  height?: number | null;
+  focalX?: number | null;
+  focalY?: number | null;
 }
 /**
  * This interface was referenced by `Config`'s JSON-Schema
@@ -387,6 +605,10 @@ export interface PayloadLockedDocument {
         value: string | AgeRating;
       } | null)
     | ({
+        relationTo: 'ageRatingLogo';
+        value: string | AgeRatingLogo;
+      } | null)
+    | ({
         relationTo: 'ageRatingAuthority';
         value: string | AgeRatingAuthority;
       } | null)
@@ -419,10 +641,6 @@ export interface PayloadLockedDocument {
         value: string | Genre;
       } | null)
     | ({
-        relationTo: 'media';
-        value: string | Media;
-      } | null)
-    | ({
         relationTo: 'platform';
         value: string | Platform;
       } | null)
@@ -439,8 +657,36 @@ export interface PayloadLockedDocument {
         value: string | Theme;
       } | null)
     | ({
+        relationTo: 'gameHero';
+        value: string | GameHero;
+      } | null)
+    | ({
         relationTo: 'user';
         value: string | User;
+      } | null)
+    | ({
+        relationTo: 'gameGrid';
+        value: string | GameGrid;
+      } | null)
+    | ({
+        relationTo: 'gameLogo';
+        value: string | GameLogo;
+      } | null)
+    | ({
+        relationTo: 'companyLogo';
+        value: string | CompanyLogo;
+      } | null)
+    | ({
+        relationTo: 'countryFlag';
+        value: string | CountryFlag;
+      } | null)
+    | ({
+        relationTo: 'platformLogo';
+        value: string | PlatformLogo;
+      } | null)
+    | ({
+        relationTo: 'storeLogo';
+        value: string | StoreLogo;
       } | null);
   globalSlug?: string | null;
   user: {
@@ -498,6 +744,24 @@ export interface AgeRatingSelect<T extends boolean = true> {
 }
 /**
  * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "ageRatingLogo_select".
+ */
+export interface AgeRatingLogoSelect<T extends boolean = true> {
+  alt?: T;
+  updatedAt?: T;
+  createdAt?: T;
+  url?: T;
+  thumbnailURL?: T;
+  filename?: T;
+  mimeType?: T;
+  filesize?: T;
+  width?: T;
+  height?: T;
+  focalX?: T;
+  focalY?: T;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
  * via the `definition` "ageRatingAuthority_select".
  */
 export interface AgeRatingAuthoritySelect<T extends boolean = true> {
@@ -512,8 +776,13 @@ export interface AgeRatingAuthoritySelect<T extends boolean = true> {
  */
 export interface CompanySelect<T extends boolean = true> {
   name?: T;
+  founded?: T;
+  about?: T;
   country?: T;
   logo?: T;
+  developed?: T;
+  published?: T;
+  slug?: T;
   updatedAt?: T;
   createdAt?: T;
 }
@@ -535,6 +804,7 @@ export interface CountrySelect<T extends boolean = true> {
   name?: T;
   flag?: T;
   continent?: T;
+  slug?: T;
   updatedAt?: T;
   createdAt?: T;
 }
@@ -545,7 +815,7 @@ export interface CountrySelect<T extends boolean = true> {
 export interface GameSelect<T extends boolean = true> {
   name?: T;
   description?: T;
-  'age-rating'?: T;
+  ageRating?: T;
   genre?: T;
   theme?: T;
   developer?: T;
@@ -554,6 +824,7 @@ export interface GameSelect<T extends boolean = true> {
   logo?: T;
   grid?: T;
   hero?: T;
+  slug?: T;
   updatedAt?: T;
   createdAt?: T;
 }
@@ -590,30 +861,13 @@ export interface GenreSelect<T extends boolean = true> {
 }
 /**
  * This interface was referenced by `Config`'s JSON-Schema
- * via the `definition` "media_select".
- */
-export interface MediaSelect<T extends boolean = true> {
-  alt?: T;
-  updatedAt?: T;
-  createdAt?: T;
-  url?: T;
-  thumbnailURL?: T;
-  filename?: T;
-  mimeType?: T;
-  filesize?: T;
-  width?: T;
-  height?: T;
-  focalX?: T;
-  focalY?: T;
-}
-/**
- * This interface was referenced by `Config`'s JSON-Schema
  * via the `definition` "platform_select".
  */
 export interface PlatformSelect<T extends boolean = true> {
   name?: T;
   logo?: T;
   type?: T;
+  slug?: T;
   updatedAt?: T;
   createdAt?: T;
 }
@@ -648,6 +902,69 @@ export interface ThemeSelect<T extends boolean = true> {
 }
 /**
  * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "gameHero_select".
+ */
+export interface GameHeroSelect<T extends boolean = true> {
+  alt?: T;
+  blurData?: T;
+  updatedAt?: T;
+  createdAt?: T;
+  url?: T;
+  thumbnailURL?: T;
+  filename?: T;
+  mimeType?: T;
+  filesize?: T;
+  width?: T;
+  height?: T;
+  focalX?: T;
+  focalY?: T;
+  sizes?:
+    | T
+    | {
+        square?:
+          | T
+          | {
+              url?: T;
+              width?: T;
+              height?: T;
+              mimeType?: T;
+              filesize?: T;
+              filename?: T;
+            };
+        medium?:
+          | T
+          | {
+              url?: T;
+              width?: T;
+              height?: T;
+              mimeType?: T;
+              filesize?: T;
+              filename?: T;
+            };
+        classic?:
+          | T
+          | {
+              url?: T;
+              width?: T;
+              height?: T;
+              mimeType?: T;
+              filesize?: T;
+              filename?: T;
+            };
+        anamorphic?:
+          | T
+          | {
+              url?: T;
+              width?: T;
+              height?: T;
+              mimeType?: T;
+              filesize?: T;
+              filename?: T;
+            };
+      };
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
  * via the `definition` "user_select".
  */
 export interface UserSelect<T extends boolean = true> {
@@ -667,6 +984,116 @@ export interface UserSelect<T extends boolean = true> {
         createdAt?: T;
         expiresAt?: T;
       };
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "gameGrid_select".
+ */
+export interface GameGridSelect<T extends boolean = true> {
+  alt?: T;
+  blurData?: T;
+  updatedAt?: T;
+  createdAt?: T;
+  url?: T;
+  thumbnailURL?: T;
+  filename?: T;
+  mimeType?: T;
+  filesize?: T;
+  width?: T;
+  height?: T;
+  focalX?: T;
+  focalY?: T;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "gameLogo_select".
+ */
+export interface GameLogoSelect<T extends boolean = true> {
+  alt?: T;
+  blurData?: T;
+  updatedAt?: T;
+  createdAt?: T;
+  url?: T;
+  thumbnailURL?: T;
+  filename?: T;
+  mimeType?: T;
+  filesize?: T;
+  width?: T;
+  height?: T;
+  focalX?: T;
+  focalY?: T;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "companyLogo_select".
+ */
+export interface CompanyLogoSelect<T extends boolean = true> {
+  alt?: T;
+  updatedAt?: T;
+  createdAt?: T;
+  url?: T;
+  thumbnailURL?: T;
+  filename?: T;
+  mimeType?: T;
+  filesize?: T;
+  width?: T;
+  height?: T;
+  focalX?: T;
+  focalY?: T;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "countryFlag_select".
+ */
+export interface CountryFlagSelect<T extends boolean = true> {
+  alt?: T;
+  updatedAt?: T;
+  createdAt?: T;
+  url?: T;
+  thumbnailURL?: T;
+  filename?: T;
+  mimeType?: T;
+  filesize?: T;
+  width?: T;
+  height?: T;
+  focalX?: T;
+  focalY?: T;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "platformLogo_select".
+ */
+export interface PlatformLogoSelect<T extends boolean = true> {
+  alt?: T;
+  updatedAt?: T;
+  createdAt?: T;
+  url?: T;
+  thumbnailURL?: T;
+  filename?: T;
+  mimeType?: T;
+  filesize?: T;
+  width?: T;
+  height?: T;
+  focalX?: T;
+  focalY?: T;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "storeLogo_select".
+ */
+export interface StoreLogoSelect<T extends boolean = true> {
+  alt?: T;
+  updatedAt?: T;
+  createdAt?: T;
+  url?: T;
+  thumbnailURL?: T;
+  filename?: T;
+  mimeType?: T;
+  filesize?: T;
+  width?: T;
+  height?: T;
+  focalX?: T;
+  focalY?: T;
 }
 /**
  * This interface was referenced by `Config`'s JSON-Schema
