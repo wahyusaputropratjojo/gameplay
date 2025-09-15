@@ -1,86 +1,114 @@
 [
   {
     "countryId": "1bd17588-1de5-4e77-91c3-e80973070198",
+    "founded": "1993-01-01",
     "id": "2b5c4594-ed4d-467a-a705-b2c4eb0b9dce",
     "mediaId": "937ae76a-ab95-4b6c-a383-8883ee7bdec7",
-    "name": "Bend Studio"
+    "name": "Bend Studio",
+    "slug": "bend-studio"
   },
   {
     "countryId": "1bd17588-1de5-4e77-91c3-e80973070198",
+    "founded": "2006-01-01",
     "id": "123626db-9da2-4069-9e65-236bd8dca77e",
     "mediaId": "462f8575-87b3-4037-a9fd-f741bbd53c5f",
-    "name": "Bluepoint Games"
+    "name": "Bluepoint Games",
+    "slug": "bluepoint-games"
   },
   {
     "countryId": "1265b8af-9690-479f-81b3-06c3d2c59aa8",
+    "founded": "2000-01-01",
     "id": "f6b8964f-ee9a-4592-9108-39c9f98ae288",
     "mediaId": "ad911cde-53a0-42ca-b42e-8c9b8f8ff697",
-    "name": "Guerrilla Games"
+    "name": "Guerrilla Games",
+    "slug": "guerrilla-games"
   },
   {
     "countryId": "a38c5526-ff34-49ed-8d93-4aed489a168f",
+    "founded": "2021-03-16",
     "id": "a54a8e58-5396-4294-8067-92e955e8015b",
     "mediaId": "99e5d35f-76bc-4aae-b328-7a2ab03fd998",
-    "name": "Haven Studios"
+    "name": "Haven Studios",
+    "slug": "haven-studios"
   },
   {
     "countryId": "438ccea7-2ab6-4e48-98f4-b2214923d2e6",
+    "founded": "1995-07-15",
     "id": "3a68c22c-9c4b-4b11-b201-4e543688a9ff",
     "mediaId": "6041e288-4e64-4fda-b27f-512adc3a00cb",
-    "name": "Housemarque"
+    "name": "Housemarque",
+    "slug": "housemarque"
   },
   {
     "countryId": "1bd17588-1de5-4e77-91c3-e80973070198",
+    "founded": "1994-02-28",
     "id": "09dad26b-c82b-4d24-88ea-ec2647a7a006",
     "mediaId": "ab8d3093-f90f-4a0b-a07e-39e6c7b18632",
-    "name": "Insomniac Games"
+    "name": "Insomniac Games",
+    "slug": "insomniac-games"
   },
   {
     "countryId": "1e145714-ccd4-4bc5-b593-fc2feca4e0a2",
+    "founded": "2005-04-01",
     "id": "7e551918-9b67-4ac2-9818-13bd73eaf238",
     "mediaId": "b5bbdff2-875c-4c8f-9cee-2fb5495bc187",
-    "name": "Kojima Productions"
+    "name": "Kojima Productions",
+    "slug": "kojima-productions"
   },
   {
     "countryId": "1bd17588-1de5-4e77-91c3-e80973070198",
+    "founded": "1984-10-27",
     "id": "5febdf77-84b2-4b34-8655-654f0d45dfea",
     "mediaId": "456d8564-f09c-41f9-95d9-ea3c9f194d8a",
-    "name": "Naughty Dog"
+    "name": "Naughty Dog",
+    "slug": "naughty-dog"
   },
   {
     "countryId": "1e145714-ccd4-4bc5-b593-fc2feca4e0a2",
+    "founded": "1994-01-01",
     "id": "52192958-b879-4fa0-b9be-7ffeb091bc11",
     "mediaId": "14eced78-9b98-4fc2-b8f3-628b3adf996b",
-    "name": "Polyphony Digital"
+    "name": "Polyphony Digital",
+    "slug": "polyphony-digital"
   },
   {
     "countryId": "1bd17588-1de5-4e77-91c3-e80973070198",
+    "founded": "1999-01-01",
     "id": "a0d7682d-d7a8-4aa8-99c0-c362ebe0e2e7",
     "mediaId": "1981e19c-2109-41fe-b6ee-57e3456ae723",
-    "name": "Santa Monica Studio"
+    "name": "Santa Monica Studio",
+    "slug": "santa-monica-studio"
   },
   {
     "countryId": "1e145714-ccd4-4bc5-b593-fc2feca4e0a2",
+    "founded": "1993-11-16",
     "id": "0c064f43-aa50-418d-b14c-564a5a9b14ef",
     "mediaId": "f5cc7409-e23f-4fcc-927a-eb16211e5d73",
-    "name": "Sony Computer Entertainment"
+    "name": "Sony Computer Entertainment",
+    "slug": "sony-computer-entertainment"
   },
   {
     "countryId": "1e145714-ccd4-4bc5-b593-fc2feca4e0a2",
+    "founded": "1993-11-16",
     "id": "14d7897f-99b8-4a94-bec8-35478dc2e54c",
     "mediaId": "d0cf1e5c-4ebc-49c5-aede-e2bda68cba56",
-    "name": "Sony Interactive Entertainment"
+    "name": "Sony Interactive Entertainment",
+    "slug": "sony-interactive-entertainment"
   },
   {
     "countryId": "1bd17588-1de5-4e77-91c3-e80973070198",
+    "founded": "1997-10-01",
     "id": "51490082-2492-42de-8e7f-6ea4b935be67",
     "mediaId": "ebf3da7e-b097-4863-9d67-4d8ddf51734a",
-    "name": "Sucker Punch Productions"
+    "name": "Sucker Punch Productions",
+    "slug": "sucker-punch-productions"
   },
   {
     "countryId": "1e145714-ccd4-4bc5-b593-fc2feca4e0a2",
+    "founded": "2021-04-01",
     "id": "3ebf937e-0bc9-4ce5-aefe-6234bc38edc5",
     "mediaId": "8781328f-5c89-4381-96ae-3e3ebf0edfbe",
-    "name": "Team ASOBI"
+    "name": "Team ASOBI",
+    "slug": "team-asobi"
   }
 ]
