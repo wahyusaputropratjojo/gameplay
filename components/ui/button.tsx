@@ -61,12 +61,12 @@ export function Button({
       className={cn(
         buttonVariants({
           align,
-          className,
           disabled,
           fullWidth,
           size,
           variant,
-        })
+        }),
+        className
       )}
       disabled={disabled}
       ref={ref}
