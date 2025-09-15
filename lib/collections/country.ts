@@ -1,7 +1,14 @@
 import type { CollectionConfig } from 'payload';
+import { slug } from '@/lib/fields/slug';
 
 export const country: CollectionConfig = {
   admin: { useAsTitle: 'name' },
+  defaultPopulate: {
+    flag: true,
+    id: true,
+    name: true,
+    slug: true,
+  },
   fields: [
     {
       name: 'name',
@@ -10,7 +17,7 @@ export const country: CollectionConfig = {
     },
     {
       name: 'flag',
-      relationTo: 'media',
+      relationTo: 'countryFlag',
       type: 'upload',
     },
     {
@@ -19,6 +26,7 @@ export const country: CollectionConfig = {
       required: true,
       type: 'relationship',
     },
+    slug,
   ],
   slug: 'country',
 };
