@@ -1,6 +1,11 @@
 import { payload } from '@/lib/payload';
 
 export async function reset() {
+  // await payload.delete({
+  //   collection: 'game',
+  //   where: { id: { exists: true } },
+  // });
+
   await payload.delete({
     collection: 'platform',
     where: { id: { exists: true } },
@@ -52,7 +57,22 @@ export async function reset() {
   });
 
   await payload.delete({
-    collection: 'media',
+    collection: 'ageRatingLogo',
+    where: { id: { exists: true } },
+  });
+
+  await payload.delete({
+    collection: 'companyLogo',
+    where: { id: { exists: true } },
+  });
+
+  await payload.delete({
+    collection: 'countryFlag',
+    where: { id: { exists: true } },
+  });
+
+  await payload.delete({
+    collection: 'storeLogo',
     where: { id: { exists: true } },
   });
 
