@@ -4,6 +4,11 @@ export const theme: CollectionConfig = {
   admin: {
     useAsTitle: 'name',
   },
+  defaultPopulate: {
+    id: true,
+    name: true,
+    slug: true,
+  },
   fields: [
     {
       name: 'name',
