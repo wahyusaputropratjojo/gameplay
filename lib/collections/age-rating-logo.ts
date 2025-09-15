@@ -1,8 +1,11 @@
 import type { CollectionConfig } from 'payload';
 
-export const media: CollectionConfig = {
+export const ageRatingLogo: CollectionConfig = {
   access: {
     read: () => true,
+  },
+  admin: {
+    group: 'Media',
   },
   fields: [
     {
@@ -11,8 +14,10 @@ export const media: CollectionConfig = {
       type: 'text',
     },
   ],
-  slug: 'media',
+  slug: 'ageRatingLogo',
   upload: {
+    mimeTypes: ['image/svg+xml'],
     pasteURL: false,
+    staticDir: 'media/age-rating/logo',
   },
 };
