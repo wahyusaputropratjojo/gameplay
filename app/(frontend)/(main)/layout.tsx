@@ -1,5 +1,4 @@
 import type { ReactNode } from 'react';
-import { Header } from '@/components/header';
 import { NavigationBar } from '@/components/navigation-bar';
 
 type MainLayoutProps = {
@@ -9,9 +8,8 @@ type MainLayoutProps = {
 export default function MainLayout({ children }: MainLayoutProps) {
   return (
     <>
-      <Header />
       <NavigationBar />
-      {children}
+      <div className="mb-24 xl:mb-0">{children}</div>
     </>
   );
 }
