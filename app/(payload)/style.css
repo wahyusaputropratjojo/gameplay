@@ -11,3 +11,7 @@
   --theme-text: var(--gray-1000);
   --theme-border-color: var(--gray-400);
 }
+
+.preview-sizes__sizeName {
+  text-transform: capitalize;
+}
