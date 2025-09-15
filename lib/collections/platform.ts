@@ -1,4 +1,5 @@
 import type { CollectionConfig } from 'payload';
+import { slug } from '@/lib/fields/slug';
 
 export const platform: CollectionConfig = {
   admin: { useAsTitle: 'name' },
@@ -10,7 +11,7 @@ export const platform: CollectionConfig = {
     },
     {
       name: 'logo',
-      relationTo: 'media',
+      relationTo: 'platformLogo',
       type: 'upload',
     },
     {
@@ -19,6 +20,7 @@ export const platform: CollectionConfig = {
       required: true,
       type: 'relationship',
     },
+    slug,
   ],
   slug: 'platform',
 };
