@@ -9,6 +9,7 @@ export async function companySeed() {
           collection: 'company',
           data: {
             country: item.countryId,
+            description: item.description,
             founded: item.founded,
             id: item.id,
             logo: item.mediaId,
