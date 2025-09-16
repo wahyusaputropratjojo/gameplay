@@ -16,6 +16,11 @@ export const company: CollectionConfig = {
       type: 'text',
     },
     {
+      name: 'description',
+      required: true,
+      type: 'text',
+    },
+    {
       name: 'founded',
       required: true,
       type: 'date',
