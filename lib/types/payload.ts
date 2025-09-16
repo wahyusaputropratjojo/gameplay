@@ -221,6 +221,7 @@ export interface AgeRatingAuthority {
 export interface Company {
   id: string;
   name: string;
+  description: string;
   founded: string;
   about?: {
     root: {
@@ -776,6 +777,7 @@ export interface AgeRatingAuthoritySelect<T extends boolean = true> {
  */
 export interface CompanySelect<T extends boolean = true> {
   name?: T;
+  description?: T;
   founded?: T;
   about?: T;
   country?: T;
