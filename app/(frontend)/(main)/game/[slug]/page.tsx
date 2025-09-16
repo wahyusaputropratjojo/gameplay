@@ -1,14 +1,25 @@
+import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { getGame } from '@/lib/queries/get-game';
 import { BadgeListSection } from './badge-list-section';
 import { CompanyListSection } from './company-list-section';
 import { GameImageSection } from './game-image-section';
 
-export default async function Page({
-  params,
-}: {
+type Props = {
   params: Promise<{ slug: string }>;
-}) {
+};
+
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  const { slug } = await params;
+  const game = await getGame({ slug });
+
+  return {
+    description: game.description,
+    title: `${game.name} | Game`,
+  };
+}
+
+export default async function Page({ params }: Props) {
   const { slug } = await params;
   const game = await getGame({ slug });
 
