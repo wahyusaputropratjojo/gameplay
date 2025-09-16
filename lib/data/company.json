@@ -1,6 +1,7 @@
 [
   {
     "countryId": "1bd17588-1de5-4e77-91c3-e80973070198",
+    "description": "Bend Studio is an American game development studio based in Bend, Oregon. It was founded in 1992 under the name Blank, Berlyn and Co.",
     "founded": "1993-01-01",
     "id": "2b5c4594-ed4d-467a-a705-b2c4eb0b9dce",
     "mediaId": "937ae76a-ab95-4b6c-a383-8883ee7bdec7",
@@ -9,6 +10,7 @@
   },
   {
     "countryId": "1bd17588-1de5-4e77-91c3-e80973070198",
+    "description": "Bluepoint Games is an American developer based in Austin, Texas. It was founded in 2006 by veterans of from Retro Studios. Since 2021, it is a subsidiary of Sony Interactive Entertainment's PlayStation Studios.",
     "founded": "2006-01-01",
     "id": "123626db-9da2-4069-9e65-236bd8dca77e",
     "mediaId": "462f8575-87b3-4037-a9fd-f741bbd53c5f",
@@ -17,6 +19,7 @@
   },
   {
     "countryId": "1265b8af-9690-479f-81b3-06c3d2c59aa8",
+    "description": "Guerrilla Games is a Dutch video game development studio based in Amsterdam, Netherlands. Founded in 2000, the company was rebranded in 2003 and acquired by Sony in 2005. It is part of PlayStation Studios and employs over 350 developers as of 2021.",
     "founded": "2000-01-01",
     "id": "f6b8964f-ee9a-4592-9108-39c9f98ae288",
     "mediaId": "ad911cde-53a0-42ca-b42e-8c9b8f8ff697",
@@ -25,6 +28,7 @@
   },
   {
     "countryId": "a38c5526-ff34-49ed-8d93-4aed489a168f",
+    "description": "Haven Studios is a Canadian game development studio based in Montreal, Quebec. It was founded in March 2021 by video game producer Jade Raymond, and was acquired by Sony Interactive Entertainment the following year. It is part of Sony's PlayStation Studios.",
     "founded": "2021-03-16",
     "id": "a54a8e58-5396-4294-8067-92e955e8015b",
     "mediaId": "99e5d35f-76bc-4aae-b328-7a2ab03fd998",
@@ -33,6 +37,7 @@
   },
   {
     "countryId": "438ccea7-2ab6-4e48-98f4-b2214923d2e6",
+    "description": "Housemarque is a Finnish game developer based in Helsinki, Finland. It was founded in 1995 as a result of a merger between Bloodhouse and Terramarque, which were originally founded in 1993. It is the oldest existing game developer in Finland, and a subsidiary of Sony Interactive Entertainment, operating under PlayStation Studios.",
     "founded": "1995-07-15",
     "id": "3a68c22c-9c4b-4b11-b201-4e543688a9ff",
     "mediaId": "6041e288-4e64-4fda-b27f-512adc3a00cb",
@@ -41,6 +46,7 @@
   },
   {
     "countryId": "1bd17588-1de5-4e77-91c3-e80973070198",
+    "description": "Insomniac Games is an American game developer based in Burbank, California. It was founded by Ted Price in 1994, and originally went by the name Xtreme Software until 1995.",
     "founded": "1994-02-28",
     "id": "09dad26b-c82b-4d24-88ea-ec2647a7a006",
     "mediaId": "ab8d3093-f90f-4a0b-a07e-39e6c7b18632",
@@ -49,6 +55,7 @@
   },
   {
     "countryId": "1e145714-ccd4-4bc5-b593-fc2feca4e0a2",
+    "description": "Kojima Productions is a Japanese independent video game developer based in Tokyo, Japan. Named after and led by video game director and writer Hideo Kojima, the studio was originally a subsidiary under Konami that was officially formed in 2005 after the merger of several development teams in the company.",
     "founded": "2005-04-01",
     "id": "7e551918-9b67-4ac2-9818-13bd73eaf238",
     "mediaId": "b5bbdff2-875c-4c8f-9cee-2fb5495bc187",
@@ -57,6 +64,7 @@
   },
   {
     "countryId": "1bd17588-1de5-4e77-91c3-e80973070198",
+    "description": "Naughty Dog is an American game developer based in Santa Monica, California, originally founded in 1984 as JAM Software. It was rebranded under its current name in 1989, and was acquired by Sony Interactive Entertainment in 2001. Since 2005, Naughty Dog is part of PlayStation Studios.",
     "founded": "1984-10-27",
     "id": "5febdf77-84b2-4b34-8655-654f0d45dfea",
     "mediaId": "456d8564-f09c-41f9-95d9-ea3c9f194d8a",
@@ -65,6 +73,7 @@
   },
   {
     "countryId": "1e145714-ccd4-4bc5-b593-fc2feca4e0a2",
+    "description": "Polyphony Digital is a Japanese game developer based in Tokyo, and an a subsidiary of Sony Interactive Entertainment. Originally a development team within Japan Studio known as Polys Entertainment, it was founded in 1994 before being granted greater autonomy in 1998.",
     "founded": "1994-01-01",
     "id": "52192958-b879-4fa0-b9be-7ffeb091bc11",
     "mediaId": "14eced78-9b98-4fc2-b8f3-628b3adf996b",
@@ -73,6 +82,7 @@
   },
   {
     "countryId": "1bd17588-1de5-4e77-91c3-e80973070198",
+    "description": "Santa Monica Studio is an American game development studio located in Los Angeles, California. It was founded in 1999 as a subsidiary of Sony Interactive Entertainment and since 2005 it is part of PlayStation Studios.",
     "founded": "1999-01-01",
     "id": "a0d7682d-d7a8-4aa8-99c0-c362ebe0e2e7",
     "mediaId": "1981e19c-2109-41fe-b6ee-57e3456ae723",
@@ -81,14 +91,7 @@
   },
   {
     "countryId": "1e145714-ccd4-4bc5-b593-fc2feca4e0a2",
-    "founded": "1993-11-16",
-    "id": "0c064f43-aa50-418d-b14c-564a5a9b14ef",
-    "mediaId": "f5cc7409-e23f-4fcc-927a-eb16211e5d73",
-    "name": "Sony Computer Entertainment",
-    "slug": "sony-computer-entertainment"
-  },
-  {
-    "countryId": "1e145714-ccd4-4bc5-b593-fc2feca4e0a2",
+    "description": "Sony Interactive Entertainment is a Japanese-American multinational game publisher, console manufacturer and digital entertainment company. It is a subsidiary of Japanese business company Sony Group Corporation.",
     "founded": "1993-11-16",
     "id": "14d7897f-99b8-4a94-bec8-35478dc2e54c",
     "mediaId": "d0cf1e5c-4ebc-49c5-aede-e2bda68cba56",
@@ -97,6 +100,7 @@
   },
   {
     "countryId": "1bd17588-1de5-4e77-91c3-e80973070198",
+    "description": "Sucker Punch Productions is an American game developer located in Bellevue, Washington. The company was founded in 1997 and acquired by Sony Interactive Entertainment in 2011, becoming part of SIE Worldwide Studios.",
     "founded": "1997-10-01",
     "id": "51490082-2492-42de-8e7f-6ea4b935be67",
     "mediaId": "ebf3da7e-b097-4863-9d67-4d8ddf51734a",
@@ -105,6 +109,7 @@
   },
   {
     "countryId": "1e145714-ccd4-4bc5-b593-fc2feca4e0a2",
+    "description": "Team ASOBI is a Japanese game development studio based in Tokyo, and a subsidiary of Sony Interactive Entertainment. Founded in 2012, the studio is headed by French game director Nicolas Doucet and was originally part of Japan Studio before getting spun-off into its own entity in April 2021.",
     "founded": "2021-04-01",
     "id": "3ebf937e-0bc9-4ce5-aefe-6234bc38edc5",
     "mediaId": "8781328f-5c89-4381-96ae-3e3ebf0edfbe",
