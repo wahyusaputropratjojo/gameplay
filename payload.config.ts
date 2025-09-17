@@ -54,7 +54,8 @@ export default buildConfig({
           url: '/favicon.ico',
         },
       ],
-      title: 'Admin - Gameplay',
+      title: 'Administrator',
+      titleSuffix: '| Gameplay',
     },
     routes: {
       forgot: '/forgot-password',
