@@ -31,13 +31,7 @@ export const gameLogo: CollectionConfig = {
     },
   ],
   hooks: {
-    beforeChange: [
-      createBlurData({
-        blur: { sigma: 0 },
-        fieldName: 'blurData',
-        format: 'webp',
-      }),
-    ],
+    beforeChange: [createBlurData({ fieldName: 'blurData' })],
   },
   slug: 'gameLogo',
   upload: {
