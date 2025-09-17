@@ -1,3 +1,26 @@
+# [1.16.0](https://github.com/wahyusaputropratjojo/gameplay/compare/v1.15.0...v1.16.0) (2025-09-17)
+
+
+### Features
+
+* change object fit, object position and max width for game logo in game image section ([65d8396](https://github.com/wahyusaputropratjojo/gameplay/commit/65d8396f2398a4b7b537d93eae06a6e74bcbab09))
+* change pseudo-element selection background and text color ([b050cfd](https://github.com/wahyusaputropratjojo/gameplay/commit/b050cfd80dcee482625c54ced930b5c3de40177e))
+* **data:** add description into company data ([0d7b78a](https://github.com/wahyusaputropratjojo/gameplay/commit/0d7b78abe3ccb21a58b80cf62f956b46c784cac2))
+* **page:** add dynamic metadata function into company page ([1671b3f](https://github.com/wahyusaputropratjojo/gameplay/commit/1671b3fce7de199c119e9d3a9aefcbf8800a8e98))
+* **page:** add dynamic metadata function into game page ([c2cfe5e](https://github.com/wahyusaputropratjojo/gameplay/commit/c2cfe5eb6f078981702c9eb846f3e6538f0a2adf))
+* **page:** create duration section for game page ([9b6ce0f](https://github.com/wahyusaputropratjojo/gameplay/commit/9b6ce0fecb3890ca01358c3644bbfcfe1bcb1e03))
+* **payload:** add description field in company collection ([fdae7e0](https://github.com/wahyusaputropratjojo/gameplay/commit/fdae7e088cec4221dea8c36a641fe866aaffd99d))
+* **payload:** add description into company seed function ([6071cc8](https://github.com/wahyusaputropratjojo/gameplay/commit/6071cc88895153600e688148c32ed1e25c93e966))
+* **payload:** add game duration field and sort option in game collection ([3b796f0](https://github.com/wahyusaputropratjojo/gameplay/commit/3b796f01cf79e6bbf80d95f6bbab322cbf4ad999))
+* **payload:** add sort options in game platform collection ([807da7f](https://github.com/wahyusaputropratjojo/gameplay/commit/807da7f537070e3c486099fbae7cfc21506a46cb))
+* **payload:** add wide image size into game hero collection ([3ca7381](https://github.com/wahyusaputropratjojo/gameplay/commit/3ca738183aeac8e66faba96f19e43bae6d85a538))
+* **payload:** change blur data value in game logo collection ([a36297b](https://github.com/wahyusaputropratjojo/gameplay/commit/a36297bd1fb15e37e5061d62cb1098cd86d4170b))
+* **payload:** change metadata title and title suffix ([1e6d2d0](https://github.com/wahyusaputropratjojo/gameplay/commit/1e6d2d0e0d8543b8f874f72ea802046a72e8e4ea))
+* **payload:** generate new payload types ([ff61a3a](https://github.com/wahyusaputropratjojo/gameplay/commit/ff61a3a4e34dcd37296dc21b070ee69c36708e59))
+* **payload:** generate new payload types ([66af3f4](https://github.com/wahyusaputropratjojo/gameplay/commit/66af3f44602e71654c42f63da37488e905f5eee7))
+* **payload:** remove fixed toolbar from lexical ([0331fa2](https://github.com/wahyusaputropratjojo/gameplay/commit/0331fa21bf689097863bf258ef6cd8cf73a25bbf))
+* **utils:** create number to unicode fraction utils function ([5257c9d](https://github.com/wahyusaputropratjojo/gameplay/commit/5257c9d4f7207205fbea97b2aa89fff70af4975e))
+
 # [1.15.0](https://github.com/wahyusaputropratjojo/gameplay/compare/v1.14.0...v1.15.0) (2025-09-15)
 
 
