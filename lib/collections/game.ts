@@ -23,6 +23,7 @@ export const game: CollectionConfig = {
             {
               admin: {
                 allowCreate: false,
+                sortOptions: 'name',
               },
               hasMany: true,
               name: 'ageRating',
@@ -33,6 +34,7 @@ export const game: CollectionConfig = {
             {
               admin: {
                 allowCreate: false,
+                sortOptions: 'name',
               },
               hasMany: true,
               name: 'genre',
@@ -43,6 +45,7 @@ export const game: CollectionConfig = {
             {
               admin: {
                 allowCreate: false,
+                sortOptions: 'name',
               },
               hasMany: true,
               name: 'theme',
@@ -53,6 +56,7 @@ export const game: CollectionConfig = {
             {
               admin: {
                 allowCreate: false,
+                sortOptions: 'name',
               },
               hasMany: true,
               name: 'developer',
@@ -63,6 +67,7 @@ export const game: CollectionConfig = {
             {
               admin: {
                 allowCreate: false,
+                sortOptions: 'name',
               },
               hasMany: true,
               name: 'publisher',
@@ -76,6 +81,43 @@ export const game: CollectionConfig = {
             },
           ],
           label: 'Overview',
+        },
+        {
+          fields: [
+            {
+              admin: {
+                step: 0.5,
+              },
+              min: 0,
+              name: 'mainStory',
+              type: 'number',
+            },
+            {
+              admin: {
+                step: 0.5,
+              },
+              min: 0,
+              name: 'withAdditionalContent',
+              type: 'number',
+            },
+            {
+              admin: {
+                step: 0.5,
+              },
+              min: 0,
+              name: 'completionist',
+              type: 'number',
+            },
+            {
+              admin: {
+                step: 0.5,
+              },
+              min: 0,
+              name: 'combined',
+              type: 'number',
+            },
+          ],
+          label: 'Duration',
         },
         {
           fields: [
