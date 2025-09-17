@@ -3,6 +3,7 @@ import { notFound } from 'next/navigation';
 import { getGame } from '@/lib/queries/get-game';
 import { BadgeListSection } from './badge-list-section';
 import { CompanyListSection } from './company-list-section';
+import { DurationSection } from './duration-section';
 import { GameImageSection } from './game-image-section';
 
 type Props = {
@@ -42,6 +43,17 @@ export default async function Page({ params }: Props) {
         <CompanyListSection items={game.developer} title="Developer" />
         <CompanyListSection items={game.publisher} title="Publisher" />
       </div>
+      {game.mainStory &&
+        game.withAdditionalContent &&
+        game.completionist &&
+        game.combined && (
+          <DurationSection
+            combined={game.combined}
+            completionist={game.completionist}
+            mainStory={game.mainStory}
+            withAdditionalContent={game.withAdditionalContent}
+          />
+        )}
     </main>
   );
 }
