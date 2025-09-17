@@ -84,6 +84,17 @@ export const gameHero: CollectionConfig = {
           },
         },
         height: 1080,
+        name: 'wide',
+        width: 1920,
+      },
+      {
+        formatOptions: {
+          format: 'webp',
+          options: {
+            quality: 90,
+          },
+        },
+        height: 1080,
         name: 'anamorphic',
         width: 2560,
       },
