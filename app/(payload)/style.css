@@ -12,6 +12,11 @@
   --theme-border-color: var(--gray-400);
 }
 
+::selection {
+  background: var(--gray-1000);
+  color: var(--background-100);
+}
+
 .preview-sizes__sizeName {
   text-transform: capitalize;
 }

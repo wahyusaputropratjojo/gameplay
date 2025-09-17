@@ -8,18 +8,18 @@ export const metadata: Metadata = {
   title: 'Gameplay',
 };
 
-export default function RootLayout ({
+export default function RootLayout({
   children,
 }: Readonly<{
   children: ReactNode;
 }>) {
   return (
     <html
-      className={`${geistSans.variable} ${geistMono.variable}`}
+      className={`${geistSans.variable} ${geistMono.variable} selection:bg-gray-1000 selection:text-background-100`}
       data-theme="dark"
       lang="en"
     >
-    <body>{children}</body>
+      <body>{children}</body>
     </html>
   );
 }
