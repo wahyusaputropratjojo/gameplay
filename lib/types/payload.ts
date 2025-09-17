@@ -348,6 +348,10 @@ export interface Game {
     };
     [k: string]: unknown;
   } | null;
+  mainStory?: number | null;
+  withAdditionalContent?: number | null;
+  completionist?: number | null;
+  combined?: number | null;
   logo: string | GameLogo;
   grid: string | GameGrid;
   hero: string | GameHero;
@@ -486,6 +490,7 @@ export interface GamePlatform {
   game: string | Game;
   platform: string | Platform;
   releaseDate: string;
+  metaScore?: number | null;
   updatedAt: string;
   createdAt: string;
 }
@@ -831,6 +836,10 @@ export interface GameSelect<T extends boolean = true> {
   developer?: T;
   publisher?: T;
   about?: T;
+  mainStory?: T;
+  withAdditionalContent?: T;
+  completionist?: T;
+  combined?: T;
   logo?: T;
   grid?: T;
   hero?: T;
@@ -846,6 +855,7 @@ export interface GamePlatformSelect<T extends boolean = true> {
   game?: T;
   platform?: T;
   releaseDate?: T;
+  metaScore?: T;
   updatedAt?: T;
   createdAt?: T;
 }
