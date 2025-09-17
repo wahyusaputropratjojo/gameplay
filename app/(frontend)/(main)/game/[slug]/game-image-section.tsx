@@ -65,7 +65,7 @@ function GameLogoImage({ logo }: GameLogoImageProps) {
   return (
     <Image
       alt={logo.alt}
-      className="z-20 col-span-full row-span-full h-48 w-auto select-none self-end justify-self-center xl:h-72"
+      className="z-20 col-span-full row-span-full h-48 w-auto max-w-2/3 select-none self-end justify-self-center object-contain object-bottom md:max-w-1/2 xl:h-72"
       height={logo.height as number}
       priority
       src={logo.url as string}
