@@ -7,6 +7,7 @@ export const gamePlatform: CollectionConfig = {
         {
           admin: {
             allowCreate: false,
+            sortOptions: 'name',
           },
           name: 'game',
           relationTo: 'game',
@@ -16,6 +17,7 @@ export const gamePlatform: CollectionConfig = {
         {
           admin: {
             allowCreate: false,
+            sortOptions: 'name',
           },
           name: 'platform',
           relationTo: 'platform',
@@ -29,6 +31,12 @@ export const gamePlatform: CollectionConfig = {
       name: 'releaseDate',
       required: true,
       type: 'date',
+    },
+    {
+      max: 100,
+      min: 0,
+      name: 'metaScore',
+      type: 'number',
     },
   ],
   slug: 'gamePlatform',
