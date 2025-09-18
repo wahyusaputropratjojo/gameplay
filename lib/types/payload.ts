@@ -325,6 +325,7 @@ export interface CompanyLogo {
 export interface Game {
   id: string;
   name: string;
+  initialReleaseDate: string;
   description: string;
   about: {
     root: {
@@ -813,6 +814,7 @@ export interface CountrySelect<T extends boolean = true> {
  */
 export interface GameSelect<T extends boolean = true> {
   name?: T;
+  initialReleaseDate?: T;
   description?: T;
   about?: T;
   ageRating?: T;

@@ -14,6 +14,16 @@ export const game: CollectionConfig = {
           type: 'text',
         },
         {
+          admin: {
+            date: {
+              displayFormat: 'EEEE, d MMMM yyyy',
+            },
+          },
+          name: 'initialReleaseDate',
+          required: true,
+          type: 'date',
+        },
+        {
           name: 'description',
           required: true,
           type: 'textarea',
