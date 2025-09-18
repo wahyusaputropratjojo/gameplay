@@ -326,12 +326,7 @@ export interface Game {
   id: string;
   name: string;
   description: string;
-  ageRating: (string | AgeRating)[];
-  genre: (string | Genre)[];
-  theme: (string | Theme)[];
-  developer: (string | Company)[];
-  publisher: (string | Company)[];
-  about?: {
+  about: {
     root: {
       type: string;
       children: {
@@ -345,7 +340,12 @@ export interface Game {
       version: number;
     };
     [k: string]: unknown;
-  } | null;
+  };
+  ageRating: (string | AgeRating)[];
+  genre: (string | Genre)[];
+  theme: (string | Theme)[];
+  developer: (string | Company)[];
+  publisher: (string | Company)[];
   logo: string | GameLogo;
   grid: string | GameGrid;
   hero: string | GameHero;
@@ -814,12 +814,12 @@ export interface CountrySelect<T extends boolean = true> {
 export interface GameSelect<T extends boolean = true> {
   name?: T;
   description?: T;
+  about?: T;
   ageRating?: T;
   genre?: T;
   theme?: T;
   developer?: T;
   publisher?: T;
-  about?: T;
   logo?: T;
   grid?: T;
   hero?: T;

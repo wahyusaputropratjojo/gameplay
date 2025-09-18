@@ -7,77 +7,103 @@ export const game: CollectionConfig = {
   },
   fields: [
     {
-      name: 'name',
-      required: true,
-      type: 'text',
+      fields: [
+        {
+          name: 'name',
+          required: true,
+          type: 'text',
+        },
+        {
+          name: 'description',
+          required: true,
+          type: 'textarea',
+        },
+      ],
+      type: 'group',
     },
     {
-      name: 'description',
-      required: true,
-      type: 'textarea',
+      fields: [
+        {
+          name: 'about',
+          required: true,
+          type: 'richText',
+        },
+      ],
+      type: 'group',
     },
     {
-      admin: {
-        allowCreate: false,
-        sortOptions: 'name',
-      },
-      hasMany: true,
-      name: 'ageRating',
-      relationTo: 'ageRating',
-      required: true,
-      type: 'relationship',
+      fields: [
+        {
+          admin: {
+            allowCreate: false,
+            sortOptions: 'name',
+          },
+          hasMany: true,
+          name: 'ageRating',
+          relationTo: 'ageRating',
+          required: true,
+          type: 'relationship',
+        },
+      ],
+      type: 'group',
     },
     {
-      admin: {
-        allowCreate: false,
-        allowEdit: false,
-        sortOptions: 'name',
-      },
-      hasMany: true,
-      name: 'genre',
-      relationTo: 'genre',
-      required: true,
-      type: 'relationship',
+      fields: [
+        {
+          admin: {
+            allowCreate: false,
+            allowEdit: false,
+            sortOptions: 'name',
+          },
+          hasMany: true,
+          name: 'genre',
+          relationTo: 'genre',
+          required: true,
+          type: 'relationship',
+        },
+        {
+          admin: {
+            allowCreate: false,
+            allowEdit: false,
+            sortOptions: 'name',
+          },
+          hasMany: true,
+          name: 'theme',
+          relationTo: 'theme',
+          required: true,
+          type: 'relationship',
+        },
+      ],
+      type: 'group',
     },
     {
-      admin: {
-        allowCreate: false,
-        allowEdit: false,
-        sortOptions: 'name',
-      },
-      hasMany: true,
-      name: 'theme',
-      relationTo: 'theme',
-      required: true,
-      type: 'relationship',
-    },
-    {
-      admin: {
-        allowCreate: false,
-        allowEdit: false,
-        sortOptions: 'name',
-      },
-      hasMany: true,
-      name: 'developer',
-      relationTo: 'company',
-      required: true,
-      type: 'relationship',
-    },
-    {
-      admin: {
-        allowCreate: false,
-        allowEdit: false,
-        sortOptions: 'name',
-      },
-      hasMany: true,
-      name: 'publisher',
-      relationTo: 'company',
-      required: true,
-      type: 'relationship',
-    },
-    {
-      name: 'about',
-      type: 'richText',
+      fields: [
+        {
+          admin: {
+            allowCreate: false,
+            allowEdit: false,
+            sortOptions: 'name',
+          },
+          hasMany: true,
+          name: 'developer',
+          relationTo: 'company',
+          required: true,
+          type: 'relationship',
+        },
+        {
+          admin: {
+            allowCreate: false,
+            allowEdit: false,
+            sortOptions: 'name',
+          },
+          hasMany: true,
+          name: 'publisher',
+          relationTo: 'company',
+          required: true,
+          type: 'relationship',
+        },
+      ],
+      type: 'group',
     },
     {
       fields: [
@@ -100,7 +126,6 @@ export const game: CollectionConfig = {
           type: 'upload',
         },
       ],
-      label: 'Media',
       type: 'group',
     },
     {
