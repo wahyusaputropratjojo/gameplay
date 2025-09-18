@@ -79,45 +79,46 @@ export const game: CollectionConfig = {
               name: 'about',
               type: 'richText',
             },
+            {
+              fields: [
+                {
+                  admin: {
+                    step: 0.5,
+                  },
+                  min: 0,
+                  name: 'mainStory',
+                  type: 'number',
+                },
+                {
+                  admin: {
+                    step: 0.5,
+                  },
+                  min: 0,
+                  name: 'additionalContent',
+                  type: 'number',
+                },
+                {
+                  admin: {
+                    step: 0.5,
+                  },
+                  min: 0,
+                  name: 'completionist',
+                  type: 'number',
+                },
+                {
+                  admin: {
+                    step: 0.5,
+                  },
+                  min: 0,
+                  name: 'combined',
+                  type: 'number',
+                },
+              ],
+              name: 'duration',
+              type: 'group',
+            },
           ],
           label: 'Overview',
-        },
-        {
-          fields: [
-            {
-              admin: {
-                step: 0.5,
-              },
-              min: 0,
-              name: 'mainStory',
-              type: 'number',
-            },
-            {
-              admin: {
-                step: 0.5,
-              },
-              min: 0,
-              name: 'withAdditionalContent',
-              type: 'number',
-            },
-            {
-              admin: {
-                step: 0.5,
-              },
-              min: 0,
-              name: 'completionist',
-              type: 'number',
-            },
-            {
-              admin: {
-                step: 0.5,
-              },
-              min: 0,
-              name: 'combined',
-              type: 'number',
-            },
-          ],
-          label: 'Duration',
         },
         {
           fields: [
