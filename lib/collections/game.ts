@@ -36,6 +36,7 @@ export const game: CollectionConfig = {
         {
           admin: {
             allowCreate: false,
+            allowEdit: false,
             sortOptions: 'name',
           },
           hasMany: true,
