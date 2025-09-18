@@ -43,17 +43,7 @@ export default async function Page({ params }: Props) {
         <CompanyListSection items={game.developer} title="Developer" />
         <CompanyListSection items={game.publisher} title="Publisher" />
       </div>
-      {game.mainStory &&
-        game.withAdditionalContent &&
-        game.completionist &&
-        game.combined && (
-          <DurationSection
-            combined={game.combined}
-            completionist={game.completionist}
-            mainStory={game.mainStory}
-            withAdditionalContent={game.withAdditionalContent}
-          />
-        )}
+      {game.duration && <DurationSection duration={game.duration} />}
     </main>
   );
 }
