@@ -4,35 +4,35 @@
     "description": "Content is generally suitable for all ages. May contain minimal cartoon, fantasy or mild violence and/or infrequent use of mild language.",
     "id": "2190e504-8622-4d5e-bcd8-9d0245c31b62",
     "mediaId": "e1e19785-e4e4-48fe-85e8-cb0dc65ca201",
-    "name": "Everyone"
+    "name": "ESRB Everyone"
   },
   {
     "authorityId": "670f2357-142b-4675-8c3c-05b72198e5f5",
     "description": "Content is generally suitable for ages 10 and up. May contain more cartoon, fantasy or mild violence, mild language and/or minimal suggestive themes.",
     "id": "84cff1f8-1a93-486e-9e5c-07b912b83500",
     "mediaId": "538e5fed-e855-4272-b69b-bdde9274c923",
-    "name": "Everyone 10+"
+    "name": "ESRB Everyone 10+"
   },
   {
     "authorityId": "670f2357-142b-4675-8c3c-05b72198e5f5",
     "description": "Content is generally suitable for ages 13 and up. May contain violence, suggestive themes, crude humor, minimal blood, simulated gambling and/or infrequent use of strong language.",
     "id": "773d380d-24f2-4280-beb0-963d21b9895e",
     "mediaId": "d250048d-9586-4237-bed7-5535c010ccb8",
-    "name": "Teen"
+    "name": "ESRB Teen"
   },
   {
     "authorityId": "670f2357-142b-4675-8c3c-05b72198e5f5",
     "description": "Content is generally suitable for ages 17 and up. May contain intense violence, blood and gore, sexual content and/or strong language.",
     "id": "72e56306-2cce-46e2-9303-4a1ff8f00fc7",
     "mediaId": "5ccbeb0e-04e7-4b36-85fb-c7748a73d0d1",
-    "name": "Mature 17+"
+    "name": "ESRB Mature 17+"
   },
   {
     "authorityId": "670f2357-142b-4675-8c3c-05b72198e5f5",
     "description": "Content suitable only for adults ages 18 and up. May include prolonged scenes of intense violence, graphic sexual content and/or gambling with real currency.",
     "id": "c2ac36b7-bfa6-4870-9725-b98f14fdd7b0",
     "mediaId": "56f31480-cd47-4255-ac09-9eec55759857",
-    "name": "Adult Only 18+"
+    "name": "ESRB Adult Only 18+"
   },
   {
     "authorityId": "4da3ec51-762d-4989-9829-bac108597dfa",
