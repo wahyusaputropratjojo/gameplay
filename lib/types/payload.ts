@@ -75,7 +75,6 @@ export interface Config {
     country: Country;
     game: Game;
     gamePlatform: GamePlatform;
-    gameStore: GameStore;
     genre: Genre;
     platform: Platform;
     platformType: PlatformType;
@@ -117,7 +116,6 @@ export interface Config {
     country: CountrySelect<false> | CountrySelect<true>;
     game: GameSelect<false> | GameSelect<true>;
     gamePlatform: GamePlatformSelect<false> | GamePlatformSelect<true>;
-    gameStore: GameStoreSelect<false> | GameStoreSelect<true>;
     genre: GenreSelect<false> | GenreSelect<true>;
     platform: PlatformSelect<false> | PlatformSelect<true>;
     platformType: PlatformTypeSelect<false> | PlatformTypeSelect<true>;
@@ -348,15 +346,15 @@ export interface Game {
     };
     [k: string]: unknown;
   } | null;
+  logo: string | GameLogo;
+  grid: string | GameGrid;
+  hero: string | GameHero;
   duration?: {
     mainStory?: number | null;
     additionalContent?: number | null;
     completionist?: number | null;
     combined?: number | null;
   };
-  logo: string | GameLogo;
-  grid: string | GameGrid;
-  hero: string | GameHero;
   slug: string;
   updatedAt: string;
   createdAt: string;
@@ -545,18 +543,6 @@ export interface PlatformType {
 }
 /**
  * This interface was referenced by `Config`'s JSON-Schema
- * via the `definition` "gameStore".
- */
-export interface GameStore {
-  id: string;
-  game: string | Game;
-  store: string | Store;
-  url: string;
-  updatedAt: string;
-  createdAt: string;
-}
-/**
- * This interface was referenced by `Config`'s JSON-Schema
  * via the `definition` "store".
  */
 export interface Store {
@@ -647,10 +633,6 @@ export interface PayloadLockedDocument {
     | ({
         relationTo: 'gamePlatform';
         value: string | GamePlatform;
-      } | null)
-    | ({
-        relationTo: 'gameStore';
-        value: string | GameStore;
       } | null)
     | ({
         relationTo: 'genre';
@@ -838,6 +820,9 @@ export interface GameSelect<T extends boolean = true> {
   developer?: T;
   publisher?: T;
   about?: T;
+  logo?: T;
+  grid?: T;
+  hero?: T;
   duration?:
     | T
     | {
@@ -846,9 +831,6 @@ export interface GameSelect<T extends boolean = true> {
         completionist?: T;
         combined?: T;
       };
-  logo?: T;
-  grid?: T;
-  hero?: T;
   slug?: T;
   updatedAt?: T;
   createdAt?: T;
@@ -862,17 +844,6 @@ export interface GamePlatformSelect<T extends boolean = true> {
   platform?: T;
   releaseDate?: T;
   metaScore?: T;
-  updatedAt?: T;
-  createdAt?: T;
-}
-/**
- * This interface was referenced by `Config`'s JSON-Schema
- * via the `definition` "gameStore_select".
- */
-export interface GameStoreSelect<T extends boolean = true> {
-  game?: T;
-  store?: T;
-  url?: T;
   updatedAt?: T;
   createdAt?: T;
 }

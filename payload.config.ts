@@ -17,7 +17,6 @@ import { gameGrid } from '@/lib/collections/game-grid';
 import { gameHero } from '@/lib/collections/game-hero';
 import { gameLogo } from '@/lib/collections/game-logo';
 import { gamePlatform } from '@/lib/collections/game-platform';
-import { gameStore } from '@/lib/collections/game-store';
 import { genre } from '@/lib/collections/genre';
 import { platform } from '@/lib/collections/platform';
 import { platformLogo } from '@/lib/collections/platform-logo';
@@ -75,7 +74,6 @@ export default buildConfig({
     country,
     game,
     gamePlatform,
-    gameStore,
     genre,
     platform,
     platformType,
