@@ -348,10 +348,12 @@ export interface Game {
     };
     [k: string]: unknown;
   } | null;
-  mainStory?: number | null;
-  withAdditionalContent?: number | null;
-  completionist?: number | null;
-  combined?: number | null;
+  duration?: {
+    mainStory?: number | null;
+    additionalContent?: number | null;
+    completionist?: number | null;
+    combined?: number | null;
+  };
   logo: string | GameLogo;
   grid: string | GameGrid;
   hero: string | GameHero;
@@ -836,10 +838,14 @@ export interface GameSelect<T extends boolean = true> {
   developer?: T;
   publisher?: T;
   about?: T;
-  mainStory?: T;
-  withAdditionalContent?: T;
-  completionist?: T;
-  combined?: T;
+  duration?:
+    | T
+    | {
+        mainStory?: T;
+        additionalContent?: T;
+        completionist?: T;
+        combined?: T;
+      };
   logo?: T;
   grid?: T;
   hero?: T;
