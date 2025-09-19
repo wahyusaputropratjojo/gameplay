@@ -1,3 +1,18 @@
+# [1.17.0](https://github.com/wahyusaputropratjojo/gameplay/compare/v1.16.0...v1.17.0) (2025-09-19)
+
+
+### Features
+
+* **data:** change some name in age rating data ([cd4f77e](https://github.com/wahyusaputropratjojo/gameplay/commit/cd4f77e801fd170b7c97dcdb499a425eb9a6ebb1))
+* **page:** add conditional rendering in duration section ([0c4e19e](https://github.com/wahyusaputropratjojo/gameplay/commit/0c4e19eb0bd5c46809204731feae30b15a0f7cdf))
+* **page:** create separate duration card component and use it into duration section ([c369767](https://github.com/wahyusaputropratjojo/gameplay/commit/c369767c9f8f0df4478c96a7ce95169f3abf3b5c))
+* **page:** create store section in game page ([244de02](https://github.com/wahyusaputropratjojo/gameplay/commit/244de02145a0c1d18a6b5d303a3aea902d8f3171))
+* **payload:** add initial release date field in game collection ([761ce60](https://github.com/wahyusaputropratjojo/gameplay/commit/761ce60c1cc31dae60755547d4297ca97a29cdab))
+* **payload:** add store link field in game collection ([654b823](https://github.com/wahyusaputropratjojo/gameplay/commit/654b8234138faa63c70208bbd9cdb32b4f6802fb))
+* **payload:** generate new payload types ([e61ecca](https://github.com/wahyusaputropratjojo/gameplay/commit/e61ecca205a7aa6abac0ecdb3b6ad435ad075437))
+* **payload:** make age rating field as read-only in game collection ([af70d17](https://github.com/wahyusaputropratjojo/gameplay/commit/af70d17abacacc3a1cb55e4ab0d21cc743cc0a58))
+* update store logo ([f0489d3](https://github.com/wahyusaputropratjojo/gameplay/commit/f0489d3f6bfaf715186df63a2a51ffe66b44f7fb))
+
 # [1.16.0](https://github.com/wahyusaputropratjojo/gameplay/compare/v1.15.0...v1.16.0) (2025-09-17)
 
 
