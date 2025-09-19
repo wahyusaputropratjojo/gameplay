@@ -10,39 +10,46 @@ type DurationSectionProps = {
 };
 
 export function DurationSection({ duration }: DurationSectionProps) {
-  return (
-    <section className="space-y-2">
-      <h4>Duration</h4>
-      <div className="grid gap-2 md:grid-cols-2 md:gap-4">
-        {duration.mainStory && (
-          <DurationCard
-            description="Complete core narrative"
-            duration={duration.mainStory}
-            title="Main Story"
-          />
-        )}
-        {duration.additionalContent && (
-          <DurationCard
-            description="Complete core narrative and extras"
-            duration={duration.additionalContent}
-            title="Additional Content"
-          />
-        )}
-        {duration.completionist && (
-          <DurationCard
-            description="Complete everything"
-            duration={duration.completionist}
-            title="Completionist"
-          />
-        )}
-        {duration.combined && (
-          <DurationCard
-            description="All playstyles"
-            duration={duration.combined}
-            title="Combined"
-          />
-        )}
-      </div>
-    </section>
-  );
+  if (
+    duration.additionalContent ||
+    duration.combined ||
+    duration.completionist ||
+    duration.mainStory
+  ) {
+    return (
+      <section className="space-y-2">
+        <h4>Duration</h4>
+        <div className="grid gap-2 md:grid-cols-2 md:gap-4">
+          {duration.mainStory && (
+            <DurationCard
+              description="Complete core narrative"
+              duration={duration.mainStory}
+              title="Main Story"
+            />
+          )}
+          {duration.additionalContent && (
+            <DurationCard
+              description="Complete core narrative and extras"
+              duration={duration.additionalContent}
+              title="Additional Content"
+            />
+          )}
+          {duration.completionist && (
+            <DurationCard
+              description="Complete everything"
+              duration={duration.completionist}
+              title="Completionist"
+            />
+          )}
+          {duration.combined && (
+            <DurationCard
+              description="All playstyles"
+              duration={duration.combined}
+              title="Combined"
+            />
+          )}
+        </div>
+      </section>
+    );
+  }
 }
