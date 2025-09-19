@@ -356,6 +356,13 @@ export interface Game {
     completionist?: number | null;
     combined?: number | null;
   };
+  storeLink?:
+    | {
+        store: string | Store;
+        url: string;
+        id?: string | null;
+      }[]
+    | null;
   slug: string;
   updatedAt: string;
   createdAt: string;
@@ -484,6 +491,36 @@ export interface GameHero {
 }
 /**
  * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "store".
+ */
+export interface Store {
+  id: string;
+  name: string;
+  logo?: (string | null) | StoreLogo;
+  updatedAt: string;
+  createdAt: string;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "storeLogo".
+ */
+export interface StoreLogo {
+  id: string;
+  alt: string;
+  updatedAt: string;
+  createdAt: string;
+  url?: string | null;
+  thumbnailURL?: string | null;
+  filename?: string | null;
+  mimeType?: string | null;
+  filesize?: number | null;
+  width?: number | null;
+  height?: number | null;
+  focalX?: number | null;
+  focalY?: number | null;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
  * via the `definition` "gamePlatform".
  */
 export interface GamePlatform {
@@ -541,36 +578,6 @@ export interface PlatformType {
   };
   updatedAt: string;
   createdAt: string;
-}
-/**
- * This interface was referenced by `Config`'s JSON-Schema
- * via the `definition` "store".
- */
-export interface Store {
-  id: string;
-  name: string;
-  logo?: (string | null) | StoreLogo;
-  updatedAt: string;
-  createdAt: string;
-}
-/**
- * This interface was referenced by `Config`'s JSON-Schema
- * via the `definition` "storeLogo".
- */
-export interface StoreLogo {
-  id: string;
-  alt: string;
-  updatedAt: string;
-  createdAt: string;
-  url?: string | null;
-  thumbnailURL?: string | null;
-  filename?: string | null;
-  mimeType?: string | null;
-  filesize?: number | null;
-  width?: number | null;
-  height?: number | null;
-  focalX?: number | null;
-  focalY?: number | null;
 }
 /**
  * This interface was referenced by `Config`'s JSON-Schema
@@ -832,6 +839,13 @@ export interface GameSelect<T extends boolean = true> {
         additionalContent?: T;
         completionist?: T;
         combined?: T;
+      };
+  storeLink?:
+    | T
+    | {
+        store?: T;
+        url?: T;
+        id?: T;
       };
   slug?: T;
   updatedAt?: T;

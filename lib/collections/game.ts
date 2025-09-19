@@ -177,6 +177,30 @@ export const game: CollectionConfig = {
       name: 'duration',
       type: 'group',
     },
+    {
+      fields: [
+        {
+          fields: [
+            {
+              name: 'store',
+              relationTo: 'store',
+              required: true,
+              type: 'relationship',
+            },
+            {
+              label: 'URL',
+              name: 'url',
+              required: true,
+              type: 'text',
+            },
+          ],
+          minRows: 1,
+          name: 'storeLink',
+          type: 'array',
+        },
+      ],
+      type: 'group',
+    },
     slug,
   ],
   slug: 'game',
