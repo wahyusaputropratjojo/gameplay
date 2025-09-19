@@ -5,6 +5,7 @@ import { BadgeListSection } from './badge-list-section';
 import { CompanyListSection } from './company-list-section';
 import { DurationSection } from './duration-section';
 import { GameImageSection } from './game-image-section';
+import { StoreSection } from './store-section';
 
 type Props = {
   params: Promise<{ slug: string }>;
@@ -44,6 +45,9 @@ export default async function Page({ params }: Props) {
         <CompanyListSection items={game.publisher} title="Publisher" />
       </div>
       {game.duration && <DurationSection duration={game.duration} />}
+      {game.storeLink && game.storeLink.length > 0 && (
+        <StoreSection storeLink={game.storeLink} />
+      )}
     </main>
   );
 }
