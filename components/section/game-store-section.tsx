@@ -2,7 +2,7 @@ import Link from 'next/link';
 import { EntityCard } from '@/components/card/entity-card';
 import type { Store } from '@/lib/types/payload';
 
-type StoreSectionProps = {
+type GameStoreSectionProps = {
   storeLink: {
     store: string | Store;
     url: string;
@@ -10,7 +10,7 @@ type StoreSectionProps = {
   }[];
 };
 
-export function StoreSection({ storeLink }: StoreSectionProps) {
+export function GameStoreSection({ storeLink }: GameStoreSectionProps) {
   return (
     <section className="space-y-2">
       <p className="heading-4">Store</p>

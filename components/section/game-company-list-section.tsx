@@ -7,7 +7,10 @@ type CompanyListSectionProps = {
   items: (string | Company)[];
 };
 
-export function CompanyListSection({ items, title }: CompanyListSectionProps) {
+export function GameCompanyListSection({
+  items,
+  title,
+}: CompanyListSectionProps) {
   return (
     <section className="space-y-2">
       <h4>{title}</h4>

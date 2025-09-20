@@ -1,10 +1,10 @@
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { BadgeListSection } from '@/components/section/badge-list-section';
-import { CompanyListSection } from '@/components/section/company-list-section';
-import { DurationSection } from '@/components/section/duration-section';
+import { GameCompanyListSection } from '@/components/section/game-company-list-section';
+import { GameDurationSection } from '@/components/section/game-duration-section';
 import { GameImageSection } from '@/components/section/game-image-section';
-import { StoreSection } from '@/components/section/store-section';
+import { GameStoreSection } from '@/components/section/game-store-section';
 import { getGame } from '@/lib/queries/get-game';
 
 type Props = {
@@ -41,12 +41,12 @@ export default async function Page({ params }: Props) {
         <BadgeListSection items={game.theme} title="Theme" />
       </div>
       <div className="grid gap-8 md:grid-cols-2 md:gap-4">
-        <CompanyListSection items={game.developer} title="Developer" />
-        <CompanyListSection items={game.publisher} title="Publisher" />
+        <GameCompanyListSection items={game.developer} title="Developer" />
+        <GameCompanyListSection items={game.publisher} title="Publisher" />
       </div>
-      {game.duration && <DurationSection duration={game.duration} />}
+      {game.duration && <GameDurationSection duration={game.duration} />}
       {game.storeLink && game.storeLink.length > 0 && (
-        <StoreSection storeLink={game.storeLink} />
+        <GameStoreSection storeLink={game.storeLink} />
       )}
     </main>
   );

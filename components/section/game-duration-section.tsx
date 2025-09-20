@@ -1,6 +1,6 @@
 import { DurationCard } from '@/components/card/duration-card';
 
-type DurationSectionProps = {
+type GameDurationSectionProps = {
   duration: {
     mainStory?: number | null | undefined;
     additionalContent?: number | null | undefined;
@@ -9,7 +9,7 @@ type DurationSectionProps = {
   };
 };
 
-export function DurationSection({ duration }: DurationSectionProps) {
+export function GameDurationSection({ duration }: GameDurationSectionProps) {
   if (
     duration.additionalContent ||
     duration.combined ||
