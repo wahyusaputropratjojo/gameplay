@@ -16,7 +16,7 @@ export function BadgeListSection<T extends BadgeItem>({
 }: BadgeListSectionProps<T>) {
   return (
     <section className="flex flex-col gap-2">
-      <h4>{title}</h4>
+      <p className="heading-4">{title}</p>
       <div className="flex flex-wrap gap-2">
         {items.map((item) => {
           if (typeof item === 'object') {

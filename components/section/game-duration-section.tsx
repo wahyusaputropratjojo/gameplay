@@ -18,7 +18,7 @@ export function GameDurationSection({ duration }: GameDurationSectionProps) {
   ) {
     return (
       <section className="space-y-2">
-        <h4>Duration</h4>
+        <p className="heading-4">Duration</p>
         <div className="grid gap-2 md:grid-cols-2 md:gap-4">
           {duration.mainStory && (
             <DurationCard

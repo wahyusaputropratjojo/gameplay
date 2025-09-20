@@ -13,7 +13,7 @@ export function GameCompanyListSection({
 }: CompanyListSectionProps) {
   return (
     <section className="space-y-2">
-      <h4>{title}</h4>
+      <p className="heading-4">{title}</p>
       <div className="grid gap-2">
         {items.map((item) => {
           if (typeof item === 'object' && typeof item.logo === 'object') {
