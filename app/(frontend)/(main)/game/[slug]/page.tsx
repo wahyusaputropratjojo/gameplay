@@ -1,11 +1,11 @@
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
+import { BadgeListSection } from '@/components/section/badge-list-section';
+import { CompanyListSection } from '@/components/section/company-list-section';
+import { DurationSection } from '@/components/section/duration-section';
+import { GameImageSection } from '@/components/section/game-image-section';
+import { StoreSection } from '@/components/section/store-section';
 import { getGame } from '@/lib/queries/get-game';
-import { BadgeListSection } from './badge-list-section';
-import { CompanyListSection } from './company-list-section';
-import { DurationSection } from './duration-section';
-import { GameImageSection } from './game-image-section';
-import { StoreSection } from './store-section';
 
 type Props = {
   params: Promise<{ slug: string }>;
