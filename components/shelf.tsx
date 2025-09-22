@@ -6,18 +6,13 @@ import { GridCard } from '@/components/card/grid-card';
 import { NextButton } from '@/components/carousel/next-button';
 import { PrevButton } from '@/components/carousel/prev-button';
 import { usePrevNextButton } from '@/hooks/carousel/use-prev-next-button';
+import type { Game } from '@/lib/types/payload';
+
+type PickedGame = Pick<Game, 'id' | 'name' | 'slug' | 'grid'>;
 
 type ShelfProps = {
   title: string;
-  items: {
-    id: string;
-    name: string;
-    slug: string;
-    grid: {
-      alt: string;
-      url: string;
-    };
-  }[];
+  items: PickedGame[];
 };
 
 export function Shelf({ title, items }: ShelfProps) {
@@ -62,11 +57,9 @@ export function Shelf({ title, items }: ShelfProps) {
               href={`/game/${item.slug}`}
               key={item.id}
             >
-              <GridCard
-                alt={item.grid.alt}
-                name={item.name}
-                src={item.grid.url}
-              />
+              {typeof item.grid === 'object' && (
+                <GridCard image={item.grid} name={item.name} />
+              )}
             </Link>
           ))}
         </div>
