@@ -278,7 +278,13 @@
   margin-block: 1rem;
   padding-inline: 1rem;
 
+  @variant md {
+    margin-block: 1.5rem;
+    padding-inline: 1.5rem;
+  }
+
   @variant xl {
-    padding-inline: 8rem;
+    margin-block: 2rem;
+    padding-inline: 2rem;
   }
 }
