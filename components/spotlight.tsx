@@ -1,97 +1,143 @@
 'use client';
 
 import Autoplay from 'embla-carousel-autoplay';
-import Fade from 'embla-carousel-fade';
 import useEmblaCarousel from 'embla-carousel-react';
 import Image from 'next/image';
 import Link from 'next/link';
+import type { Game, GameHero, GameLogo } from '@/lib/types/payload';
+
+type PickedGame = Pick<
+  Game,
+  'id' | 'name' | 'description' | 'slug' | 'hero' | 'logo'
+>;
 
 type SpotlightProps = {
-  items: {
-    id: string;
-    name: string;
-    description: string;
-    slug: string;
-    hero: {
-      alt: string;
-      url: string;
-      width: number;
-      height: number;
-    };
-    logo: {
-      alt: string;
-      url: string;
-      width: number;
-      height: number;
-    };
-  }[];
+  items: PickedGame[];
 };
 
 export function Spotlight({ items }: SpotlightProps) {
   const [emblaRef] = useEmblaCarousel(
     {
-      breakpoints: {
-        '(min-width: 1280px)': {
-          watchDrag: false,
-        },
-      },
+      loop: true,
+      watchDrag: true,
     },
     [
       Autoplay({
-        delay: 5000,
-      }),
-      Fade({
-        active: false,
-        breakpoints: {
-          '(min-width: 1280px)': {
-            active: true,
-          },
-        },
+        delay: 10_000,
       }),
     ]
   );
 
   return (
-    <section className="flex flex-col gap-2 overflow-hidden" ref={emblaRef}>
-      <div className="grid auto-cols-[85%] grid-flow-col gap-4 xl:auto-cols-[100%]">
+    <section className="overflow-hidden" ref={emblaRef}>
+      <div className="-ml-4 flex flex-row">
         {items.length > 0 &&
           items.map((item) => (
-            <Link href={`/game/${item.slug}`} key={item.id}>
-              <div className="grid aspect-standard-vertical cursor-pointer select-none grid-cols-1 grid-rows-1 overflow-hidden rounded-xl md:aspect-standard-horizontal xl:aspect-anamorphic-horizontal">
-                <Image
-                  alt={item.hero.alt}
-                  blurDataURL="data:text/plain;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mOU+g8AATkBG5//A4sAAAAASUVORK5CYII="
-                  className="col-span-full row-span-full size-full object-cover"
-                  draggable="false"
-                  height={item.hero.height}
-                  placeholder="blur"
-                  priority={true}
-                  sizes="(min-width: 1540px) 1841px, (min-width: 1280px) calc(9.17vw + 1391px), (min-width: 1040px) 1769px, (min-width: 780px) 1367px, (min-width: 640px) calc(45.83vw + 1677px), calc(349.69vw - 158px)"
-                  src={item.hero.url}
-                  width={item.hero.width}
-                />
-
-                <div className="z-10 col-span-full row-span-full bg-gradient-to-t from-30% from-dark/80 to-70% to-transparent" />
-
-                <div className="z-20 col-span-full row-span-full flex size-full items-end space-y-2 self-end p-6 xl:p-12">
-                  <div className="space-y-2 lg:space-y-6">
-                    <Image
-                      alt={item.logo.alt}
-                      className="h-48 w-8/12 object-contain object-bottom-left md:w-6/12 lg:h-72 xl:w-4/12"
-                      height={item.logo.height}
-                      priority={true}
-                      src={item.logo.url}
-                      width={item.logo.width}
-                    />
-                    <p className="line-clamp-3 max-w-[65ch] text-gray-100 dark:text-gray-1000">
-                      {item.description}
-                    </p>
-                  </div>
-                </div>
+            <Link
+              className="flex shrink-0 grow-0 basis-full pl-4"
+              href={`/game/${item.slug}`}
+              key={item.id}
+            >
+              <div className="grid size-full cursor-pointer select-none grid-cols-1 grid-rows-1 rounded-xl">
+                {typeof item.hero === 'object' && (
+                  <GameHeroImage image={item.hero} />
+                )}
+                <div className="z-10 col-span-full row-span-full bg-gradient-to-t from-0% from-dark/80 to-30% to-transparent" />
+                {typeof item.logo === 'object' && (
+                  <GameLogoImage
+                    description={item.description}
+                    image={item.logo}
+                  />
+                )}
               </div>
             </Link>
           ))}
       </div>
     </section>
+  );
+}
+
+type GameHeroImageProps = {
+  image: GameHero;
+};
+
+function GameHeroImage({ image }: GameHeroImageProps) {
+  const { alt, blurData, sizes } = image;
+
+  return (
+    <>
+      {sizes?.medium &&
+        typeof sizes.medium.height === 'number' &&
+        typeof sizes.medium.width === 'number' &&
+        typeof sizes.medium.url === 'string' && (
+          <Image
+            alt={alt}
+            blurDataURL={blurData}
+            className="col-span-full row-span-full size-full rounded-xl object-cover md:hidden"
+            draggable="false"
+            height={sizes.medium.height}
+            placeholder="blur"
+            src={sizes.medium.url}
+            width={sizes.medium.width}
+          />
+        )}
+      {sizes?.classic &&
+        typeof sizes.classic.height === 'number' &&
+        typeof sizes.classic.width === 'number' &&
+        typeof sizes.classic.url === 'string' && (
+          <Image
+            alt={alt}
+            blurDataURL={blurData}
+            className="col-span-full row-span-full hidden size-full rounded-xl object-cover md:block xl:hidden"
+            draggable="false"
+            height={sizes.classic.height}
+            placeholder="blur"
+            src={sizes.classic.url}
+            width={sizes.classic.width}
+          />
+        )}
+      {sizes?.anamorphic &&
+        typeof sizes.anamorphic.height === 'number' &&
+        typeof sizes.anamorphic.width === 'number' &&
+        typeof sizes.anamorphic.url === 'string' && (
+          <Image
+            alt={alt}
+            blurDataURL={blurData}
+            className="col-span-full row-span-full hidden size-full rounded-xl object-cover xl:block"
+            draggable="false"
+            height={sizes.anamorphic.height}
+            placeholder="blur"
+            src={sizes.anamorphic.url}
+            width={sizes.anamorphic.width}
+          />
+        )}
+    </>
+  );
+}
+
+type GameLogoImage = Pick<Game, 'description'> & {
+  image: GameLogo;
+};
+
+function GameLogoImage({ image, description }: GameLogoImage) {
+  return (
+    <div className="z-20 col-span-full row-span-full flex size-full items-end space-y-2 self-end p-6 xl:p-12">
+      <div className="flex flex-col space-y-6">
+        {typeof image.height === 'number' &&
+          typeof image.width === 'number' &&
+          typeof image.url === 'string' && (
+            <Image
+              alt={image.alt}
+              className="w-40 object-contain object-bottom-left md:w-64 xl:w-80"
+              height={image.height}
+              src={image.url}
+              width={image.width}
+            />
+          )}
+        <p className="line-clamp-3 text-pretty font-medium text-gray-100 text-xs md:max-w-[65ch] lg:text-base dark:text-gray-1000">
+          {description}
+        </p>
+      </div>
+    </div>
   );
 }
