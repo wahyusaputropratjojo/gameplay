@@ -1,11 +1,11 @@
 import { FeaturedDiscovery } from './featured-discovery';
 import { NewReleasesShelf } from './new-releases-shelf';
-import { UpcomingSpotlight } from './upcoming-spotlight';
+import { UpcomingSpotlightSection } from './upcoming-spotlight-section';
 
 export default function HomePage() {
   return (
     <>
-      <UpcomingSpotlight />
+      <UpcomingSpotlightSection />
       <NewReleasesShelf />
       <FeaturedDiscovery />
     </>
