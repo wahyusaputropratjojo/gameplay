@@ -9,7 +9,7 @@ export default function MainLayout({ children }: MainLayoutProps) {
   return (
     <>
       <NavigationBar />
-      <div className="mb-24 xl:mb-0">{children}</div>
+      <main className="container space-y-10 md:space-y-14">{children}</main>
     </>
   );
 }
