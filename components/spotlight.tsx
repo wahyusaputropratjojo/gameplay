@@ -62,7 +62,7 @@ type GameHeroImageProps = {
 };
 
 function GameHeroImage({ image }: GameHeroImageProps) {
-  const { alt, blurData, sizes } = image;
+  const { alt, blurDataURL, sizes } = image;
 
   return (
     <>
@@ -72,7 +72,7 @@ function GameHeroImage({ image }: GameHeroImageProps) {
         typeof sizes.medium.url === 'string' && (
           <Image
             alt={alt}
-            blurDataURL={blurData}
+            blurDataURL={blurDataURL}
             className="col-span-full row-span-full size-full rounded-xl object-cover md:hidden"
             draggable="false"
             height={sizes.medium.height}
@@ -87,7 +87,7 @@ function GameHeroImage({ image }: GameHeroImageProps) {
         typeof sizes.classic.url === 'string' && (
           <Image
             alt={alt}
-            blurDataURL={blurData}
+            blurDataURL={blurDataURL}
             className="col-span-full row-span-full hidden size-full rounded-xl object-cover md:block xl:hidden"
             draggable="false"
             height={sizes.classic.height}
@@ -102,7 +102,7 @@ function GameHeroImage({ image }: GameHeroImageProps) {
         typeof sizes.anamorphic.url === 'string' && (
           <Image
             alt={alt}
-            blurDataURL={blurData}
+            blurDataURL={blurDataURL}
             className="col-span-full row-span-full hidden size-full rounded-xl object-cover xl:block"
             draggable="false"
             height={sizes.anamorphic.height}
