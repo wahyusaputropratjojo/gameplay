@@ -1,5 +1,6 @@
 import type { CollectionConfig } from 'payload';
 import { createBlurData } from '@/lib/collections/hooks/create-blur-data';
+import { blurDataURL } from '@/lib/fields/blur-data-url';
 
 export const gameHero: CollectionConfig = {
   access: {
@@ -8,31 +9,18 @@ export const gameHero: CollectionConfig = {
   admin: {
     group: 'Media',
   },
-  defaultPopulate: {
-    alt: true,
-    blurData: true,
-    filename: true,
-    height: true,
-    id: true,
-    sizes: true,
-    url: true,
-    width: true,
-  },
   fields: [
     {
       name: 'alt',
       required: true,
       type: 'text',
     },
-    {
-      admin: { readOnly: true },
-      name: 'blurData',
-      required: true,
-      type: 'text',
-    },
+    blurDataURL,
   ],
   hooks: {
-    beforeChange: [createBlurData({ fieldName: 'blurData' })],
+    beforeChange: [
+      createBlurData({ fieldName: 'blurDataURL', format: 'webp' }),
+    ],
   },
   slug: 'gameHero',
   upload: {

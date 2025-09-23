@@ -434,7 +434,7 @@ export interface GameGrid {
 export interface GameHero {
   id: string;
   alt: string;
-  blurData: string;
+  blurDataURL: string;
   updatedAt: string;
   createdAt: string;
   url?: string | null;
@@ -919,7 +919,7 @@ export interface ThemeSelect<T extends boolean = true> {
  */
 export interface GameHeroSelect<T extends boolean = true> {
   alt?: T;
-  blurData?: T;
+  blurDataURL?: T;
   updatedAt?: T;
   createdAt?: T;
   url?: T;
