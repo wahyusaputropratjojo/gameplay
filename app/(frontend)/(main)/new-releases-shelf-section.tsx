@@ -4,5 +4,5 @@ import { getNewReleasesShelfGames } from '@/lib/queries/get-new-releases-shelf-g
 export async function NewReleasesShelfSection() {
   const games = await getNewReleasesShelfGames();
 
-  return <Shelf items={games} title="New Releases" />;
+  return <Shelf games={games} title="New Releases" />;
 }
