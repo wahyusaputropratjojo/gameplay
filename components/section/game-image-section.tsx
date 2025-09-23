@@ -27,7 +27,7 @@ function GameHeroImage({ hero }: GameHeroImageProps) {
       <>
         <Image
           alt={hero.alt}
-          blurDataURL={hero.blurData}
+          blurDataURL={hero.blurDataURL}
           className="col-span-full row-span-full select-none rounded-xl sm:hidden"
           height={hero.sizes.square.height as number}
           placeholder="blur"
@@ -36,7 +36,7 @@ function GameHeroImage({ hero }: GameHeroImageProps) {
         />
         <Image
           alt={hero.alt}
-          blurDataURL={hero.blurData}
+          blurDataURL={hero.blurDataURL}
           className="col-span-full row-span-full hidden select-none rounded-xl sm:block md:hidden"
           height={hero.sizes.classic.height as number}
           placeholder="blur"
@@ -45,7 +45,7 @@ function GameHeroImage({ hero }: GameHeroImageProps) {
         />
         <Image
           alt={hero.alt}
-          blurDataURL={hero.blurData}
+          blurDataURL={hero.blurDataURL}
           className="col-span-full row-span-full hidden select-none rounded-xl md:block"
           height={hero.sizes.anamorphic.height as number}
           placeholder="blur"
