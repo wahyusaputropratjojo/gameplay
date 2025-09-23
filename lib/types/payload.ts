@@ -414,7 +414,7 @@ export interface GameLogo {
 export interface GameGrid {
   id: string;
   alt: string;
-  blurData?: string | null;
+  blurDataURL: string;
   updatedAt: string;
   createdAt: string;
   url?: string | null;
@@ -1014,7 +1014,7 @@ export interface UserSelect<T extends boolean = true> {
  */
 export interface GameGridSelect<T extends boolean = true> {
   alt?: T;
-  blurData?: T;
+  blurDataURL?: T;
   updatedAt?: T;
   createdAt?: T;
   url?: T;
