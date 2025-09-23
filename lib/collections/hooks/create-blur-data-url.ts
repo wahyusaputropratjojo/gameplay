@@ -1,17 +1,17 @@
 import type { CollectionBeforeChangeHook } from 'payload';
 import sharp, { type BlurOptions, type FormatEnum } from 'sharp';
 
-type BlurDataOptions = {
+type BlurDataURLOptions = {
   format?: keyof FormatEnum;
   blur?: BlurOptions;
   fieldName: string;
 };
 
-export function createBlurData({
+export function createBlurDataURL({
   format = 'webp',
   blur = { sigma: 2 },
   fieldName,
-}: BlurDataOptions): CollectionBeforeChangeHook {
+}: BlurDataURLOptions): CollectionBeforeChangeHook {
   return async ({ data, req }) => {
     if (!req.file) {
       return data;

@@ -1,5 +1,5 @@
 import type { CollectionConfig } from 'payload';
-import { createBlurData } from '@/lib/collections/hooks/create-blur-data';
+import { createBlurDataURL } from '@/lib/collections/hooks/create-blur-data-url';
 import { blurDataURL } from '@/lib/fields/blur-data-url';
 
 export const gameGrid: CollectionConfig = {
@@ -19,7 +19,7 @@ export const gameGrid: CollectionConfig = {
   ],
   hooks: {
     beforeChange: [
-      createBlurData({ fieldName: 'blurDataURL', format: 'webp' }),
+      createBlurDataURL({ fieldName: 'blurDataURL', format: 'webp' }),
     ],
   },
   slug: 'gameGrid',
