@@ -1,3 +1,30 @@
+# [1.18.0](https://github.com/wahyusaputropratjojo/gameplay/compare/v1.17.0...v1.18.0) (2025-09-23)
+
+
+### Features
+
+* **component:** add placeholder and blur data image in discovery component ([219ad74](https://github.com/wahyusaputropratjojo/gameplay/commit/219ad748aea8cf634955c3090e594458eec3e0ec))
+* **component:** change heading to paragraph but implement heading style ([dcc2ea7](https://github.com/wahyusaputropratjojo/gameplay/commit/dcc2ea7a2a4b88180124b38bcd555c667c1326f8))
+* **component:** change prop types and implement new grid card in shelf component ([88204e5](https://github.com/wahyusaputropratjojo/gameplay/commit/88204e5b543d75faeab497d4b7dd21978995d2e1))
+* **component:** change section style to using grid in content section component ([b0a323c](https://github.com/wahyusaputropratjojo/gameplay/commit/b0a323c285faeaf5e324ae181fad9f4df9b42cbb))
+* **component:** create content section component for reusable layout ([0754a01](https://github.com/wahyusaputropratjojo/gameplay/commit/0754a013368704182043de91493e45224ef37847))
+* **component:** implement content section component in shelf component ([9014634](https://github.com/wahyusaputropratjojo/gameplay/commit/901463494e4861294b6cb5587182c6ddda23c8f6))
+* **component:** improve grid card component prop types and add type guard to render the image ([0fab70a](https://github.com/wahyusaputropratjojo/gameplay/commit/0fab70a7e05bd9f4a5334292b04f640c8233e17a))
+* **component:** improve prop types,  implement new content section and highlight card in discovery component ([9ea87bc](https://github.com/wahyusaputropratjojo/gameplay/commit/9ea87bc247a98c592d48c5f1067a46a9e316180a))
+* **component:** improve shelf component prop types and add type guard to render the grid card component ([a8ee7d1](https://github.com/wahyusaputropratjojo/gameplay/commit/a8ee7d124ddbe7132d9d96483b368fc6e11855cd))
+* **component:** reworked and optimized spotlight component ([6c9b76d](https://github.com/wahyusaputropratjojo/gameplay/commit/6c9b76d7a6e07216da924daf5d62cb35db2cb845))
+* **component:** reworked grid card component for better compatibility ([4d666ca](https://github.com/wahyusaputropratjojo/gameplay/commit/4d666ca44f2d7ec18c19e07f145550d159fe8c01))
+* **component:** reworked highlight card with better prop types and flexible image ([e2819e2](https://github.com/wahyusaputropratjojo/gameplay/commit/e2819e2df97972bf15d09678a0d1ff7cdfd059df))
+* **component:** update game grid blur data to blur data url in shelf component ([1d5c5d9](https://github.com/wahyusaputropratjojo/gameplay/commit/1d5c5d96035f6f162d7e5836c308557bb9040e7a))
+* **css:** change container utility margin and padding size ([3c163f8](https://github.com/wahyusaputropratjojo/gameplay/commit/3c163f8c58c602728bf79aa3b7548b8a37977b28))
+* **layout:** change div tag to main for semantic purpose and consistency style ([61e6607](https://github.com/wahyusaputropratjojo/gameplay/commit/61e660714d89db2bf0697bdf5169976ccc57ebc4))
+* **page:** change homepage parent container and remove suspense for now ([dd89b86](https://github.com/wahyusaputropratjojo/gameplay/commit/dd89b86ba2c2fa1e73c351d8dc2f8d30f56b279c))
+* **page:** remove container style class in game page for consistent layout ([4f26a5b](https://github.com/wahyusaputropratjojo/gameplay/commit/4f26a5bc3f5bf20d32f2c7ad69235bf1d5f1d964))
+* **payload:** create blur data url field ([0a372d5](https://github.com/wahyusaputropratjojo/gameplay/commit/0a372d58ba271f526aca58b7352f9d2280c83b99))
+* **payload:** implement blur data url field in game logo collection and update types ([a772037](https://github.com/wahyusaputropratjojo/gameplay/commit/a7720371a032afc179bb9ed609af77fc52b63de2))
+* **payload:** implement blur data url field to game hero collection and update types ([12482f6](https://github.com/wahyusaputropratjojo/gameplay/commit/12482f67ffe283232817026742de45cc1e5e7e18))
+* **payload:** implement blur data url in game grid collection and update the type ([4e3dbef](https://github.com/wahyusaputropratjojo/gameplay/commit/4e3dbef4037c7a1b07ea4ad1871619e8f88ef920))
+
 # [1.17.0](https://github.com/wahyusaputropratjojo/gameplay/compare/v1.16.0...v1.17.0) (2025-09-19)
 
 
