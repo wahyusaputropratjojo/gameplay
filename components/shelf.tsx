@@ -56,14 +56,13 @@ export function Shelf({ title, games }: ShelfProps) {
               key={game.id}
             >
               {typeof game.grid === 'object' &&
-                typeof game.grid.blurData === 'string' &&
                 typeof game.grid.height === 'number' &&
                 typeof game.grid.url === 'string' &&
                 typeof game.grid.width === 'number' && (
                   <GridCard
                     image={{
                       alt: game.grid.alt,
-                      blurDataURL: game.grid.blurData,
+                      blurDataURL: game.grid.blurDataURL,
                       height: game.grid.height,
                       placeholder: 'blur',
                       src: game.grid.url,
