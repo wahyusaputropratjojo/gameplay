@@ -30,7 +30,7 @@ export default async function Page({ params }: Props) {
   }
 
   return (
-    <main className="container relative space-y-8">
+    <main className="relative space-y-8">
       <GameImageSection hero={game.hero} logo={game.logo} />
       <section className="space-y-2">
         <h4>Description</h4>
