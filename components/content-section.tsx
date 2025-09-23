@@ -7,7 +7,7 @@ type ContentSectionProps = {
 
 export function ContentSection({ children, title }: ContentSectionProps) {
   return (
-    <section className="space-y-2">
+    <section className="relative grid gap-3">
       {title && <p className="heading-3">{title}</p>}
       {children}
     </section>
