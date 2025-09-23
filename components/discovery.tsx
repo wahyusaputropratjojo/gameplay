@@ -30,7 +30,9 @@ export function Discovery({ title, games }: DiscoveryProps) {
                   description={game.description}
                   image={{
                     alt: game.hero.alt,
+                    blurDataURL: game.hero.blurData,
                     height: game.hero.sizes.wide.height,
+                    placeholder: 'blur',
                     src: game.hero.sizes.wide.url,
                     width: game.hero.sizes.wide.width,
                   }}
