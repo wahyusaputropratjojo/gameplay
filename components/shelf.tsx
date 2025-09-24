@@ -34,7 +34,7 @@ export function Shelf({ title, games }: ShelfProps) {
   } = usePrevNextButton(emblaAPI);
 
   return (
-    <ContentSection title={title}>
+    <ContentSection title={title} titleElement="heading-2">
       <div className="absolute hidden space-x-2 justify-self-end lg:block">
         <PrevButton
           className="rounded-full"
