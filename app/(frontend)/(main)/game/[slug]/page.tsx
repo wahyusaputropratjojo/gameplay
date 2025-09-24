@@ -1,12 +1,14 @@
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { getGame } from '@/lib/queries/get-game';
-import { BadgeListSection } from './badge-list-section';
-import { GameCompanyListSection } from './game-company-list-section';
 import { GameDescriptionSection } from './game-description-section';
+import { GameDeveloperSection } from './game-developer-section';
 import { GameDurationSection } from './game-duration-section';
+import { GameGenreSection } from './game-genre-section';
 import { GameImageSection } from './game-image-section';
+import { GamePublisherSection } from './game-publisher-section';
 import { GameStoreSection } from './game-store-section';
+import { GameThemeSection } from './game-theme-section';
 
 type Props = {
   params: Promise<{ slug: string }>;
@@ -35,12 +37,12 @@ export default async function Page({ params }: Props) {
       <GameImageSection hero={game.hero} logo={game.logo} />
       <GameDescriptionSection description={game.description} />
       <div className="grid gap-8 md:grid-cols-2 md:gap-4">
-        <BadgeListSection items={game.genre} title="Genre" />
-        <BadgeListSection items={game.theme} title="Theme" />
+        <GameGenreSection genre={game.genre} />
+        <GameThemeSection theme={game.theme} />
       </div>
       <div className="grid gap-8 md:grid-cols-2 md:gap-4">
-        <GameCompanyListSection items={game.developer} title="Developer" />
-        <GameCompanyListSection items={game.publisher} title="Publisher" />
+        <GameDeveloperSection developer={game.developer} />
+        <GamePublisherSection publisher={game.publisher} />
       </div>
       {game.duration && <GameDurationSection duration={game.duration} />}
       {game.storeLink && game.storeLink.length > 0 && (
