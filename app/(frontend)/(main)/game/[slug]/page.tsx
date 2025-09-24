@@ -1,14 +1,14 @@
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { getGame } from '@/lib/queries/get-game';
-import { GameDescriptionSection } from './game-description-section';
-import { GameDeveloperSection } from './game-developer-section';
-import { GameDurationSection } from './game-duration-section';
-import { GameGenreSection } from './game-genre-section';
-import { GameImageSection } from './game-image-section';
-import { GamePublisherSection } from './game-publisher-section';
-import { GameStoreSection } from './game-store-section';
-import { GameThemeSection } from './game-theme-section';
+import { GameDescriptionSection } from './_sections/game-description-section';
+import { GameDeveloperSection } from './_sections/game-developer-section';
+import { GameDurationSection } from './_sections/game-duration-section';
+import { GameGenreSection } from './_sections/game-genre-section';
+import { GameImageSection } from './_sections/game-image-section';
+import { GamePublisherSection } from './_sections/game-publisher-section';
+import { GameStoreSection } from './_sections/game-store-section';
+import { GameThemeSection } from './_sections/game-theme-section';
 
 type Props = {
   params: Promise<{ slug: string }>;
