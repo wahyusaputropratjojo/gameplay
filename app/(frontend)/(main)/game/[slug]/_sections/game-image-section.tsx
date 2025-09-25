@@ -1,6 +1,7 @@
 'use client';
 
 import Image from 'next/image';
+import { UnpopulatedRelationshipFieldAlert } from '@/components/alert/unpopulated-relationship-field-alert';
 import type { Game, GameHero, GameLogo } from '@/lib/types/payload';
 
 type GameImageSectionProps = Pick<Game, 'hero' | 'logo'>;
@@ -15,6 +16,8 @@ export function GameImageSection({ hero, logo }: GameImageSectionProps) {
       </section>
     );
   }
+
+  return <UnpopulatedRelationshipFieldAlert />;
 }
 
 type GameHeroImageProps = {
