@@ -13,7 +13,7 @@ export function GameDurationSection({
     return (
       <section className="space-y-2">
         <p className="heading-4">Duration</p>
-        <div className="grid gap-2 md:grid-cols-2 md:gap-4">
+        <div className="grid gap-2 md:grid-cols-2 lg:grid-cols-4">
           {duration.mainStory && (
             <DurationCard
               description="Complete core narrative"
