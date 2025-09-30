@@ -1,3 +1,4 @@
+import { ArrowUpRightIcon } from 'lucide-react';
 import Image, { type ImageProps } from 'next/image';
 import { cn } from '@/lib/cn';
 
@@ -13,8 +14,8 @@ export function EntityCard({
   ...props
 }: EntityCardProps) {
   return (
-    <div className="flex w-full items-center gap-4 rounded-(--card-radius) bg-gray-100 p-(--card-padding) transition-colors [--card-padding:--spacing(1.5)] [--card-radius:var(--radius-xl)] hover:bg-gray-200">
-      <div className="relative size-18 shrink-0 overflow-hidden rounded-[calc(var(--card-radius)-var(--card-padding))] bg-light">
+    <div className="group flex w-full items-center gap-4 rounded-(--card-radius) bg-gray-100 p-(--card-padding) transition-colors [--card-padding:--spacing(1.5)] [--card-radius:var(--radius-xl)] hover:bg-gray-200">
+      <div className="relative size-20 shrink-0 overflow-hidden rounded-[calc(var(--card-radius)-var(--card-padding))] bg-light">
         {src && (
           <Image
             className={cn('select-none', {
@@ -28,7 +29,8 @@ export function EntityCard({
           />
         )}
       </div>
-      <p className="select-none font-medium">{name}</p>
+      <p className="w-full select-none font-medium">{name}</p>
+      <ArrowUpRightIcon className="w-12 shrink-0 justify-self-end opacity-100 transition-opacity xl:opacity-0 group-hover:xl:opacity-100" />
     </div>
   );
 }
