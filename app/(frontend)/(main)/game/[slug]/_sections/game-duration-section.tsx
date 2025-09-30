@@ -1,15 +1,9 @@
 import { DurationCard } from '@/components/card/duration-card';
+import type { Game } from '@/lib/types/payload';
 
-type GameDurationSectionProps = {
-  duration: {
-    mainStory?: number | null | undefined;
-    additionalContent?: number | null | undefined;
-    completionist?: number | null | undefined;
-    combined?: number | null | undefined;
-  };
-};
-
-export function GameDurationSection({ duration }: GameDurationSectionProps) {
+export function GameDurationSection({
+  duration,
+}: Required<Pick<Game, 'duration'>>) {
   if (
     duration.additionalContent ||
     duration.combined ||
