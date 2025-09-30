@@ -5,12 +5,8 @@ export function GameDescriptionSection({
   description,
 }: Pick<Game, 'description'>) {
   return (
-    <ContentSection
-      title="Description"
-      titleElement="heading-2"
-      titleSize="heading-4"
-    >
-      <p>{description}</p>
+    <ContentSection>
+      <p className="lg:text-lg">{description}</p>
     </ContentSection>
   );
 }
