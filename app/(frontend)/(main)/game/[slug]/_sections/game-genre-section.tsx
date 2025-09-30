@@ -7,11 +7,7 @@ export function GameGenreSection({ genre }: Pick<Game, 'genre'>) {
   const isUnpopulated = genre.some((item) => typeof item === 'string');
 
   return (
-    <ContentSection
-      title="Genre"
-      titleElement="heading-2"
-      titleSize="heading-4"
-    >
+    <ContentSection>
       <div className="flex flex-wrap gap-2">
         {genre
           .filter((item) => typeof item === 'object')
