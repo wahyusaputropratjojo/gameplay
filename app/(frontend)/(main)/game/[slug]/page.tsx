@@ -8,7 +8,6 @@ import { GameGenreSection } from './_sections/game-genre-section';
 import { GameImageSection } from './_sections/game-image-section';
 import { GamePublisherSection } from './_sections/game-publisher-section';
 import { GameStoreSection } from './_sections/game-store-section';
-import { GameThemeSection } from './_sections/game-theme-section';
 
 type Props = {
   params: Promise<{ slug: string }>;
@@ -33,13 +32,11 @@ export default async function Page({ params }: Props) {
   }
 
   return (
-    <div className="space-y-6">
-      <GameImageSection hero={game.hero} logo={game.logo} />
+    <article className="space-y-6">
+      <h1 className="lg:display text-pretty">{game.name}</h1>
+      <GameGenreSection genre={game.genre} />
       <GameDescriptionSection description={game.description} />
-      <div className="grid gap-8 md:grid-cols-2 md:gap-4">
-        <GameGenreSection genre={game.genre} />
-        <GameThemeSection theme={game.theme} />
-      </div>
+      <GameImageSection hero={game.hero} logo={game.logo} />
       <div className="grid gap-8 md:grid-cols-2 md:gap-4">
         <GameDeveloperSection developer={game.developer} />
         <GamePublisherSection publisher={game.publisher} />
@@ -48,6 +45,6 @@ export default async function Page({ params }: Props) {
       {game.storeLink && game.storeLink.length > 0 && (
         <GameStoreSection storeLink={game.storeLink} />
       )}
-    </div>
+    </article>
   );
 }
