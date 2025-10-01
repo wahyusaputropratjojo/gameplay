@@ -6,7 +6,7 @@ export type BadgeProps = ComponentProps<'span'> &
   VariantProps<typeof badgeVariants>;
 
 const badgeVariants = cva(
-  'inline-flex w-fit items-center gap-1 overflow-hidden whitespace-nowrap rounded-md border px-1.5 font-medium text-xs transition-[color,box-shadow] sm:px-2 sm:py-0.5 [&>svg]:pointer-events-none [&>svg]:size-3',
+  'inline-flex h-fit w-fit items-center gap-1 overflow-hidden whitespace-nowrap rounded-md border px-1.5 font-medium text-xs leading-none transition-[color,box-shadow] md:py-0.5 [&>svg]:pointer-events-none [&>svg]:size-3',
   {
     defaultVariants: {
       variant: 'default',
