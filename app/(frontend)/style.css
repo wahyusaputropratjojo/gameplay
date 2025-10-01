@@ -261,6 +261,13 @@
     letter-spacing: var(--tracking-tighter);
     text-wrap: balance;
   }
+
+  .diagonal-pattern {
+    background-color: #e5e5f7;
+    opacity: 1;
+    background-size: 10px 10px;
+    background-image: repeating-linear-gradient(135deg, var(--gray-400) 0, var(--gray-400) .5px, var(--background-100) 0, var(--background-100) 50%);
+  }
 }
 
 
