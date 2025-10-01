@@ -1,3 +1,38 @@
+# [1.19.0](https://github.com/wahyusaputropratjojo/gameplay/compare/v1.18.0...v1.19.0) (2025-10-01)
+
+
+### Features
+
+* **component:** create alert component ([cfcd9ec](https://github.com/wahyusaputropratjojo/gameplay/commit/cfcd9ec5ce3d4028c5f34219417cceb1cd4ce207))
+* **component:** create reusable unpopulated relationship field alert component for payload condition ([9a908fe](https://github.com/wahyusaputropratjojo/gameplay/commit/9a908fef4ec4b5a5905e0bb7d197ca71f6ace0c0))
+* **component:** implement content section element prop in discovery component ([a4175f7](https://github.com/wahyusaputropratjojo/gameplay/commit/a4175f79605cfdff95ff17fdb40b355411f2286e))
+* **component:** implement content section element prop in shelf component ([ad0d8cc](https://github.com/wahyusaputropratjojo/gameplay/commit/ad0d8cc4bddacc984a1f102fb751e351fd033809))
+* **component:** improve flexibility and semantic tag for content section component title ([49637ad](https://github.com/wahyusaputropratjojo/gameplay/commit/49637ad4c95b737a987549b7b30e3980e4d45e05))
+* **component:** small change to potential issue in entity card component ([d833021](https://github.com/wahyusaputropratjojo/gameplay/commit/d833021e35fefce31c233dd1fe47902a0cf7db1d))
+* **component:** update badge component padding style ([4e07f8a](https://github.com/wahyusaputropratjojo/gameplay/commit/4e07f8aed400b3f97b8cd69e5061c88fbc06aa94))
+* **component:** update badge component style ([bb09bd6](https://github.com/wahyusaputropratjojo/gameplay/commit/bb09bd6bd1dbb49aa997b784ee7756dbcf4e19bf))
+* **component:** update duration card style ([189ecbc](https://github.com/wahyusaputropratjojo/gameplay/commit/189ecbc0c4b7c96181a4bbd8c8d46aebe2c9e42e))
+* **component:** update entity card style ([26294b6](https://github.com/wahyusaputropratjojo/gameplay/commit/26294b6938124d5972f71608833cdfc309432f85))
+* **css:** add diagonal pattern class ([c4114be](https://github.com/wahyusaputropratjojo/gameplay/commit/c4114beb45166b2388273e2d9503621f5fffb913))
+* **page:** add new section in game page ([2c27a42](https://github.com/wahyusaputropratjojo/gameplay/commit/2c27a429d0a654dc00680572046b561fe509d5ad))
+* **page:** update game page layout ([9e793dc](https://github.com/wahyusaputropratjojo/gameplay/commit/9e793dc180d5a404f5eb81c419c9a81d98be6070))
+* **page:** update game page structure ([f958d26](https://github.com/wahyusaputropratjojo/gameplay/commit/f958d269a1a0b7cb8f1b0613d83876c5e79ccfda))
+* **section:** add more columns for large screen and decrease gap size in game duration section ([3c94607](https://github.com/wahyusaputropratjojo/gameplay/commit/3c946071d8da2dfbf227c345e9f5796c124fb4eb))
+* **section:** create game description section for game page ([e9a91de](https://github.com/wahyusaputropratjojo/gameplay/commit/e9a91dea4e247d059d53781caddd37cbed6012b8))
+* **section:** create game developer section for game page ([50ce28a](https://github.com/wahyusaputropratjojo/gameplay/commit/50ce28ae3d167cab2a52286f6f525d201430a440))
+* **section:** create game genre section for game page ([ab5d79e](https://github.com/wahyusaputropratjojo/gameplay/commit/ab5d79e6c03bc5dcc36fe397595453fbcccfaa62))
+* **section:** create game metadata section for game page ([555e3c1](https://github.com/wahyusaputropratjojo/gameplay/commit/555e3c1da6c2c270ea1eb7ede39009572df64d99))
+* **section:** create game publisher section for game page ([9fa0b57](https://github.com/wahyusaputropratjojo/gameplay/commit/9fa0b575b7378740ed189cdbd37325ff6318f3ea))
+* **section:** create game theme section for game page ([6244c14](https://github.com/wahyusaputropratjojo/gameplay/commit/6244c148ed384a3f817048493d9a3668e997fd6f))
+* **section:** implement unpopulated relationship field alert component in game developer section ([eca62c0](https://github.com/wahyusaputropratjojo/gameplay/commit/eca62c01648bfbb8f682e8831c1cf841964e585e))
+* **section:** implement unpopulated relationship field alert component in game genre section ([e5ee600](https://github.com/wahyusaputropratjojo/gameplay/commit/e5ee60011cf21358ea76ae3a16234b0191d74e21))
+* **section:** implement unpopulated relationship field alert component in game image section ([806a000](https://github.com/wahyusaputropratjojo/gameplay/commit/806a000976068e3cf4fd80c498cbb1590c57369c))
+* **section:** implement unpopulated relationship field alert component in game publisher section ([e4f6bda](https://github.com/wahyusaputropratjojo/gameplay/commit/e4f6bdae89368089925a77bb6ad82684daf07f90))
+* **section:** implement unpopulated relationship field alert component in game theme section ([a5abc36](https://github.com/wahyusaputropratjojo/gameplay/commit/a5abc362819d80804051fd458c4b0d57cfc712eb))
+* **section:** remove title from game description section and increase font size for large screen ([ec7e2a5](https://github.com/wahyusaputropratjojo/gameplay/commit/ec7e2a53dab19ac5fe907b998123a93cd980cef8))
+* **section:** remove title in game genre section ([7950c14](https://github.com/wahyusaputropratjojo/gameplay/commit/7950c148493a11a5bb55a774e6aa917f7c0ade73))
+* **section:** update prop types in game duration section ([bb4d187](https://github.com/wahyusaputropratjojo/gameplay/commit/bb4d1878b2296f0e22a1ffdc0a9189e3337b88d2))
+
 # [1.18.0](https://github.com/wahyusaputropratjojo/gameplay/compare/v1.17.0...v1.18.0) (2025-09-23)
 
 
