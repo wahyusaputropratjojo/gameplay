@@ -36,6 +36,7 @@ export default async function Page({ params }: Props) {
     <article className="space-y-6">
       <GameMetadataSection
         genre={game.genre}
+        initialReleaseDate={game.initialReleaseDate}
         name={game.name}
         theme={game.theme}
       />
