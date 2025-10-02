@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { getGame } from '@/lib/queries/get-game';
+import { GameAboutSection } from './_sections/game-about-section';
 import { GameDescriptionSection } from './_sections/game-description-section';
 import { GameDeveloperSection } from './_sections/game-developer-section';
 import { GameDurationSection } from './_sections/game-duration-section';
@@ -40,7 +41,8 @@ export default async function Page({ params }: Props) {
       />
       <GameDescriptionSection description={game.description} />
       <GameImageSection hero={game.hero} logo={game.logo} />
-      <div className="grid gap-8 md:grid-cols-2 md:gap-4">
+      <GameAboutSection about={game.about} />
+      <div className="grid gap-8 md:grid-cols-2 md:gap-2">
         <GameDeveloperSection developer={game.developer} />
         <GamePublisherSection publisher={game.publisher} />
       </div>
