@@ -6,7 +6,7 @@ export function GameDescriptionSection({
 }: Pick<Game, 'description'>) {
   return (
     <ContentSection>
-      <p className="lg:text-lg">{description}</p>
+      <p>{description}</p>
     </ContentSection>
   );
 }
