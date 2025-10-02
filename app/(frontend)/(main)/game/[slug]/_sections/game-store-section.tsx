@@ -14,7 +14,7 @@ export function GameStoreSection({ storeLink }: GameStoreSectionProps) {
   return (
     <section className="space-y-2">
       <p className="heading-4">Store</p>
-      <div className="grid gap-2 md:grid-cols-3 md:gap-4 lg:grid-cols-4">
+      <div className="grid gap-2 md:grid-cols-3 md:gap-2 lg:grid-cols-4">
         {storeLink.map((item) => (
           <Link
             href={item.url}
