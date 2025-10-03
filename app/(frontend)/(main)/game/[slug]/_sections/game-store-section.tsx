@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { EntityCard } from '@/components/card/entity-card';
+import { StoreCard } from '@/components/card/store-card';
 import type { Store } from '@/lib/types/payload';
 
 type GameStoreSectionProps = {
@@ -14,7 +14,7 @@ export function GameStoreSection({ storeLink }: GameStoreSectionProps) {
   return (
     <section className="space-y-2">
       <p className="heading-4">Store</p>
-      <div className="grid gap-2 md:grid-cols-3 md:gap-2 lg:grid-cols-4">
+      <div className="grid gap-2 md:grid-cols-3 md:gap-2 lg:grid-cols-1">
         {storeLink.map((item) => (
           <Link
             href={item.url}
@@ -24,13 +24,14 @@ export function GameStoreSection({ storeLink }: GameStoreSectionProps) {
           >
             {typeof item.store === 'object' &&
               typeof item.store.logo === 'object' &&
-              item.store.logo && (
-                <EntityCard
-                  alt={item.store.logo.alt}
-                  fill
-                  name={item.store.name}
-                  padding="none"
-                  src={item.store.logo.url as string}
+              item.store.logo &&
+              typeof item.store.logo.url === 'string' && (
+                <StoreCard
+                  image={{
+                    alt: item.store.logo.alt,
+                    src: item.store.logo.url,
+                  }}
+                  title={item.store.name}
                 />
               )}
           </Link>
