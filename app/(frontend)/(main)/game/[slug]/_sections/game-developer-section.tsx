@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import { UnpopulatedRelationshipFieldAlert } from '@/components/alert/unpopulated-relationship-field-alert';
-import { EntityCard } from '@/components/card/entity-card';
+import { CompanyCard } from '@/components/card/company-card';
 import { ContentSection } from '@/components/content-section';
 import type { Game } from '@/lib/types/payload';
 
@@ -20,12 +20,12 @@ export function GameDeveloperSection({ developer }: Pick<Game, 'developer'>) {
             typeof item.logo === 'object' &&
             typeof item.logo.url === 'string' && (
               <Link href={`/company/${item.slug}`} key={item.id}>
-                <EntityCard
-                  alt={item.logo.alt}
-                  fill
-                  name={item.name}
-                  padding="medium"
-                  src={item.logo.url}
+                <CompanyCard
+                  image={{
+                    alt: item.logo.alt,
+                    src: item.logo.url,
+                  }}
+                  title={item.name}
                 />
               </Link>
             )
