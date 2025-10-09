@@ -1,3 +1,26 @@
+# [1.20.0](https://github.com/wahyusaputropratjojo/gameplay/compare/v1.19.0...v1.20.0) (2025-10-09)
+
+
+### Features
+
+* **component:** create card component ([54fb507](https://github.com/wahyusaputropratjojo/gameplay/commit/54fb5076d48a26bd2e8b6a0b9b48335afb98b62c))
+* **component:** create company card component that implement main card component ([c2711fc](https://github.com/wahyusaputropratjojo/gameplay/commit/c2711fc3a1a717d14f397c05959bbd7744890c1f))
+* **component:** create game detail card component ([7adc1cd](https://github.com/wahyusaputropratjojo/gameplay/commit/7adc1cdb80a144367a11dbb613d4d0889a1bd5d9))
+* **component:** create store card component that implement main card component ([a2215c4](https://github.com/wahyusaputropratjojo/gameplay/commit/a2215c42788ae0d85116b7764d129d2151f51e2a))
+* **component:** implement main card component into duration card component ([3d40156](https://github.com/wahyusaputropratjojo/gameplay/commit/3d4015677598d643e38466a5b2571a90fcc468a9))
+* **css:** change paragraph text style and size to be more readable in large screen ([6fa6fe6](https://github.com/wahyusaputropratjojo/gameplay/commit/6fa6fe65a6a2c9cbbdb5ae68797a97c01b665cb7))
+* **page:** add game about section in game page ([001ae29](https://github.com/wahyusaputropratjojo/gameplay/commit/001ae29639e93180e76b65e36b9b783fd18eb29a))
+* **page:** add initial release date prop to game metadata section in game page ([5794a50](https://github.com/wahyusaputropratjojo/gameplay/commit/5794a508b5498a6beb60db3edc813044c129d1c5))
+* **section:** add initial release date in game metadata section ([2ba1980](https://github.com/wahyusaputropratjojo/gameplay/commit/2ba19801a66934ff9e2097debc4e68b57337edc7))
+* **section:** change entity card component to company card component in game developer section ([70dbd64](https://github.com/wahyusaputropratjojo/gameplay/commit/70dbd6462e2ee80b0a4384347a577c3ced569006))
+* **section:** change entity card component to company card component in game publisher section ([86fb05d](https://github.com/wahyusaputropratjojo/gameplay/commit/86fb05d621596e744d170141758f573fc4069500))
+* **section:** change entity card component to store card component in game store section ([ef8f94f](https://github.com/wahyusaputropratjojo/gameplay/commit/ef8f94fed8cd1c4a48266b948aeb3631456541b5))
+* **section:** change store link card spacing for consistency in game store section ([6a9ab31](https://github.com/wahyusaputropratjojo/gameplay/commit/6a9ab3113e9b8ecf09de60241932f4e59c12d1de))
+* **section:** create company metadata section for company page ([7c833f2](https://github.com/wahyusaputropratjojo/gameplay/commit/7c833f23d3388badc0cb4ce54a65297ee5099f60))
+* **section:** create game about section for game page ([03ad7ee](https://github.com/wahyusaputropratjojo/gameplay/commit/03ad7eeb1f6a1e03e64ab502418a4b14975590f0))
+* **section:** remove unnecessary class style in game description section ([a0a690d](https://github.com/wahyusaputropratjojo/gameplay/commit/a0a690d2e60cb74c4620b8b1e45fa11d3500f770))
+* **util:** create util function that formating iso into long date ([163dd79](https://github.com/wahyusaputropratjojo/gameplay/commit/163dd7918628a4eb5d466c9f92a0d4ceb1d9a15c))
+
 # [1.19.0](https://github.com/wahyusaputropratjojo/gameplay/compare/v1.18.0...v1.19.0) (2025-10-01)
 
 
