@@ -1,0 +1,10 @@
+{
+  "code_actions_on_format": {
+    "source.action.useSortedAttributes.biome": true,
+    "source.action.useSortedKeys.biome": true,
+    "source.action.useSortedProperties.biome": true,
+    "source.fixAll.biome": true,
+    "source.organizeImports.biome": true
+  },
+  "format_on_save": "on"
+}
