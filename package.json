@@ -42,38 +42,19 @@
   },
   "name": "gameplay",
   "private": true,
-  "release": {
-    "branches": [
-      "main"
-    ],
-    "plugins": [
-      "@semantic-release/commit-analyzer",
-      "@semantic-release/release-notes-generator",
-      "@semantic-release/changelog",
-      "@semantic-release/npm",
-      "@semantic-release/github",
-      [
-        "@semantic-release/git",
-        {
-          "message": "chore(release): ${nextRelease.version}\n\n${nextRelease.notes}"
-        }
-      ]
-    ]
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/wahyusaputropratjojo/gameplay.git"
   },
   "scripts": {
-    "build": "next build",
-    "check": "biome check --write .",
-    "dev": "next dev --turbopack",
-    "format": "biome format --write .",
-    "lint": "biome lint --write .",
-    "release": "semantic-release",
-    "seed": "payload run ./lib/seed.ts",
-    "start": "next start"
+    "build": "bun --bun next build",
+    "check": "bunx biome check --write .",
+    "dev": "bun --bun next dev",
+    "format": "bunx biome format --write .",
+    "lint": "bunx biome lint --write .",
+    "seed": "bunx payload run ./lib/seed.ts",
+    "start": "bun --bun next start"
   },
   "type": "module",
-  "version": "1.20.0"
+  "version": "0.0.0"
 }
