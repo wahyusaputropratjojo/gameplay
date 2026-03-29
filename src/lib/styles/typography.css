@@ -1,0 +1,43 @@
+:root {
+  --weight-thin: 100;
+  --weight-extra-light: 200;
+  --weight-light: 300;
+  --weight-regular: 400;
+  --weight-medium: 500;
+  --weight-semi-bold: 600;
+  --weight-bold: 700;
+  --weight-extra-bold: 800;
+  --weight-black: 900;
+
+  --tracking-tighter: -0.05em;
+  --tracking-tight: -0.025em;
+  --tracking-normal: 0em;
+  --tracking-wide: 0.025em;
+  --tracking-wider: 0.05em;
+
+  --leading-tight: 1.25;
+  --leading-snug: 1.375;
+  --leading-normal: 1.5;
+  --leading-relaxed: 1.625;
+  --leading-loose: 2;
+
+  --display-large: 5rem;
+  --display-medium: 4.5rem;
+  --display-small: 4rem;
+
+  --headline-large: 3.5rem;
+  --headline-medium: 3rem;
+  --headline-small: 2.5rem;
+
+  --title-large: 2rem;
+  --title-medium: 1.5rem;
+  --title-small: 1.25rem;
+
+  --body-large: 1.125rem;
+  --body-medium: 1rem;
+  --body-small: 0.875rem;
+
+  --label-large: 1rem;
+  --label-medium: 0.875rem;
+  --label-small: 0.75rem;
+}
