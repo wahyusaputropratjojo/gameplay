@@ -1,1 +1,44 @@
-@import "tailwindcss";
+@layer theme, base, components, utilities;
+
+@import url("$lib/styles/color.css") layer(theme);
+@import url("$lib/styles/typography.css") layer(theme);
+
+@import "tailwindcss/theme.css" layer(theme);
+@import "tailwindcss/preflight.css" layer(base);
+@import "tailwindcss/utilities.css" layer(utilities);
+
+@font-face {
+  font-style: normal;
+  font-weight: 100 900;
+  src: url("$lib/assets/fonts/geist-sans.woff2") format("woff2");
+  font-family: "Geist", sans-serif;
+  font-optical-sizing: auto;
+}
+
+@font-face {
+  font-style: italic;
+  font-weight: 100 900;
+  src: url("$lib/assets/fonts/geist-sans-italic.woff2") format("woff2");
+  font-family: "Geist", sans-serif;
+}
+
+@layer base {
+  :root {
+    --font-geist-sans: "Geist";
+    --header-height: 3rem;
+  }
+
+  html {
+    background-color: var(--color-neutral-1);
+    scroll-behavior: smooth;
+    scrollbar-gutter: stable;
+    color: var(--color-neutral-12);
+    font-family: var(--font-geist-sans);
+    text-rendering: optimizeLegibility;
+
+    ::selection {
+      background-color: var(--color-neutral-12);
+      color: var(--color-neutral-1);
+    }
+  }
+}
