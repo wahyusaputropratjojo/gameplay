@@ -1,0 +1,332 @@
+@import "tailwindcss";
+
+@font-face {
+  font-style: normal;
+  font-weight: 100 900;
+  src: url("$lib/assets/fonts/geist-sans.woff2") format("woff2");
+  font-family: "Geist", sans-serif;
+  font-optical-sizing: auto;
+}
+
+@font-face {
+  font-style: italic;
+  font-weight: 100 900;
+  src: url("$lib/assets/fonts/geist-sans-italic.woff2") format("woff2");
+  font-family: "Geist", sans-serif;
+}
+
+@layer base {
+  :root {
+    --font-geist-sans: "Geist";
+
+    --palette-primary-1: oklch(0.99 0 248);
+    --palette-primary-2: oklch(0.98 0.01 243);
+    --palette-primary-3: oklch(0.96 0.02 237);
+    --palette-primary-4: oklch(0.94 0.04 239);
+    --palette-primary-5: oklch(0.91 0.05 243);
+    --palette-primary-6: oklch(0.86 0.07 243);
+    --palette-primary-7: oklch(0.81 0.09 243);
+    --palette-primary-8: oklch(0.73 0.12 243);
+    --palette-primary-9: oklch(0.65 0.19 252);
+    --palette-primary-10: oklch(0.62 0.18 252);
+    --palette-primary-11: oklch(0.56 0.19 253);
+    --palette-primary-12: oklch(0.32 0.1 259);
+
+    --palette-neutral-1: oklch(0.99 0 0);
+    --palette-neutral-2: oklch(0.98 0 0);
+    --palette-neutral-3: oklch(0.95 0 0);
+    --palette-neutral-4: oklch(0.93 0 167);
+    --palette-neutral-5: oklch(0.91 0 180);
+    --palette-neutral-6: oklch(0.88 0 0);
+    --palette-neutral-7: oklch(0.85 0 214);
+    --palette-neutral-8: oklch(0.79 0 180);
+    --palette-neutral-9: oklch(0.64 0 0);
+    --palette-neutral-10: oklch(0.61 0 0);
+    --palette-neutral-11: oklch(0.5 0 187);
+    --palette-neutral-12: oklch(0.24 0 180);
+
+    --palette-danger-1: oklch(0.99 0 23);
+    --palette-danger-2: oklch(0.98 0.01 16);
+    --palette-danger-3: oklch(0.96 0.02 16);
+    --palette-danger-4: oklch(0.93 0.05 17);
+    --palette-danger-5: oklch(0.9 0.06 17);
+    --palette-danger-6: oklch(0.86 0.07 18);
+    --palette-danger-7: oklch(0.81 0.09 18);
+    --palette-danger-8: oklch(0.75 0.11 19);
+    --palette-danger-9: oklch(0.63 0.19 23);
+    --palette-danger-10: oklch(0.6 0.2 24);
+    --palette-danger-11: oklch(0.56 0.2 25);
+    --palette-danger-12: oklch(0.34 0.11 17);
+
+    --palette-warning-1: oklch(0.99 0 85);
+    --palette-warning-2: oklch(0.99 0.02 100);
+    --palette-warning-3: oklch(0.97 0.07 100);
+    --palette-warning-4: oklch(0.95 0.1 98);
+    --palette-warning-5: oklch(0.92 0.13 98);
+    --palette-warning-6: oklch(0.88 0.12 93);
+    --palette-warning-7: oklch(0.83 0.12 86);
+    --palette-warning-8: oklch(0.76 0.14 77);
+    --palette-warning-9: oklch(0.86 0.18 81);
+    --palette-warning-10: oklch(0.83 0.17 81);
+    --palette-warning-11: oklch(0.57 0.14 67);
+    --palette-warning-12: oklch(0.35 0.05 54);
+
+    --palette-success-1: oklch(0.99 0.01 146);
+    --palette-success-2: oklch(0.98 0.01 146);
+    --palette-success-3: oklch(0.96 0.02 145);
+    --palette-success-4: oklch(0.93 0.04 146);
+    --palette-success-5: oklch(0.9 0.05 146);
+    --palette-success-6: oklch(0.86 0.07 147);
+    --palette-success-7: oklch(0.8 0.1 147);
+    --palette-success-8: oklch(0.72 0.13 148);
+    --palette-success-9: oklch(0.65 0.15 147);
+    --palette-success-10: oklch(0.61 0.14 147);
+    --palette-success-11: oklch(0.53 0.13 147);
+    --palette-success-12: oklch(0.33 0.05 149);
+
+    --palette-information-1: oklch(0.99 0 248);
+    --palette-information-2: oklch(0.98 0.01 243);
+    --palette-information-3: oklch(0.96 0.02 237);
+    --palette-information-4: oklch(0.94 0.04 239);
+    --palette-information-5: oklch(0.91 0.05 243);
+    --palette-information-6: oklch(0.86 0.07 243);
+    --palette-information-7: oklch(0.81 0.09 243);
+    --palette-information-8: oklch(0.73 0.12 243);
+    --palette-information-9: oklch(0.65 0.19 252);
+    --palette-information-10: oklch(0.62 0.18 252);
+    --palette-information-11: oklch(0.56 0.19 253);
+    --palette-information-12: oklch(0.32 0.1 259);
+  }
+
+  .dark {
+    --palette-primary-1: oklch(0.19 0.03 257);
+    --palette-primary-2: oklch(0.21 0.03 259);
+    --palette-primary-3: oklch(0.27 0.07 254);
+    --palette-primary-4: oklch(0.32 0.1 248);
+    --palette-primary-5: oklch(0.36 0.11 250);
+    --palette-primary-6: oklch(0.42 0.11 252);
+    --palette-primary-7: oklch(0.47 0.12 253);
+    --palette-primary-8: oklch(0.54 0.14 253);
+    --palette-primary-9: oklch(0.65 0.19 252);
+    --palette-primary-10: oklch(0.69 0.17 251);
+    --palette-primary-11: oklch(0.77 0.13 249);
+    --palette-primary-12: oklch(0.91 0.05 238);
+
+    --palette-neutral-1: oklch(0.18 0 0);
+    --palette-neutral-2: oklch(0.21 0 180);
+    --palette-neutral-3: oklch(0.25 0 180);
+    --palette-neutral-4: oklch(0.28 0 191);
+    --palette-neutral-5: oklch(0.31 0 180);
+    --palette-neutral-6: oklch(0.35 0 180);
+    --palette-neutral-7: oklch(0.4 0 164);
+    --palette-neutral-8: oklch(0.49 0 180);
+    --palette-neutral-9: oklch(0.54 0 225);
+    --palette-neutral-10: oklch(0.58 0 191);
+    --palette-neutral-11: oklch(0.77 0 180);
+    --palette-neutral-12: oklch(0.95 0 0);
+
+    --palette-danger-1: oklch(0.19 0.01 19);
+    --palette-danger-2: oklch(0.2 0.02 15);
+    --palette-danger-3: oklch(0.25 0.06 13);
+    --palette-danger-4: oklch(0.29 0.1 14);
+    --palette-danger-5: oklch(0.33 0.11 16);
+    --palette-danger-6: oklch(0.38 0.11 17);
+    --palette-danger-7: oklch(0.45 0.12 19);
+    --palette-danger-8: oklch(0.54 0.15 21);
+    --palette-danger-9: oklch(0.63 0.19 23);
+    --palette-danger-10: oklch(0.66 0.18 23);
+    --palette-danger-11: oklch(0.78 0.16 22);
+    --palette-danger-12: oklch(0.9 0.05 6);
+
+    --palette-warning-1: oklch(0.18 0.01 77);
+    --palette-warning-2: oklch(0.21 0.02 79);
+    --palette-warning-3: oklch(0.26 0.04 75);
+    --palette-warning-4: oklch(0.3 0.07 76);
+    --palette-warning-5: oklch(0.34 0.08 76);
+    --palette-warning-6: oklch(0.39 0.08 75);
+    --palette-warning-7: oklch(0.45 0.08 75);
+    --palette-warning-8: oklch(0.54 0.1 74);
+    --palette-warning-9: oklch(0.86 0.18 81);
+    --palette-warning-10: oklch(0.9 0.21 97);
+    --palette-warning-11: oklch(0.87 0.18 85);
+    --palette-warning-12: oklch(0.93 0.07 86);
+
+    --palette-success-1: oklch(0.19 0.01 156);
+    --palette-success-2: oklch(0.21 0.01 151);
+    --palette-success-3: oklch(0.27 0.03 151);
+    --palette-success-4: oklch(0.32 0.05 150);
+    --palette-success-5: oklch(0.37 0.06 150);
+    --palette-success-6: oklch(0.42 0.07 149);
+    --palette-success-7: oklch(0.47 0.08 149);
+    --palette-success-8: oklch(0.52 0.1 148);
+    --palette-success-9: oklch(0.65 0.15 147);
+    --palette-success-10: oklch(0.69 0.15 148);
+    --palette-success-11: oklch(0.78 0.14 148);
+    --palette-success-12: oklch(0.91 0.08 145);
+
+    --palette-information-1: oklch(0.19 0.03 257);
+    --palette-information-2: oklch(0.21 0.03 259);
+    --palette-information-3: oklch(0.27 0.07 254);
+    --palette-information-4: oklch(0.32 0.1 248);
+    --palette-information-5: oklch(0.36 0.11 250);
+    --palette-information-6: oklch(0.42 0.11 252);
+    --palette-information-7: oklch(0.47 0.12 253);
+    --palette-information-8: oklch(0.54 0.14 253);
+    --palette-information-9: oklch(0.65 0.19 252);
+    --palette-information-10: oklch(0.69 0.17 251);
+    --palette-information-11: oklch(0.77 0.13 249);
+    --palette-information-12: oklch(0.91 0.05 238);
+  }
+
+  html {
+    background-color: var(--color-neutral-1);
+    scroll-behavior: smooth;
+    scrollbar-gutter: stable;
+    color: var(--color-neutral-12);
+    font-family: var(--font-geist-sans);
+    text-rendering: optimizeLegibility;
+
+    ::selection {
+      background-color: var(--color-neutral-12);
+      color: var(--color-neutral-1);
+    }
+  }
+}
+
+@theme {
+  --text-*: initial;
+  --color-*: initial;
+
+  --text-display-large: 5rem;
+  --text-display-medium: 4.5rem;
+  --text-display-small: 4rem;
+
+  --text-headline-large: 3.5rem;
+  --text-headline-medium: 3rem;
+  --text-headline-small: 2.5rem;
+
+  --text-title-large: 2rem;
+  --text-title-medium: 1.5rem;
+  --text-title-small: 1.25rem;
+
+  --text-body-large: 1.125rem;
+  --text-body-medium: 1rem;
+  --text-body-small: 0.875rem;
+
+  --text-label-large: 1rem;
+  --text-label-medium: 0.875rem;
+  --text-label-small: 0.75rem;
+
+  --color-light: oklch(0.9489 0 0);
+  --color-dark: oklch(0.243 0 180);
+
+  --color-white: oklch(1 0 0);
+  --color-white-alpha-1: oklch(1 0 0 / 5%);
+  --color-white-alpha-2: oklch(1 0 0 / 10%);
+  --color-white-alpha-3: oklch(1 0 0 / 15%);
+  --color-white-alpha-4: oklch(1 0 0 / 20%);
+  --color-white-alpha-5: oklch(1 0 0 / 30%);
+  --color-white-alpha-6: oklch(1 0 0 / 40%);
+  --color-white-alpha-7: oklch(1 0 0 / 50%);
+  --color-white-alpha-8: oklch(1 0 0 / 60%);
+  --color-white-alpha-9: oklch(1 0 0 / 70%);
+  --color-white-alpha-10: oklch(1 0 0 / 80%);
+  --color-white-alpha-11: oklch(1 0 0 / 90%);
+  --color-white-alpha-12: oklch(1 0 0 / 95%);
+
+  --color-black: oklch(0 0 0);
+  --color-black-alpha-1: oklch(0 0 0 / 5%);
+  --color-black-alpha-2: oklch(0 0 0 / 10%);
+  --color-black-alpha-3: oklch(0 0 0 / 15%);
+  --color-black-alpha-4: oklch(0 0 0 / 20%);
+  --color-black-alpha-5: oklch(0 0 0 / 30%);
+  --color-black-alpha-6: oklch(0 0 0 / 40%);
+  --color-black-alpha-7: oklch(0 0 0 / 50%);
+  --color-black-alpha-8: oklch(0 0 0 / 60%);
+  --color-black-alpha-9: oklch(0 0 0 / 70%);
+  --color-black-alpha-10: oklch(0 0 0 / 80%);
+  --color-black-alpha-11: oklch(0 0 0 / 90%);
+  --color-black-alpha-12: oklch(0 0 0 / 95%);
+}
+
+@theme inline {
+  --font-sans: var(--font-geist-sans);
+
+  --color-primary-1: var(--palette-primary-1);
+  --color-primary-2: var(--palette-primary-2);
+  --color-primary-3: var(--palette-primary-3);
+  --color-primary-4: var(--palette-primary-4);
+  --color-primary-5: var(--palette-primary-5);
+  --color-primary-6: var(--palette-primary-6);
+  --color-primary-7: var(--palette-primary-7);
+  --color-primary-8: var(--palette-primary-8);
+  --color-primary-9: var(--palette-primary-9);
+  --color-primary-10: var(--palette-primary-10);
+  --color-primary-11: var(--palette-primary-11);
+  --color-primary-12: var(--palette-primary-12);
+
+  --color-neutral-1: var(--palette-neutral-1);
+  --color-neutral-2: var(--palette-neutral-2);
+  --color-neutral-3: var(--palette-neutral-3);
+  --color-neutral-4: var(--palette-neutral-4);
+  --color-neutral-5: var(--palette-neutral-5);
+  --color-neutral-6: var(--palette-neutral-6);
+  --color-neutral-7: var(--palette-neutral-7);
+  --color-neutral-8: var(--palette-neutral-8);
+  --color-neutral-9: var(--palette-neutral-9);
+  --color-neutral-10: var(--palette-neutral-10);
+  --color-neutral-11: var(--palette-neutral-11);
+  --color-neutral-12: var(--palette-neutral-12);
+
+  --color-danger-1: var(--palette-danger-1);
+  --color-danger-2: var(--palette-danger-2);
+  --color-danger-3: var(--palette-danger-3);
+  --color-danger-4: var(--palette-danger-4);
+  --color-danger-5: var(--palette-danger-5);
+  --color-danger-6: var(--palette-danger-6);
+  --color-danger-7: var(--palette-danger-7);
+  --color-danger-8: var(--palette-danger-8);
+  --color-danger-9: var(--palette-danger-9);
+  --color-danger-10: var(--palette-danger-10);
+  --color-danger-11: var(--palette-danger-11);
+  --color-danger-12: var(--palette-danger-12);
+
+  --color-warning-1: var(--palette-warning-1);
+  --color-warning-2: var(--palette-warning-2);
+  --color-warning-3: var(--palette-warning-3);
+  --color-warning-4: var(--palette-warning-4);
+  --color-warning-5: var(--palette-warning-5);
+  --color-warning-6: var(--palette-warning-6);
+  --color-warning-7: var(--palette-warning-7);
+  --color-warning-8: var(--palette-warning-8);
+  --color-warning-9: var(--palette-warning-9);
+  --color-warning-10: var(--palette-warning-10);
+  --color-warning-11: var(--palette-warning-11);
+  --color-warning-12: var(--palette-warning-12);
+
+  --color-success-1: var(--palette-success-1);
+  --color-success-2: var(--palette-success-2);
+  --color-success-3: var(--palette-success-3);
+  --color-success-4: var(--palette-success-4);
+  --color-success-5: var(--palette-success-5);
+  --color-success-6: var(--palette-success-6);
+  --color-success-7: var(--palette-success-7);
+  --color-success-8: var(--palette-success-8);
+  --color-success-9: var(--palette-success-9);
+  --color-success-10: var(--palette-success-10);
+  --color-success-11: var(--palette-success-11);
+  --color-success-12: var(--palette-success-12);
+
+  --color-information-1: var(--palette-information-1);
+  --color-information-2: var(--palette-information-2);
+  --color-information-3: var(--palette-information-3);
+  --color-information-4: var(--palette-information-4);
+  --color-information-5: var(--palette-information-5);
+  --color-information-6: var(--palette-information-6);
+  --color-information-7: var(--palette-information-7);
+  --color-information-8: var(--palette-information-8);
+  --color-information-9: var(--palette-information-9);
+  --color-information-10: var(--palette-information-10);
+  --color-information-11: var(--palette-information-11);
+  --color-information-12: var(--palette-information-12);
+}
