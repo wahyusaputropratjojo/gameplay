@@ -25,6 +25,9 @@ importers:
         specifier: ^7.1.1
         version: 7.1.1
     devDependencies:
+      '@lucide/svelte':
+        specifier: ^1.7.0
+        version: 1.7.0(svelte@5.55.0)
       '@sveltejs/adapter-auto':
         specifier: ^7.0.1
         version: 7.0.1(@sveltejs/kit@2.55.0(@opentelemetry/api@1.9.1)(@sveltejs/vite-plugin-svelte@7.0.0(@voidzero-dev/vite-plus-core@0.1.14(esbuild@0.27.4)(jiti@2.6.1)(typescript@5.9.3))(svelte@5.55.0))(@voidzero-dev/vite-plus-core@0.1.14(esbuild@0.27.4)(jiti@2.6.1)(typescript@5.9.3))(svelte@5.55.0)(typescript@5.9.3))
@@ -325,6 +328,11 @@ packages:
 
   '@jridgewell/trace-mapping@0.3.31':
     resolution: {integrity: sha512-zzNR+SdQSDJzc8joaeP8QQoCQr8NuYx2dIIytl1QeBEZHJ9uW6hebsrYgbz8hJwUQao3TWCMtmfV8Nu1twOLAw==}
+
+  '@lucide/svelte@1.7.0':
+    resolution: {integrity: sha512-YytBKOUBGox7yWcykZnYxOkn5WpR5G1qYXLYXV/j1B79SOTTEKzB+s5yF5Rq9l9OkweDStNH2b4yTqfvhEhV8g==}
+    peerDependencies:
+      svelte: ^5
 
   '@mongodb-js/saslprep@1.4.6':
     resolution: {integrity: sha512-y+x3H1xBZd38n10NZF/rEBlvDOOMQ6LKUTHqr8R9VkJ+mmQOYtJFxIlkkK8fZrtOiL6VixbOBWMbZGBdal3Z1g==}
@@ -1643,6 +1651,10 @@ snapshots:
     dependencies:
       '@jridgewell/resolve-uri': 3.1.2
       '@jridgewell/sourcemap-codec': 1.5.5
+
+  '@lucide/svelte@1.7.0(svelte@5.55.0)':
+    dependencies:
+      svelte: 5.55.0
 
   '@mongodb-js/saslprep@1.4.6':
     dependencies:
