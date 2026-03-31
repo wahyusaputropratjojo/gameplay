@@ -91,7 +91,7 @@
         transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
         cursor: pointer;
         outline: transparent;
-        border-radius: calc(infinity * 1px);
+        border-radius: 0.5em;
         isolation: isolate;
         padding-inline: var(--button-padding-inline);
         padding-block: var(--button-padding-block);
